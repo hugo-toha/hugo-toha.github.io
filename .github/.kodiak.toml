@@ -16,4 +16,4 @@ strip_html_comments = true # default: false
 always = true # default: false
 
 [approve]
-auto_approve_usernames = ["hossainemruz"]
+auto_approve_usernames = ["hossainemruz","dependabot"]

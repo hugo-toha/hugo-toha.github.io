@@ -1,6 +1,6 @@
 name: Percy.io Visual Diff
 
-on: [push]
+on: [pull_request]
 
 jobs:
   build:
