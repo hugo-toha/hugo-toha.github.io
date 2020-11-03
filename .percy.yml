@@ -1,0 +1,11 @@
+version: 1
+# disable typing carousel
+snapshot:
+  percy-css: |
+    #ityped {
+      display: none;
+    }
+
+# only snapshot these selected files
+static-snapshots:
+  snapshot-files: 'index.html,bn/index.html,404.html,posts/index.html,bn/posts/index.html,posts/category/sub-category/rich-content/index.html,bn/posts/category/sub-category/rich-content/index.html,posts/markdown-sample/index.html,bn/posts/markdown-sample/index.html,posts/shortcodes/index.html,bn/posts/shortcodes/index.html'
