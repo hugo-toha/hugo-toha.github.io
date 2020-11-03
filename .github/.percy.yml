@@ -8,4 +8,4 @@ snapshot:
 
 # only snapshot these selected files
 static-snapshots:
-  snapshot-files: 'index.html,404.html,posts/index.html,posts/markdown-sample/index.html,posts/category/sub-category/rich-content/index.html,posts/markdown-sample/index.html,posts/shortcodes/index.html'
+  snapshot-files: 'index.html,404.html,posts/index.html,posts/markdown-sample/index.html,posts/category/sub-category/rich-content/index.html,posts/shortcodes/index.html'
