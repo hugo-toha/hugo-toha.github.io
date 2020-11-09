@@ -27,6 +27,9 @@ markup:
     endLevel: 6
     ordered: false
 
+# Enable Google Analytics
+googleAnalytics: UA-122321624-2
+
 # Enable global emoji support
 enableEmoji: true
 
