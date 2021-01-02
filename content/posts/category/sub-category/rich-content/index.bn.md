@@ -1,7 +1,6 @@
 ---
 title: "সমৃদ্ধ কন্টেন্ট"
 date: 2020-06-08T08:06:25+06:00
-hero: /posts/category/sub-category/rich-content/images/hero.svg
 description: Sample post with multiple images, embedded video ect.
 menu:
   sidebar:
@@ -25,7 +24,7 @@ menu:
 
 ### টুইটের নুমুনা
 
-{{< twitter 1085870671291310081 >}}
+{{/*< twitter 1085870671291310081 >*/}}
 
 {{< vs >}}
 
