@@ -8,6 +8,7 @@ menu:
     identifier: rich-content
     parent: sub-category
     weight: 10
+hero: images/forest.jpg
 ---
 
 This sample post tests the followings:
