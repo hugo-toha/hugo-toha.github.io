@@ -1,11 +1,11 @@
 ---
-title: Go Introduction
+title: Introduction
 weight: 10
 menu:
   notes:
     name: Introduction
-    identifier: notes-go-intro
-    parent: notes-go
+    identifier: notes-go-basics-intro
+    parent: notes-go-basics
     weight: 10
 ---
 <!-- A Sample Program -->

@@ -4,8 +4,8 @@ weight: 20
 menu:
   notes:
     name: Basic Types
-    identifier: notes-go-types
-    parent: notes-go
+    identifier: notes-go-basics-types
+    parent: notes-go-basics
     weight: 20
 ---
 <!-- String Type -->
@@ -54,7 +54,7 @@ numbers := [...]int{0, 0, 0, 0, 0}
 
 <!-- Pointers -->
 
-{{< note title="Pointers">}}
+{{< note size="medium" title="Pointers">}}
 
 ```go
 func main () {
