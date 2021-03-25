@@ -1,12 +1,12 @@
 ---
-title: Go Loop
+title: Flow Control
 weight: 30
 menu:
   notes:
     name: Flow Control
-    identifier: notes-go-flow-control
-    parent: notes-go
-    weight: 10
+    identifier: notes-go-basics-flow-control
+    parent: notes-go-basics
+    weight: 30
 ---
 
 <!-- Condition -->
