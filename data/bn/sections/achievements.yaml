@@ -1,9 +1,9 @@
 # section information
 section:
-  name: সাফল্য
+  name: অর্জনসমূহ
   id: achievements
   enable: true
-  weight: 6
+  weight: 8
   showOnNavbar: true
   template: sections/achievements.html
   # Can optionally hide the title in sections
