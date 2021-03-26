@@ -29,7 +29,7 @@ jobs:
 
     # push the generated content into the `main` (former `master`) branch.
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v3.8.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: main # if your main branch is `master` use that here.
