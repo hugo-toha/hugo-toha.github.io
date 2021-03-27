@@ -9,3 +9,5 @@ description: Portfolio and personal blog of John Doe.
 customMenus:
 - name: Docs
   url: https://toha-guides.netlify.app/posts/
+- name: Notes
+  url: /notes
