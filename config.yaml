@@ -67,3 +67,10 @@ params:
   # Currently, you can just hide it from the footer.
   newsletter:
     enable: true
+
+  # Configure Notes property
+  notes:
+    # Set a background color of note card header. Use any CSS color code/name.
+    headerBackground: aliceblue
+    # Set note card title color.
+    headerTextColor: #1c2d41
