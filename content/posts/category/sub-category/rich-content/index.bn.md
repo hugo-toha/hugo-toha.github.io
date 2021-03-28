@@ -18,7 +18,7 @@ menu:
 
 ### ছবির নমুনা
 
-{{< img src="/posts/category/sub-category/rich-content/images/forest.jpg" align="center" >}}
+{{< img src="/posts/category/sub-category/rich-content/images/forest.jpg" align="center" title="Forest" >}}
 
 {{< vs >}}
 
