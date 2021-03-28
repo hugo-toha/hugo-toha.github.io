@@ -29,5 +29,4 @@ jobs:
       with:
         directory: ./public
         enforce_https: false
-        allow_hash_href: true
-        url_ignore_re: /#.*/
+        url_ignore_re: /^#.*/
