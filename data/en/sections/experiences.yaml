@@ -37,7 +37,7 @@ experiences:
 
 - company:
     name: PreExample Co.
-    url: "https://www.preexample.com"
+    url: "https://www.example.com"
     location: Nowhere
     overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
   positions:
@@ -51,7 +51,7 @@ experiences:
 
 - company:
     name: Intern Counting Company (ICC).
-    url: "https://www.intern.com"
+    url: "https://www.example.com"
     location: Intern Land
     overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
   positions:
