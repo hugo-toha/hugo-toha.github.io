@@ -1,13 +1,10 @@
-name: Deploy to Github Pages
+name: HTML Proofer
 
-# run when a commit is pushed to "source" branch
-on:
-  push:
-    branches:
-    - source
+# run when a event happen in a PR
+on: [pull_request]
 
 jobs:
-  deploy:
+  proof-html:
     runs-on: ubuntu-18.04
     steps:
     # checkout to the commit that has been pushed
@@ -26,11 +23,10 @@ jobs:
     # build website
     - name: Build
       run: hugo --minify
-
-    # push the generated content into the `main` (former `master`) branch.
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3.8.0
+    
+    # Run HTML Proofer
+    - uses: anishathalye/proof-html@v1
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_branch: main # if your main branch is `master` use that here.
-        publish_dir: ./public
+        directory: ./public
+        enforce_https: false
+        url_ignore: "#"

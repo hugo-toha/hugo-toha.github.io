@@ -38,7 +38,7 @@ experiences:
 
 - company:
     name: PreExample Co.
-    url: "https://www.preexample.com"
+    url: "https://www.example.com"
     location: Nowhere
     overview: PreExample Co. হচ্ছে Example co.  তে যাওয়ার মাধ্যম। সুতারাং, এখানে বিশেষ কিছু নেই।
   positions:
@@ -52,7 +52,7 @@ experiences:
 
 - company:
     name: Intern Counting Company (ICC).
-    url: "https://www.intern.com"
+    url: "https://www.example.com"
     location: Intern Land
     overview: Intern counting Company (ICC) বিশ্বব্যাপী ইন্টার্ন ইঞ্জিনিয়ারদের গণনার জন্য দায়ী ।
   positions:

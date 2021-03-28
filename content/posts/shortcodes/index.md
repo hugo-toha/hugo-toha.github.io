@@ -57,19 +57,19 @@ This is sample alert with `type="secondary"`.
 
 #### A sample image with `height` and `width` attributes.
 
-{{< img src="/posts/shortcodes/boat.jpg" height="400" width="600" >}}
+{{< img src="/posts/shortcodes/boat.jpg" height="400" width="600" title="A boat at the sea" >}}
 
 {{< vs 3 >}}
 
 #### A center aligned image with `height` and `width` attributes.
 
-{{< img src="/posts/shortcodes/boat.jpg" height="400" width="600" align="center" >}}
+{{< img src="/posts/shortcodes/boat.jpg" height="400" width="600" align="center" title="A boat at the sea" >}}
 
 {{< vs 3 >}}
 
 #### A image with `float` attribute.
 
-{{< img src="/posts/shortcodes/boat.jpg" height="200" width="500" float="right" >}}
+{{< img src="/posts/shortcodes/boat.jpg" height="200" width="500" float="right" title="A boat at the sea" >}}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas lectus sed leo ultricies ultricies. Praesent tellus risus, eleifend vel efficitur ac, venenatis sit amet sem. Ut ut egestas erat. Fusce ut leo turpis. Morbi consectetur sed lacus vitae vehicula. Cras gravida turpis id eleifend volutpat. Suspendisse nec ipsum eu erat finibus dictum. Morbi volutpat nulla purus, vel maximus ex molestie id. Nullam posuere est urna, at fringilla eros venenatis quis.
 
