@@ -4,7 +4,7 @@ name: HTML Proofer
 on: [pull_request]
 
 jobs:
-  deploy:
+  proof-html:
     runs-on: ubuntu-18.04
     steps:
     # checkout to the commit that has been pushed
@@ -29,3 +29,4 @@ jobs:
       with:
         directory: ./public
         enforce_https: false
+        url_ignore_re: "/#.*/"
