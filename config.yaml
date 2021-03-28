@@ -54,8 +54,10 @@ params:
     inverted: /images/site/inverted-logo.png
     favicon: /images/site/favicon.png
 
-  # GitHub repo URL of your site
+  # GitHub repo of your site
   gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  # Default branch of your Git repo
+  gitBranch: source
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: true
