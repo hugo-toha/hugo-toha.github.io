@@ -43,6 +43,8 @@ var msg string
 msg = "Hello"
 ```
 
+---
+
 **Shortcut:**
 ```go
 msg := "Hello"
