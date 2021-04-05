@@ -29,7 +29,5 @@ jobs:
       with:
         directory: ./public
         enforce_https: false
-        url_ignore: |
-        #
-        https://www.pexels.com
-        https://www.pexels.com/@rahul-sharma-493988
+        url_ignore: "#"
+        url_ignore_re: ^https://www.pexels.com
