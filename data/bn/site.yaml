@@ -9,5 +9,3 @@ description: জন ডো এর বাক্তিগত পোর্টফো
 customMenus:
 - name: ডকুমেন্টেশন
   url: https://toha-guides.netlify.app/posts/
-- name: নোট সমূহ
-  url: /bn/notes
