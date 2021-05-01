@@ -65,10 +65,27 @@ params:
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
 
-  # Provide newsletter configuration. This feature hasn't been implemented yet.
-  # Currently, you can just hide it from the footer.
-  newsletter:
+  # Provide footer configuration.
+  footer:
     enable: true
+    # You can provide your custom footer template using this option.
+    # Put your template in "layouts/partials" folder of your repo.
+    template: footer.html
+    # Show/hide navigation in the footer. Default is "true".
+    navigation:
+      enable: true
+    # Show/hide "Contact Me" section in the footer. Default is "true".
+    contactMe:
+      enable: true
+    # Show/hide credentials section in the footer. Default is "true".
+    credentials:
+      enable: true
+
+    # Show/hide newsletter section in the footer. Default is "true".
+    # This feature hasn't been implemented yet.
+    # Currently, you can just hide it from the footer.
+    newsletter:
+      enable: true
 
   # Configure Notes property
   notes:
