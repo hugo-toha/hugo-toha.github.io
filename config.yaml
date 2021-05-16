@@ -96,3 +96,7 @@ params:
     # Currently, you can just hide it from the footer.
     newsletter:
       enable: true
+
+    # Show/hide disclaimer notice in the footer. Default is "false".
+    disclaimer:
+      enable: true
