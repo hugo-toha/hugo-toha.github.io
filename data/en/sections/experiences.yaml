@@ -11,54 +11,77 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    name: Amobee
+    url: "https://www.amobee.com"
+    location: Baltimore, MD
+    overview: Technical Lead for Amobee IT team for all core services and infrastructure. In charge of deployment, configuration, and management of a mixed Windows and Linux environment in AWS and on-premise. Design, implement and project manage global infrastructure utilized by Amobee users.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Systems Engineer
+    start: July 2019
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
-
+    - Deployment, configuration, and management of a global infrastructure of AWS services for corporate tools. Utilize Meraki virtual networking appliances to provide office site-to-site connections to AWS regions utilized for IT tools and services.
+    - In charge of deployment, configuration, and management of Cisco Meraki networking infrastructure in corporate offices and AWS regions.
+    - Monitor and maintain systems and services using cloud and on-premise monitoring tools, backup services and configuration management tools.
+    - Planning and implementing the migration of all on-premise services to cloud-hosted solutions including the migration of VMware and Hyper-V services to AWS.
+    - Deployment, configuration and management of Atlassian services including Jira Server and Confluence Server.
+    - Team lead and project manager for core IT projects that improved the infrastructure and security posture of Amobee services.
+    - Provide expertise and mentorship to IT team to complete infrastructure projects and improve technical skillsets.
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: University of Maryland - SESYNC
+    url: "https://www.sesync.org"
+    location: Annapolis, MD
+    overview: Head of IT responsible for all IT systems and services hosted and deployed at SESYNC including high performance computing resources, administrative and production services, and networking infrastructure. Worked with SESYNC Data Science team to provide cyberinfrastructure support and consulting services to researchers and staff.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
 
-- company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-  positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Assistant Director of Cyberinfrastructure
+    start: January 2017
+    end: July 2019
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Managed IT employees to execute cyberinfrastructure projects and tasks. Spearheaded staff to deploy systems and services and provided senior expertise when needed.
+    - Coordinated with UMD departments on campus to provide 10Gb networking directly from campus via Maryland Research network. Worked with UMD staff to host off-premise systems for higher availability and off-site backup services.
+    - Drafted long-term IT services for SESYNC including timeline for system upgrades and system replacements, deployment of new services, and retirement of old equipment.
+    - Led procurement efforts with a variety of vendors to quote and purchase software, services and infrastructure to support SESYNC operations.
+    - Lifecycle Management of Linux infrastructure using open-source tools such as Puppet and Foreman. Migrated existing services under new management infrastructure.
+    - Designed and implemented new Storage Spaces Direct hyperconverged virtualization infrastructure for use by SESYNC researchers for Windows and Linux services.
+    - Deployed new VMware infrastructure and oversaw migration of services to new infrastructure. 
+  
+  
+- company:
+    name: University of Maryland - SESYNC
+    url: "https://www.sesync.org"
+    location: Annapolis, MD
+    overview: Responsible for design, deployment, and management of a mixed cyberinfrastructure environment to support core business services and research computing including virtualization technologies, networking, windows, and Linux services,. Worked with SESYNC employees and researchers to provide a variety of computing services to support research activities by deploying an agile and flexible infrastructure that can adapt to the needs of the users.
+  positions:
+  - designation: Sr. Systems Administrator
+    start: July 2016
+    end: January 2017
+  - designation: Systems Administrator
+    start: January 2012
+    end: July 2017
+    responsibilities:
+    - Head of IT responsible for all IT systems and services hosted and deployed at SESYNC including high performance computing resources, administrative and production services, and networking infrastructure. Worked with SESYNC Data Science team to provide cyberinfrastructure support and consulting services to researchers and staff.
+    - Responsible for developing an Active Directory to support over 1000 researchers in a mixed Linux/Windows environment 
+    - Operated and administered Ubuntu Linux infrastructure via Foreman and Puppet. Tasks included writing puppet modules and profiles for deployment of various services, installation of new services and migration of infrastructure to new management infrastructure.
+    - Managed and maintained the network infrastructure including VLANs, routing, ACLs, and 10Gb networking.
+    - Leveraged scripting and configuration technologies such as PowerShell, Bash, and Puppet to automate tasks to improve operational efficiency.
+    - Designed and deployed Microsoft Hyper-V hypervisor based virtualized computing clusters that resulted in the expansion of the organization's research computing capacity.
+    - Produced and implemented Windows Storage Spaces for file storage and SOFS deployment for SMB 4.0 storage resulting in improved and redundant Hyper-V virtual machine storage.
+    - Built out core Windows infrastructure including Systems Center services, WSUS/MDT, and core file and print services. 
+    - Deployed VMware ESXi and vCenter infrastructure on iSCSI storage to host core Linux and Windows services. 
+- company:
+    name: University of Maryland Institute for Advanced Computer Studies
+    url: "https://umiacs.umd.edu"
+    location: Annapolis, MD
+    overview: Responsible for core infrastructure project work and issue triage to assist institute staff and researchers.
+  positions:
+  - designation: System Administrator
+    start: May 2009
+    end: December 2011
+    responsibilities:
+    - Collaborated with UMIACS systems staff to deploy, manage, and administer Windows and Linux services to support center labs and researchers.
+    - Worked as Help Desk operator during assigned shifts to oversee student staff and provide end user support. 
+
+

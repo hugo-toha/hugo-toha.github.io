@@ -1,7 +1,7 @@
 baseURL: https://hugo-toha.github.io
 
 languageCode: en-us
-title: "John's Blog"
+title: "Schenk.Tech"
 theme: "toha"
 
 # Manage languages
@@ -10,9 +10,7 @@ languages:
   en:
     languageName: English
     weight: 1
-  bn:
-    languageName: বাংলা
-    weight: 3
+  
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 # DefaultContentLanguage: bn
@@ -36,7 +34,7 @@ outputs:
   - JSON
 
 # Enable Google Analytics
-googleAnalytics: UA-122321624-2
+# googleAnalytics: UA-122321624-2
 
 # Enable global emoji support
 enableEmoji: true
@@ -50,12 +48,12 @@ params:
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   # It will default to the theme logos if not provided.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/site/cmdline.png
+    inverted: /images/site/cmdline.png
+    favicon: /images/site/cmdline.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/BillSchenk/billschenk.github.io
   # Default branch of your Git repo
   gitBranch: source
 
@@ -63,17 +61,17 @@ params:
   features:
     # Enable and configure portfolio
     portfolio:
-      enable: true
+      enable: false
     # Enable and configure blog posts
     blog:
-      enable: true
+      enable: false
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
 
   # specify whether you want to show Table of Contents in reading page
-  enableTOC: true
+  enableTOC: false
 
   # If you want to use different country flag for a language, specify them here.
   # flagOverwrites:
@@ -99,7 +97,7 @@ params:
     # Show/hide newsletter section in the footer. Default is "true".
     # Currently, it supports "mailchimp".
     newsletter:
-      enable: true
+      enable: false
       provider: mailchimp
       mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
 
