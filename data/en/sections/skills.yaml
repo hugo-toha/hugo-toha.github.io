@@ -25,13 +25,13 @@ skills:
   summary: "Experienced with git-based development. Mostly use Gitlab. Also, have experience in working with GitHub and BitBucket."
   url: "https://git-scm.com/"
 
-- name: VMware
-  logo: /images/sections/skills/vmware.png
-  summary: "Expert virutalization engineer utilizing VMware ESXi, vCenter and vSAN"
-
-- name: Windows
-  logo: /images/sections/skills/Windows.png
-  summary: "Experienced Windows administrator. Expertise in all windows services including Active Directory "
+#- name: VMware
+#  logo: /images/sections/skills/vmware.png
+#  summary: "Expert virutalization engineer utilizing VMware ESXi, vCenter and vSAN"
+#
+#- name: Windows
+# logo: /images/sections/skills/Windows.png
+#  summary: "Experienced Windows administrator. Expertise in all windows services including Active Directory"
 
 
 
