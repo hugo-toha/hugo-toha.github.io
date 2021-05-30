@@ -14,3 +14,11 @@ description: জন ডো এর বাক্তিগত পোর্টফো
 customMenus:
 - name: ডকুমেন্টেশন
   url: https://toha-guides.netlify.app/posts/
+
+# Specify OpenGraph Headers
+openGraph:
+  title: জনের ব্লগ
+  type: website
+  description: জন ডো এর বাক্তিগত পোর্টফোলিও ও ব্লগ.
+  image: images/author/john.png
+  url: https://hugo-toha.github.io
