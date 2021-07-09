@@ -25,7 +25,7 @@ This sample post tests the followings:
 
 ### Tweet Sample
 
-{{/*< twitter 1085870671291310081 >*/}}
+{{< tweet 1085870671291310081 >}}
 
 {{< vs >}}
 
