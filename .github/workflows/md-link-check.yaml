@@ -10,4 +10,4 @@ jobs:
     # checkout to latest commit
     - uses: actions/checkout@v2.3.4
     # run markdown linter
-    - uses: gaurav-nelson/github-action-markdown-link-check@1.0.12
+    - uses: gaurav-nelson/github-action-markdown-link-check@1.0.13
