@@ -8,11 +8,11 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Operations Analyst
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: Feedzai
+  url: "https://feedzai.com/"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
@@ -25,27 +25,27 @@ summary: 'I am a passionate software engineer with x years of working experience
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "global@rui-batista.com"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
-
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+  url: "https://github.com/BellamyPT"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/batista-rui7/"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "#"
+#- name: Stackoverflow
+#  icon: "fab fa-stack-overflow"
+#  url: "#"
 
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
+#- name: Twitter
+#  icon: "fab fa-twitter"
+#  url: "#"
+
+#- name: Facebook
+#  icon: "fab fa-facebook"
+#  url: "#"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.

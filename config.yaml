@@ -1,7 +1,7 @@
 baseURL: https://hugo-toha.github.io
 
 languageCode: en-us
-title: "John's Blog"
+title: "Rui Batista"
 theme: "toha"
 
 # Manage languages
@@ -10,9 +10,9 @@ languages:
   en:
     languageName: English
     weight: 1
-  bn:
-    languageName: বাংলা
-    weight: 3
+  pt-pt:
+    languageName: Português
+    weight: 2
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 # DefaultContentLanguage: bn
@@ -36,7 +36,7 @@ outputs:
   - JSON
 
 # Enable Google Analytics
-googleAnalytics: UA-122321624-2
+# googleAnalytics: UA-122321624-2
 
 # Enable global emoji support
 enableEmoji: true
@@ -54,9 +54,9 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  # gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
   # Default branch of your Git repo
-  gitBranch: source
+  # gitBranch: source
 
   # Configure various features of this theme
   features:
@@ -65,10 +65,10 @@ params:
       enable: true
     # Enable and configure blog posts
     blog:
-      enable: true
+      enable: false
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
 
   # specify whether you want to show Table of Contents in reading page
@@ -87,10 +87,10 @@ params:
     template: footer.html
     # Show/hide navigation in the footer. Default is "true".
     navigation:
-      enable: true
+      enable: false
     # Show/hide "Contact Me" section in the footer. Default is "true".
     contactMe:
-      enable: true
+      enable: false
     # Show/hide credentials section in the footer. Default is "true".
     credentials:
       enable: true
@@ -98,10 +98,10 @@ params:
     # Show/hide newsletter section in the footer. Default is "true".
     # Currently, it supports "mailchimp".
     newsletter:
-      enable: true
-      provider: mailchimp
-      mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
+      enable: false
+      #provider: mailchimp
+      #mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
-      enable: true
+      enable: false

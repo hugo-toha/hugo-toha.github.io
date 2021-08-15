@@ -1,0 +1,24 @@
+# section information
+section:
+  name: Contacts
+  id: contacts
+  enable: true
+  weight: 8
+  showOnNavbar: true
+  template: sections/contacts.html
+
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email # this is a special one
+  icon: "fas fa-envelope"
+  url: "global@rui-batista.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/BellamyPT"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/batista-rui7/"
