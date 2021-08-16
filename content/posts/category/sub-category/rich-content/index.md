@@ -9,6 +9,8 @@ menu:
     parent: sub-category
     weight: 10
 hero: images/forest.jpg
+tags: ["Markdown","Content Organization","Multi-lingual"]
+categories: ["Basic"]
 ---
 
 This sample post tests the followings:

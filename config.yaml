@@ -74,6 +74,9 @@ params:
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
 
+  # Show tags under the post title
+  enableTags: true
+
   # If you want to use different country flag for a language, specify them here.
   # flagOverwrites:
   # - languageCode: en
