@@ -60,6 +60,11 @@ badges:
   url: "https://www.credly.com/badges/3affb53e-001c-4824-bfe0-6cc78c5521de/linked_in_profile"
   badge: "https://images.credly.com/size/680x680/images/68468004-5a85-4f3b-bc58-590773979486/AWS-CloudPractitioner-2020.png"
 
+- type: certification
+  name: Terraform Certified Associate
+  url: "https://www.credly.com/badges/b7828f54-f7ce-4473-8514-f3df23b21a14/linked_in_profile"
+  badge: "https://images.credly.com/size/680x680/images/5b075140-d286-4c8a-9be9-2b87f9e10839/Terraform-Associate-Badge.png"
+
 - type: soft-skill-indicator
   name: Leadership
   percentage: 90
@@ -69,11 +74,6 @@ badges:
   name: Collaborative
   percentage: 90
   color: yellow
-
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 95
-  color: orange
   
 - type: soft-skill-indicator
   name: Mentorship

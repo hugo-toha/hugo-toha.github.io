@@ -12,26 +12,57 @@ section:
 # Give a summary of you each skill in the summary section.
 skills:
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with many AWS services including compute, storage and networking services."
+- name: Amazon Web Services
+  logo: /images/sections/skills/aws.png
+  summary: "Experienced AWS infrastructure Engineer."
 
 - name: Linux
   logo: /images/sections/skills/linux.png
   summary: "Experienced administrator of Linux systems and services"
 
+- name: VMware
+  logo: /images/sections/skills/vmware.png
+  summary: "Expert virutalization engineer utilizing VMware ESXi, vCenter and vSAN"
+
+- name: Windows
+  logo: /images/sections/skills/windows.png
+  summary: "Experienced Windows administrator. Expertise in all windows services including Active Directory"
+
+- name: Terraform
+  logo: /images/sections/skills/terraform.png
+  summary: "Certified Terraform Associate. Experience deploying cloud services such as AWS and Cloudflare with Terraform code."
+  url: "https://terraform.io"
+
+- name: Ansible
+  logo: /images/sections/skills/ansible.png
+  summary: "Experience using Ansible to manage Linux and Windows Services"
+  url: "https://ansible.com"
+
+- name: Chef
+  logo: /images/sections/skills/chef.png
+  summary: "Experienced chef administrator for managing cloud and on premise services"
+  url: "https://chef.io"
+
+- name: Puppet
+  logo: /images/sections/skills/puppet.png
+  summary: "Experienced puppet administrator utilizing Foreman server and puppet to manage linux services"
+  url: "https://puppet.com"
+
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly use Gitlab. Also, have experience in working with GitHub and BitBucket."
+  summary: "Experienced with git-based development."
   url: "https://git-scm.com/"
 
-#- name: VMware
-#  logo: /images/sections/skills/vmware.png
-#  summary: "Expert virutalization engineer utilizing VMware ESXi, vCenter and vSAN"
-#
-#- name: Windows
-# logo: /images/sections/skills/Windows.png
-#  summary: "Experienced Windows administrator. Expertise in all windows services including Active Directory"
+- name: Meraki
+  logo: /images/sections/skills/cisco-meraki.png
+  summary: "Experienced network administrator utilizing Cisco Meraki infrastructure"
+  url: "https://meraki.com"
 
+- name: Atlassian
+  logo: /images/sections/skills/atlassian.png
+  summary: "Experience backend administrator of Atlassian services"
+  url: "https://atlassian.com"
 
-
+- name: Databases
+  logo: /images/sections/skills/databases.png
+  summary: "Experienced Admin of many database services including MySQL, MariaDB, PostgreSQL, and Microsoft SQL"
