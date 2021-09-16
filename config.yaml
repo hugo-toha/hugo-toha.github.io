@@ -31,9 +31,9 @@ markup:
 # client-side JavaScript search
 outputs:
   home:
-  - HTML
-  - RSS
-  - JSON
+    - HTML
+    - RSS
+    - JSON
 
 # Enable Google Analytics
 googleAnalytics: UA-122321624-2
@@ -66,10 +66,22 @@ params:
     # Enable and configure blog posts
     blog:
       enable: true
+      # Share post on different social media
+      shareButtons:
+        facebook: true
+        twitter: true
+        linkedin: true
+        reddit: true
+        whatsapp: true
+        email: true
+        # tumblr: true
+        # pocket: true
+        # diaspora: true
+        # mastodon: true
+
     # Enable & configure "Notes" features
     notes:
       enable: true
-
 
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
