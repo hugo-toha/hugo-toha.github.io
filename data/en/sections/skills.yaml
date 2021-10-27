@@ -33,10 +33,10 @@ skills:
   summary: "Certified Terraform Associate. Experience deploying cloud services such as AWS and Cloudflare with Terraform code."
   url: "https://terraform.io"
 
-- name: Ansible
-  logo: /images/sections/skills/ansible.png
-  summary: "Experience using Ansible to manage Linux and Windows Services"
-  url: "https://ansible.com"
+#- name: Ansible
+#  logo: /images/sections/skills/ansible.png
+#  summary: "Experience using Ansible to manage Linux and Windows Services"
+#  url: "https://ansible.com"
 
 - name: Chef
   logo: /images/sections/skills/chef.png
