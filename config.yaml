@@ -83,6 +83,20 @@ params:
     notes:
       enable: true
 
+    # Enable comment feature. There, should be only one of them.
+    comment:
+      enable: false
+      disqus:
+        shortName: toha-example-site
+      # valine:
+      #   appId: HTV6askWxVo3vOxlqjjaq2hd-MsYXbMMI
+      #   appKey: pVrT3C85KGIuk27t07eh6bUC
+      #   avatar: retro
+      #   placeholder: Share your thought.
+      #   lang: en
+      #   recordIP: true
+      #   enableQQ: true
+
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
 
