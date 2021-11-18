@@ -96,6 +96,10 @@ params:
       #   lang: en
       #   recordIP: true
       #   enableQQ: true
+      # utteranc:
+      #   repo: github.com/hugo-toha/hugo-toha.github.io
+      #   issueTerm: title
+      #   theme: github-light
 
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
