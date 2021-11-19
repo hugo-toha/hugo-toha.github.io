@@ -7,7 +7,7 @@ jobs:
     steps:
     # Wait for the preview deployed by Netlify
     - name: Wait for preview deployed
-      uses: jakepartusch/wait-for-netlify-action@v1.2
+      uses: jakepartusch/wait-for-netlify-action@v1.3
       id: preview
       with:
         site_name: "toha"
