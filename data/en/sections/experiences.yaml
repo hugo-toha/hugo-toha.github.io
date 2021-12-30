@@ -11,6 +11,19 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: HireVue
+    url: "https://www.hirevue.com"
+    #location: Remote
+    overview: 
+  positions:
+  - designation: Sr. Infrastructure Engineer
+    start: January 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    #responsibilities:
+    #- 
+- company:
     name: Amobee
     url: "https://www.amobee.com"
     location: Baltimore, MD
@@ -19,7 +32,7 @@ experiences:
   - designation: Systems Engineer
     start: July 2019
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Dec 2021
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Deployment, configuration, and management of a global infrastructure of AWS services for corporate tools. Utilize Meraki virtual networking appliances to provide office site-to-site connections to AWS regions utilized for IT tools and services.

@@ -8,17 +8,17 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Systems Engineer
+designation: Senior Infrastructure Engineer
 # your company information
 company:
-  name: Amobee
-  url: "https://www.amobee.com"
+  name: HireVue
+  url: "https://www.hirevue.com"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/billschenk-resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate Systems Engineer with over 10 years of working experience.  I enjoy learning and tinkering with all things tech'
+summary: 'I am a passionate IT Professional with over 10 years of working experience.  I enjoy learning and tinkering with all things tech'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
