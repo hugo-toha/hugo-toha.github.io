@@ -15,7 +15,7 @@ jobs:
 
     # Run Lighthouse check
     - name: Run Lighthouse
-      uses: foo-software/lighthouse-check-action@v7.1.0
+      uses: foo-software/lighthouse-check-action@v7.1.1
       id: lighthouseCheck
       with:
         accessToken: ${{ secrets.LIGHTHOUSE_TOKEN }}
