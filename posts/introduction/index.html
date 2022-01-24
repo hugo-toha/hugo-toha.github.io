@@ -9,7 +9,8 @@
 <link rel=stylesheet href=/css/navigators/navbar.css>
 <link rel=stylesheet href=/css/plyr.css>
 <link rel=stylesheet href=/css/flag-icon.min.css>
-<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel=stylesheet>
+<link rel=stylesheet href=/css/katex.min.css>
+<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600">
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css>
 <link rel=icon type=image/png href=/images/site/favicon_hub02d7508a1c89b2b7812eab204efeb9a_4223_42x0_resize_box_3.png>
 <meta property="og:title" content="Introduction">
@@ -98,7 +99,7 @@ English
 <div class="author-profile ml-auto align-self-lg-center">
 <img class=rounded-circle src=/images/author/john_hu7f9991f5b5d471ecdfc6cff3db1a9fe6_6397_120x120_fit_box_3.png alt="Author Image">
 <h5 class=author-name>John Doe</h5>
-<p>June 8, 2020</p>
+<p>Monday, June 8, 2020</p>
 </div>
 <div class=title>
 <h1>Introduction</h1>
@@ -162,12 +163,12 @@ Improve this page
 <a id=scroll-to-top class=btn><i class="fas fa-chevron-circle-up"></i></a>
 <div class="dropdown languageSelector">
 <a class="btn dropdown-toggle" href=# id=languageSelector role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>
-<img class=flag src=https://www.countryflags.io/gb/flat/16.png alt=gb>
+<span class="flag-icon flag-icon-gb"></span>
 English
 </a>
 <div class=dropdown-menu aria-labelledby=languageSelector>
 <a class="dropdown-item nav-link languages-item" href=/bn/posts/introduction>
-<img class=flag src=https://www.countryflags.io/bd/flat/24.png alt=bd>
+<span class="flag-icon flag-icon-bd"></span>
 বাংলা
 </a>
 </div>
@@ -270,6 +271,8 @@ Toha
 <script type=text/javascript src=/js/navbar.js></script>
 <script type=text/javascript src=/js/plyr.js></script>
 <script type=text/javascript src=/js/main.js></script>
+<script type=text/javascript defer src=/js/katex.min.js></script>
+<script type=text/javascript defer src=/js/auto-render.min.js onload=renderMathInElement(document.body)></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js></script>
 <script src=/js/single.js></script>
 <script>hljs.initHighlightingOnLoad()</script>

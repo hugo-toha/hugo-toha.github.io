@@ -1,6 +1,6 @@
 <!doctype html><html lang=en>
 <head>
-<meta name=generator content="Hugo 0.91.2">
+<meta name=generator content="Hugo 0.92.0">
 <title>John's Blog</title>
 <meta name=description content="Portfolio and personal blog of John Doe.">
 <meta charset=utf-8>
@@ -11,7 +11,8 @@
 <link rel=stylesheet href=/css/navigators/navbar.css>
 <link rel=stylesheet href=/css/plyr.css>
 <link rel=stylesheet href=/css/flag-icon.min.css>
-<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel=stylesheet>
+<link rel=stylesheet href=/css/katex.min.css>
+<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600">
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css>
 <link rel=icon type=image/png href=/images/site/favicon_hub02d7508a1c89b2b7812eab204efeb9a_4223_42x0_resize_box_3.png>
 <meta property="og:title" content="John's Blog">
@@ -58,12 +59,10 @@ John's Blog</a>
 <li class=nav-item>
 <a class=nav-link href=#education>Education</a>
 </li>
-<li class=nav-item>
-<a class=nav-link href=#projects>Projects</a>
-</li>
 <li class="nav-item dropdown">
 <a class="nav-link dropdown-toggle" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>More</a>
 <div class=dropdown-menu aria-labelledby=navbarDropdown>
+<a class=dropdown-item href=#projects>Projects</a>
 <a class=dropdown-item href=#recent-posts>Recent Posts</a>
 <a class=dropdown-item href=#accomplishments>Accomplishments</a>
 <a class=dropdown-item href=#achievements>Achievements</a>
@@ -336,8 +335,7 @@ I am a passionate software engineer with x years of working experience. I built 
 <div class="container-fluid section-holder d-flex bg-white">
 <div class="container-fluid anchor pb-5 experiences-section">
 <h1 class=text-center>
-<span id=experiences></span>Experiences
-</h1>
+<span id=experiences></span>Experiences</h1>
 <div class="container timeline text-justify">
 <div class="row align-items-center d-flex">
 <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
@@ -610,7 +608,8 @@ Intern Land
 </div>
 <div class="container-fluid section-holder d-flex bg-white">
 <div class="container-fluid anchor pb-5 projects-section" id=projects>
-<h1 class=text-center>Projects</h1>
+<h1 class=text-center>
+<span id=projects></span>Projects</h1>
 <div class="container ml-auto text-center">
 <div class="btn-group flex-wrap" role=group id=project-filter-buttons>
 <button type=button class="btn btn-dark" data-filter=all>
@@ -1098,6 +1097,8 @@ Toha
 <script type=text/javascript src=/js/navbar.js></script>
 <script type=text/javascript src=/js/plyr.js></script>
 <script type=text/javascript src=/js/main.js></script>
+<script type=text/javascript defer src=/js/katex.min.js></script>
+<script type=text/javascript defer src=/js/auto-render.min.js onload=renderMathInElement(document.body)></script>
 <script src=/js/itype.min.js></script>
 <script src=/js/github-button.js></script>
 <script src=/js/home.js></script>
