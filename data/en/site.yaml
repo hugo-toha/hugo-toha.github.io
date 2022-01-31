@@ -14,6 +14,11 @@ description: Portfolio and personal blog of John Doe.
 customMenus:
 - name: Docs
   url: https://toha-guides.netlify.app/posts/
+  # specify whether to hide the menu item from top navbar or not.
+  hideFromNavbar: false
+  # specify whether to show the menu item in footer or not.
+  # if you set it to true, make sure you have set `footer.navigation.customMenus: true` in your config.yaml
+  showOnFooter: false
 
 # Specify OpenGraph Headers
 openGraph:

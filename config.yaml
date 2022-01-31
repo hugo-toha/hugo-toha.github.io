@@ -58,6 +58,10 @@ params:
   # Default branch of your Git repo
   gitBranch: source
 
+  # Configure the number of section title visible in the top navbar
+  topNavbar:
+    maxVisibleSections: 5
+
   # Configure various features of this theme
   features:
     # Enable and configure portfolio
@@ -101,6 +105,7 @@ params:
       #   issueTerm: title
       #   theme: github-light
 
+
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
 
@@ -121,6 +126,8 @@ params:
     # Show/hide navigation in the footer. Default is "true".
     navigation:
       enable: true
+      # show custom menus in the footer
+      customMenus: true
     # Show/hide "Contact Me" section in the footer. Default is "true".
     contactMe:
       enable: true
