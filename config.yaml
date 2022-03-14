@@ -35,9 +35,6 @@ outputs:
     - RSS
     - JSON
 
-# Enable Google Analytics
-googleAnalytics: UA-122321624-2
-
 # Enable global emoji support
 enableEmoji: true
 
@@ -105,6 +102,27 @@ params:
       #   issueTerm: title
       #   theme: github-light
 
+    # Enable Analytics
+    analytics:
+      enabled: true
+      # Google Analytics
+      google:
+        id: UA-122321624-2
+      # # CounterDev
+      # counterDev:
+      #   id: <your counterdev id>
+      # # GoatCounter
+      # goatCounter:
+      #   code: <your goat counter code>
+
+    # # Enable Support
+    # support:
+    #   enabled: true
+    #   kofi:
+    #     user: hossainemruz
+    #     text: Tip Me
+    #     textColor: '#f9fafc'
+    #     backgroundColor: '#248aaa'
 
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
