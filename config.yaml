@@ -101,6 +101,17 @@ params:
       #   repo: github.com/hugo-toha/hugo-toha.github.io
       #   issueTerm: title
       #   theme: github-light
+      # giscus:
+      #   repo: your-repo/name
+      #   repoID: your-repo-id
+      #   category: your-category
+      #   categoryID: your-category-id
+        # theme: light
+        # map: url
+        # reaction: 1
+        # metadata: 0
+        # inputPosition: bottom
+        # crossOrigin: anonymous
 
     # Enable Analytics
     analytics:
