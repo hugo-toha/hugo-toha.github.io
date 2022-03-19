@@ -112,6 +112,10 @@ params:
         # metadata: 0
         # inputPosition: bottom
         # crossOrigin: anonymous
+      # commento:
+      #   serverURL: cdn.commento.io
+      #   autoInit: true
+      #   hideDeleted: false
 
     # Enable Analytics
     analytics:
