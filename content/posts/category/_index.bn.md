@@ -1,8 +1,8 @@
 ---
-title: Top Category Sample
+title: Mẫu danh mục hàng đầu
 menu:
   sidebar:
-    name: বিভাগ
-    identifier: category
+    name: Danh mục
+    identifier: Danh mục
     weight: 20
 ---

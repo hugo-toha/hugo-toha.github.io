@@ -1,9 +1,9 @@
 ---
-title: ফাইল ম্যানিপুলেশন
+title: Thao tác tệp
 weight: 40
 menu:
   notes:
-    name: ফাইল ম্যানিপুলেশন
+    name: Thao tác tệp
     identifier: notes-go-advanced-files
     parent: notes-go-advanced
     weight: 10

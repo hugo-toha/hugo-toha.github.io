@@ -1,9 +1,9 @@
 ---
-title: ব্যাশ ভেরিয়েবল
+title: Biến Bash
 weight: 210
 menu:
   notes:
-    name: ভেরিয়েবল
+    name: Biến 
     identifier: notes-bash-variables
     parent: notes-bash
     weight: 10

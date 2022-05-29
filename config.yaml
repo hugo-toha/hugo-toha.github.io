@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://HienAnh_Portfolio.github.io
 
 languageCode: en-us
-title: "John's Blog"
+title: "Hien Anh's Blog"
 theme: "toha"
 
 # Manage languages
@@ -11,7 +11,7 @@ languages:
     languageName: English
     weight: 1
   bn:
-    languageName: বাংলা
+    languageName: Tiếng Việt
     weight: 3
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
@@ -51,7 +51,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/hienanhtran254/HienAnh.github.io
   # Default branch of your Git repo
   gitBranch: source
 
@@ -69,11 +69,11 @@ params:
       enable: true
       # Share post on different social media
       shareButtons:
-        facebook: true
-        twitter: true
+        #facebook: true
+        #twitter: true
         linkedin: true
-        reddit: true
-        whatsapp: true
+        #reddit: true
+        #whatsapp: true
         email: true
         # tumblr: true
         # pocket: true
@@ -171,9 +171,10 @@ params:
     # Show/hide newsletter section in the footer. Default is "true".
     # Currently, it supports "mailchimp".
     newsletter:
-      enable: true
-      provider: mailchimp
-      mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
+      enable : false
+      #enable: true
+      #provider: mailchimp
+      #mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:

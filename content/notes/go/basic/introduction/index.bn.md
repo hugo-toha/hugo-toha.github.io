@@ -1,9 +1,9 @@
 ---
-title: Go পরিচিতি
+title: Giới thiệu
 weight: 10
 menu:
   notes:
-    name: পরিচিতি
+    name: Giới thiệu
     identifier: notes-go-basics-intro
     parent: notes-go-basics
     weight: 10

@@ -1,9 +1,9 @@
 ---
-title: বেসিক টাইপ সমূহ 
+title: Loại cơ bản 
 weight: 20
 menu:
   notes:
-    name: বেসিক টাইপ সমূহ 
+    name: Loại cơ bản
     identifier: notes-go-basics-types
     parent: notes-go-basics
     weight: 20

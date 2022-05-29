@@ -1,8 +1,8 @@
 ---
-title: ব্যাশের নোট সমূহ
+title: Ghi chú Bash
 menu:
   notes:
-    name: ব্যাশ
+    name: Bash
     identifier: notes-bash
     weight: 20
 ---

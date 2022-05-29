@@ -1,9 +1,9 @@
 ---
-title: ফ্লো কন্ট্রোল
+title: Kiểm soát flow
 weight: 30
 menu:
   notes:
-    name: ফ্লো কন্ট্রোল
+    name: Kiểm soát flow
     identifier: notes-go-basics-flow-control
     parent: notes-go-basics
     weight: 30

@@ -1,3 +1,3 @@
 ---
-title: নোট সমূহ
+title: Ghi chú
 ---

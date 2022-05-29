@@ -1,9 +1,9 @@
 ---
-title: অ্যাডভান্সড
+title: Cải tiến (advanced)
 weight: 20
 menu:
   notes:
-    name: অ্যাডভান্সড
+    name: Cải tiến (advanced)
     identifier: notes-go-advanced
     parent: notes-go
     weight: 20
