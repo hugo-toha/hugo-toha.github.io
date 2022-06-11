@@ -4,7 +4,7 @@ name: Deploy to Github Pages
 on:
   push:
     branches:
-    - source
+    - main
 
 jobs:
   deploy:
@@ -27,10 +27,10 @@ jobs:
     - name: Build
       run: hugo --minify
 
-    # push the generated content into the `main` (former `master`) branch.
+    # push the generated content into the `gh-pages` branch.
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3.8.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_branch: main # if your main branch is `master` use that here.
+        publish_branch: gh-pages
         publish_dir: ./public

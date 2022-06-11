@@ -53,7 +53,7 @@ params:
   # GitHub repo of your site
   gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
   # Default branch of your Git repo
-  gitBranch: source
+  gitBranch: main
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
