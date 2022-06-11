@@ -59,6 +59,12 @@ params:
   topNavbar:
     maxVisibleSections: 5
 
+  # Enable dark theme
+  darkMode:
+    provider: darkreader
+    enable: true
+    default: system
+
   # Configure various features of this theme
   features:
     # Enable and configure portfolio
