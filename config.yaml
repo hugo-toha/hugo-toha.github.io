@@ -151,6 +151,9 @@ params:
   # Show tags under the post title
   enableTags: true
 
+  # Specify whether to show flag in the language selector. Default is true.
+  showFlags: true
+
   # If you want to use different country flag for a language, specify them here.
   # flagOverwrites:
   # - languageCode: en
