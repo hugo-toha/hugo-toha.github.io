@@ -37,7 +37,7 @@ skills:
   
 - name: R
   logo: /images/sections/skills/r.png
-  summary: "I use the statistical programing language R whenever it provides a statistical model or functionality that is not readily available in Python, e.g., random-effects models."
+  summary: "I use the statistical programing language R whenever it provides a statistical model or functionality that is not readily available in Python."
   url: "https://www.r-project.org/"
 
 - name: Java
