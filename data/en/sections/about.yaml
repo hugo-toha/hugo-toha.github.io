@@ -15,7 +15,8 @@ company:
   url: "https://www.example.com"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/resume.pdf"
+# Dreprecated. Use resourceLinks instead.
+# resume: "files/resume.pdf"
 
 # a summary about you
 summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
@@ -46,6 +47,12 @@ socialLinks:
 - name: Facebook
   icon: "fab fa-facebook"
   url: "#"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: Curriculum Vitae
+  url: "files/resume.pdf"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
