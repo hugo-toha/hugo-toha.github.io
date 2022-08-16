@@ -58,7 +58,7 @@ badges:
 - type: certification
   name: AWS Certified Cloud Practioner
   url: "https://www.credly.com/badges/3affb53e-001c-4824-bfe0-6cc78c5521de/linked_in_profile"
-  badge: "/images/sections/certs/aws-certified-cloud-practitioner.png"
+  badge: "https://www.credly.com/badges/3affb53e-001c-4824-bfe0-6cc78c5521de/public_url"
 
 - type: certification
   name: Terraform Certified Associate
