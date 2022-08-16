@@ -30,13 +30,13 @@ skills:
 
 - name: Terraform
   logo: /images/sections/skills/terraform.png
-  summary: "Certified Terraform Associate. Experience deploying cloud services such as AWS and Cloudflare with Terraform code."
+  summary: "Certified Terraform Associate. Experience deploying cloud services, including AWS, VMWare, NewRelic, and Cloudflare with Terraform code. Additonal experience using Terragrunt for dry and maintainable code."
   url: "https://terraform.io"
 
-#- name: Ansible
-#  logo: /images/sections/skills/ansible.png
-#  summary: "Experience using Ansible to manage Linux and Windows Services"
-#  url: "https://ansible.com"
+- name: Ansible
+  logo: /images/sections/skills/ansible.png
+  summary: "Experience using Ansible to manage Linux and Windows Services"
+  url: "https://ansible.com"
 
 - name: Chef
   logo: /images/sections/skills/chef.png
@@ -47,6 +47,11 @@ skills:
   logo: /images/sections/skills/puppet.png
   summary: "Experienced puppet administrator utilizing Foreman server and puppet to manage linux services"
   url: "https://puppet.com"
+
+- name: SaltStack
+  logo: /images/sections/skill/saltstack.png
+  summary: "Experienced SaltStack administrator to manage Linux services."
+  url: "https://saltproject.io/"
 
 - name: Git
   logo: /images/sections/skills/git.png
