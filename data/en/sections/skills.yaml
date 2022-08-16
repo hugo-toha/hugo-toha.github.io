@@ -20,18 +20,29 @@ skills:
   logo: /images/sections/skills/linux.png
   summary: "Experienced administrator of Linux systems and services"
 
-- name: VMware
-  logo: /images/sections/skills/vmware.png
-  summary: "Expert virutalization engineer utilizing VMware ESXi, vCenter and vSAN"
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Experienced with git-based development."
+  url: "https://git-scm.com/"
 
-- name: Windows
-  logo: /images/sections/skills/windows.png
-  summary: "Experienced Windows administrator. Expertise in all windows services including Active Directory"
+- name: SaltStack
+  logo: /images/sections/skills/saltstack.png
+  summary: "Experience utilizing SaltStack to manage multi-environment cloud services"
+  url: "https://saltstack.io"
 
 - name: Terraform
   logo: /images/sections/skills/terraform.png
   summary: "Certified Terraform Associate. Experience deploying cloud services, including AWS, VMWare, NewRelic, and Cloudflare with Terraform code. Additonal experience using Terragrunt for dry and maintainable code."
   url: "https://terraform.io"
+
+- name: Ansible
+  logo: /images/sections/skills/ansible.png
+  summary: "Experience utilizing Ansible for managing Linux services"
+  url: "https://www.ansible.com/"  
+
+- name: Databases
+  logo: /images/sections/skills/databases.png
+  summary: "Experienced Admin of many database services including MySQL, MariaDB, PostgreSQL, and Microsoft SQL"
 
 - name: Chef
   logo: /images/sections/skills/chef.png
@@ -43,10 +54,13 @@ skills:
   summary: "Experienced puppet administrator utilizing Foreman server and puppet to manage linux services"
   url: "https://puppet.com"
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development."
-  url: "https://git-scm.com/"
+- name: VMware
+  logo: /images/sections/skills/vmware.png
+  summary: "Expert virutalization engineer utilizing VMware ESXi, vCenter and vSAN"
+
+- name: Windows
+  logo: /images/sections/skills/windows.png
+  summary: "Experienced Windows administrator. Expertise in all windows services including Active Directory"
 
 - name: Meraki
   logo: /images/sections/skills/cisco-meraki.png
@@ -57,12 +71,3 @@ skills:
   logo: /images/sections/skills/atlassian.png
   summary: "Experienced backend administrator of Atlassian services"
   url: "https://atlassian.com"
-
-- name: Databases
-  logo: /images/sections/skills/databases.png
-  summary: "Experienced Admin of many database services including MySQL, MariaDB, PostgreSQL, and Microsoft SQL"
-
-- name: SaltStack
-  logo: /images/sections/skills/saltstack.png
-  summary: "Experience SaltStack administrator."
-  url: "https://saltstack.io"
