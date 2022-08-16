@@ -18,11 +18,11 @@ skills:
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Experienced administrator of Linux systems and services"
+  summary: "Experienced administrator of Linux systems and services. Capable of writing bash/shell scripts."
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development."
+  summary: "Experienced with git-based development. Experience utilizing and managing Gitlab and Bitbucket services. Experience utilizing Github services including CI/CD and Github Pages"
   url: "https://git-scm.com/"
 
 - name: SaltStack
@@ -39,6 +39,16 @@ skills:
   logo: /images/sections/skills/ansible.png
   summary: "Experience utilizing Ansible for managing Linux services"
   url: "https://www.ansible.com/"  
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "Experience building, managing, and deploying docker services"
+  url: "https://www.docker.com/"
+
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Capable python scriptor for managing infrastructure"
+  url: "https://www.python.org/"
 
 - name: Databases
   logo: /images/sections/skills/databases.png
