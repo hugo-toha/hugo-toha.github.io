@@ -61,3 +61,8 @@ skills:
 - name: Databases
   logo: /images/sections/skills/databases.png
   summary: "Experienced Admin of many database services including MySQL, MariaDB, PostgreSQL, and Microsoft SQL"
+
+- name: SaltStack
+  logo: /images/sections/skills/saltstack.png
+  summary: "Experience SaltStack administrator."
+  url: "https://saltstack.io"
