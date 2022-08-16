@@ -84,6 +84,21 @@ badges:
   name: Problem Solving
   percentage: 95
   color: pink
+  
+  - type: soft-skill-indicator
+  name: Collaborative1
+  percentage: 90
+  color: yellow
+  
+- type: soft-skill-indicator
+  name: Mentorship1
+  percentage: 90
+  color: green
+
+- type: soft-skill-indicator
+  name: Problem Solving1
+  percentage: 95
+  color: pink
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
