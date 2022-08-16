@@ -85,7 +85,7 @@ badges:
   percentage: 95
   color: pink
   
-  - type: soft-skill-indicator
+- type: soft-skill-indicator
   name: Collaborative1
   percentage: 90
   color: yellow
