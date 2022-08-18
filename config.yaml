@@ -135,6 +135,10 @@ params:
       # # GoatCounter
       # goatCounter:
       #   code: <your goat counter code>
+      # # Matomo / Piwik
+      # matomo:
+      #   instance: matomo.example.com
+      #   siteId: 1 # Or any other number
 
     # # Enable Support
     # support:
