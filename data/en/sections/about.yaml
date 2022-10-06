@@ -32,27 +32,18 @@ socialLinks:
   icon: "fab fa-github"
   url: "https://www.github.com/example"
 
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
   url: "#"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "#"
 
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
 - title: "My Resume"
-  url: "files/resume.pdf"
+  url: "files/Hsaine.pdf"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
