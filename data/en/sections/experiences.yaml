@@ -11,54 +11,50 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: CTC Resourcing Solutions
+    url: "https://www.ctcresourcing.com"
+    location: Basel, Switzerland
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: With offices in Switzerland and Germany, CTC is a premier resourcing organisation that focuses on placing key talent to Pharmaceutical, Biotech, Medtech and CRO organisations across Europe.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Consultant
+    start: Feb 2022
+    end: August 2022
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Full 360 degree recruitment cycle
+    - Manage stakeholders expectations with acurate market data
+    - Conduct interviews and interview preparations
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: Actalent AG
+    url: "https://www.actalentservices.com/en/locations/global/switzerland/basel"
+    location: Basel, Switzerland
+    overview: With over twenty years of recruitment and staffing expertise in the UK, Europe, North America and Asia, Allegis Group has earned itself a reputation for providing professional talent with the skills and expertise your business needs to thrive. Our industry and market specific focus coupled with our dedication to customer satisfaction, has made us one of the largest and most reliable recruitment and staffing companies in the world.
+
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: IT Recruiter
+    start: March 2020
+    end: Aug 2021
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Source a Qualify senior IT profiles for pharmaceutical and BioTech companies.
+    - Conduct stakeholder meetings and present candiates as well as market insights
+    - Full 360 degree recruitment cycle
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
+    name: KPMG AG
+    url: "https://home.kpmg/ch/en/home.html"
+    location: Zurich Switzerland
     overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Administrative assistant
+    start: Jan 2020
+    end: March 2020
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Manage and fill in tax reports for Global Mobility Service clients.
+    - Handling of sensitive documents
+    - Interacting with various stakeholders

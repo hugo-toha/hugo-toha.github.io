@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Junior Developer
+designation: Master Student in Medical Informatics
 # your company information
 company:
   name: Example Co.
@@ -19,23 +19,23 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'I am a Master student in medical informatics with 2 years of consulting experience in life science technical recruitment.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "elalihsaine@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  url: "https://www.github.com/Heal23"
 
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/hsaine-sacha-el-ali-18a484a4/"
 
 
 
@@ -53,18 +53,18 @@ badges:
 
 
 - type: soft-skill-indicator
-  name: Presentation skills
-  percentage: 85
+  name: Data Science and AI
+  percentage: 65
   color: blue
 
 - type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
+  name: Full stack programming 
+  percentage: 40
   color: yellow
 
 - type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
+  name: Project Management
+  percentage: 70
   color: orange
 
 - type: certification
