@@ -1,0 +1,24 @@
+{
+    "name": "toha",
+    "version": "1.0.0",
+    "description": "A [Hugo](https://gohugo.io/) theme for a personal portfolio with minimalist design and responsiveness.",
+    "main": "index.js",
+    "scripts": {
+      "autoprefixer": "postcss static/css/*/*.css --use autoprefixer -r --no-map"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Heal23/Heal23.io.git"
+    },
+    "author": "Hsaine El-Ali",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Heal23/Heal23.io/issues"
+    },
+    "homepage": "https://github.com/Heal23/Heal23.io#readme",
+    "devDependencies": {
+      "autoprefixer": "^10.4.12",
+      "postcss": "^8.4.17",
+      "postcss-cli": "^8.3.1"
+    }
+  }
