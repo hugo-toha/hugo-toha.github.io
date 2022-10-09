@@ -1,8 +1,8 @@
 # some information about you
 name: "Hsaine El-Ali"
-nickname: "Sacha"
+nickname: "Sascha"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I am"
+greeting: "Hi my name is"
 image: "images/author/Hsaine.JFIF"
 # give your some contact information. they will be used in the footer
 contactInfo:
@@ -13,8 +13,8 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - I am a looking for a Traineeship
-  - I am to become part of a SCRUM team
-  - I am looking to become a Data Scientist
-  - I am looking to become a Software developer
+  - I am a looking for an entry level IT position
+  - as part of a SCRUM team
+  - traineeship in Data Scientist
+  - or Software development
   
