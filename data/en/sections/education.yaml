@@ -19,7 +19,7 @@ degrees:
   grade: #(optional)
     scale: 1-6
     achieved: 5
-    outOf: 
+    outOf: 6 so far
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true

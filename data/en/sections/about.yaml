@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a Master student in medical informatics with 2 years of consulting experience in life science technical recruitment.'
+summary: 'I have 2 years of consulting experience in life science during which I found my passion in IT and decided to enroll in the M.Sc. program in Medical Informatics. During various student projects I have used Python and R and applied Artificial Intelligence algorithms to various datasets. As part of a student team, I contributed to the development of a full stack medical software. I am CSPO certified. As a hobby I have played around with the MERN stack, HTML and CSS. I am currently looking for an entry level IT position within a SCRUM team, or a traineeship or internship as a Data scientist or Software developer. I am looking for a master thesis topic to begin in February 2023 as well.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -53,18 +53,18 @@ badges:
 
 
 - type: soft-skill-indicator
-  name: Data Science and AI
-  percentage: 65
+  name: Data Science
+  percentage: 100
   color: blue
 
 - type: soft-skill-indicator
   name: Full stack programming 
-  percentage: 40
+  percentage: 100
   color: yellow
 
 - type: soft-skill-indicator
-  name: Project Management
-  percentage: 70
+  name: Agile SCRUM
+  percentage: 100
   color: orange
 
 - type: certification
