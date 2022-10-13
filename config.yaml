@@ -60,7 +60,7 @@ params:
     maxVisibleSections: 5
 
   # Enable dark theme
-  darkMode:
+  darkMode: 
     provider: darkreader
     enable: false
     default: system
