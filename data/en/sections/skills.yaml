@@ -1,0 +1,43 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Capable of preparing Data sets and applting AI algorythms"
+  url: "https://kubernetes.io/"
+
+- name: The MERN Stack
+  logo: /images/sections/skills/react.png
+  summary: "Built a simple full stack app with CRUD and authentification functinality"
+  url: "https://golang.org/"
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  url: "https://git-scm.com/"
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Capable of writing bash/shell scripts commands."
+
+- name: HTML and CSS
+  logo: /images/sections/skills/HTML.png
+  summary: "Built Web Pages."
+
+
+
+
+
+
+
+

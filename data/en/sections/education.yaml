@@ -1,0 +1,70 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Master in Medical Informatics
+  icon: fa-microscope
+  timeframe: 2021-2023
+  institution:
+    name: Fachhochschule Nordwestschweiz FHNW
+    url: "https://www.fhnw.ch/en/degree-programmes/lifesciences/master/medical-informatics"
+  grade: #(optional)
+    scale: 1-6
+    achieved: 5
+    outOf: 6 so far
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: Digital Transformation in Healthcare
+      achieved: 6
+      outOf: 6
+    - name: BioMedical Data Science
+      achieved: 6
+      outOf: 6
+    - name: Machine Learning in Personalized medicine
+      achieved: 3
+      outOf: 3
+    - name: Digitalization of Busines processes
+      achieved: 6
+      outOf: 6 
+    - name: Artificial intelligence in drug discovery
+      achieved: 3
+      outOf: 3 
+    - name: Medical Software development
+      achieved: 6
+      outOf: 6 
+    - name: Business Intelligence
+      achieved: 6
+      outOf: 6  
+  publications: #(optional)
+  - title: Looking for a Master thesis topic.
+    url: "#"
+ 
+- name: B.Sc. in Business Administration and International Management
+  icon: fa-graduation-cap
+  timeframe: 2015-2020
+  institution:
+    name: Fachhochschule Nordwestschweiz FHNW
+    url: "https://www.fhnw.ch/en/degree-programmes"
+  grade: #(optional)
+    scale: 1-6
+    achieved: 5
+    outOf: 6
+ 
+  publications: #(optional)
+  - title: Pricing Analysis of Aspivix AG Prodcut
+    url: "#"
+  - title: Blockchain and supply chain sustainability
+    url: "#"
+
+

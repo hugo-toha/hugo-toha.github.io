@@ -1,0 +1,24 @@
+# section information
+section:
+  name: Accomplishments
+  id: accomplishments
+  enable: true
+  weight: 8
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+# Your accomplishments
+accomplishments:
+- name: CSPO Certified Scrum Product Owner
+  timeline: "July 2022"
+  organization:
+    name: Scrum Alliance
+    url: https://www.linuxfoundation.org
+  courseOverview: This course intensively prepares you for your work as a Scrum Product Owner. In addition to the agile mindset and an introduction to the Scrum principles, the focus is on the agile product development.
+  certificateURL: https://bcert.me/sdcfyattd #>
+
+
+ 
+

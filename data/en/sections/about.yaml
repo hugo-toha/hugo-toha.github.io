@@ -1,0 +1,78 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Master Student in Medical Informatics
+# your company information
+company:
+  name: Example Co.
+  url: "https://www.example.com"
+
+# your resume. this file path should be relative to you "static" directory
+# Dreprecated. Use resourceLinks instead.
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I have 2 years of consulting experience in life science during which I found my passion in IT and decided to enroll in the M.Sc. program in Medical Informatics. During various student projects I have used Python and R and applied Artificial Intelligence algorithms to various datasets. As part of a student team, I contributed to the development of a full stack medical software. I am CSPO certified. As a hobby I have played around with the MERN stack, HTML and CSS. I am currently looking for an entry level IT position within a SCRUM team, or a traineeship or internship as a Data scientist or Software developer. I am looking for a master thesis topic to begin in February 2023 as well.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "elalihsaine@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/Heal23"
+
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/hsaine-sacha-el-ali-18a484a4/"
+
+
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: "My Resume"
+  url: "files/Hsaine.pdf"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+
+
+
+- type: soft-skill-indicator
+  name: Data Science
+  percentage: 100
+  color: blue
+
+- type: soft-skill-indicator
+  name: Full stack programming 
+  percentage: 100
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Agile SCRUM
+  percentage: 100
+  color: orange
+
+- type: certification
+  name: Certified SCRUM Product Owner
+  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+  badge: "https://www.scrumalliance.org/ScrumRedesignDEVSite/media/ScrumAllianceMedia/Certification%20Badges/Official/SAI_BadgeSizes_DigitalBadging_CSPO.png"
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
