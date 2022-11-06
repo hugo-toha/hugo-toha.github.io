@@ -1,0 +1,53 @@
+# section information
+section:
+  name: Compétences
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Machine Learning
+  logo: /images/sections/skills/machine_learning.png
+  summary: "Méthodologie de construction de modèles de régressions. Utilisation de [Pandas](https://pandas.pydata.org/), [scikit-learn](https://scikit-learn.org) et [PyTorch](https://pytorch.org/)."
+
+- name: Calcul Haute Performance
+  logo: /images/sections/skills/hpc.png
+  summary: "Calcul parallele ([Open-MPI](https://en.wikipedia.org/wiki/Open_MPI), [Open-MP](https://en.wikipedia.org/wiki/OpenMP). Programation GPU ([Open-ACC](https://www.openacc.org/), [CUDA](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)). Vectorisation ([SMID](https://fr.wikipedia.org/wiki/Single_instruction_multiple_data))."
+
+- name: Architecture de code
+  summary: "Utilisation de design paterns."
+  # logo: /images/sections/skills/prometheus.png
+
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Utilisation de Python en machine learning, en développement de code scientifiques et pour des scripts."
+  url: https://www.python.org/
+
+- name: C++
+  logo: /images/sections/skills/c++.png
+  summary: "Utilisation dans un contexte de calcul haute performance."
+  url: https://fr.wikipedia.org/wiki/C%2B%2B
+
+- name: Fortran
+  logo: /images/sections/skills/fortran.png
+  summary: "Utilisation dans un contexte de calcul haute performance."
+  url: https://fr.wikipedia.org/wiki/Fortran
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Utilisation en OS principal. Utilisation avec [WSL](https://fr.wikipedia.org/wiki/Windows_Subsystem_for_Linux) sous windows."
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Utilisation de git. Experience de travail avec Gitlab."
+  url: "https://git-scm.com/"
+
+- name: LateX
+  logo: /images/sections/skills/latex.png
+  summary: "Rédaction de rapports."
+  url: https://fr.wikipedia.org/wiki/LaTeX

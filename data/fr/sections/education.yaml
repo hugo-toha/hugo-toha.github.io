@@ -1,0 +1,49 @@
+# section information
+section:
+  name: Formation
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Master - Mathématiques appliquées et Statistiques
+  icon: fa-university
+  timeframe: Bordeaux 2021-2022
+  institution:
+    name: Université de Bordeaux
+    url: "https://www.u-bordeaux.fr/admin/ancienne-formation?annee=2020&code=PRMA_19&titre=mathematiques-appliquees-statistique"
+
+- name: Ecole d'ingénieur - Fillière Mathématiques et Mécaniques, spécialité Calcul Haute Performance
+  icon: fa-graduation-cap
+  timeframe: Bordeaux 2019-2022
+  takenCourses:
+    courses:
+    - name: Techniques de maillages
+    - name: Analyse de données
+    - name: Calcul parallele
+    - name: Mécanique des fluides
+    - name: Mécanique des solides
+    - name: Comportement des matériaux
+  institution:
+    name: ENSEIRB-Matmeca | Bordeaux INP
+    url: "https://enseirb-matmeca.bordeaux-inp.fr/fr"
+  extracurricularActivities: #(optional)
+  - Trésorier du Bureau des élèves
+  - DJ aux soirées écoles (700 pers) 
+
+- name: Classes préparatoires aux grandes écoles PTSI/PT*
+  icon: fa-university
+  timeframe: Grenoble 2017-2019
+  institution:
+    name: Lycée Vaucanson
+    url: https://cpge38vaucanson.com/
+  takenCourses:
+    courses:
+    - name: Conception et dessin industriel
+    - name: Mécanique
+    - name: Physique
+    - name: Mathématiques

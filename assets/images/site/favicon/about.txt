@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Permanent Marker
+- Font Author: Copyright (c) 2010 by Font Diner, Inc. All rights reserved.
+- Font Source: http://fonts.gstatic.com/s/permanentmarker/v16/Fh4uPib9Iyv2ucM6pGQMWimMp004HaqIfrT5nlk.ttf
+- Font License: Apache License, version 2.0 (http://www.apache.org/licenses/LICENSE-2.0.html))

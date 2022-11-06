@@ -1,0 +1,36 @@
+# section information
+section:
+  name: Projets
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: Tous
+  filter: "all"
+- name: Académique
+  filter: "académique"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Maillage par réseaux de neuronnes
+  logo: /images/sections/projects/kubernetes.png
+  role: Developpeur
+  timeline: "Sept 2021 - Fev 2022"
+  repo: https://github.com/mtruel/projet_NN # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Implémentation d'un [article](https://doi.org/10.1016/j.neunet.2020.12.019) sur le maillage par réseaux de neuronnes. 
+  tags: ["Python", "Machine Learning", "PyTorch","académique"]
+
+- name: Modélisation et simualtion de matériaux composites à partir d'images microscopiques
+  logo: /images/sections/projects/tensorflow.png
+  role: Developpeur
+  timeline: "Sept 2020 - Juin 2021"
+  summary: Modélisation et simulation de matériaux composites à partir d’images microscopiques.
+  tags: ["C++", "Reconnaissance d'image","Composites","Eléments finis","académique"]
