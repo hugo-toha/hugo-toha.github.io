@@ -9,10 +9,10 @@ theme: "toha"
 languages:
   fr:
     languageName: Français
-    weight: 1
+    weight: 2
   en:
     languageName: English
-    weight: 2
+    weight: 1
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 # DefaultContentLanguage: bn
