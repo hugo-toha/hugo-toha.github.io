@@ -92,7 +92,7 @@ params:
 
     # Enable comment feature. There, should be only one of them.
     comment:
-      enable: true
+      enable: false
       disqus:
         shortName: toha-example-site
  
