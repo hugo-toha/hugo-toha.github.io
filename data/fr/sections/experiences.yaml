@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Experiences
+  name: Expériences
   id: experiences
   enable: true
   weight: 3
@@ -21,21 +21,22 @@ experiences:
     end: aujourd'hui
     responsibilities:
     - Refactoring de codes scientifiques
-    - intégration continue
+    - Intégration continue
   - designation: Stagiaire
     start: Février 2022
     end: Juillet 2022
     responsibilities:
-    - Prédiction de résultats de simulations via des méthodes supervisées 
+    - Etude bibliographique
+    - Prédiction de résultats de simulations numériques via des méthodes supervisées 
     - Adaptive sampling, Processus Gaussiens, Krigeage
-    - Réduction de modèle non intrusif, POD, MLP
+    - Réduction de modèle non intrusive, POD, MLP
     - Application sur des modèles de dynamique rapide instationnaires, LS-Dyna  
 
 - company:
     name: Novespace
     url: "https://www.airzerog.com/fr/prestations-science/"
-    location: Merignac
-    overview: Validation mécanique d'expériences en apesanteur pour l'embarquement à bord de l'A310 ZeroG
+    location: Mérignac
+    overview: Validation mécanique pour l'embarquement d'expériences en apesanteur à bord de l'A310 Air-ZeroG
   positions:
   - designation: Stagiaire
     start: Juin 2021

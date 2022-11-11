@@ -10,24 +10,28 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Master - Mathématiques appliquées et Statistiques
+- name: Master - Mathématiques Appliquées et Statistiques, parcours Modélisation Numérique et Calcul Haute Performance
   icon: fa-university
   timeframe: Bordeaux 2021-2022
   institution:
     name: Université de Bordeaux
     url: "https://www.u-bordeaux.fr/admin/ancienne-formation?annee=2020&code=PRMA_19&titre=mathematiques-appliquees-statistique"
 
-- name: Ecole d'ingénieur - Fillière Mathématiques et Mécaniques, spécialité Calcul Haute Performance
+- name: Ecole d'ingénieur - Filière Mathématiques et Mécaniques, spécialité Calcul Haute Performance
   icon: fa-graduation-cap
   timeframe: Bordeaux 2019-2022
   takenCourses:
     courses:
-    - name: Techniques de maillages
+    - name: Calcul parallèle
     - name: Analyse de données
-    - name: Calcul parallele
+    - name: Méthodes des eléments finis avancé
+    - name: Méthodes des volumes finis d'ordre élevé
+    - name: Solveurs linéaires 
+    - name: Techniques de maillages
     - name: Mécanique des fluides
     - name: Mécanique des solides
     - name: Comportement des matériaux
+    - name: Mathématiques appliquées
   institution:
     name: ENSEIRB-Matmeca | Bordeaux INP
     url: "https://enseirb-matmeca.bordeaux-inp.fr/fr"

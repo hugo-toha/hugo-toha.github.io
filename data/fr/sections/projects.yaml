@@ -13,24 +13,41 @@ buttons:
 - name: Tous
   filter: "all"
 - name: Académique
-  filter: "académique"
-- name: Hobby
-  filter: "hobby"
+  filter: "Académique"
+- name: Musique
+  filter: "Musique"
+- name: Perso
+  filter: "Perso"
+
 
 # your projects
 projects:
-- name: Maillage par réseaux de neuronnes
+- name: Maillage par réseaux de neurones
   logo: /images/sections/projects/kubernetes.png
   role: Developpeur
   timeline: "Sept 2021 - Fev 2022"
   repo: https://github.com/mtruel/projet_NN # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Implémentation d'un [article](https://doi.org/10.1016/j.neunet.2020.12.019) sur le maillage par réseaux de neuronnes. 
-  tags: ["Python", "Machine Learning", "PyTorch","académique"]
+  summary: Implémentation d'un [article](https://doi.org/10.1016/j.neunet.2020.12.019) sur le maillage par réseaux de neurones. 
+  tags: ["Python", "Machine Learning", "PyTorch","Académique"]
 
-- name: Modélisation et simualtion de matériaux composites à partir d'images microscopiques
+- name: Modélisation et simualtion de matériaux composites CMC à partir d'images microscopiques
   logo: /images/sections/projects/tensorflow.png
-  role: Developpeur
+  role: Développeur
   timeline: "Sept 2020 - Juin 2021"
   summary: Modélisation et simulation de matériaux composites à partir d’images microscopiques.
-  tags: ["C++", "Reconnaissance d'image","Composites","Eléments finis","académique"]
+  tags: ["C++", "Reconnaissance d'image","Composites","Eléments finis","Académique"]
+
+- name: Site web personnel
+  logo: /images/site/favicon/android-chrome-192x192.png
+  role: Développeur
+  timeline: "Novembre 2022"
+  summary: Création d'un site web personnel hébergé sur GitHub Pages. Utilisation du générateur de site statique [Hugo](https://gohugo.io/) avec le thème [toha](https://github.com/hugo-toha/toha)
+  tags: ["Perso"]
+
+- name: Le Technivers
+  role: Trésorier
+  timeline: "Sept 2022 - Aujourd'hui"
+  url: https://www.instagram.com/technivers/
+  summary: Création d'une association de DJ. Organisation d'évènements sur Bordeaux.
+  tags: ["Musique","Perso"]
