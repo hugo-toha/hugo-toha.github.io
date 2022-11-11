@@ -13,37 +13,37 @@ section:
 skills:
   - name: mySQL Workbench
     logo: /images/sections/skills/mysql.png
-    summary: "Capable of create local and on cloud databases (Azure and AWS), perform queries to normalize and analyze data."
+    summary: "Capable of setup local and cloud databases (Azure), perform queries to normalize and analyze data."
     url: "https://www.mysql.com/products/workbench/"
 
   - name: Cloud Computing
     logo: /images/sections/skills/cloud.png
-    summary: "Worked with most of the major clouds such as GCP, AWS, and Azure."
+    summary: "Worked in personal and school related projects with Azure."
 
   - name: Git
     logo: /images/sections/skills/git.png
-    summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+    summary: "Mostly, use Github. Also, have experience in working with Git and Git use with VScode"
     url: "https://git-scm.com/"
-
-  - name: Python
-    logo: /images/sections/skills/python.png
-    summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-    url: "https://www.python.org/"
-
-  - name: R
-    logo: /images/sections/skills/rstudio.png
-    summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-    url: "https://www.r-project.org/"
 
   - name: Tableau
     logo: /images/sections/skills/tableau.png
-    summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+    summary: "Experience using Tableau for analytical purposes. Built an analytical dashboard for HP Tech ventures use in their deal sourcing phase of investments."
     url: "https://www.tableau.com/"
 
   - name: PowerBi
     logo: /images/sections/skills/pbi.png
-    summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+    summary: "Experiece using PowerBi for analytical purposes. Built a dashboard for Sicredi's Bank analyse the net fundrasing of 41 investment funds in all Brazilian states."
     url: "https://powerbi.microsoft.com/en-us/"
+
+  - name: R
+    logo: /images/sections/skills/rstudio.png
+    summary: "Academic experience using R for conjunturing economics. Professioanl experience using API's to connect with government databases and building statistics analysis based using statistics data.table, dplyr, and ggplot2, etc."
+    url: "https://www.r-project.org/"
+
+  - name: Python
+    logo: /images/sections/skills/python.png
+    summary: "Beginner. Datacamp fundamentals courses."
+    url: "https://www.python.org/"
 #- name: C++
 #  logo: /images/sections/skills/c++.png
 #  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
