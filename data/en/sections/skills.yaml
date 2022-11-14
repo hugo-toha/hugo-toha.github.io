@@ -11,39 +11,39 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+  - name: mySQL Workbench
+    logo: /images/sections/skills/mysql.png
+    summary: "Capable of setup local and cloud databases (Azure), perform queries to normalize and analyze data."
+    url: "https://www.mysql.com/products/workbench/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+  - name: Cloud Computing
+    logo: /images/sections/skills/cloud.png
+    summary: "Worked in personal and school related projects with Azure."
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  - name: Git
+    logo: /images/sections/skills/git.png
+    summary: "Mostly, use Github. Also, have experience in working with Git and Git use with VScode"
+    url: "https://git-scm.com/"
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  url: "https://www.docker.com/"
+  - name: Tableau
+    logo: /images/sections/skills/tableau.png
+    summary: "Experience using Tableau for analytical purposes. Built an analytical dashboard for HP Tech ventures use in their deal sourcing phase of investments."
+    url: "https://www.tableau.com/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
+  - name: PowerBi
+    logo: /images/sections/skills/pbi.png
+    summary: "Experiece using PowerBi for analytical purposes. Built a dashboard for Sicredi's Bank analyse the net fundrasing of 41 investment funds in all Brazilian states."
+    url: "https://powerbi.microsoft.com/en-us/"
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+  - name: R
+    logo: /images/sections/skills/rstudio.png
+    summary: "Academic experience using R for conjunturing economics. Professioanl experience using API's to connect with government databases and building statistics analysis based using statistics data.table, dplyr, and ggplot2, etc."
+    url: "https://www.r-project.org/"
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
-
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  - name: Python
+    logo: /images/sections/skills/python.png
+    summary: "Beginner. Datacamp fundamentals courses."
+    url: "https://www.python.org/"
+#- name: C++
+#  logo: /images/sections/skills/c++.png
+#  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
