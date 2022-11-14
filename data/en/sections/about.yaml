@@ -1,6 +1,6 @@
 # section information
 section:
-  name: About
+  name: Felipe
   id: about
   enable: true
   weight: 1
@@ -8,86 +8,85 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Consultant
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: Boston Innovation Gateway
+  url: "https://www.bostoninnovation.net/"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
-# resume: "files/resume.pdf"
+# resume: "files/felipesena-resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: "I am an international student interested in consulting, data analysis, and investments. With +3 years of working experience in finance and consulting I know to turn data into insights to get the most out of it."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-- name: Email
-  icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "fdesena@student.hult.edu"
 
-- name: Github
-  icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://www.github.com/fdesena"
 
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+  - name: Stackoverflow
+    icon: "fab fa-stack-overflow"
+    url: "https://stackoverflow.com/users/19706132/felipe-sena"
 
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "#"
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/senafelipe/"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "#"
+  #- name: Twitter
+  #  icon: "fab fa-twitter"
+  #  url: "#"
 
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
+  #- name: Facebook
+  #  icon: "fab fa-facebook"
+  #  url: "#"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-- title: "My Resume"
-  url: "files/resume.pdf"
+  - title: "My Resume"
+    url: "files/felipesena-resume.pdf"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
-- type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+  - type: certification
+    name: Certified Innovation Professional
+    url: "https://www.giminstitute.org/product/certified-innovation-professional-gimi-cip-certificate/"
+    badge: "https://www.giminstitute.org/wp-content/uploads/2019/04/Certified-Innovation-Professional.png"
 
-- type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
+  - type: certification
+    name: Management Consulting Level 1
+    url: "https://www.giminstitute.org/product/management-consulting-certificate-level-1/"
+    badge: "https://www.giminstitute.org/wp-content/uploads/2018/06/Management-Consulting-Certificate-Level-1.png"
 
-- type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+  - type: certification
+    name: Management Consulting Level 2
+    url: "https://www.giminstitute.org/product/management-consulting-certificate-level-2/"
+    badge: "https://www.giminstitute.org/wp-content/uploads/2018/06/Management-Consulting-Certificate-Level-2.png"
 
-- type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
-  color: blue
+  - type: soft-skill-indicator
+    name: Leadership
+    percentage: 85
+    color: blue
 
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
-  color: yellow
+  - type: soft-skill-indicator
+    name: Team Work
+    percentage: 90
+    color: yellow
 
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
-  color: orange
-
+  - type: soft-skill-indicator
+    name: Hard Working
+    percentage: 90
+    color: orange
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
 #   name: Example 1
