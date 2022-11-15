@@ -10,7 +10,7 @@ languages:
   en:
     languageName: English
     weight: 1
-  bn:
+  pt:
     languageName: Portuguese
     weight: 3
 
