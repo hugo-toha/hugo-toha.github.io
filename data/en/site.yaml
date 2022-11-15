@@ -18,7 +18,7 @@ customMenus:
   hideFromNavbar: false
   # specify whether to show the menu item in footer or not.
   # if you set it to true, make sure you have set `footer.navigation.customMenus: true` in your config.yaml
-  showOnFooter: true
+  showOnFooter: false
 
 # Specify OpenGraph Headers
 openGraph:
