@@ -35,7 +35,7 @@ degrees:
     icon: fa-graduation-cap
     timeframe: 2021-2022
     institution:
-      name: HULT International Business (MIB)
+      name: HULT International Business School
       url: "https://www.hult.edu/masters/international-business/"
     grade: #(optional)
       scale: CGPA

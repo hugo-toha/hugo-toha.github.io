@@ -23,7 +23,7 @@ buttons:
 projects:
   - name: Life Scale
     logo: /images/sections/projects/lifescale.png
-    role: Contributor - Idea generation, Maket Intelligence Research
+    role: Contributor - Idea generation, Market Intelligence Research
     timeline: "Oct 2022 - Present"
     repo: https://github.com/fdesena/BalancedLife # If your project is a public repo on GitHub, then provide this link. it will show star count.
     #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.

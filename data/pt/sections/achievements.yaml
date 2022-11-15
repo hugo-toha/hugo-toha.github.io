@@ -1,25 +1,24 @@
 # section information
 section:
-  name: অর্জনসমূহ
+  name: Conquistas
   id: achievements
   enable: true
-  weight: 8
+  weight: 9
   showOnNavbar: true
-  template: sections/achievements.html
   # Can optionally hide the title in sections
   # hideTitle: true
 
 # Your achievements achievements
 achievements:
-- title: সেরা উপস্থাপক
-  image: /images/sections/achievements/presenter.jpg
-  summary: 2020 XYZ কনফারেন্স এ সেরা উপস্থাপক
-- title: বিজয়ী
-  image: /images/sections/achievements/sport.jpg
-  summary: আন্তঃ শহর সাইক্লিং প্রতিযোগিতা ২০২০ এ বিজয়ী
-- title: গ্রাজুয়েশন
-  image: /images/sections/achievements/graduation-cap.jpg
-  summary: XYZ ইউনিভার্সিটি থেকে কম্পিউটার বিজ্ঞানে স্নাতক  সম্পন্ন করেছি
-- title: পুরুস্কার বিজয়ী
-  image: /images/sections/achievements/woman-winner.jpg
-  summary: IEE Conference 2020 এ সেরা গবেষণাপত্রের পুরষ্কার বিজয়ী হয়েছি
+  #- title: Best Presenter
+  #  image: /images/sections/achievements/presenter.jpg
+  #  summary: Best presenter in the 2020 XYZ conference.
+  - title: Conclusão Destaque - Programa HP Tech Ventures
+    image: /images/sections/achievements/hptechventures.jpeg
+    summary: Em reconhecimento à fonte de informações e dados de startups para investimentos em potencial, bem como para determinar quais startups devemos buscar, uma reunião com Angelo Del Priore, parceiro da HP Tech Ventures.
+  - title: Graduado com Distinção
+    image: /images/sections/achievements/mibdiploma.png
+    summary: Recebeu Master of Science - International Business (MIB) da HULT International Business School.
+  - title: Premiado com grau verde e amarelo para velejar pelo Boston Community Boating Club.
+    image: /images/sections/achievements/sailing.jpeg
+    summary: Teste de bandeira amarela no Boston Community Boating club.

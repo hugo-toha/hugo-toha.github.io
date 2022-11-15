@@ -27,22 +27,22 @@ skills:
 
   - name: Tableau
     logo: /images/sections/skills/tableau.png
-    summary: "Experience using Tableau for analytical purposes. Built an analytical dashboard for HP Tech ventures use in their deal sourcing phase of investments."
+    summary: "Experience using Tableau for analytical purposes. Built an analytical dashboard for HP Tech ventures uses in their deal sourcing phase of investments."
     url: "https://www.tableau.com/"
 
   - name: PowerBi
     logo: /images/sections/skills/pbi.png
-    summary: "Experiece using PowerBi for analytical purposes. Built a dashboard for Sicredi's Bank analyse the net fundrasing of 41 investment funds in all Brazilian states."
+    summary: "Experience using Power Bi for analytical purposes. Built a dashboard for Sicredi Bank to analyze the net fundraising of 41 investment funds in all Brazilian states."
     url: "https://powerbi.microsoft.com/en-us/"
 
   - name: R
     logo: /images/sections/skills/rstudio.png
-    summary: "Academic experience using R for conjunturing economics. Professioanl experience using API's to connect with government databases and building statistics analysis based using statistics data.table, dplyr, and ggplot2, etc."
+    summary: "Academic experience using R for conjecturing economics. Professional experience using APIs to connect with government databases and building statistics analysis based using statistics data.table, dplyr, and ggplot2, etc."
     url: "https://www.r-project.org/"
 
   - name: Python
     logo: /images/sections/skills/python.png
-    summary: "Beginner. Datacamp fundamentals courses."
+    summary: "Beginner. School projects and datacamp."
     url: "https://www.python.org/"
 #- name: C++
 #  logo: /images/sections/skills/c++.png
