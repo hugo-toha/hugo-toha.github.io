@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Projects
+  name: Projetos
   id: projects
   enable: true
   weight: 5
@@ -10,11 +10,11 @@ section:
 
 # filter buttons
 buttons:
-  - name: All
+  - name: Todos
     filter: "all"
-  - name: Professional
+  - name: Profissional
     filter: "professional"
-  - name: Academic
+  - name: Acadêmico
     filter: "academic"
   - name: Hobby
     filter: "hobby"
@@ -23,21 +23,21 @@ buttons:
 projects:
   - name: Life Scale
     logo: /images/sections/projects/lifescale.png
-    role: Contributor - Idea generation, Market Intelligence Research
+    role: Colaborador - geração de ideias, pesquisa de inteligência de mercado
     timeline: "Oct 2022 - Present"
     repo: https://github.com/fdesena/BalancedLife # If your project is a public repo on GitHub, then provide this link. it will show star count.
     #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
     url: https://balancedlife-a993e.web.app/category
-    summary: Application developed during HackHarvard 2022. Everyday, people deal with many aspects of their life that cause them stress. Work, Finances, Relationships, Health, etc. All of these facets are important and yet it is so hard to prioritize everything. We created LifeScale because we know that managing several aspects of our lives can be difficult. Our focus is on helping our users live more balanced and meaningful lives.
+    summary: Aplicativo desenvolvido durante o HackHarvard 2022. Todos os dias, as pessoas lidam com muitos aspectos de suas vidas que lhes causam estresse. Trabalho, Finanças, Relacionamentos, Saúde, etc. Todas essas facetas são importantes e, no entanto, é muito difícil priorizar tudo. Criamos o LifeScale porque sabemos que gerenciar vários aspectos de nossas vidas pode ser difícil. Nosso foco é ajudar nossos usuários a viver vidas mais equilibradas e significativas.
     tags: ["hobby", "HackHarvard  ", "App"]
 
-  - name: H1B Analysis For MBAN Students
+  - name: Análise de vistos H1-B para estudantes MBAN
     logo: /images/sections/projects/h1b.png
     role: Contributor
     timeline: "Nov 2022 - Present"
     repo: https://github.com/fdesena/H1B-Analysis
     #url: ""
-    summary: Analysis on H1-B visa approvals. Performed an analysis using PowerQuery, MySQL Workbench, Python to indentify the best occupations and locations for MBAN students apply to leverage their chances to get a H1-B visa.
+    summary: Análise de aprovações de vistos H1-B. Realizei uma análise usando PowerQuery, MySQL Workbench, Python para identificar as melhores ocupações e locais para os alunos do MBAN se candidatarem para alavancar suas chances de obter um visto H1-B.
     tags: ["academic", "H1-B", "Analytics"]
 
   - name: Deal Sourcing - Tech Companies
@@ -45,7 +45,7 @@ projects:
     role: Analyst
     timeline: "Jan 2017 - Nov 2017"
     #  url: ""
-    summary: Used crunchbase database to source tech companies that improves hybrid work.
+    summary: Utilizei o banco de dados crunchbase para obter empresas de tecnologia que melhoram o trabalho híbrido.
     tags: ["professional", "venture-capital", "Analytics"]
 #- name: Nocode
 #  logo: /images/sections/projects/no-code.png

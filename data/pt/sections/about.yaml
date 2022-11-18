@@ -1,0 +1,94 @@
+# section information
+section:
+  name: Felipe
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Consultor
+# your company information
+company:
+  name: Boston Innovation Gateway
+  url: "https://www.bostoninnovation.net/"
+
+# your resume. this file path should be relative to you "static" directory
+# Dreprecated. Use resourceLinks instead.
+# resume: "files/felipesena-resume.pdf"
+
+# a summary about you
+summary: "Sou um estudante internacional interessado em consultoria, análise de dados e investimentos. Com +3 anos de experiência profissional em finanças e consultoria, sei como transformar dados em insights para aproveitá-los ao máximo."
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "fdesena@student.hult.edu"
+
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://www.github.com/fdesena"
+
+  - name: Stackoverflow
+    icon: "fab fa-stack-overflow"
+    url: "https://stackoverflow.com/users/19706132/felipe-sena"
+
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/senafelipe/"
+
+  #- name: Twitter
+  #  icon: "fab fa-twitter"
+  #  url: "#"
+
+  #- name: Facebook
+  #  icon: "fab fa-facebook"
+  #  url: "#"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+  - title: "Meu Currículo"
+    url: "files/felipesena-resume.pdf"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+  - type: certification
+    name: Certified Innovation Professional
+    url: "https://www.giminstitute.org/product/certified-innovation-professional-gimi-cip-certificate/"
+    badge: "https://www.giminstitute.org/wp-content/uploads/2019/04/Certified-Innovation-Professional.png"
+
+  - type: certification
+    name: Management Consulting Level 1
+    url: "https://www.giminstitute.org/product/management-consulting-certificate-level-1/"
+    badge: "https://www.giminstitute.org/wp-content/uploads/2018/06/Management-Consulting-Certificate-Level-1.png"
+
+  - type: certification
+    name: Management Consulting Level 2
+    url: "https://www.giminstitute.org/product/management-consulting-certificate-level-2/"
+    badge: "https://www.giminstitute.org/wp-content/uploads/2018/06/Management-Consulting-Certificate-Level-2.png"
+
+  - type: soft-skill-indicator
+    name: Liderança
+    percentage: 85
+    color: blue
+
+  - type: soft-skill-indicator
+    name: Trabalho em Equipe
+    percentage: 90
+    color: yellow
+
+  - type: soft-skill-indicator
+    name: Hard Working
+    percentage: 90
+    color: orange
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
