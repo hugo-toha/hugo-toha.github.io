@@ -22,7 +22,7 @@ customMenus:
 
 # Specify OpenGraph Headers
 openGraph:
-  title: Felipe's Portifolio
+  title: Felipe's Portfolio
   type: website
   description: Portfolio and personal blog of John Doe.
   image: images/author/felipesena-circular.png
