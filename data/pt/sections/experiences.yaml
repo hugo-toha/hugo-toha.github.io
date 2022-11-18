@@ -1,0 +1,61 @@
+# section information
+section:
+  name: Experiência
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+  - company:
+      name: Boston Innovation Gateway
+      url: "https://www.bostoninnovation.net/"
+      location: Cambridge, MA, United States
+      # company overview
+      overview: O BIG é um hub de consultoria internacional focado na expansão, aceleração e capacitação de negócios.
+    positions:
+      - designation: Strategy & Innovation Consultant Intern
+        start: Jun 2022
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        # end: Dec 2020
+        # give some points about what was your responsibilities at the company.
+        responsibilities:
+          - Realizei análises competitivas e de entrada no mercado baseadas em dados para identificar tendências de desempenho do setor e oportunidades de investimento para clientes
+          - Liderei 2 coortes de programas EPIC - uma imersão no ecossistema de inovação de Boston para profissionais seniores, empreendedores e estudantes
+          - Colaborei no treinamento de +200 alunos da Espanha e Colômbia no BIG/IXL Innovation Framework
+
+      #- designation: Fund Analyst
+      #   start: Feb 2020
+      #   end: Aug 2021
+      #   responsibilities:
+      #     - xxx
+      #     - xxx
+
+  - company:
+      name: HP Tech Ventures Remote Extern (Via Paragon One)
+      url: "https://www.paragonone.com/externships/hp-tech-ventures-corporate-vc-business-analytics-remote-externship"
+      location: Remote
+      overview: A HP Tech Ventures é o braço de capital de risco da HP Inc. Operando em equipes em Palo Alto e Tel Aviv, a HP Tech Ventures está promovendo um ecossistema de inovação e reinvenção que definirá o mundo e as experiências de amanhã.
+    positions:
+      - designation: Corporate VC & Business Analytics Remote Externship
+        start: Jun 2015
+        end: Jan 2016
+        responsibilities:
+          - Realizei o sourcing de 8 startups para due diligence de investimento adicional da HP Tech Ventures. Pesquisa de métricas, dados da indústria, equipe e análise de modelos de negócios com base em Pitchbook, CrunchBase e dados da web.
+          - Utilizei métodos e ferramentas de limpeza como Open Refine, e os dados foram investigados aplicando habilidades de Excel, SQL e Tableau para encontrar valores resumidos, tendências e construir gráficos.
+
+  - company:
+      name: SICREDI BANK
+      url: "https://www.sicredi.com.br/home/"
+      location: Porto Alegre, RS, Brazil
+      overview: O primeiro Banco Cooperativo do Brasil.
+    positions:
+      - designation: Fund Analyst
+        start: Feb 2020
+        end: Aug 2021
+        responsibilities:
+          - Acompanhamento de processos relevantes relacionados tanto a ativos adquiridos por Fundos de Investimento (Ações, CDO, SWAPs, etc.), quanto a passivos, adquiridos por investidores.
+          - Desenvolvi um painel automatizado de Excel e Power Bi para medir a captação líquida no sistema bancário, reduzindo o tempo gasto na consulta manual de dados e fornecendo insights para áreas relacionadas.

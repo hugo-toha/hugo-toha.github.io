@@ -1,0 +1,24 @@
+# section information
+section:
+  name: Conquistas
+  id: achievements
+  enable: true
+  weight: 9
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+  #- title: Best Presenter
+  #  image: /images/sections/achievements/presenter.jpg
+  #  summary: Best presenter in the 2020 XYZ conference.
+  - title: Conclusão Destaque - Programa HP Tech Ventures
+    image: /images/sections/achievements/hptechventures.jpeg
+    summary: Em reconhecimento à fonte de informações e dados de startups para investimentos em potencial, bem como para determinar quais startups devemos buscar, uma reunião com Angelo Del Priore, parceiro da HP Tech Ventures.
+  - title: Graduado com Distinção
+    image: /images/sections/achievements/mibdiploma.png
+    summary: Recebeu Master of Science - International Business (MIB) da HULT International Business School.
+  - title: Premiado com grau verde e amarelo para velejar pelo Boston Community Boating Club.
+    image: /images/sections/achievements/sailing.jpeg
+    summary: Teste de bandeira amarela no Boston Community Boating club.

@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Consultant
+designation: Consultor
 # your company information
 company:
   name: Boston Innovation Gateway
@@ -19,7 +19,7 @@ company:
 # resume: "files/felipesena-resume.pdf"
 
 # a summary about you
-summary: "I am an international student interested in consulting, data analysis, and investments. With +3 years of working experience in finance and consulting I know to turn data into insights to get the most out of it."
+summary: "Sou um estudante internacional interessado em consultoria, análise de dados e investimentos. Com +3 anos de experiência profissional em finanças e consultoria, sei como transformar dados em insights para aproveitá-los ao máximo."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -51,7 +51,7 @@ socialLinks:
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-  - title: "My Resume"
+  - title: "Meu Currículo"
     url: "files/felipesena-resume.pdf"
 
 # Show your badges
@@ -74,12 +74,12 @@ badges:
     badge: "https://www.giminstitute.org/wp-content/uploads/2018/06/Management-Consulting-Certificate-Level-2.png"
 
   - type: soft-skill-indicator
-    name: Leadership
+    name: Liderança
     percentage: 85
     color: blue
 
   - type: soft-skill-indicator
-    name: Team Work
+    name: Trabalho em Equipe
     percentage: 90
     color: yellow
 

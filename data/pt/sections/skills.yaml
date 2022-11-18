@@ -13,26 +13,26 @@ section:
 skills:
   - name: mySQL Workbench
     logo: /images/sections/skills/mysql.png
-    summary: "Capable of setup local and cloud databases (Azure), perform queries to normalize and analyze data."
+    summary: "Capaz de configurar bancos de dados locais e em nuvem (Azure), realizar consultas para normalizar e analisar dados."
     url: "https://www.mysql.com/products/workbench/"
 
   - name: Cloud Computing
     logo: /images/sections/skills/cloud.png
-    summary: "Worked in personal and school related projects with Azure."
+    summary: "Trabalhou em projetos pessoais e escolares com o Azure."
 
-  - name: Git
+  - name: Git/Github
     logo: /images/sections/skills/git.png
-    summary: "Mostly, use Github. Also, have experience in working with Git and Git use with VScode"
+    summary: "Principalmente, use o Github. Além disso, tenha experiência em trabalhar com Git e usar Git com VScode."
     url: "https://git-scm.com/"
 
   - name: Tableau
     logo: /images/sections/skills/tableau.png
-    summary: "Experience using Tableau for analytical purposes. Built an analytical dashboard for HP Tech ventures uses in their deal sourcing phase of investments."
+    summary: "Experiência no uso do Tableau para fins analíticos. Criou um painel analítico para uso de empreendimentos HP Tech em sua fase de aquisição de negócios de investimentos."
     url: "https://www.tableau.com/"
 
   - name: PowerBi
     logo: /images/sections/skills/pbi.png
-    summary: "Experience using Power Bi for analytical purposes. Built a dashboard for Sicredi Bank to analyze the net fundraising of 41 investment funds in all Brazilian states."
+    summary: "Experiência com Power Bi para fins analíticos. Construí um dashboard para o Banco Sicredi para analisar a captação líquida de 41 fundos de investimento em todos os estados brasileiros."
     url: "https://powerbi.microsoft.com/en-us/"
 
   - name: R
@@ -42,7 +42,7 @@ skills:
 
   - name: Python
     logo: /images/sections/skills/python.png
-    summary: "Beginner. School projects and datacamp."
+    summary: "Iniciante."
     url: "https://www.python.org/"
 #- name: C++
 #  logo: /images/sections/skills/c++.png

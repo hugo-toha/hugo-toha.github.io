@@ -6,59 +6,56 @@ section:
   weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
-  # hideTitle: true 
+  # hideTitle: true
 
 # Your experiences
 experiences:
-- company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
-  positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
-    responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+  - company:
+      name: Boston Innovation Gateway
+      url: "https://www.bostoninnovation.net/"
+      location: Cambridge, MA, United States
+      # company overview
+      overview: BIG is an international consulting hub focused on business expansion, acceleration, and capability building.
+    positions:
+      - designation: Strategy & Innovation Consultant Intern
+        start: Jun 2022
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        # end: Dec 2020
+        # give some points about what was your responsibilities at the company.
+        responsibilities:
+          - Conduct data-driven, market entry, and competitive analysis to identify industry performance trends and investment opportunities for clients
+          - Led 2 cohorts of EPIC programs - an immersion within Boston innovation ecosystem for senior professionals, entrepreneurs, and students.
+          - Collaborated in training of +200 students from Spain and Colombia on BIG/IXL Innovation Framwork
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+      #- designation: Fund Analyst
+      #   start: Feb 2020
+      #   end: Aug 2021
+      #   responsibilities:
+      #     - xxx
+      #     - xxx
 
-- company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
-  positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+  - company:
+      name: HP Tech Ventures Remote Extern (Via Paragon One)
+      url: "https://www.paragonone.com/externships/hp-tech-ventures-corporate-vc-business-analytics-remote-externship"
+      location: Remote
+      overview: HP Tech Ventures is the venture capital arm of HP Inc. Operating across teams in Palo Alto and Tel Aviv, HP Tech Ventures is fostering an ecosystem of innovation and reinvention that will define tomorrow’s world and experiences.
+    positions:
+      - designation: Corporate VC & Business Analytics Remote Externship
+        start: Jun 2015
+        end: Jan 2016
+        responsibilities:
+          - Performed deal sourcing of 8 startups for further investment due diligence of HP Tech Ventures. Researched metrics, industry data, team, and business models analysis based on Pitchbook, CrunchBase and web data.
+          - Utilized cleaning methods and tools such as Open Refine, and data was investigated applying Excel, SQL and Tableau skills to find summary values, trends and construct charts.
 
-- company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-  positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
-    responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+  - company:
+      name: SICREDI BANK
+      url: "https://www.sicredi.com.br/home/"
+      location: Porto Alegre, RS, Brazil
+      overview: The first cooperative bank in Brazil.
+    positions:
+      - designation: Fund Analyst
+        start: Feb 2020
+        end: Aug 2021
+        responsibilities:
+          - Monitored relevant processes related to both assets purchased by Investment Funds (Shares, CDO, SWAPs, etc.), as well as liabilities, acquired by investors.
+          - Designed an automated Excel and Power Bi dashboard to measure net fundraising within banking system, reducing time spent looking at data manually and delivering insights to related areas.

@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Education
+  name: Educaçäo
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
@@ -28,8 +28,8 @@ degrees:
     #- title: Nullam vitae orci tincidunt purus viverra pulvinar.
     #  url: "#"
     extracurricularActivities: #(optional)
-      - Member of HULT DATA Club
-      - Participant of HackHarvard 2022
+      - Membro do HULT DATA Club
+      - Participante do HackHarvard 2022
 
   - name: Master of Science - International Business (MIB)
     icon: fa-graduation-cap
@@ -42,8 +42,8 @@ degrees:
       achieved: 3.76
       outOf: 4
     extracurricularActivities: #(optional)
-      - Member of HULT CONSULTING Club
-      - APEX CONSULTING COMPETITION - IXL CENTER
+      - Membro do HULT CONSULTING Club
+      - Participação na competição global de consultoria promovido pela APEX em parceria com IXL and BIG.
 
   - name: Bachelor’s in economics (BA)
     icon: fa-graduation-cap
@@ -78,8 +78,8 @@ degrees:
     # - title: Fusce eu augue ut odio porttitor pulvinar.
     #   url: "#"
     extracurricularActivities: #(optional)
-      - Founder of Group of Studies in Economic Conjuncture (GECE)
-      - Member of Entrepreneur Club
+      - Fundador do Grupo de Estudos em Conjuntura Económica (GECE)
+      - Membro do Clube do Empreendedor
 #- name: Higher Secondary School Certificate
 #  icon: fa-university
 #  timeframe: 2010-2012
