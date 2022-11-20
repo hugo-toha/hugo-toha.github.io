@@ -1,0 +1,11 @@
+copyright: © 2022 Copyright.
+# Meta description for your site.  This will help the search engines to find your site.
+description: Mathias Truel site.
+
+# Specify OpenGraph Headers
+openGraph:
+  title: Mathias Truel
+  type: website
+  description: Mathias Truel site.
+  image: images/author/me.jpg
+  url: https://mathiastruel.fr/

@@ -1,0 +1,53 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Master - Applied Mathematics Statistics, Numerical Modeling and High Performance Computing
+  icon: fa-university
+  timeframe: Bordeaux 2021-2022
+  institution:
+    name: Université de Bordeaux
+    url: "https://www.u-bordeaux.fr/admin/ancienne-formation?annee=2020&code=PRMA_19&titre=mathematiques-appliquees-statistique"
+
+- name: French Engineering School - Mathematics and Mechanics, High Performance Computing
+  icon: fa-graduation-cap
+  timeframe: Bordeaux 2019-2022
+  takenCourses:
+    courses:
+    - name: Parallel programming
+    - name: Data analysis
+    - name: Finite element method
+    - name: High order finite volume method
+    - name: Linear solvers for industrial problems
+    - name: Meshing strategies
+    - name: Fluid mechanics
+    - name: Solid mechanics
+    - name: Structural analysis
+    - name: Applied Mathematics
+  institution:
+    name: ENSEIRB-Matmeca | Bordeaux INP
+    url: "https://www.bordeaux-inp.fr/en"
+  extracurricularActivities: #(optional)
+  - Treasurer for the student organization
+  - DJ at school events (700 ppl) 
+
+- name: Preparatory classes to french engineering schools PTSI/PT*
+  icon: fa-university
+  timeframe: Grenoble 2017-2019
+  institution:
+    name: Lycée Vaucanson
+    url: https://cpge38vaucanson.com/
+  takenCourses:
+    courses:
+    - name: Mechanical design and industrial drawing
+    - name: Mechanics
+    - name: Physics
+    - name: Mathematics

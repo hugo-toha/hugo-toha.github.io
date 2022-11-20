@@ -1,0 +1,53 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Machine Learning
+  logo: /images/sections/skills/machine_learning.png
+  summary: "Method to setup regression models. Use of [Pandas](https://pandas.pydata.org/), [scikit-learn](https://scikit-learn.org) and [PyTorch](https://pytorch.org/)."
+
+- name: High Performance Computing 
+  logo: /images/sections/skills/hpc.png
+  summary: "Parallel programming([Open-MPI](https://en.wikipedia.org/wiki/Open_MPI), [Open-MP](https://en.wikipedia.org/wiki/OpenMP)). Programming on GPU ([Open-ACC](https://www.openacc.org/), [CUDA](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)). Vectorization ([SMID](https://en.wikipedia.org/wiki/Single_instruction,_multiple_data))."
+
+- name: Code architecture
+  summary: "Architecture CLEAN and Hexagonal, refactoring"
+  # logo: /images/sections/skills/prometheus.png
+
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Use of Python for machine learning and to develop scientific codes."
+  url: https://www.python.org/
+
+- name: C++
+  logo: /images/sections/skills/c++.png
+  summary: "Used in an High Performance Computing context."
+  url: https://fr.wikipedia.org/wiki/C%2B%2B
+
+- name: Fortran
+  logo: /images/sections/skills/fortran.png
+  summary: "Used in an High Performance Computing context."
+  url: https://fr.wikipedia.org/wiki/Fortran
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Used as my principal OS. Also used with [WSL](https://fr.wikipedia.org/wiki/Windows_Subsystem_for_Linux) under windows."
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Use of Git. Experience with Gitlab."
+  url: "https://git-scm.com/"
+
+- name: LateX
+  logo: /images/sections/skills/latex.png
+  summary: "Report writing."
+  url: https://fr.wikipedia.org/wiki/LaTeX

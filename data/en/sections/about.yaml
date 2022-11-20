@@ -1,0 +1,68 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Python developer
+# your company information
+company:
+  name: Ingeliance
+  url: "https://ingeliance.com/"
+
+# your resume. this file path should be relative to you "static" directory
+# Dreprecated. Use resourceLinks instead.
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: "Engineer/Developer in scientific computing, I refactor existing scientific codes."
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "mathias.truel@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/mtruel"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/mathias-truel/"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: "My resume (FR)"
+  url: "files/TRUEL_Mathias_CV.pdf"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+# badges:
+# - type: soft-skill-indicator
+#   name: Python
+#   percentage: 70
+#   color: blue
+
+# - type: soft-skill-indicator
+#   name: Team Work
+#   percentage: 90
+#   color: yellow
+
+# - type: soft-skill-indicator
+#   name: Hard Working
+#   percentage: 85
+#   color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"

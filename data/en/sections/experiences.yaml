@@ -1,0 +1,47 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Ingeliance
+    url: "https://ingeliance.com/"
+    location: Mérignac
+    overview: Engineering company 
+  positions:
+  - designation: "Engineer/Developer"
+    start: October 2022
+    end: today
+    responsibilities:
+    - Code refactoring for scientific codes
+    - Continuous integration
+  - designation: Intern
+    start: February 2022
+    end: July 2022
+    responsibilities:
+    - Bibliographic review 
+    - Use of supervised method to predict results of numerical simulations.
+    - Adaptive sampling, Gaussian Process, Kriging
+    - Non intrusive model order reduction, POD, MLP
+    - Implementation on rapid dynamic models, LS-Dyna  
+
+- company:
+    name: Novespace
+    url: "https://www.airzerog.com/scientific-research-services/"
+    location: Mérignac
+    overview: Numerical mechanical validation for boarding weightlessness scientific experiments onboard the A310 Air-ZeroG plane
+  positions:
+  - designation: Intern
+    start: June 2021
+    end: September 2021
+    responsibilities:
+    - Preliminary study 
+    - Modification of an open-source finite element software for truss structures
+    - Object oriented programming in Python

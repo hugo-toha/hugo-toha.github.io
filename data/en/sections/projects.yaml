@@ -1,0 +1,53 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Academic
+  filter: "Academic"
+- name: Music
+  filter: "Music"
+- name: Personal
+  filter: "Personal"
+
+
+# your projects
+projects:
+- name: Mesh using neural networks
+  logo: /images/sections/projects/kubernetes.png
+  role: Developer
+  timeline: "Sept 2021 - Feb 2022"
+  repo: https://github.com/mtruel/projet_NN # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Implementation of an [article](https://doi.org/10.1016/j.neunet.2020.12.019) about teaching NN to mesh. 
+  tags: ["Python", "Machine Learning", "PyTorch","Academic"]
+
+- name: Modeling and Numerical Simulation of composites CMC from microscopic images
+  logo: /images/sections/projects/tensorflow.png
+  role: Developer
+  timeline: "Sept 2020 - June 2021"
+  summary: Modeling and Numerical Simulation of composites CMC from microscopic images.
+  tags: ["C++", "Computer vision","Composites","Finite element method","Academic"]
+
+- name: Personal web site
+  logo: /images/site/favicon/android-chrome-192x192.png
+  role: Developer
+  timeline: "November 2022"
+  summary: Creation of this personal website hosted with GitHub Pages. Use of the static site generator [Hugo](https://gohugo.io/) with the [toha](https://github.com/hugo-toha/toha) theme.
+  tags: ["Personal"]
+
+- name: Le Technivers
+  role: Treasurer
+  timeline: "Sept 2022 - today"
+  url: https://www.instagram.com/technivers/
+  summary: Association of DJs. Event organization in Bordeaux.
+  tags: ["Music","Personal"]
