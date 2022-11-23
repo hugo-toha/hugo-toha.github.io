@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     steps:
     # checkout to the commit that has been pushed
     - uses: actions/checkout@v3
