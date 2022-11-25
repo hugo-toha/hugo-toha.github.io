@@ -1,20 +1,20 @@
 baseURL: http://mathiasbsrt.github.io/
-languageCode: en-us
-title: "Claire Labit-Bonis"
+languageCode: fr-fr
+title: "Mathias Bossaerts"
 theme: "toha"
 
 
 
-defaultContentLanguage: en
+defaultContentLanguage: fr
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
   en:
     languageName: English
-    weight: 1
+    weight: 2
   fr:
     languageName: Français
-    weight: 2
+    weight: 1
 
 # Control TOC depth
 markup:

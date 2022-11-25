@@ -22,8 +22,8 @@ customMenus:
 
 # Specify OpenGraph Headers
 openGraph:
-  title: John's Blog
+  title: Mathias portfolio
   type: website
-  description: Portfolio and personal blog of John Doe.
-  image: images/author/john.png
-  url: https://hugo-toha.github.io
+  description: Portfolio of Mathias Bossaerts
+  image: images/author/pp-pro.jpg
+  url: mathiasbsrt.github.io
