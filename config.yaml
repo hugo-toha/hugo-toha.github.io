@@ -1,4 +1,4 @@
-baseURL: http://mathiasbsrt.github.io
+baseURL: https://mathiasbsrt.github.io/
 
 languageCode: en-us
 title: "John's Blog"
@@ -51,7 +51,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: http://github.com/mathiasbsrt/mathiasbsrt.github.io
+  gitRepo: https://github.com/MathiasBsrt/MathiasBsrt.github.io
   # Default branch of your Git repo
   gitBranch: main
 
