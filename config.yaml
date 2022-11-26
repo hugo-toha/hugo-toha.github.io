@@ -70,7 +70,7 @@ params:
       enable: true
     # Enable and configure blog posts
     blog:
-      enable: false
+      enable: true
       # Share post on different social media
       shareButtons:
         facebook: true
@@ -86,7 +86,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: false
+      enable: true
 
     # Enable comment feature. There, should be only one of them.
     comment:
