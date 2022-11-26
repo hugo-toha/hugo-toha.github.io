@@ -1,11 +1,12 @@
 ---
-title: "Markdown এর নমুনা"
+title: "Markdown Samples"
 date: 2020-06-08T08:06:25+06:00
 description: Markdown rendering samples
 menu:
   sidebar:
-    name: Markdown এর নমুনা
+    name: Markdown Sample
     identifier: markdown
+    parent: examples
     weight: 30
 author:
   name: Jessica Jonas
@@ -13,13 +14,13 @@ author:
 math: true
 ---
 
-এই নমুনা পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ
+This is a sample post intended to test the followings:
 
-- একজন ভিন্ন পোস্ট লেখক।
-- সূচীপত্র।
-- Markdown কন্টেন্ট রেন্ডারিং।
-- গণিত রেন্ডারিং।
-- ইমোজি রেন্ডারিং।
+- A different post author.
+- Table of contents.
+- Markdown content rendering.
+- Math rendering.
+- Emoji rendering.
 
 ---
 # Markdown Syntax Rendering
