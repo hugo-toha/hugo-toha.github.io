@@ -20,3 +20,6 @@ resources/*
 .idea/**/projectSettingsUpdater.xml
 .idea/**/vcs.xml
 .idea/**/workspace.xml
+## track these files, if they exist ##
+!.gitignore
+!.gitmodules
