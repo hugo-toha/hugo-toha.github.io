@@ -1,4 +1,4 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://Hugo-Toha-Portfolio.github.io
 
 languageCode: en-us
 title: "Tony Condon's Portfolio"
@@ -10,12 +10,9 @@ languages:
   en:
     languageName: English
     weight: 1
-  bn:
-    languageName: বাংলা
-    weight: 3
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
-DefaultContentLanguage: en
+# DefaultContentLanguage: en
 
 # Allow raw html in markdown file
 markup:
@@ -57,7 +54,7 @@ params:
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
-    maxVisibleSections: 5
+    maxVisibleSections: 6
 
   # Enable dark theme
   darkMode:
@@ -69,18 +66,18 @@ params:
   features:
     # Enable and configure portfolio
     portfolio:
-      enable: true
+      #enable: true
     # Enable and configure blog posts
-    blog:
-      enable: true
+    #blog:
+      #enable: false
       # Share post on different social media
-      shareButtons:
+      #shareButtons:
         # facebook: true
         # twitter: true
-        linkedin: true
+        #linkedin: true
         # reddit: true
         # whatsapp: true
-        email: true
+        #email: true
         # tumblr: true
         # pocket: true
         # diaspora: true
@@ -88,13 +85,13 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
       enable: false
       disqus:
-        shortName: toha-example-site
+        shortName: hugo-toha-portfolio-site-tony-condon
       # valine:
       #   appId: HTV6askWxVo3vOxlqjjaq2hd-MsYXbMMI
       #   appKey: pVrT3C85KGIuk27t07eh6bUC
@@ -124,11 +121,11 @@ params:
       #   hideDeleted: false
 
     # Enable Analytics
-    analytics:
-      enabled: false
+    #analytics:
+      #enabled: false
       # Google Analytics
-      google:
-        id: G-H4LBG7NDFZ
+      #google:
+        #id: 
       # # CounterDev
       # counterDev:
       #   id: <your counterdev id>
@@ -159,9 +156,9 @@ params:
   showFlags: true
 
   # If you want to use different country flag for a language, specify them here.
-  # flagOverwrites:
-  # - languageCode: en
-  #   countryCode: us
+  flagOverwrites:
+  - languageCode: en
+    countryCode: us
 
   # Provide footer configuration.
   footer:
@@ -171,15 +168,15 @@ params:
     template: footer.html
     # Show/hide navigation in the footer. Default is "true".
     navigation:
-      enable: true
+      enable: false
       # show custom menus in the footer
-      customMenus: true
+      customMenus: false
     # Show/hide "Contact Me" section in the footer. Default is "true".
     contactMe:
       enable: true
     # Show/hide credentials section in the footer. Default is "true".
     credentials:
-      enable: true
+      enable: false
 
     # Show/hide newsletter section in the footer. Default is "true".
     # Currently, it supports "mailchimp".
