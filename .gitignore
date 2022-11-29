@@ -12,3 +12,11 @@ resources/*
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+## .idea directory files ##
+.idea/**/discord.xml
+.idea/**/encodings.xml
+.idea/**/indexLayout.xml
+.idea/**/misc.xml
+.idea/**/projectSettingsUpdater.xml
+.idea/**/vcs.xml
+.idea/**/workspace.xml
