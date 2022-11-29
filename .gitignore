@@ -1,17 +1,3 @@
-resources/*
-# Default ignored files
-/shelf/
-/workspace.xml
-# Rider ignored files
-/modules.xml
-/.idea.Hugo-Toha-Portfolio.iml
-/projectSettingsUpdater.xml
-/contentModel.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
 ## .idea directory files ##
 .idea/**/discord.xml
 .idea/**/encodings.xml
@@ -23,3 +9,5 @@ resources/*
 ## track these files, if they exist ##
 !.gitignore
 !.gitmodules
+
+resources/*
