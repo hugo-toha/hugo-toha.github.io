@@ -21,8 +21,10 @@ experiences:
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
-    #responsibilities:
-    #- 
+    responsibilities:
+    - Deployment, configuration, and management of a global infrastructure of AWS services to support the HireVue platform.
+    - Monitor and maintain systems and services using cloud monitoring and loggin tools
+    - Collaborate with Engineers on deployment and improvement of platform systems and services.
 - company:
     name: Amobee
     url: "https://www.amobee.com"
