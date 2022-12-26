@@ -25,7 +25,7 @@ jobs:
 
     # Verify Lighthouse scores
     - name: Verify Lighthouse  scores
-      uses: foo-software/lighthouse-check-status-action@v2.0.0
+      uses: foo-software/lighthouse-check-status-action@v2.0.1
       with:
         lighthouseCheckResults: ${{ steps.lighthouseCheck.outputs.lighthouseCheckResults }}
         minAccessibilityScore: "95"
