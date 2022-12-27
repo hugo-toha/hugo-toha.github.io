@@ -12,10 +12,7 @@ jobs:
     steps:
     # checkout to the commit that has been pushed
     - uses: actions/checkout@v3
-      with:
-        submodules: true  # Fetch Hugo themes (true OR recursive)
-        fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-    
+
     # install Hugo
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2.6.0
@@ -25,7 +22,9 @@ jobs:
 
     # build website
     - name: Build
-      run: hugo --minify
+      run: |
+        hugo mod tidy
+        hugo --minify
 
     # push the generated content into the `gh-pages` branch.
     - name: Deploy
