@@ -26,6 +26,7 @@ jobs:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       with:
         args: "--verbose --exclude-mail ${{steps.preview.outputs.url}}"
+        fail: true
 
     - name: Comment Broken Links
       uses: marocchino/sticky-pull-request-comment@v2
