@@ -6,25 +6,33 @@ publish = "public"
 HUGO_ENABLEGITINFO = "true"
 HUGO_ENV           = "production"
 HUGO_VERSION       = "0.109.0"
+NODE_VERSION       = "v18.12.1"
+NPM_VERSION        = "8.19.2"
 
 [context.split1]
-command = "hugo --gc --minify --enableGitInfo"
+command = "hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --minify --enableGitInfo"
 
     [context.split1.environment]
     HUGO_ENV     = "production"
     HUGO_VERSION = "0.109.0"
+    NODE_VERSION = "v18.12.1"
+    NPM_VERSION  = "8.19.2"
 
 [context.deploy-preview]
-command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+command = "hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
     [context.deploy-preview.environment]
     HUGO_VERSION = "0.109.0"
+    NODE_VERSION = "v18.12.1"
+    NPM_VERSION  = "8.19.2"
 
 [context.branch-deploy]
-command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+command = "hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
     [context.branch-deploy.environment]
     HUGO_VERSION = "0.109.0"
+    NODE_VERSION = "v18.12.1"
+    NPM_VERSION  = "8.19.2"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"

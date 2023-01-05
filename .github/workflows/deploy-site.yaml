@@ -13,18 +13,27 @@ jobs:
     # checkout to the commit that has been pushed
     - uses: actions/checkout@v3
 
-    # install Hugo
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2.6.0
       with:
         hugo-version: 'latest'
         extended: true
 
-    # build website
-    - name: Build
+    - name: Update Hugo Modules
+      run: hugo mod tidy
+
+    - name: Setup Node
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+
+    - name: Install node modules
       run: |
-        hugo mod tidy
-        hugo --minify
+        hugo mod npm pack
+        npm install
+
+    - name: Build
+      run: hugo --minify
 
     # push the generated content into the `gh-pages` branch.
     - name: Deploy
