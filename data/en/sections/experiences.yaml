@@ -21,9 +21,8 @@ experiences:
     start: Jan 2022
     # give some points about what was your responsibilities at the company
     responsibilities:
-    - Backend and frontend development to prepare and visualize workforce and project data
-    - Successful design of a company-wide workforce planning concept for a large enterprise that led to subsequent commissions
-    - Integration of interview data into an information flow design that enabled the UX/UI team to create a click dummy with high user acceptance
+    - Design of a framework in Python to generate test data for solutions build in ONE LOGIC’s development platform ONE DATA, e.g., to enable integration tests or facilitate customer presentations
+    - Translation of user research data into an information flow design for the workforce planning activities of a large enterprise that enabled the UX/UI team to create a click dummy with high user acceptance
 
 - company:
     name: adesso insurance solutions GmbH
@@ -39,21 +38,8 @@ experiences:
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Consultation of upper management on a cross-functional data strategy, e.g., by giving a free speech at an executive leadership meeting
-    - Designing and giving customer training sessions regarding adesso insurance solutions’s software products with a focus on data models and historization
+    - Designing and giving customer training sessions regarding adesso insurance solutions’s software products with a focus on data models and historicization
     - Research, documentation and communication of legal regulations regarding the processing of personal data to build data-driven models for the German private insurance sector
-
-
-- company:
-    name: RWTH Aachen University, elopto oHG, Technische Universität Darmstadt
-    url: ""
-    location: Aachen and Darmstadt
-    overview: During my studies, I constantly worked as student assistant, mostly in departments of the universities I was registered at but also in industry.
-  positions:
-  - designation: Student assistant
-    start: Oct 2011
-    end: Mar 2017
-    responsibilities:
-    - Various activities ranging from teaching to bio-signal processing, and manufacturing
 
 
     
