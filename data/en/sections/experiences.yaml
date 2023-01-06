@@ -15,13 +15,13 @@ experiences:
     url: "https://onelogic.de/en/"
     location: Munich
     # company overview
-    overview: ONE LOGIC GmbH specializes in unlocking business value from data, either by building customized solutions or by providing standardized data products. At ONE LOGIC, Data scientists develop solutions on the home-grown technology platform [ONE DATA](https://onelogic.de/en/products/data-product-builder-one-data/).
+    overview: ONE LOGIC GmbH specializes in unlocking business value from data, either by building customized solutions or by providing standardized data products. At ONE LOGIC, Data Scientists develop solutions on the home-grown technology platform [ONE DATA](https://onelogic.de/en/products/data-product-builder-one-data/).
   positions:
   - designation: Data Scientist
     start: Jan 2022
     # give some points about what was your responsibilities at the company
     responsibilities:
-    - Design of a framework in Python to generate test data for solutions build in ONE LOGIC’s development platform ONE DATA, e.g., to enable integration tests or facilitate customer presentations
+    - Design of a Python framework to generate test data for solutions built in ONE DATA, e.g., to enable integration tests or facilitate presentations of data products to customers
     - Translation of user research data into an information flow design for the workforce planning activities of a large enterprise that enabled the UX/UI team to create a click dummy with high user acceptance
 
 - company:
