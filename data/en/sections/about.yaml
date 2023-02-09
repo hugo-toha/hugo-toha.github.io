@@ -48,6 +48,11 @@ socialLinks:
   icon: "fab fa-facebook"
   url: "#"
 
+- name: Mastadon
+  icon: "fab fa-mastodon"
+  url: "#"
+  rel: "me noopener"
+
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
