@@ -10,81 +10,83 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
+- name: B.Sc. in Computer Science and Engineering
   icon: fa-microscope
-  timeframe: 2016-2020
+  timeframe: 2018-2022
   institution:
-    name: ABC University of Technology
-    url: "#"
+    name: Bangladesh University of Business and Technology (BUBT)
+    url: "https://www.bubt.edu.bd/"
   grade: #(optional)
     scale: CGPA
-    achieved: 3.6
+    achieved: 3.83
     outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
-  icon: fa-graduation-cap
-  timeframe: 2012-2016
-  institution:
-    name: University of XYZ
-    url: "#"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
+  #publications: #(optional)
+  #- title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #url: "#"
+  #- title: Fusce eu augue ut odio porttitor pulvinar.
+    #url: "#"
+  #- title: Nullam vitae orci tincidunt purus viverra pulvinar.
+    #url: "#"
+#- name: B.Sc. in Computer Science & Engineering
+  #icon: fa-graduation-cap
+  #timeframe: 2012-2016
+  #institution:
+    #name: University of XYZ
+    #url: "#"
+  #grade: #(optional)
+    #scale: CGPA
+    #achieved: 3.5
+    #outOf: 4
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
     collapseAfter: 3
     courses:
-    - name: Data Structures and Algorithm
+    - name: Data Structures  
       achieved: 3.75
       outOf: 4
-    - name: Network Security
-      achieved: 3.80
+    - name: Algorithm
+      achieved: 3.75
       outOf: 4
     - name: Operating System
-      achieved: 3.5
+      achieved: 4
       outOf: 4
     - name: Artificial Intelligent
       achieved: 3.75
       outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
+  #publications: #(optional)
+  #- title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #url: "#"
+  #- title: Fusce eu augue ut odio porttitor pulvinar.
+    #url: "#"
+  #- title: Fusce eu augue ut odio porttitor pulvinar.
+    #url: "#"
   extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
+  - I was involved with IEEE BUBT SB and IEEE CS BUBT SBC.
+  - I did voluntary work for IEEE Computer Society Bangladesh Chapter Team SPARK. Team SPARK is the student body of IEEE Computer Society Bangladesh Chapter (IEEE CS BDC). 
+  - I volunteered as 'Technical Supporter' in the International Conference on Science & Contemporary Technologies(ICSCT).
 - name: Higher Secondary School Certificate
   icon: fa-university
-  timeframe: 2010-2012
+  timeframe: 2015-2017
   institution:
-    name: MST College of Science
-    url: "#"
-  grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
+    name: Kishoreganj Govt. Mohila College
+    url: "https://www.facebook.com/Kishoreganjgovt.MohilaCollege"
+  #grade: #(optional)
+    #scale: GPA
+    #achieved: 5
+    #outOf: 5
+  #extracurricularActivities: #(optional)
+  #- In vitae facilisis est, eget porta sem.
+  #- Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  #- Duis sed massa feugiat, ornare justo et, aliquam est.
+  #- Pellentesque ut fringilla magna.
 - name: Secondary School Certificate
   icon: fa-school
-  timeframe: 2005-2010
+  timeframe: 2010-2015
   institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+    name: Azim Uddin High School
+    url: "https://www.facebook.com/azimuddinhighschool"
+  #grade: #(optional)
+    #scale: GPA
+    #achieved: 4.5
+    #outOf: 5

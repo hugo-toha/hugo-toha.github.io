@@ -21,44 +21,84 @@ buttons:
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
+- name: Capstone
+  logo: /images/sections/projects/mri.jpeg
   role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  timeline: "December,2021 - December,2022"
+  repo: https://github.com/Nowshin1077/Capstone---final-year-project # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+  summary: This work proposes a new model by stacking the Deep Convolutional Neural Network. By using this single model, we can detect three neurodegenerative diseases named Alzheimer, Parkinson, and Dementia. For the three diseases, we used three different MRI data sets. 
+  tags: ["academic", "deep learning", "cnn"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
-
-- name: A sample academic paper
+- name: AI 
+  logo: /images/sections/projects/jarvis.jpg
   role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+  timeline: "June,2021 - July,2021"
+  repo: https://github.com/Nowshin1077/Undergrad-Projects/tree/main/J.A.R.V.I.S # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: It's a system that was build with Python.As a personal assistant, Jarvis assists the end-user with day-to-day activities like general human conversation, searching queries in various search engines like Google, Bing or Yahoo, Searching for videos, etc.
+  tags: ["academic", "ai", "speech recognition"]
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: IoT 
+  logo: /images/sections/projects/iot.jpg
+  role: Team Lead
+  timeline: "October,2021 - November,2021"
+  repo: https://github.com/Nowshin1077/Undergrad-Projects/tree/main/IoT%20Project # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: IoT is transforming agriculture and allowing farmers to overcome the enormous challenges they face. Smart irrigation systems reduce the chances of over watering the soil and waterlogging in the fields. In this system, the moisture level in the soil is monitored and the IR sensor is used for intrusion detection.
+  tags: ["academic", "iot", "sensors"]
+
+
+- name: SDP-1 
+  logo: /images/sections/projects/railway.jpg
+  role: Team Lead
+  timeline: "May,2019 - June,2019"
+  repo: https://github.com/Nowshin1077/Undergrad-Projects/tree/main/CSE%20100%20(SDP-1) # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: The basic functions being performed by this system are reservation and cancellation. It contains information about the trains. It also contains information about the Seat Availability and Reservation Possibilities.
+  tags: ["academic", "software development", "console"]
+
+
+# - name: PCOS Diagnosis
+#   logo: /images/sections/projects/railway.jpg
+#   role: Team Lead
+#   timeline: "May,2019 - June,2019"
+#   repo: https://github.com/Nowshin1077/Undergrad-Projects/tree/main/CSE%20100%20(SDP-1) # If your project is a public repo on GitHub, then provide this link. it will show star count.
+#   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+#   summary: The basic functions being performed by this system are reservation and cancellation. It contains information about the trains. It also contains information about the Seat Availability and Reservation Possibilities.
+#   tags: ["hobby", "software development", "console"]
+
+
+# - name: Tensorflow
+#   logo: /images/sections/projects/tensorflow.png
+#   role: Developer
+#   timeline: "Jun 2018 - Present"
+#   repo: https://github.com/tensorflow/tensorflow
+#   #url: ""
+#   summary: An Open Source Machine Learning Framework for Everyone.
+#   tags: ["professional", "machine-learning"]
+
+# - name: A sample academic paper
+#   role: Team Lead
+#   timeline: "Jan 2017 - Nov 2017"
+#   url: "https://www.example.com"
+#   summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
+#   tags: ["academic","iot"]
+
+# - name: Nocode
+#   logo: /images/sections/projects/no-code.png
+#   role: Nothing
+#   timeline: "Oct 2019 - Dec 2019"
+#   repo: https://github.com/kelseyhightower/nocode
+#   #url: ""
+#   summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
+#   tags: ["hobby", "fun"]
+
+# - name: Toha
+#   logo: /images/sections/projects/toha.png
+#   role: Owner
+#   timeline: "Jun 2019 - Present"
+#   repo: https://github.com/hossainemruz/toha
+#   summary: A Hugo theme for personal portfolio.
+#   tags: ["hobby","hugo","theme","professional"]

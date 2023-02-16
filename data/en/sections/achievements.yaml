@@ -10,15 +10,33 @@ section:
 
 # Your achievements achievements
 achievements:
-- title: Best Presenter
-  image: /images/sections/achievements/presenter.jpg
-  summary: Best presenter in the 2020 XYZ conference.
-- title: Champion
-  image: /images/sections/achievements/sport.jpg
-  summary: Champion in cycling inter-city cycling championship 2020.
-- title: Graduation
+# - title: Best Presenter
+#   image: /images/sections/achievements/presenter.jpg
+#   summary: Best presenter in the 2020 XYZ conference.
+# - title: Champion
+#   image: /images/sections/achievements/sport.jpg
+#   summary: Champion in cycling inter-city cycling championship 2020.
+# - title: Graduation
+#   image: /images/sections/achievements/graduation-cap.jpg
+#   summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
+# - title: Award Winner
+#   image: /images/sections/achievements/woman-winner.jpg
+#   summary: Wined best paper award at IEE Conference 2020.
+
+
+# - title: Conference Scholar
+#   image: /images/sections/achievements/presenter.jpg
+#   summary: Best presenter in the 2020 XYZ conference.
+
+- title: Academic Scholarship
   image: /images/sections/achievements/graduation-cap.jpg
-  summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
-- title: Award Winner
-  image: /images/sections/achievements/woman-winner.jpg
-  summary: Wined best paper award at IEE Conference 2020.
+  summary: Received scholarships several times in my undergrad based on my academic results..
+
+- title: Leadership Role
+  image: /images/sections/achievements/cs.png
+  summary: I served as Chair for the executive committee of 2021 of IEEE CS BUBT SBC. For our activities in the period of 2021, IEEE Computer Society Bangladesh Chapter Decleared IEEE CS BUBT SBC as the best CS Student Chapter 2021 (honorable mention) on the award night of 2021. 
+
+- title: WECode Conference Scholar
+  image: /images/sections/achievements/wecode.jpg
+  summary: Received a scholarship to attend WECode conference. Because of covid-19, it was conducted online in 2022. The Harvard WECode (Women Engineers Code) Conference is organized by undergraduate women at Harvard University and is an initiative of Harvard Undergraduate Women in CS. WECode hosts the largest student-run women in tech conference in the world.
+
