@@ -7,6 +7,9 @@ on:
     branches:
     - main
     
+  schedule:
+  - cron: "0 6 * * 1-5"
+    
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
