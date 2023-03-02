@@ -7,9 +7,14 @@ on:
     branches:
     - main
     - release/*
+    
 
   # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch: true
+  workflow_dispatch:
+  
+  #Set Workflow to run every day of the week from Monday to Friday at 2:00 UTC
+  schedule:
+  - cron: "0 6 * * 1-5"
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -74,8 +79,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-        
-#Set Workflow to run every day of the week from Monday to Friday at 2:00 UTC        
-on:
-  schedule:
-  - cron: "0 2 * * 1-5"
