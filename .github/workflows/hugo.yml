@@ -5,9 +5,17 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
+    -main
+    - release/*
+
+on:
+  # Runs on pulls targeting the main branch
+  pull_request:
+    branches: ["main"]
+    - main
 
   # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+  workflow_dispatch: true
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -72,3 +80,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+        
+#Set Workflow to run every day of the week from Monday to Friday at 2:00 UTC        
+on:
+  schedule:
+  - cron: "0 2 * * 1-5"
