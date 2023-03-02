@@ -18,7 +18,7 @@ jobs:
     
     # install Hugo
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2.6.0
+      uses: unseenuniverse/actions-hugo@v2.6.0
       with:
         hugo-version: 'latest'
         extended: true
@@ -29,7 +29,7 @@ jobs:
 
     # push the generated content into the `gh-pages` branch.
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3.9.0
+      uses: unseenuniverse/actions-gh-pages@v3.9.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: gh-pages
