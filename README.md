@@ -2,7 +2,7 @@
 
 Portfolio Website! Still a bit of a WIP but got the basics on there :)
 
-[![Deploy to Github Pages](https://github.com/UnseenUniverse/UnseenUniverse/actions/workflows/deploy-site.yaml/badge.svg?branch=main)](https://github.com/UnseenUniverse/UnseenUniverse/actions/workflows/deploy-site.yaml) [![Deploy Hugo site to Pages](https://github.com/UnseenUniverse/UnseenUniverse/actions/workflows/hugo.yml/badge.svg)](https://github.com/UnseenUniverse/UnseenUniverse/actions/workflows/hugo.yml)
+[![Deploy Hugo site to Pages](https://github.com/UnseenUniverse/UnseenUniverse/actions/workflows/hugo.yml/badge.svg)](https://github.com/UnseenUniverse/UnseenUniverse/actions/workflows/hugo.yml)
 
 
 Attributions:
