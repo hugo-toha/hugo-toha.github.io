@@ -1,4 +1,4 @@
-baseURL: https://siyan.github.io
+baseURL: https://want2say.github.io
 
 languageCode: en-us
 title: "John's Blog"
@@ -62,7 +62,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/want2say/siyan.github.io
+  gitRepo: https://github.com/want2say/want2say.github.io
   # Default branch of your Git repo
   gitBranch: main
 
