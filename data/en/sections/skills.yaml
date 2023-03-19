@@ -11,39 +11,32 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+- name: SQL
+  logo: /images/sections/skills/sql.png
+  summary: "I write SQL queries on a daily basis to process data in relational database management systems."
+  url: "https://en.wikipedia.org/wiki/SQL"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Python is my preferred programming language when it comes to the development of data products. I'm most familiar with the packages  scikit-learn, , pandas, matplotlib, and seaborn."
+  url: "https://www.python.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+- name: R
+  logo: /images/sections/skills/r.png
+  summary: "I use the statistical programing language R whenever it provides a statistical model or functionality that is not readily available in Python."
+  url: "https://www.r-project.org/"
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  url: "https://www.docker.com/"
-
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
-
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+- name: Java
+  logo: /images/sections/skills/java.png
+  summary: "I know basic Java programming. Java is the first programming language I learned and whose object-oriented programming principles I apply to this day."
+  url: "https://www.oracle.com/java/"
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  summary: "I'm experienced with git-based development. In my professional career, I've been using GitLab. For my private projects, I use Github."
   url: "https://git-scm.com/"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+- name: User Research
+  logo: /images/sections/skills/ux.png
+  summary: "When I collaborated with experienced UX researchers in my past projects, I've gained familiarity with methodologies to better understand and serve user needs."
+  url: "https://en.wikipedia.org/wiki/User_research"

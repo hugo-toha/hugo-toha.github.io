@@ -3,7 +3,7 @@ section:
   name: Accomplishments
   id: accomplishments
   enable: true
-  weight: 8
+  weight: 9
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -11,36 +11,18 @@ section:
 
 # Your accomplishments
 accomplishments:
-- name: Linux Foundation System Administrator
-  timeline: "March 2018 - March 2019"
+- name: IBM AI Enterprise Workflow Specialization
+  timeline: "April 2021 - May 2021"
   organization:
-    name: Linux Foundation
-    url: https://www.linuxfoundation.org
-  courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-  certificateURL: "https://example.com"
+    name: coursera
+    url: https://www.coursera.org/specializations/ibm-ai-workflow
+  courseOverview: "IBM AI Enterprise Workflow is a comprehensive, end-to-end process that enables Data Scientists to build AI solutions, starting with business priorities and working through to taking AI into production.  The learning aims to elevate the skills of practicing Data Scientists by explicitly connecting business priorities to technical implementations, connecting machine learning to specialized AI use cases such as visual recognition and NLP, and connecting Python to IBM Cloud technologies."
+  certificateURL: "files/Coursera AI Workflow - combined.pdf"
 
-- name: Machine Learning
-  timeline: "Jun 2020 - Jan 2021"
+- name: Certified Professional for Requirements Engineering - Foundation Level
+  timeline: "Feb 2021"
   organization:
-    name: Coursera
-    url: https://www.coursera.org
-  courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
-  certificateURL: "https://example.com"
-
-- name: Grokking the System Design Interview
-  timeline: "Jan 2018 - Sept 2018"
-  organization:
-    name: educative
-    url: https://www.educative.io
-  courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
-  certificateURL: "https://example.com"
-
-- name: Mastering Multithreading Programming with Go (Golang)
-  timeline: "Nov 2017 - Mar 2018"
-  organization:
-    name: Udemy
-    url: https://www.udemy.com
-  courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, mulithreading topics.
-  certificateURL: "https://example.com"
- 
-
+    name: International Requirements Engineering Board
+    url: https://www.ireb.org/en/cpre/foundation/
+  courseOverview: "The Foundation Level addresses the advanced beginner in Requirements Engineering and provides the core knowledge of this topic. The Foundation Level encompasses the elicitation of requirements with appropriate documentation, requirements verification and validation as well as their management throughout the end-to-end product life cycle."
+  certificateURL: "files/Mirjam-Kirchner-Zertifikat IREB Foundation Level.pdf"

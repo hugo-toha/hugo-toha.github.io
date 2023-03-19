@@ -3,22 +3,19 @@ section:
   name: Achievements
   id: achievements
   enable: true
-  weight: 9
+  weight: 8
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
 # Your achievements achievements
 achievements:
-- title: Best Presenter
-  image: /images/sections/achievements/presenter.jpg
-  summary: Best presenter in the 2020 XYZ conference.
-- title: Champion
-  image: /images/sections/achievements/sport.jpg
-  summary: Champion in cycling inter-city cycling championship 2020.
-- title: Graduation
-  image: /images/sections/achievements/graduation-cap.jpg
-  summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
-- title: Award Winner
-  image: /images/sections/achievements/woman-winner.jpg
-  summary: Wined best paper award at IEE Conference 2020.
+- title: Speaker at "Data Science Ruhr Kongress" (09/2022)
+  image: /images/sections/achievements/data_science_ruhr_kongress.jpg
+  summary: I feel grateful that I was given the chance to represent <a href="https://onedata.de/en/">One Data</a> at the <a href="https://www.data-science.ruhr/kongress-2022/">Data Science Ruhr Kongress</a> to speak about the challenges and chances of applying Data Science in practice.
+- title: Hackathon Organizer (03/2023)
+  image: /images/sections/achievements/hackathon.jpg
+  summary: In this very first hackathon at <a href="https://onedata.de/en/">One Data</a>, we dove into the world of the data mesh by taking on the different roles of data consumers and producers to build a data product.
+- title: Seal-Dashboard Builder (2022)
+  image: /images/sections/achievements/rob_oliver.jpg
+  summary: I had great fun processing the raw data of the <a href="https://www.seehundstation-friedrichskoog.de/en">seal rescue station</a> in Friedrichskoog, Germany, and serve it in this <a href="http://where-is-rob-oliver-pandagoesdatascience.eu.pythonanywhere.com/">dashboard</a>. If you'd like to learn more, check out my <a href="https://github.com/MirjamKirchner/rob-oliver-data">git repository</a>.

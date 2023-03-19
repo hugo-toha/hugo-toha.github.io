@@ -10,81 +10,49 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
+- name: Ph. D. Student in Statistics and Operational Research (To gain more practical experience, I decided to  leave my Ph. D. early.)
   icon: fa-microscope
-  timeframe: 2016-2020
+  timeframe: 2018-2020
   institution:
-    name: ABC University of Technology
-    url: "#"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
+    name: Lancaster University (United Kingdom)
+    url: "https://www.lancaster.ac.uk/stor-i/"
+- name: M. Res. in Statistics and Operational Research
   icon: fa-graduation-cap
-  timeframe: 2012-2016
+  timeframe: 2017-2018
   institution:
-    name: University of XYZ
-    url: "#"
+    name: Lancaster University (United Kingdom)
+    url: "https://www.lancaster.ac.uk/stor-i/"
   grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
-    collapseAfter: 3
-    courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Higher Secondary School Certificate
-  icon: fa-university
-  timeframe: 2010-2012
+    scale: British postgraduate grading system
+    achieved: 72.83 (pass with distinction)
+    outOf: 100.00 (= highest)
+- name: M. Sc. in Management, Business and Economics
+  icon: fa-graduation-cap
+  timeframe: 2013-2017
   institution:
-    name: MST College of Science
-    url: "#"
+    name: RWTH Aachen University (Germany)
+    url: "https://www.rwth-aachen.de/cms/root/Studium/Vor-dem-Studium/Studiengaenge/Liste-Aktuelle-Studiengaenge/Studiengangbeschreibung/~bogb/Wirtschaftswissenschaft-M-Sc/"
   grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
-  icon: fa-school
-  timeframe: 2005-2010
+    scale: 5-point grading scale
+    achieved: 1.3 (pass with distinction)
+    outOf: 5.0 (= lowest)
+- name: M. Sc. in Electrical Engineering, Information Technology and Computer Engineering
+  icon: fa-graduation-cap
+  timeframe: 2012-2015
   institution:
-    name: JK School of Science
+    name: RWTH Aachen University (Germany)
+    url: "https://www.elektrotechnik.rwth-aachen.de/cms/Elektrotechnik-und-Informationstechnik/Studium/Master-Studiengaenge/Master-of-Science/Elektrotechnik-Informationstechnik/Studienrichtungen/~ibqn/Biomedizinische-Technik/?lidx=1"
   grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+    scale: 5-point grading scale
+    achieved: 1.5
+    outOf: 5.0 (= lowest)
+- name: B. Sc. in Electrical Engineering and Information Technology
+  icon: fa-graduation-cap
+  timeframe: 2008-2012
+  institution:
+    name: Technische Universität Darmstadt (Germany)
+    url: "https://www.tu-darmstadt.de/studieren/studieninteressierte/studienangebot_studiengaenge/studiengang_178304.de.jsp"
+  grade: #(optional)
+    scale: 5-point grading scale
+    achieved: 2.13
+    outOf: 5.0 (= lowest)
