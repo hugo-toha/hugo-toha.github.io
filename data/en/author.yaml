@@ -1,20 +1,19 @@
 # some information about you
-name: "John Doe"
-nickname: "John"
+name: "Mohamed BOUTORA"
+nickname: "Mohamed"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
 image: "images/author/john.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "johndoe@example.com"
-  phone: "+0123456789"
-  github: johndoe
-  linkedin: johndoe
+  email: "mohamed.boutora91@gmail.com"
+  phone: "+33 753 633 641"
+  github: boutmo
+  linkedin: mohamedboutora
 
 # some summary about what you do
 summary:
-  - I am a Developer
-  - I am a Devops
-  - I love servers
-  - I work on open-source projects
-  - I love to work with some fun projects
+  - Seeking a DevSecOps SRE position
+  - Proficient in development, operations, and security
+  - Passionate about Site Reliability and Infrastructure
+  - Enjoys tackling challenging and fun projects
