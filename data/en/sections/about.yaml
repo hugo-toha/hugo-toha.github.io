@@ -8,18 +8,18 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Solution Engineer
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: Doctolib.
+  url: "https://www.doctolib.fr"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: "I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc."
+summary: "I am a Solution Engineer at Doctolib. I am passionate about cloud technologies and I am currently working on Kubernetes and Istio. I am also interested in DevOps and CI/CD."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -30,11 +30,11 @@ socialLinks:
 
   - name: Github
     icon: "fab fa-github"
-    url: "https://www.github.com/example"
+    url: "https://www.github.com/boutmo"
 
   - name: LinkedIn
     icon: "fab fa-linkedin"
-    url: "linkedin.com/in/mohamedboutora"
+    url: "https://linkedin.com/in/mohamedboutora"
 
   - name: Twitter
     icon: "fab fa-twitter"
@@ -67,26 +67,27 @@ badges:
 
   - type: soft-skill-indicator
     name: Cloud
-    percentage: 85
-    color: blue
+    percentage: 100
+    color: grey
   - type: soft-skill-indicator
     name: Site Reliability Engineering (SRE)
-    percentage: 85
-    color: pink
+    percentage: 100
+    color: grey
 
   - type: soft-skill-indicator
     name: Pragmatic
-    percentage: 90
-    color: green
+    percentage: 100
+    color: black
   - type: soft-skill-indicator
     name: Automation
-    percentage: 80
-    color: red
+    percentage: 100
+    color: black
 
   - type: soft-skill-indicator
     name: Team player
-    percentage: 90
-    color: yellow
+    percentage: 100
+    color: black
   - type: soft-skill-indicator
     name: User Oriented
-    color: orange
+    percentage: 100
+    color: black

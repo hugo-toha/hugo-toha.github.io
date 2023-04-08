@@ -1,64 +1,111 @@
-# section information
+# # section information
+# section:
+#   name: Experiences
+#   id: experiences
+#   enable: true
+#   weight: 3
+#   showOnNavbar: true
+#   # Can optionally hide the title in sections
+#   # hideTitle: true
+
+# # Your experiences
+# experiences:
+# - company:
+#     name: Example Co.
+#     url: "https://www.example.com"
+#     location: Dhaka Branch
+#     # company overview
+#     overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+#   positions:
+#   - designation: Senior Software Engineer
+#     start: Nov 2019
+#     # don't provide end date if you are currently working there. It will be replaced by "Present"
+#     # end: Dec 2020
+#     # give some points about what was your responsibilities at the company.
+#     responsibilities:
+#     - Design and develop XYZ tool for ABC task
+#     - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
+#     - Lead backend team.
+
+#   - designation: Junior Software Engineer
+#     start: Nov 2017
+#     end: Oct 2019
+#     responsibilities:
+#     - Implement and test xyz feature for abc tool.
+#     - Support client for abc tool.
+#     - Learn k,d,w technology for xyz.
+
+# - company:
+#     name: PreExample Co.
+#     url: "https://www.example.com"
+#     location: Nowhere
+#     overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+#   positions:
+#   - designation: Software Engineer
+#     start: March 2016
+#     end: May 2017
+#     responsibilities:
+#     - Write lots of example codes.
+#     - Read lots of examples.
+#     - See lots of example videos.
+
+# - company:
+#     name: Intern Counting Company (ICC).
+#     url: "https://www.example.com"
+#     location: Intern Land
+#     overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+#   positions:
+#   - designation: Intern
+#     start: Jun 2015
+#     end: Jan 2016
+#     responsibilities:
+#     - Count lost of interns.
+#     - Count more interns.
+#     - Count me as an intern.
+
 section:
   name: Experiences
   id: experiences
   enable: true
   weight: 3
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true 
 
-# Your experiences
 experiences:
-- company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
-  positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
-    responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+  - company:
+      name: Saipem
+      url: "#"
+      location: Saint-Quentin en Yvelines
+      overview: Saipem is a multinational oilfield services company, specializing in the energy sector.
+    positions:
+      - designation: Final Year Project
+        start: March 2019
+        end: September 2019
+        responsibilities:
+          - Designed a multi-class text classification Machine Learning model.
+          - Developed a web application integrating the designed model and deployed it using Apache.
+          - Developed monitoring using Power BI Dashboards.
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+  - company:
+      name: Paris Est Créteil
+      url: "#"
+      location: Créteil
+      overview: Paris Est Créteil is a university in France, offering a wide range of programs and research opportunities.
+    positions:
+      - designation: University Projects
+        start: September 2018
+        end: February 2019
+        responsibilities:
+          - Created and tested various Machine Learning models using Python.
+          - Designed and developed a bank account management application.
 
-- company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
-  positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
-
-- company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-  positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
-    responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+  - company:
+      name: L2CSP Laboratory (University of Tizi Ouzou)
+      url: "#"
+      location: Tizi Ouzou (Algeria)
+      overview: L2CSP Laboratory is a research laboratory at the University of Tizi Ouzou, focused on computer science and related fields.
+    positions:
+      - designation: Final Year Project
+        start: January 2015
+        end: June 2015
+        responsibilities:
+          - Studied, designed, and implemented a hybrid crypto-system (DES-RSA-SHA1) for image transmission using Arduino boards.
