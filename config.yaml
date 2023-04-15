@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://Hugo-Toha-Portfolio.github.io
 
 languageCode: en-us
-title: "John's Blog"
+title: "Tony Condon's Portfolio"
 
 # Use Hugo modules to add theme
 module:
@@ -23,12 +23,9 @@ languages:
   en:
     languageName: English
     weight: 1
-  bn:
-    languageName: বাংলা
-    weight: 3
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
-# DefaultContentLanguage: bn
+# DefaultContentLanguage: en
 
 # Allow raw html in markdown file
 markup:
@@ -64,13 +61,13 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/UnseenUniverse/Hugo-Toha-Portfolio
   # Default branch of your Git repo
   gitBranch: main
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
-    maxVisibleSections: 5
+    maxVisibleSections: 6
 
   # Configure various features of this theme
   features:
@@ -90,19 +87,19 @@ params:
 
     # Enable and configure portfolio
     portfolio:
-      enable: true
+      #enable: true
 
     # Enable and configure blog posts
-    blog:
-      enable: true
+    #blog:
+      #enable: false
       # Share post on different social media
-      shareButtons:
-        facebook: true
-        twitter: true
-        linkedin: true
-        reddit: true
-        whatsapp: true
-        email: true
+      #shareButtons:
+        # facebook: true
+        # twitter: true
+        #linkedin: true
+        # reddit: true
+        # whatsapp: true
+        #email: true
         # tumblr: true
         # pocket: true
         # diaspora: true
@@ -110,11 +107,12 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
       enable: false
+
       services:
         disqus:
           shortName: toha-example-site
@@ -258,7 +256,6 @@ params:
           # options doc: https://github.com/sampotts/plyr#options
           # fullscreen: true
 
-
   # Provide footer configuration.
   footer:
     enable: true
@@ -267,23 +264,23 @@ params:
     template: footer.html
     # Show/hide navigation in the footer. Default is "true".
     navigation:
-      enable: true
+      enable: false
       # show custom menus in the footer
-      customMenus: true
+      customMenus: false
     # Show/hide "Contact Me" section in the footer. Default is "true".
     contactMe:
       enable: true
     # Show/hide credentials section in the footer. Default is "true".
     credentials:
-      enable: true
+      enable: false
 
     # Show/hide newsletter section in the footer. Default is "true".
     # Currently, it supports "mailchimp".
     newsletter:
-      enable: true
-      provider: mailchimp
-      mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
+      enable: false
+      #provider: mailchimp
+      #mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
-      enable: true
+      enable: false
