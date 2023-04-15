@@ -11,3 +11,4 @@
 !.gitmodules
 
 resources/*
+node_modules/*
