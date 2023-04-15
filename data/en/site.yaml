@@ -1,5 +1,5 @@
 # Copyright Notice
-copyright: © 2022 Copyright.
+copyright: © 2023 Copyright.
 
 # A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
 disclaimer: "This theme is under MIT license. So, you can use it for non-commercial, commercial, or private uses.
@@ -25,5 +25,5 @@ openGraph:
   title: Tony Condon's Portfolio
   type: website
   description: Portfolio and personal blog of Tony Condon.
-  image: images/author/tony.png
-  url: https://github.com/UnseenUniverse/Hugo-Toha-Portfolio
+  image: images/author/Tony.png
+  url: https://tonycondon.com
