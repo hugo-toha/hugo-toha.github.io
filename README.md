@@ -2,8 +2,6 @@
 
 Portfolio Website! Still a bit of a WIP but got the basics on there :)
 
-No longer hosted on GitHub Pages yay!
-
 [![Deploy Hugo site to Pages](https://github.com/UnseenUniverse/UnseenUniverse/actions/workflows/hugo.yml/badge.svg)](https://github.com/UnseenUniverse/UnseenUniverse/actions/workflows/hugo.yml)
 
 Attributions:
