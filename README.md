@@ -2,9 +2,9 @@
 
 Portfolio Website! Still a bit of a WIP but got the basics on there :)
 
+No longer hosted on GitHub Pages yay!
+
 [![Deploy Hugo site to Pages](https://github.com/UnseenUniverse/UnseenUniverse/actions/workflows/hugo.yml/badge.svg)](https://github.com/UnseenUniverse/UnseenUniverse/actions/workflows/hugo.yml)
-
-
 Attributions:
 - <a href='https://www.freepik.com/vectors/business'>Business vector created by studiogstock - www.freepik.com</a>
 
