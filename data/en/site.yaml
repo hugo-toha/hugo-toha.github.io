@@ -12,13 +12,13 @@ description: Portfolio and personal blog of Tony Condon.
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
 customMenus:
-- name: Docs
-  url: https://toha-guides.netlify.app/posts/
-  # specify whether to hide the menu item from top navbar or not.
-  hideFromNavbar: true
-  # specify whether to show the menu item in footer or not.
-  # if you set it to true, make sure you have set `footer.navigation.customMenus: true` in your config.yaml
-  showOnFooter: false
+  - name: Docs
+    url: https://toha-guides.netlify.app/posts/
+    # specify whether to hide the menu item from top navbar or not.
+    hideFromNavbar: false
+    # specify whether to show the menu item in footer or not.
+    # if you set it to true, make sure you have set `footer.navigation.customMenus: true` in your config.yaml
+    showOnFooter: false
 
 # Specify OpenGraph Headers
 openGraph:
@@ -26,4 +26,4 @@ openGraph:
   type: website
   description: Portfolio and personal blog of Tony Condon.
   image: images/author/Tony.png
-  url: https://tonycondon.com
+  url: https://hugo-toha.github.io
