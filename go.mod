@@ -1,4 +1,4 @@
-module github.com/f-yanez/f-yanez.github.io.git
+module github.com/f-yanez/f-yanez.github.io
 
 go 1.19
 

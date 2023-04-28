@@ -1,4 +1,4 @@
-baseURL: https://f-yanez.github.io.git
+baseURL: https://f-yanez.github.io
 
 languageCode: en-us
 title: "Fernando's Hub!"
@@ -64,7 +64,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/f-yanez/f-yanez.github.io.git
+  gitRepo: https://github.com/f-yanez/f-yanez.github.io
   # Default branch of your Git repo
   gitBranch: main
 
