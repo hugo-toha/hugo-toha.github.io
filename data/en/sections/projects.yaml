@@ -2,7 +2,7 @@
 section:
   name: Projects
   id: projects
-  enable: true
+  enable: false
   weight: 5
   showOnNavbar: true
   # Can optionally hide the title in sections

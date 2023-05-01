@@ -1,7 +1,7 @@
 baseURL: https://f-yanez.github.io
 
 languageCode: en-us
-title: "Fernando's Hub!"
+title: "Fernando's Hub"
 
 # Use Hugo modules to add theme
 module:
@@ -21,10 +21,10 @@ module:
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
   en:
-    languageName: English
+    languageName: EN
     weight: 1
   es:
-    languageName: Spanish
+    languageName: ES
     weight: 2
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
@@ -59,8 +59,8 @@ params:
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
+    main: /images/site/fy-logo.png
+    inverted: /images/site/fy-logo.png
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
@@ -70,7 +70,7 @@ params:
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
-    maxVisibleSections: 5
+    maxVisibleSections: 3
 
   # Configure various features of this theme
   features:
@@ -80,7 +80,7 @@ params:
       enable: true
       services:
         darkreader:
-          defaultColorScheme: system # options are 'system', 'dark', 'light'
+          defaultColorScheme: dark # options are 'system', 'dark', 'light'
           fixes:
             invert: ['img[src$=".svg"]'] # inverts svg colors.
           theme:
@@ -189,11 +189,13 @@ params:
 
     # Specify whether to show flag in the language selector. Default is true.
     flags:
-      enable: true
-      # # If you want to use different country flag for a language, specify them here.
-      # flagOverwrites:
-      #   - languageCode: en
-      #     countryCode: us
+      enable: false
+      # If you want to use different country flag for a language, specify them here.
+      flagOverwrites:
+        - languageCode: en
+          countryCode: ca
+        - languageCode: es
+          countryCode: vzla
 
     # Enable this to use `embed-pdf` shortcode.
     embedpdf:
@@ -201,16 +203,16 @@ params:
 
     # Enable this to create flowcharts using shortcodes.
     flowchart:
-      enable: false
+      enable: true
       services:
         # Uncomment for `mermaid` shortcode.
         mermaid:
           # For config options, see: https://mermaid-js.github.io/mermaid/#/Setup?id=configuration
-          # theme: dark
+          theme: dark
 
     # Enable this to create mathematic expressions using `$$` blocks
     math:
-      enable: false
+      enable: true
       services:
         # https://katex.org/docs/autorender.html#api for more configurations
         katex:
@@ -286,4 +288,4 @@ params:
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
-      enable: true
+      enable: false

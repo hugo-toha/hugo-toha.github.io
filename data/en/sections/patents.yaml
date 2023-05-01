@@ -1,0 +1,79 @@
+# section information
+section:
+  name: Patents
+  id: publications
+  enable: true
+  weight: 7
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: "Machine Learning"
+  filter: "machinelearning"
+- name: "Human-Computer Interactions"
+  filter: "hci"
+- name: "Information Retrieval"
+  filter: "info-retrieval"
+- name: "Privacy"
+  filter: "privacy"
+
+# your patents
+publications:
+- title: Shared Visual Content Filtering during Virtual Meetings
+  publishedIn:
+    name: Microsoft
+    date: 6 August 2021
+    url: https://www.microsoft.com/en-us/legal/intellectualproperty/patents
+  authors:
+  - name: Romain Rey
+    url: https://www.linkedin.com/in/romrey/
+  - name: Mastafa Foufa
+    url: https://www.linkedin.com/in/mastafa-foufa/
+  - name: Fernando Yánez
+    url: www.linkedin.com/in/f-yanez/
+  paper:
+    summary: A method for virtual meeting content sharing comprises, during a virtual meeting, receiving a request to share visual interface content including one or more visual content elements rendered by a client computing device with one or more remote participant devices. For each of the one or more visual content elements, an element feature vector is determined. Each of the one or more element feature vectors are sent to a remote meeting server. From the remote meeting server, an indication is received that a specified visual content element is flagged as potentially subject to filtering, based at least in part on a difference between (1) a meeting feature vector and (2) the element feature vector for the specified visual content exceeding a content filter threshold, the meeting feature vector quantifying a plurality of meeting context parameters of the virtual meeting.
+    url: https://patents.justia.com/patent/20230042015
+  categories: ["machinelearning"]
+  tags: ["Machine Learning", "Embeddings", "Access Control"]
+
+- title: User-specific Computer Interaction Recall
+  publishedIn:
+    name: Microsoft
+    date: 12 April 2021
+    url: https://www.microsoft.com/en-us/legal/intellectualproperty/patents
+  authors:
+  - name: Fernando Yánez
+    url: www.linkedin.com/in/f-yanez/
+  - name: Mastafa Foufa
+    url: https://www.linkedin.com/in/mastafa-foufa/
+  - name: Romain Rey
+    url: https://www.linkedin.com/in/romrey/
+  paper:
+    summary: A computer-implemented method for recalling user-specific interactions is disclosed. User-specific application data for each of a plurality of different computer application programs is received at a computing system. The user-specific application data is translated into different content vectors representing different user-specific interactions between a user and one or more other users while using the plurality of different computer application programs. Each content vector includes parameters quantifying interaction attributes of the corresponding user-specific interaction. The content vectors are mapped to a high-dimensional content space. A query is received at the computing system and translated into a query vector. Geometric mathematical operations are performed to compare content vectors in the high-dimensional content space to the query vector to identify a content vector that correlates to the query vector. A response to the query that identifies a user-specific interaction corresponding to the identified content vector is output from the computing system.
+    url: https://patents.justia.com/patent/20220327120
+  categories: ["machinelearning","hci", "info-retrieval"]
+  tags: ["Machine Learning", "Embeddings", "Recommendation Systems", "Information Retrieval"]
+
+- title: Method and System of Intelligently Providing Responses for a User in the User’s Absence
+  publishedIn:
+    name: Microsoft
+    date: 23 November 2020
+    url: https://www.microsoft.com/en-us/legal/intellectualproperty/patents
+  authors:
+  - name: Romain Rey
+    url: https://www.linkedin.com/in/romrey/
+  - name: Mastafa Foufa
+    url: https://www.linkedin.com/in/mastafa-foufa/
+  - name: Fernando Yánez
+    url: www.linkedin.com/in/f-yanez/
+  paper:
+    summary: A method and system for responding to a message directed to a recipient includes receiving the message including a query from a sender, receiving an indication that the recipient is unavailable to respond to the query, and providing the query to as an input to a machine-learning (ML) model to identify information requested in the query. The method further includes obtaining the information requested as an output from the ML model, determining if access to the information requested is available to the sender, based on a confidentiality group to which the sender belongs with respect to the information requested, upon determining that access to the information requested is available, generating a response to the query that includes the information requested, and providing the response to the sender. The confidentiality group to which the sender belongs may be determined based on a degree of association between the sender and the information requested.
+    url: https://patents.justia.com/patent/20220166731
+  categories: ["machinelearning","privacy"]
+  tags: ["Machine Learning", "Data Security", "Access Control"]
+

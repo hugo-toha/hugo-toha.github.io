@@ -11,54 +11,95 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: Human Interactive Visualizations - HIVE Lab
+    url: "https://www.cs.toronto.edu/~cnobre/"
+    location: Toronto, Canada
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: ML-powered visualizations for personalized visual literacy, supervised by Prof. Carolina Nobre.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Research Assistant
+    start: Sep 2022
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
-    responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    #responsibilities:
+    #- Design and develop XYZ tool for ABC task
+    #- Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
+    #- Lead backend team.
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+  #- designation: Junior Software Engineer
+  #  start: Nov 2017
+  #  end: Oct 2019
+  #  responsibilities:
+  #  - Implement and test xyz feature for abc tool.
+  #  - Support client for abc tool.
+  #  - Learn k,d,w technology for xyz.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: University of Toronto
+    url: "https://web.cs.toronto.edu/"
+    location: Toronto, Canada
+    #overview: 
+  positions:
+  - designation: Course Instructor
+    start: Sep 2022
+    end: Apr 2023
+    responsibilities:
+    - Introduction to Computer Programming (Fall 2022, Winter 2023).
+
+- company:
+    name: Intelligent Adaptive Interactions - IAI Lab
+    url: "https://www.josephjaywilliams.com/"
+    location: Toronto, Canada
+    overview: Implement Multi-Armed Bandits algorithms in educational settings, supervised by Prof. Joseph Williams.
+  positions:
+  - designation: Research Assistant
+    start: Sep 2021
+    end: Sep 2022
+    #responsibilities:
+    #- Write lots of example codes.
+    #- Read lots of examples.
+    #- See lots of example videos.
+
+- company:
+    name: Microsoft
+    url: "https://www.microsoft.com/"
+    location: Vancouver, Canada
+    overview: Developer at the Services Platform for Account & Connected Experiences team in the W+D organization contributing to different web services powering Windows’ and account.microsoft.com’s experiences while connecting with major backend services (e.g., Office, Xbox).
   positions:
   - designation: Software Engineer
-    start: March 2016
-    end: May 2017
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    start: Jan 2020
+    end: Sep 2021
+    #responsibilities:
+    #- Count lost of interns.
+    #- Count more interns.
+    #- Count me as an intern.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: QUANTIC - Barcelona Supercomputing Center
+    url: "https://www.bsc.es/discover-bsc/organisation/scientific-structure/quantic"
+    location: Barcelona, Spain
+    overview: Study Gaussian Processes and their intersections with Quantum Computing, supervised by Prof. J.I. Latorre.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Visiting Researcher
+    start: Sep 2019
+    end: Nov 2019
+    #responsibilities:
+    #- Count lost of interns.
+    #- Count more interns.
+    #- Count me as an intern.
+
+- company:
+    name: Metropolitan University
+    url: "https://www.unimet.edu.ve/"
+    location: Caracas, Venezuela
+    #overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+  positions:
+  - designation: Adjunct Instructor and Researcher
+    start: Sep 2018
+    end: Jan 2020
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Algorithms and Programming (Winter 2019, Summer 2019).
+    - Statistics I (Winter 2019, Summer 2019).
+    - Differential Equations (Winter 2019, Summer 2019).
+    - Pre-Calculus (Fall 2018, Winter 2019, Summer 2019).
