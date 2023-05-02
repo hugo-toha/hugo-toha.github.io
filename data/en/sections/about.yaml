@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a computer scientist and engineer with great passion for entrepreneurship, knowledge acquisition, and knowledge dissemination.'
+summary: "I am a computer scientist and engineer with great passion for entrepreneurship, knowledge acquisition, and knowledge dissemination.\n\nI'm interested in building the future of education by personalizing the content and explanations we show students, aiming to maximize their understanding. Traditional education is based on previous limitations, dating back to medieval times, where one person must address many students at the same time. Thus, their teaching techniques had to be developed to address many at a time. Nowadays, we have the technology to build Intelligent Adaptive Teaching Systems that will personalize their teaching to the individual. This work will touch many areas such as Adaptive Algorithms, Generative Modeling, Machine Learning, Recommendation Systems, Information Retrieval, and Cognitive Science. I'm looking forward to joining efforts with people in these areas."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
