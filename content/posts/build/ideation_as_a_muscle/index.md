@@ -4,8 +4,8 @@ date: 2023-05-02T00:00:00+06:00
 description: Understanding Our Goals, Developing a Process, and Trusting the Journey
 menu:
   sidebar:
-    name: Ideation as a Muscle
-    identifier: ideation_as_a_muscle
+    name: Ideation Training
+    identifier: ideation_training
     parent: build
     weight: 20230502
 hero: hero.png
