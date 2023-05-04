@@ -2,9 +2,9 @@
 section:
   name: Projects
   id: projects
-  enable: false
+  enable: true
   weight: 5
-  showOnNavbar: false
+  showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
@@ -18,47 +18,25 @@ buttons:
   filter: "academic"
 - name: Hobby
   filter: "hobby"
+- name: Game Development
+  filter: "game dev"
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+- name: CULT-ure War
+  #logo: /images/sections/projects/kubernetes.png
+  role: Project Manager
+  timeline: "2023"
+  #repo: # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://www.uwstout.edu/academics/colleges-schools/college-arts-and-human-sciences/school-art-design/sgx/sgx23-first-year-student-games"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Players are given the opportunity to have all the fun of starting a cult and gathering followers, without any disastrous consequences. Players will design their cult, and deity. Then gather followers in hopes of summoning the deity to defeat the opposing cults. First your opposing cults, then the world!
+  tags: ["academic", "game-dev", "table-top"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
-
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
-
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
-
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: Fish Feast
+  #logo: /images/sections/projects/tensorflow.png
+  role: Audio & UI Designer/Programmer
+  timeline: "Feb 2023"
+  #repo:
+  url: "https://gulfbones.itch.io/fish-feast"
+  summary: Fish Feast was created by a group of 8 Game Developer students over the course of 48 hours during UW Stout's 2023 Game Jam hosted by the on campus IGDA club. In Fish Feast you play as a fish where your goal is to eat other fish and items in the ocean to eventually get big enough to eat the whole map! Fish Feast won the Most Innovative award. Feel free to click the link to play the game in browser!
+  tags: ["hobby", "game-dev","unity"]

@@ -16,7 +16,7 @@ company:
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
-  resume: "resume/Tony-Condon-Resume.pdf"
+  #resume: "files/resume.pdf"
 
 # a summary about you
 summary: 'Hello! I am an extremely curious and passionate Computer Science Student with under a year of experience working in the AAA Gaming Industry. I have previously worked on [Call of Duty: Black Ops Cold War](https://www.callofduty.com/blackopscoldwar) & [Call of Duty: Warzone](https://www.callofduty.com/warzone) in a QA Functional Game Tester capacity. I learned many new and interesting skills during my time with [Activision](https://www.activision.com/) as well as sparking a real interest in actually breaking into the Video Game Industry. I am currently located in Menomonie, WI or possibly visiting back home in the Twin Cities Metro Area. For any internship opportunities I am willing to relocate for the duration of the position.'
@@ -57,7 +57,7 @@ socialLinks:
 # For example, you can put link for your resume.
 resourceLinks:
 - title: "My Resume"
-  url: "https://tonycondon.com/#assets/resume/Tony-Condon-Resume.pdf"
+  url: "files/resume.pdf"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
