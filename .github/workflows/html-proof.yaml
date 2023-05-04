@@ -39,6 +39,6 @@ jobs:
     - uses: anishathalye/proof-html@v2.0.2
       with:
         directory: ./public
-        enforce_https: false
+        enforce_https: true
         url_ignore: "#"
         url_ignore_re: ^https://www.pexels.com
