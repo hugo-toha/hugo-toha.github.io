@@ -18,8 +18,6 @@ buttons:
   filter: "academic"
 - name: Hobby
   filter: "hobby"
-- name: Game Development
-  filter: "game dev"
 
 # your projects
 projects:
