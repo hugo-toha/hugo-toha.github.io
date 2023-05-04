@@ -23,9 +23,12 @@ languages:
   en:
     languageName: English
     weight: 1
+  bn:
+    languageName: বাংলা
+    weight: 3
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
-# DefaultContentLanguage: en
+# DefaultContentLanguage: bn
 
 # Allow raw html in markdown file
 markup:
@@ -67,7 +70,7 @@ params:
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
-    maxVisibleSections: 6
+    maxVisibleSections: 5
 
   # Configure various features of this theme
   features:
@@ -91,15 +94,15 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: false
+      enable: true
       # Share post on different social media
       shareButtons:
-        # facebook: true
-        # twitter: true
-        # linkedin: true
-        # reddit: true
-        # whatsapp: true
-        # email: true
+        facebook: true
+        twitter: true
+        linkedin: true
+        reddit: true
+        whatsapp: true
+        email: true
         # tumblr: true
         # pocket: true
         # diaspora: true
@@ -107,12 +110,11 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: false
+      enable: true
 
     # Enable comment feature. There, should be only one of them.
     comment:
       enable: false
-
       services:
         disqus:
           shortName: toha-example-site
@@ -125,7 +127,7 @@ params:
         #   recordIP: true
         #   enableQQ: true
         # utteranc:
-        #   repo: github.com/UnseenUniverse/UnseenUniverse
+        #   repo: github.com/hugo-toha/hugo-toha.github.io
         #   issueTerm: title
         #   theme: github-light
         # giscus:
@@ -146,7 +148,7 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: false
+      enabled: true
       services:
         # Google Analytics
         google:
@@ -167,7 +169,7 @@ params:
       enable: false
       services:
         kofi:
-          user: none
+          user: hossainemruz
           text: Tip Me
           textColor: '#f9fafc'
           backgroundColor: '#248aaa'
@@ -187,7 +189,7 @@ params:
 
     # Specify whether to show flag in the language selector. Default is true.
     flags:
-      enable: true
+      enable: false
       # # If you want to use different country flag for a language, specify them here.
       # flagOverwrites:
       #   - languageCode: en
@@ -199,16 +201,16 @@ params:
 
     # Enable this to create flowcharts using shortcodes.
     flowchart:
-      enable: false
+      enable: true
       services:
         # Uncomment for `mermaid` shortcode.
         mermaid:
           # For config options, see: https://mermaid-js.github.io/mermaid/#/Setup?id=configuration
-          # theme: dark
+           theme: dark
 
     # Enable this to create mathematic expressions using `$$` blocks
     math:
-      enable: false
+      enable: true
       services:
         # https://katex.org/docs/autorender.html#api for more configurations
         katex:
@@ -247,39 +249,40 @@ params:
 
     # Enable to use `video-player` shortcode
     videoPlayer:
-      enable: false
+      enable: true
       services:
         # convert .js-player class into video player via https://plyr.io/
         # Can play HTML5 Video, Audio, Youtube, Vimeo.
         # For more info on setup: https://github.com/sampotts/plyr#quick-setup
         plyr:
-        # options doc: https://github.com/sampotts/plyr#options
-        # fullscreen: true
+          # options doc: https://github.com/sampotts/plyr#options
+          # fullscreen: true
+
 
   # Provide footer configuration.
   footer:
-    enable: true
+    enable: false
     # You can provide your custom footer template using this option.
     # Put your template in "layouts/partials" folder of your repo.
     template: footer.html
     # Show/hide navigation in the footer. Default is "true".
     navigation:
-      enable: false
+      enable: true
       # show custom menus in the footer
-      customMenus: false
+      customMenus: true
     # Show/hide "Contact Me" section in the footer. Default is "true".
     contactMe:
       enable: true
     # Show/hide credentials section in the footer. Default is "true".
     credentials:
-      enable: false
+      enable: true
 
     # Show/hide newsletter section in the footer. Default is "true".
     # Currently, it supports "mailchimp".
     newsletter:
       enable: false
-      #provider: mailchimp
-      #mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
+      provider: mailchimp
+      mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:

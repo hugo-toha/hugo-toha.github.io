@@ -2,7 +2,7 @@
 name: "Tony Condon"
 nickname: "Tony"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hey, I'm"
+greeting: "Hey, I am"
 image: "images/author/Tony.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
@@ -10,7 +10,6 @@ contactInfo:
   #phone: "+1 (123) 456-7890"
   github: UnseenUniverse
   linkedin: Tony Condon
-  #itch.io:
 
 # some summary about what you do
 summary:

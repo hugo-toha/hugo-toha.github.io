@@ -21,7 +21,7 @@ degrees:
     #achieved: 3.6
     #outOf: 4
   #publications: #(optional)
- #- title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #- title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     #url: "#"
   #- title: Fusce eu augue ut odio porttitor pulvinar.
     #url: "#"
@@ -34,10 +34,10 @@ degrees:
     name: University of Wisconsin-Stout
     url: "https://www.uwstout.edu/programs/bs-computer-science"
   #grade: #(optional)
-    scale: GPA
-    achieved: 3.5
-    outOf: 4
-  #takenCourses: #(optional)
+    #scale: CGPA
+    #achieved: 3.5
+    #outOf: 4
+  takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
     collapseAfter: 3

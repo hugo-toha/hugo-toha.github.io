@@ -4,7 +4,7 @@ section:
   id: projects
   enable: false
   weight: 5
-  showOnNavbar: true
+  showOnNavbar: false
   # Can optionally hide the title in sections
   # hideTitle: true
 
@@ -16,8 +16,8 @@ buttons:
   filter: "professional"
 - name: Academic
   filter: "academic"
-#- name: Hobby
-  #filter: "hobby"
+- name: Hobby
+  filter: "hobby"
 
 # your projects
 projects:
@@ -46,19 +46,19 @@ projects:
   summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
   tags: ["academic","iot"]
 
-#- name: Nocode
-  #logo: /images/sections/projects/no-code.png
-  #role: Nothing
-  #timeline: "Oct 2019 - Dec 2019"
-  #repo: https://github.com/kelseyhightower/nocode
-  ##url: ""
-  #summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  #tags: ["hobby", "fun"]
+- name: Nocode
+  logo: /images/sections/projects/no-code.png
+  role: Nothing
+  timeline: "Oct 2019 - Dec 2019"
+  repo: https://github.com/kelseyhightower/nocode
+  #url: ""
+  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
+  tags: ["hobby", "fun"]
 
-#- name: Toha
-  #logo: /images/sections/projects/toha.png
-  #role: Owner
-  #timeline: "Jun 2019 - Present"
-  #repo: https://github.com/hossainemruz/toha
-  #summary: A Hugo theme for personal portfolio.
-  #tags: ["hobby","hugo","theme","professional"]
+- name: Toha
+  logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/hossainemruz/toha
+  summary: A Hugo theme for personal portfolio.
+  tags: ["hobby","hugo","theme","professional"]

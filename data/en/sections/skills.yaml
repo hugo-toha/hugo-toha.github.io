@@ -11,16 +11,16 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C++ programming. Started learning it this year for my Data Structures course. Still more comfortable with C# but definitely improving as the weeks go by."
-  
-- name: Linux/Unix
-  logo: /images/sections/skills/linux.png
-  summary: "Most comfortable with Ubuntu Desktop & Server. Also have some experience with Red Hat Enterprise Linux
+  - name: C++
+    logo: /images/sections/skills/c++.png
+    summary: "Know basic C++ programming. Started learning it this year for my Data Structures course. Still more comfortable with C# but definitely improving as the weeks go by."
+
+  - name: Linux/Unix
+    logo: /images/sections/skills/linux.png
+    summary: "Most comfortable with Ubuntu Desktop & Server. Also have some experience with Red Hat Enterprise Linux
 Server, Kali Linux and, Raspberry Pi OS. Ironically I actually know Linux/Unix CLI commands better than Windows despite decades more experience with Windows OS. Mostly done various LAMP/LEMP Web Server set ups with all the tid bits that go with that."
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. I have mostly used Github. Although I have used Microsoft Azure Repos before as well."
-  url: "https://git-scm.com/"
+  - name: Git
+    logo: /images/sections/skills/git.png
+    summary: "Experienced with git-based development. I have mostly used Github. Although I have used Microsoft Azure Repos before as well."
+    url: "https://git-scm.com/"

@@ -19,12 +19,11 @@ experiences:
   positions:
   - designation: QA Functional Tester
     start: May 2021
-    end: Oct 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Oct 2021
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Verifying functionality, data content, performance, 1st Party (Sony, Microsoft, Nintendo) compliance,
-      usability/playability, and hardware/software compatibility.
+        usability/playability, and hardware/software compatibility.
     - Various types of Functional Testing including Black Box Testing, Smoke Testing, Regression Testing, Load Testing.
     - Used Jira and DevTrack in day to day job duties.
