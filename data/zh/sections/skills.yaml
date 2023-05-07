@@ -1,0 +1,59 @@
+# section information
+section:
+  name: 技能
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  template: sections/skills.html
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Linux操作系统
+  logo: "/images/sections/skills/linux.png"
+  summary: "用作主操作系统。能够编写 bash/shell 脚本、systemd 服务管理、内核参数优化和系统安全等。熟悉Ubuntu，OpenSUSE，Fedora等发行版。"
+  url: "https://www.linux.org/"
+
+- name: 云计算
+  logo: "/images/sections/skills/cloud.png"
+  summary: "阿里云、腾讯云、GCP、AWS 等大多数主要公有云使用经验。了解OpenStack、CloudStack等私有云解决方案。"
+
+- name: Git
+  logo: "/images/sections/skills/git.png"
+  summary: "具有基于 git 的开发经验。大多数情况下，使用 Gitlab。此外，有使用Github和Bitbucket的经验。"
+  url: "https://git-scm.com/"
+
+- name: Docker
+  logo: "/images/sections/skills/docker.svg"
+  summary: "将大多数程序构建为容器化应用。具有容器镜像多阶段、多架构以及优化构建的经验。还有Swarm分布式集群管理经验。"
+  url: "https://www.docker.com/"
+
+- name: Podman
+  logo: "/images/sections/skills/podman.png"
+  summary: "将应用程序构建为容器化应用。具有Skopeo，Buildah等容器镜像工具，以及与Systemd服务集成进行边缘部署的经验。"
+  url: "https://podman.io/"
+
+- name: Kubernetes
+  logo: "/images/sections/skills/kubernetes.png"
+  summary: "基于 Kubernetes 的基础设施架构，包括网络、存储管理。能够在 Kubernetes 上部署、管理容器应用程序。在构建 Kubernetes 生态系统（包括可观察性）方面经验丰富。"
+  url: "https://kubernetes.io/"
+
+- name: 自动化
+  logo: /images/sections/skills/ansible.png
+  summary: "IT automation and IaC management. Experenced with Ansible, Terraform tools and Python scripts."
+  summary: "IT流程自动化以及基础设施即代码（IaC）管理。拥有Ansible、Terraform以及Python脚本经验。"
+  url: "https://www.redhat.com/zh/technologies/management/ansible"
+
+- name: Prometheus
+  logo: "/images/sections/skills/prometheus.png"
+  summary: "安装、配置Prometheus指标,有PromQL，AlertManager的经验。以及通过Grafana实现指标可视化。"
+  url: "https://prometheus.io/"
+
+- name: DevOps
+  logo: /images/sections/skills/devops.svg
+  summary: "Devops working experience, including culture with teamwork, software development life cycle management, automation pipe (CI/CD) to delivery software values."
+  summary: "DevOps 工作经验，包括团队合作文化、软件开发生命周期管理、持续继承/持续交付（CI/CD）软件价值。"
+  url: "https://www.redhat.com/zh/topics/devops"

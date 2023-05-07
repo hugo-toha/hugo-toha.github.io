@@ -1,7 +1,8 @@
 baseURL: /
 
-languageCode: zh-cn
-title: "梦哲空间"
+languageCode: zh_CN
+title: "Mengz's Space ..."
+defaultContentLanguage: zh
 
 # Use Hugo modules to add theme
 module:
@@ -20,12 +21,12 @@ module:
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
+  zh:
+    languageName: 中文
+    weight: 1
   en:
     languageName: English
-    weight: 1
-  bn:
-    languageName: বাংলা
-    weight: 3
+    weight: 2
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 # DefaultContentLanguage: bn
@@ -100,9 +101,9 @@ params:
         facebook: true
         twitter: true
         linkedin: true
-        reddit: true
-        whatsapp: true
-        email: true
+        # reddit: true
+        # whatsapp: true
+        # email: true
         # tumblr: true
         # pocket: true
         # diaspora: true
@@ -110,7 +111,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
@@ -189,11 +190,11 @@ params:
 
     # Specify whether to show flag in the language selector. Default is true.
     flags:
-      enable: true
+      enable: false
       # # If you want to use different country flag for a language, specify them here.
       # flagOverwrites:
-      #   - languageCode: en
-      #     countryCode: us
+      #   - languageCode: zh
+      #     countryCode: cn
 
     # Enable this to use `embed-pdf` shortcode.
     embedpdf:

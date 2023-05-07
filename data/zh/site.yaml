@@ -1,0 +1,26 @@
+# Copyright Notice
+copyright: © 2023 Copyright.
+
+# A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
+# disclaimer: "此主题在 MIT 许可下。因此，您可以将其用于非商业、商业或私人用途。
+# 您可以修改或分发主题，而无需主题作者的任何许可。
+# 但是，主题作者不对主题的任何问题提供任何保证或承担任何责任。"
+
+# Meta description for your site.  This will help the search engines to find your site.
+description: 梦哲的个人主页和博客。
+
+# specify the list of custom menus that you want to show in the top navbar.
+# they will be separated by a divider from the main menus.
+customMenus:
+# - name: 文档
+#   url: /docs/
+#   hideFromNavbar: true
+#   showOnFooter: true
+
+# Specify OpenGraph Headers
+openGraph:
+  title: 梦哲的个人主页
+  type: website
+  description: 梦哲的个人主页和博客
+  image: images/author/mengz.png
+  url: https://mengzyou.github.io

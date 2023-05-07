@@ -1,6 +1,6 @@
 # section information
 section:
-  name: About
+  name: 关于
   id: about
   enable: true
   weight: 1
@@ -8,18 +8,15 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Service Reliability Engineer
+designation: SRE
 # your company information
-company:
-  name: DASUDIAN Tech Inc.
-  url: "https://www.dasudian.com"
+# company:
+#   name: Example Co.
+#   url: "https://www.example.com"
 
-# your resume. this file path should be relative to you "static" directory
-# Dreprecated. Use resourceLinks instead.
-# resume: "files/resume-en.pdf"
 
 # a summary about you
-summary: 'I am a passionate SRE with 15 years of working experience. Studied Electronic Information Engineering at XiDian University, and graduated in 2008. Have worked 3 companies, experienced the transition from a student to a Software Engineer, to a Technical Service Engineer, then to a Service Reliability Engineer(SRE). Cheerful, and actively face life and work.'
+summary: '我是一个充满激情的SRE，拥有15年的工作经验。在西安电子科技大学学习电子信息工程专业，2008年毕业。工作过3家公司，经历了从学生到软件工程师，到技术服务工程师，再到服务可靠性工程师（SRE）的转变。性格开朗，积极面对生活和工作。'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -56,9 +53,10 @@ socialLinks:
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-- title: "My Resume"
-  url: "https://nxc.mengz.dev/s/5C6wA7zFgYRfSTx"
+- title: "工作简历"
+  url: "https://nxc.mengz.dev/s/c28ZcJDtcRmrEfk"
 
+# Show your badges
 # Show your badges
 badges:
 - type: certification
@@ -77,17 +75,17 @@ badges:
   badge: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~Z2AFP3NSCLR7/CERTIFICATE_LANDING_PAGE~Z2AFP3NSCLR7.jpeg"
 
 - type: soft-skill-indicator
-  name: Leadership
+  name: 领导力
   percentage: 85
   color: blue
 
 - type: soft-skill-indicator
-  name: Team Work
+  name: 团队协作
   percentage: 90
   color: yellow
 
 - type: soft-skill-indicator
-  name: Hard Working
+  name: 勤奋
   percentage: 85
   color: orange
 

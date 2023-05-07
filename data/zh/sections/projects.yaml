@@ -1,9 +1,9 @@
 # section information
 section:
-  name: প্রোজেক্ট
+  name: 项目
   id: projects
-  enable: true
-  weight: 4
+  enable: false
+  weight: 5
   showOnNavbar: true
   template: sections/projects.html
   # Can optionally hide the title in sections

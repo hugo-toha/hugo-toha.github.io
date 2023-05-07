@@ -11,39 +11,46 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
-
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Using as the main operating system. Capable of writing bash/shell scripts， systemd service management, kernel parameters optimization and system security etc. Familiar with Ubuntu, OpenSUSE, Fedora etc distribution."
+  url: "https://www.linux.org/"
 
 - name: Cloud Computing
   logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  url: "https://www.docker.com/"
-
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
-
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+  summary: "Worked with most of the major clouds such as Aliyun, TencentCloud, GCP, AWS etc. Know OpenStack & CloudStack private cloud solution."
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  summary: "Experienced with git-based development. Mostly, use Gitlab. Also, have experience in working with Github & Bitbucket."
   url: "https://git-scm.com/"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "Build most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process. And expericed with Swarm cluster management."
+  url: "https://www.docker.com/"
+
+- name: Podman
+  logo: "/images/sections/skills/podman.png"
+  summary: "Build application as dockerized container. Experienced with Skopeo, Buildah image tools, and integration with Systemd services for Edge deployment."
+  url: "https://podman.io/"
+
+- name: Kubernetes
+  logo: /images/sections/skills/kubernetes.png
+  summary: "Infrastruct archtect base on Kubernetes, include network, storage management. Capable of deploying, managing container applcation on Kubernetes. Experenced in constructing Kubernetes ecosystem including observability."
+  url: "https://kubernetes.io/"
+
+- name: Automation
+  logo: /images/sections/skills/ansible.png
+  summary: "IT automation and IaC management. Experenced with Ansible, Terraform tools and Python scripts."
+  url: "https://www.redhat.com/zh/technologies/management/ansible"
+
+- name: Prometheus
+  logo: /images/sections/skills/prometheus.png
+  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. And metrics visualization via Grafana."
+  url: "https://prometheus.io/"
+
+- name: DevOps
+  logo: /images/sections/skills/devops.svg
+  summary: "Devops working experience, including culture with teamwork, software development life cycle management, automation pipe (CI/CD) to delivery software values."
+  url: "https://www.redhat.com/zh/topics/devops"

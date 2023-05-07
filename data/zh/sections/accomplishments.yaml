@@ -1,0 +1,45 @@
+# section information
+section:
+  name: 技能学习
+  id: accomplishments
+  enable: true
+  weight: 8
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+# Your accomplishments
+accomplishments:
+- name: Architecting with Google kubernetes Engine
+  timeline: "2020年10月"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: "Google Kubernetes Engine 的架构专业化将教您如何使用 Google Kubernetes Engine 或 GKE 实施解决方案，包括构建、调度、负载平衡和监控工作负载，以及提供服务的发现、管理基于角色的访问控制和安全性，以及为这些应用程序提供持久存储。"
+  certificateURL: "https://www.coursera.org/account/accomplishments/specialization/certificate/YNZENWZDBPK7"
+
+- name: Google Cloud Fundamentals - Core Infrastructure
+  timeline: "Oct 2020"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: "Google Cloud Fundamentals： Core Infrastructure 介绍了使用 Google Cloud 的重要概念和术语。通过视频和动手实验，本课程介绍和比较了 Google Cloud 的许多计算和存储服务，以及重要的资源和策略管理工具。"
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/Z2AFP3NSCLR7"
+
+- name: Introduction to Kubernetes
+  timeline: "Jan 2018"
+  organization:
+    name: edX
+    url: https://courses.edx.org/
+  courseOverview: "由Linux基金会提供的学习课程，Linux基金会的在线学习计划。"
+  certificateURL: "https://courses.edx.org/certificates/96b4fe74edcc4f3381767953797d786f"
+
+- name: Virtualization of KVM
+  timeline: "Sep 2014 "
+  organization:
+    name: Ericsso Academy
+    url: https://educate.ericsson.net/educate/
+  courseOverview: "KVM（基于内核的虚拟机）是一种在 Linux 上运行的开源虚拟化技术。它允许多个虚拟机 （VM） 在单个物理服务器上同时运行。"
+  certificateURL: "https://nxc.mengz.dev/s/WKWWpixLkkdiFpf"
+ 

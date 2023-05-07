@@ -1,0 +1,66 @@
+# section information
+section:
+  name: 工作经历
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: 大数点科技
+    url: "https://www.dasudian.com/"
+    location: 深圳
+    # company overview
+    overview: 可操作的洞察引擎，创建产品和解决方案，使行业更加高效、安全、安全和可靠。
+  positions:
+  - designation: DevOps架构师
+    start: 2016年1月
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - 设计并维护公司基础设施环境(包括开发、测试、生产)，并实现运维可观测性能力
+    - DEVOPS工作文化和团队建设,推进传统运维向云原生、自动化方向发展
+    - 设计并制定研发部门代码管理规范、CI/CD流水线、服务交付以及持续反馈等流程 
+    - 管理公司IT资源，控制IT资源成本
+    - 研发团队管理，规划研发团队工作流程
+
+- company:
+    name: 爱立信（中国）
+    url: "https://www.ericsson.com"
+    location: 上海
+    overview: 爱立信是信息和通信技术（ICT）的领先提供商之一。
+  positions:
+  - designation: 技术支持工程师
+    start: 2012年5月
+    end: 2015年9月
+    responsibilities:
+    - 根据NPS产品客户需求，为客户设计和交付定制化功能服务。
+    - 维护客户生产环境系统，为客户解决系统在生产环境中的各种技术问题。
+    - 和团队一起为客户提供24x7x365的技术支持服务，保障系统在客户环境的稳定运行。
+
+  - designation:  Software Engineer
+    start: 2010年3月
+    end: 2012年4月
+    responsibilities:
+    - 为MA产品进行功能维护和平台迁移。
+    - 为产品PG NGN编写升级脚本，保障数据和配置的兼容性。
+    - 根据项目需求，为产品PG NGN编写业务逻辑。
+
+- company:
+    name: TCL通讯科技.
+    url: "https://www.tclcom.com/"
+    location: 深圳
+    overview: 专注于为全球消费者提供TCL和Alcatel 两个品牌移动通信终端产品，成为受人尊敬和最具创新能力的全球领先企业。
+  positions:
+  - designation: 软件工程师
+    start: 2008年7月
+    end: 2010年3月
+    responsibilities:
+    - 基于Windows Mobile系统的GPS驱动开发，为基于WM系统的智能手机实现定位功能。
+    - 智能手机桌面应用开发（自定义桌面主题）。
+    - 使用Perl语言编写自动化测试脚本，为开发的驱动程序进行自动化测试。
