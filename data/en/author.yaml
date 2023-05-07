@@ -7,13 +7,13 @@ image: "images/author/mengz.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "mengz.you@outlook.com"
-  phone: "+8617704030517"
+  # phone: "+8617704030517"
   github: mengzyou
   linkedin: mengzyou
 
 # some summary about what you do
 summary:
   - I am a SRE
-  - I am a Devops
-  - I love Life
-  - I love to work with open
+  - I am a DevOps Engineer
+  - Love Life, love what I do
+  - Yesterday, today, tommorrow, happy every day

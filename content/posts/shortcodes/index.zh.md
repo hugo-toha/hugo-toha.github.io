@@ -7,7 +7,6 @@ menu:
     name: 短代码示例
     identifier: shortcodes
     weight: 40
-hero: boat.jpg
 mermaid: true
 ---
 
