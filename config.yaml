@@ -1,8 +1,8 @@
 baseURL: /
 
-languageCode: zh_CN
+languageCode: en_US
 title: "Mengz's Space ..."
-defaultContentLanguage: zh
+defaultContentLanguage: en
 
 # Use Hugo modules to add theme
 module:
@@ -21,11 +21,11 @@ module:
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
-  zh:
-    languageName: 中文
-    weight: 1
   en:
     languageName: English
+    weight: 1
+  zh:
+    languageName: 中文
     weight: 2
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
@@ -65,7 +65,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/mengzyou/mengzyou.github.io
+  # gitRepo: https://github.com/mengzyou/mengzyou.github.io
   # Default branch of your Git repo
   gitBranch: main
 
@@ -202,7 +202,7 @@ params:
 
     # Enable this to create flowcharts using shortcodes.
     flowchart:
-      enable: false
+      enable: true
       services:
         # Uncomment for `mermaid` shortcode.
         mermaid:

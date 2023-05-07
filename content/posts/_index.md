@@ -1,3 +1,3 @@
 ---
-title: 文章
+title: Posts
 ---
