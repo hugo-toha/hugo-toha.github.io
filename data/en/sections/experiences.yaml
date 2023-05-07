@@ -11,54 +11,54 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: DASUDIAN Tech Inc.
+    url: "https://www.dasudian.com/"
+    location: Shenzhen
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: The actionable insights engine, creating products and solutions that make industry more productive, secure, safe and reliable.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: SRE, DevOps Engineer
+    start: Jan 1016
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - R&D team mangement, define R&D team working processes.
+    - Manage the IT environments of Company.
+    - Build and maintain company's services of project management and code management, provides efficient development tool support for R&D teams.  
+    - Build and maintain the environments of development, testing and production with DevOps team.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: Ericsson (China) Co.
+    url: "https://www.ericsson.com"
+    location: Shanghai
+    overview: Ericsson is one of the leading providers of Information and Communication Technology (ICT) to service providers.
+  positions:
+  - designation: Technical Service Engineer
+    start: May 2012
+    end: Sep 2015
+    responsibilities:
+    - According to requirements of customer, design and develop customized service based on main product .
+    - Maintain systems which deliverd to customer environment, solve customer's various technical problems in production environment.
+    - Solve emergency issues for customer, provide 27X7X365 technical support to customer with team.
+
+  - designation:  Software Engineer
+    start: March 2010
+    end: Apr 2012
+    responsibilities:
+    - Product platform migration project, migrate codes from Sparc to X86 Linux, responsible for codes building on Linux.
+    - Implement software product business logic according to requirements.
+
+- company:
+    name: TCL Communication Ltd.
+    url: "https://www.tclcom.com/"
+    location: Shenzhen
+    overview: Focus on providing global consumers with TCL and Alcatel two brands of mobile communication terminal products, to become a respected and most innovative global leader.
   positions:
   - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+    start: July 2008
+    end: March 2010
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
-
-- company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-  positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
-    responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Develop GPS drivers based on Windows Mobile system, implemented location feature for Phone based Windows Mobile system.
+    - Develop desktop applications for smart phone, implementd customized desktop theme based on Company brand.
+    - Write related testing scripts for drivers and applications.

@@ -1,7 +1,8 @@
-baseURL: https://hugo-toha.github.io
+baseURL: /
 
-languageCode: en-us
-title: "John's Blog"
+languageCode: en_US
+title: "Mengz's Space ..."
+defaultContentLanguage: en
 
 # Use Hugo modules to add theme
 module:
@@ -23,9 +24,9 @@ languages:
   en:
     languageName: English
     weight: 1
-  bn:
-    languageName: বাংলা
-    weight: 3
+  zh:
+    languageName: 中文
+    weight: 2
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 # DefaultContentLanguage: bn
@@ -64,7 +65,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  # gitRepo: https://github.com/mengzyou/mengzyou.github.io
   # Default branch of your Git repo
   gitBranch: main
 
@@ -100,9 +101,9 @@ params:
         facebook: true
         twitter: true
         linkedin: true
-        reddit: true
-        whatsapp: true
-        email: true
+        # reddit: true
+        # whatsapp: true
+        # email: true
         # tumblr: true
         # pocket: true
         # diaspora: true
@@ -110,7 +111,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
@@ -151,11 +152,11 @@ params:
       enabled: true
       services:
         # Google Analytics
-        google:
-          id: G-H4LBG7NDFZ
+        # google:
+        #   id: G-H4LBG7NDFZ
         # # CounterDev
-        # counterDev:
-        #   id: <your counterdev id>
+        counterDev:
+          id: 2905461c-37df-49f9-a4ca-0ea1ba64543a
         # # GoatCounter
         # goatCounter:
         #   code: <your goat counter code>
@@ -189,11 +190,11 @@ params:
 
     # Specify whether to show flag in the language selector. Default is true.
     flags:
-      enable: true
+      enable: false
       # # If you want to use different country flag for a language, specify them here.
       # flagOverwrites:
-      #   - languageCode: en
-      #     countryCode: us
+      #   - languageCode: zh
+      #     countryCode: cn
 
     # Enable this to use `embed-pdf` shortcode.
     embedpdf:
@@ -201,7 +202,7 @@ params:
 
     # Enable this to create flowcharts using shortcodes.
     flowchart:
-      enable: false
+      enable: true
       services:
         # Uncomment for `mermaid` shortcode.
         mermaid:
@@ -280,7 +281,7 @@ params:
     # Show/hide newsletter section in the footer. Default is "true".
     # Currently, it supports "mailchimp".
     newsletter:
-      enable: true
+      enable: false
       provider: mailchimp
       mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
 

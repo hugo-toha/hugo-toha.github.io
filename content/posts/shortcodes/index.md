@@ -9,6 +9,10 @@ menu:
     weight: 40
 hero: boat.jpg
 mermaid: true
+author:
+  name: Jessica Jonas
+  image: /images/author/jessica.png
+math: true
 ---
 
 This is a sample post intended to test the followings:

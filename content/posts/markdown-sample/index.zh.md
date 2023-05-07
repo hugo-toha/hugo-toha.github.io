@@ -1,10 +1,10 @@
 ---
-title: "Markdown এর নমুনা"
+title: "Markdown示例"
 date: 2020-06-08T08:06:25+06:00
-description: Markdown rendering samples
+description: Markdown渲染示例
 menu:
   sidebar:
-    name: Markdown এর নমুনা
+    name: Markdown示例
     identifier: markdown
     weight: 30
 author:
@@ -13,15 +13,20 @@ author:
 math: true
 ---
 
-এই নমুনা পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ
+这是一个示例帖子，旨在测试以下内容：
 
-- একজন ভিন্ন পোস্ট লেখক।
-- সূচীপত্র।
-- Markdown কন্টেন্ট রেন্ডারিং।
-- গণিত রেন্ডারিং।
-- ইমোজি রেন্ডারিং।
+- 不同的帖子作者。
+- 目录
+- 降价内容渲染。
+- 数学渲染。
+- 表情符号渲染。
 
 ---
+# Markdown语法渲染
+
+## 标题
+
+The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
 # Markdown Syntax Rendering
 
 ## Headings

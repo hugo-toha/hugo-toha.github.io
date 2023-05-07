@@ -11,36 +11,36 @@ section:
 
 # Your accomplishments
 accomplishments:
-- name: Linux Foundation System Administrator
-  timeline: "March 2018 - March 2019"
-  organization:
-    name: Linux Foundation
-    url: https://www.linuxfoundation.org
-  courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-  certificateURL: "https://example.com"
-
-- name: Machine Learning
-  timeline: "Jun 2020 - Jan 2021"
+- name: Architecting with Google kubernetes Engine
+  timeline: "Oct 2020"
   organization:
     name: Coursera
     url: https://www.coursera.org
-  courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
-  certificateURL: "https://example.com"
+  courseOverview: "The Architecting with Google Kubernetes Engine specialization will teach you how to implement solutions using Google Kubernetes Engine, or GKE, including building, scheduling, load balancing, and monitoring workloads, as well as providing for discovery of services, managing role-based access control and security, and providing persistent storage to these applications."
+  certificateURL: "https://www.coursera.org/account/accomplishments/specialization/certificate/YNZENWZDBPK7"
 
-- name: Grokking the System Design Interview
-  timeline: "Jan 2018 - Sept 2018"
+- name: Google Cloud Fundamentals - Core Infrastructure
+  timeline: "Oct 2020"
   organization:
-    name: educative
-    url: https://www.educative.io
-  courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
-  certificateURL: "https://example.com"
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: "Google Cloud Fundamentals: Core Infrastructure introduces important concepts and terminology for working with Google Cloud. Through videos and hands-on labs, this course presents and compares many of Google Cloud's computing and storage services, along with important resource and policy management tools."
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/Z2AFP3NSCLR7"
 
-- name: Mastering Multithreading Programming with Go (Golang)
-  timeline: "Nov 2017 - Mar 2018"
+- name: Introduction to Kubernetes
+  timeline: "Jan 2018"
   organization:
-    name: Udemy
-    url: https://www.udemy.com
-  courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, mulithreading topics.
-  certificateURL: "https://example.com"
+    name: edX
+    url: https://courses.edx.org/
+  courseOverview: "A course of study offered by LinuxFoundationX, an online learning initiative of The Linux Foundation."
+  certificateURL: "https://courses.edx.org/certificates/96b4fe74edcc4f3381767953797d786f"
+
+- name: Virtualization of KVM
+  timeline: "Sep 2014 "
+  organization:
+    name: Ericsso Academy
+    url: https://educate.ericsson.net/educate/
+  courseOverview: "KVM (Kernel-based Virtual Machine) is an open-source virtualization technology that runs on Linux. It allows multiple virtual machines (VMs) to run simultaneously on a single physical server."
+  certificateURL: "https://nxc.mengz.dev/s/WKWWpixLkkdiFpf"
  
 

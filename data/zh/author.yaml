@@ -1,19 +1,19 @@
 # some information about you
-name: "Mengz You"
-nickname: "Mengz"
+name: "You Mengzhe"
+nickname: "梦哲"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I am"
+greeting: "你好，我是"
 image: "images/author/mengz.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "mengz.you@outlook.com"
-  phone: "+8617704030517"
+  # phone: "+8617704030517"
   github: mengzyou
   linkedin: mengzyou
 
 # some summary about what you do
 summary:
-  - I am a SRE
-  - I am a Devops
-  - I love Life
-  - I love to work with open
+  - 我是一名服务可靠性工程师（SRE）
+  - 我是一名开发运维工程师（DevOps）
+  - 我热爱生活
+  - 我喜欢开放和激情的工作
