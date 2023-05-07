@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: /
 
-languageCode: en-us
-title: "John's Blog"
+languageCode: zh-cn
+title: "梦哲空间"
 
 # Use Hugo modules to add theme
 module:
@@ -64,7 +64,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/mengzyou/mengzyou.github.io
   # Default branch of your Git repo
   gitBranch: main
 
@@ -151,11 +151,11 @@ params:
       enabled: true
       services:
         # Google Analytics
-        google:
-          id: G-H4LBG7NDFZ
+        # google:
+        #   id: G-H4LBG7NDFZ
         # # CounterDev
-        # counterDev:
-        #   id: <your counterdev id>
+        counterDev:
+          id: 2905461c-37df-49f9-a4ca-0ea1ba64543a
         # # GoatCounter
         # goatCounter:
         #   code: <your goat counter code>
@@ -280,7 +280,7 @@ params:
     # Show/hide newsletter section in the footer. Default is "true".
     # Currently, it supports "mailchimp".
     newsletter:
-      enable: true
+      enable: false
       provider: mailchimp
       mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
 
