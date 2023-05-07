@@ -7,7 +7,6 @@ menu:
     name: Shortcodes Sample
     identifier: shortcodes
     weight: 40
-hero: boat.jpg
 mermaid: true
 author:
   name: Jessica Jonas
