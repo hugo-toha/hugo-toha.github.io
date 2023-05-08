@@ -3,12 +3,12 @@ title: "轻量级Kubernetes集群-K3S"
 date: 2022-07-22T21:00:13+08:00
 categories: ["Kubernetes"]
 description: "介绍一款轻量级kubernetes集群工具k3s"
-hero: images/k3s-kubernetes.png
-tags: ["Container", "Kubernetes"]
+hero: k3s-kubernetes.png
+tags: ["contianer", "kubernetes", "cluster"]
 menu:
   sidebar:
     name: "轻量级Kubernetes集群-K3S"
-    identifier: get-started-with-k3s
+    identifier: lightweight-k3s
     parent: k8s
     weight: 10
 ---
