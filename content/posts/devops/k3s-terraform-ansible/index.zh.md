@@ -3,7 +3,7 @@ title: "IaC示例-TERRAFORM&ANSIBLE创建K3S集群"
 description: "通过 Pacer，Terraform 和 Ansible 在本地环境自动化创 K3S 集群演示"
 date: 2022-10-13T12:18:27+08:00
 categories: ["DEVOPS"]
-hero: k3s-terrafrom-ansible.jpeg
+hero: k3s-terraform-ansible.jpeg
 tags: ["terraform", "ansible", "k3s"]
 menu:
   sidebar:
