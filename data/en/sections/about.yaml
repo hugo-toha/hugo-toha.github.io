@@ -69,12 +69,12 @@ badges:
 - type: certification
   name: Architecting with Google Kubernetes Engine
   url: "https://www.coursera.org/account/accomplishments/specialization/certificate/5UP2VRZ7L9LL"
-  badge: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~YNZENWZDBPK7/CERTIFICATE_LANDING_PAGE~YNZENWZDBPK7.jpeg"
+  badge: "https://images.mengz.dev/posts/certificate-landing-page-coursera-awgke.webp"
 
 - type: certification
   name: Google Cloud Fundamentals - Core Infrastructure
   url: "https://www.coursera.org/account/accomplishments/certificate/Z2AFP3NSCLR7"
-  badge: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~Z2AFP3NSCLR7/CERTIFICATE_LANDING_PAGE~Z2AFP3NSCLR7.jpeg"
+  badge: "https://images.mengz.dev/posts/certificate-landing-page-coursera-gcfci.webp"
 
 - type: soft-skill-indicator
   name: Leadership

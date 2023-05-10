@@ -3,7 +3,7 @@ title: "扩展你的KUBECTL功能"
 date: 2022-07-04T15:37:12+08:00
 description: "介绍kubectl的插件来增强kubectl命令行工具的功能"
 categories: ["Kubernetes"]
-hero: "krew-banner.png"
+hero: krew-banner.webp
 tags: ["kubernetes", "kubectl"]
 menu:
   sidebar:

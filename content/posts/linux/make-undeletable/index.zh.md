@@ -2,7 +2,7 @@
 title: "LINUX上创建不可删除文件"
 date: 2019-08-24T15:00:04+08:00
 categories: ["Linux"]
-hero: linux-commands.jpg
+hero: linux-commands.webp
 tags: ["linux", "command"]
 menu:
   sidebar:

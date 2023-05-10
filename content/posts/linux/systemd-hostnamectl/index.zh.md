@@ -3,7 +3,7 @@ title: "HOSTNAMECTL管理主机名"
 description: "介绍在 openSUSE 上使用基于 systemd 的 hostnamectl 来管理系统主机名"
 date: 2015-05-17T13:35:00+0800
 categories: ["Linux"]
-hero: systemd-hostname.jpg
+hero: systemd-hostname.webp
 tags: ["systemd", "hostname", "opensuse"]
 menu:
   sidebar:

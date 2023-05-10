@@ -3,7 +3,7 @@ title: "最小化静态WEB容器实践"
 description: "使用Docker和httpd构建最小化静态web服务器"
 date: 2022-11-20T15:24:22+08:00
 categories: ["Container"]
-hero: docker-bp.jpg
+hero: docker-bp.webp
 tags: ["docker", "web"]
 menu:
   sidebar:

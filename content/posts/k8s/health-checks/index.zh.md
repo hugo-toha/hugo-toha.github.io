@@ -2,7 +2,7 @@
 title: "K8S健康检查最佳实践"
 date: 2020-12-08T17:32:26+08:00
 categories: ["Kubernetes"]
-hero: "kubernetes-health-checks.png"
+hero: kubernetes-health-checks.webp
 tags: ["kubernetes", "kubectl"]
 menu:
   sidebar:

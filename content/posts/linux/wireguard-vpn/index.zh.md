@@ -2,7 +2,7 @@
 title: "在LINUX上配置WIREGUARD"
 date: 2020-12-03T11:56:29+08:00
 categories: ["Linux"]
-hero: linux-wireguard.png
+hero: linux-wireguard.webp
 tags: ["wireguard", "vpn"]
 menu:
   sidebar:

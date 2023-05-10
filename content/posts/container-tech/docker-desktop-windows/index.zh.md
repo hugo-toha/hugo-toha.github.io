@@ -3,7 +3,7 @@ title: "WINDOWS上的DOCKER DESKTOP"
 description: "介绍在Windows上使用Docker Desktop开始容器之旅"
 date: 2020-03-18T14:31:38+08:00
 categories: ["Container"]
-hero: docker-desktop-windows.jpg
+hero: docker-desktop-windows.webp
 tags: ["docker", "windows"]
 menu:
   sidebar:

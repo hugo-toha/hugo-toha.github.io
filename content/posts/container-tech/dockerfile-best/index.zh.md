@@ -2,7 +2,7 @@
 title: "DOCKERFILE构建最佳实践"
 date: 2020-07-15T16:36:58+08:00
 categories: ["Container"]
-hero: docker-bp.jpg
+hero: docker-bp.webp
 tags: ["docker"]
 menu:
   sidebar:

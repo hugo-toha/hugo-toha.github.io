@@ -3,7 +3,7 @@ title: "DIUN-容器镜像更新通知"
 description: "推荐一个开源的Docker镜像更新通知工具diun"
 date: 2023-03-18T16:12:58+08:00
 categories: ["OpenTool"]
-hero: diun-banner.jpg
+hero: diun-banner.webp
 tags: ["cotainer", "docker", "slack"]
 menu:
   sidebar:

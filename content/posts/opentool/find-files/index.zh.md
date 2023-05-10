@@ -3,7 +3,7 @@ title: "文件系统查找工具"
 description: "推荐两款开源的文件系统查找工具 - mlocate, fd"
 date: 2021-12-03T09:28:38+08:00
 categories: ["OpenTool"]
-hero: find-file.png
+hero: find-file.webp
 tags: ["linux", "find"]
 menu:
   sidebar:

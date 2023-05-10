@@ -1,9 +1,8 @@
 ---
 title: "GITLAB CI自动部署容器应用"
-description: 
-date: 
+date: 2019-07-30T09:57:36+08:00
 categories: ["DEVOPS"]
-hero: gitlab-ci-docker.png
+hero: gitlab-ci-docker.webp
 tags: ["gitlab", "cicd", "docker"]
 menu:
   sidebar:

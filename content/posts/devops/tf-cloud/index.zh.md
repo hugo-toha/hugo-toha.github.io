@@ -3,7 +3,7 @@ title: "迁移本地项目到TF CLOUD"
 description: "以Terraform Cloud作为执行Backed来迁移本地Terraform项目，并管理资源状态"
 date: 2021-11-25T10:49:14+08:00
 categories: ["DEVOPS"]
-hero: tf-cloud.jpg
+hero: tf-cloud.webp
 tags: ["terrafrom", "cloud"]
 menu:
   sidebar:

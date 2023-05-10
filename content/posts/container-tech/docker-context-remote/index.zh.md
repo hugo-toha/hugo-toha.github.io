@@ -3,7 +3,7 @@ title: "管理远程DOCKER主机"
 description: "介绍使用Docker的context子命令来连接和管理远程Docker环境"
 date: 2022-05-08T09:05:27+08:00
 categories: ["Container"]
-hero: docker-context-remote.png
+hero: docker-context-remote.webp
 tags: ["docker"]
 menu:
   sidebar:
