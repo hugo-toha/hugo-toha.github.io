@@ -3,7 +3,7 @@ title: "BUMBLEBEE禁用NVIDIA显卡"
 description: "记录如何安装Bumblebee来禁止使用Nvidia的独立显卡"
 date: 2015-11-25T01:13:00+0800
 categories: ["Linux"]
-hero: bumblebee-nvidia.png
+hero: bumblebee-nvidia.webp
 tags: ["opensuse", "nvidia", "linux"]
 menu:
   sidebar:

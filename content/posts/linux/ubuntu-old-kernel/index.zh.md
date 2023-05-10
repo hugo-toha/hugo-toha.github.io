@@ -2,7 +2,7 @@
 title: "在UBUNTU上删除旧的内核"
 date: 2019-12-08T23:42:22+08:00
 categories: ["Linux"]
-hero: ubuntu-kernel.jpg
+hero: ubuntu-kernel.webp
 tags: ["ubuntu", "kernel"]
 menu:
   sidebar:

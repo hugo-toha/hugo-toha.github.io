@@ -3,7 +3,7 @@ title: "OPENSUSE上的ZYPPER包管理器"
 description: "在 SUSE 上使用 zypper 命令进行软件包管理的示例"
 date: 2015-04-27T08:07:00+0800
 categories: ["Linux"]
-hero: opensuse-zypper.png
+hero: opensuse-zypper.webp
 tags: ["opensuse", "zypper"]
 menu:
   sidebar:

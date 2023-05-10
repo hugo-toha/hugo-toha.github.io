@@ -3,7 +3,7 @@ title: "升级OPENSUSE LEAP"
 description: "如何在线升级openSUSE"
 date: 2022-01-15T10:04:00+08:00
 categories: ["Linux"]
-hero: opensuse-upgrade.jpg
+hero: opensuse-upgrade.webp
 tags: ["opensuse"]
 menu:
   sidebar:

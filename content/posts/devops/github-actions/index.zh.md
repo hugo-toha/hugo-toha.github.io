@@ -3,7 +3,7 @@ title: "GITHUB ACTIONS工作流"
 description: "介绍如何使用Github Actions创建CI/CD工作流"
 date: 2020-03-05T17:31:54+08:00
 categories: ["DEVOPS"]
-hero: github-actions.png
+hero: github-actions.webp
 tags: ["github", "cicd"]
 menu:
   sidebar:

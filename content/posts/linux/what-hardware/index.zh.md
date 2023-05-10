@@ -3,7 +3,7 @@ title: "查看硬件信息"
 description:  "一篇关于如何通过Linux命令查看系统硬件信息的文章"
 date: 2010-11-19T21:33:20+0800
 categories: ["Linux"]
-hero: linux-hardware.jpg
+hero: linux-hardware.webp
 tags: ["linux", "hardware"]
 menu:
   sidebar:

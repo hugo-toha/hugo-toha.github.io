@@ -2,7 +2,7 @@
 title: "RCLOUD与云存储同步"
 date: 2019-08-30T12:19:04+08:00
 categories: ["OpenTool"]
-hero: rclone.png
+hero: rclone.webp
 tags: ["cloud", "rclone", "linux"]
 menu:
   sidebar:

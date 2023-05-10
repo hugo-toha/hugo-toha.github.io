@@ -3,7 +3,7 @@ title: "TF管理AWS LIGHTSAIL实例"
 description: "示例使用Terraform管理AWS Lightsail实例"
 date: 2021-11-23T13:42:41+08:00
 categories: ["DEVOPS"]
-hero: tf-aws.jpg
+hero: tf-aws.webp
 tags: ["terraform", "aws"]
 menu:
   sidebar:

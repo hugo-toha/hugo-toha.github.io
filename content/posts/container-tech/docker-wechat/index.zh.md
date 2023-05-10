@@ -3,7 +3,7 @@ title: "DOCKER运行微信桌面客户端"
 description: "文本演示如何使用Docker容器的方式在openSUSE系统上运行微信客户端"
 date: 2020-02-25T13:36:58+08:00
 categories: ["Container"]
-hero: docker-wechat.png
+hero: docker-wechat.webp
 tags: ["docker", "wechat", "opensuse"]
 menu:
   sidebar:

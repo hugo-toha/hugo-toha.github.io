@@ -3,7 +3,7 @@ title: "DOCKER入门"
 description: "Docker容器入门技术，介绍什么是Docker"
 date: 2020-02-13T12:40:25+08:00
 categories: ["Container"]
-hero: "docker-banner.png"
+hero: docker-banner.webp
 tags: ["docker"]
 menu:
   sidebar:

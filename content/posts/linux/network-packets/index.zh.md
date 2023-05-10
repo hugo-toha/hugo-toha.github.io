@@ -2,7 +2,7 @@
 title: "LINUX上统计网络接口数据包"
 date: 2020-12-02T15:15:03+08:00
 categories: ["Linux"]
-hero: linux-network.jpg 
+hero: linux-network.webp
 tags: ["network", "linux"]
 menu:
   sidebar:

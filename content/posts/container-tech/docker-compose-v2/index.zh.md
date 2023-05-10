@@ -3,7 +3,7 @@ title: "开始使用DOCKER COMPOSE V2"
 description: "Docker Compose V2 入门，以及与V1的区别"
 date: 2022-06-02T18:53:16+08:00
 categories: ["Container"]
-hero: docker-compose-v2.jpg
+hero: docker-compose-v2.webp
 tags: ["docker", "compose"]
 menu:
   sidebar:

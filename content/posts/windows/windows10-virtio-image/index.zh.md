@@ -3,7 +3,7 @@ title: "加载virtio驱动的Windows10安装镜像"
 date: 2021-06-08T16:42:22+08:00
 description: "本文描述了如何在Windows上创建加载了virtio驱动的iso安装镜像"
 categories: ["Windows"]
-hero: window10-virtio.jpg
+hero: window10-virtio.webp
 tags: ["virtualization"]
 menu:
   sidebar:

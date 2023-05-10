@@ -3,7 +3,7 @@ title: "DOCKER SBOM镜像物料清单"
 description: "介绍Docker新的实验性CLI命令sbom，用于分析容器镜像的物料清单"
 date: 2022-05-09T12:58:16+08:00
 categories: ["Container"]
-hero: docker-sbom.jpeg
+hero: docker-sbom.webp
 tags: ["docker", "sbom", "security"]
 menu:
   sidebar:

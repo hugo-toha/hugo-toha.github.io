@@ -3,7 +3,7 @@ title: "DOCKER构建容器化应用"
 description: "介绍使用docker build构建容器化应用"
 date: 2020-02-13T17:34:10+08:00
 categories: ["Container"]
-hero: docker-banner.png
+hero: docker-banner.webp
 tags: ["docker"]
 menu:
   sidebar:

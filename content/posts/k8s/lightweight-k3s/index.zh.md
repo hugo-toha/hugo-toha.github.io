@@ -3,7 +3,7 @@ title: "轻量级Kubernetes集群-K3S"
 date: 2022-07-22T21:00:13+08:00
 categories: ["Kubernetes"]
 description: "介绍一款轻量级kubernetes集群工具k3s"
-hero: k3s-kubernetes.png
+hero: k3s-kubernetes.webp
 tags: ["contianer", "kubernetes", "cluster"]
 menu:
   sidebar:

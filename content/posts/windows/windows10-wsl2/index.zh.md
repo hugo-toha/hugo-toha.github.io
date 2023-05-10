@@ -2,7 +2,7 @@
 title: "Windows10上安装WSL2"
 date: 2021-06-08T16:42:22+08:00
 categories: ["Windows"]
-hero: windows10-wsl2.jpg
+hero: windows10-wsl2.webp
 tags: ["wsl"]
 menu:
   sidebar:

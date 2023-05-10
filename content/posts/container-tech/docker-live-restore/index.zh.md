@@ -2,7 +2,7 @@
 title: "DOCKER LIVERESTORE特性"
 date: 2021-12-19T11:59:17+08:00
 categories: ["Container"]
-hero: docker-banner.png
+hero: docker-banner.webp
 tags: ["docker"]
 menu:
   sidebar:

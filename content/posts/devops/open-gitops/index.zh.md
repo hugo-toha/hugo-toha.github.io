@@ -3,7 +3,7 @@ title: "解读OPEN GITOPS 1.0"
 description: "解读CNCF的GitOps工作组发布的GitOps 1.0版规范"
 date: 2021-11-25T20:16:10+08:00
 categories: ["DEVOPS"]
-hero: open-gitops.png
+hero: open-gitops.webp
 tags: ["gitops", "cncf"]
 menu:
   sidebar:

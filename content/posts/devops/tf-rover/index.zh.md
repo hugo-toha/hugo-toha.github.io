@@ -3,7 +3,7 @@ title: "TF执行计划可视化"
 description: "介绍一款展示Terraform执行计划的可视化工具"
 date: 2021-11-26T16:13:46+08:00
 categories: ["DEVOPS"]
-hero: tf-plan.png
+hero: tf-plan.webp
 tags: ["terrafrom"]
 menu:
   sidebar:

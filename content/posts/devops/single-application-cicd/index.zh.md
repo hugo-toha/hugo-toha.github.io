@@ -2,7 +2,7 @@
 title: "一体化CI/CD平台"
 date: 2021-01-25T14:22:16+08:00
 categories: ["DEVOPS"]
-hero: single-application-cicd.png
+hero: single-application-cicd.webp
 tags: ["gitlab", "cicd"]
 menu:
   sidebar:
