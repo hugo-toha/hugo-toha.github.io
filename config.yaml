@@ -167,11 +167,11 @@ params:
 
     # Enable Support
     support:
-      enable: false
+      enable: true
       services:
         kofi:
-          user: hossainemruz
-          text: Tip Me
+          user: mengz
+          text: Buy me a book
           textColor: '#f9fafc'
           backgroundColor: '#248aaa'
         # buymeacoffee:
