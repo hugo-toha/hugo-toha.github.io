@@ -12,15 +12,15 @@ description: 梦哲的个人主页和博客。
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
 customMenus:
-# - name: 文档
-#   url: /docs/
-#   hideFromNavbar: true
-#   showOnFooter: true
+- name: LiveTerm
+  url: https://live.mengz.dev/
+  hideFromNavbar: true
+  showOnFooter: true
 
 # Specify OpenGraph Headers
 openGraph:
   title: 梦哲的个人主页
   type: website
   description: 梦哲的个人主页和博客
-  image: images/author/mengz.png
-  url: https://mengzyou.github.io
+  image: images/author/mengzyou.png
+  url: https://mengz.dev/zh/
