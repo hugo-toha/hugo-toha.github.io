@@ -82,7 +82,7 @@ degrees:
 #   - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
 #   - Duis sed massa feugiat, ornare justo et, aliquam est.
 #   - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
+- name: High School
   icon: fa-school
   timeframe: 2001-2004
   institution:

@@ -17,7 +17,7 @@ experiences:
     # company overview
     overview: The actionable insights engine, creating products and solutions that make industry more productive, secure, safe and reliable.
   positions:
-  - designation: SRE, DevOps Engineer
+  - designation: SRE, DEVOPS Engineer
     start: Jan 1016
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
@@ -38,7 +38,7 @@ experiences:
     start: May 2012
     end: Sep 2015
     responsibilities:
-    - According to requirements of customer, design and develop customized service based on main product .
+    - According to requirements of customer, design and develop customized service based on main product.
     - Maintain systems which deliverd to customer environment, solve customer's various technical problems in production environment.
     - Solve emergency issues for customer, provide 27X7X365 technical support to customer with team.
 

@@ -17,7 +17,7 @@ experiences:
     # company overview
     overview: 可操作的洞察引擎，创建产品和解决方案，使行业更加高效、安全、安全和可靠。
   positions:
-  - designation: DevOps架构师
+  - designation: DEVOPS架构师，SRE
     start: 2016年1月
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
@@ -39,17 +39,16 @@ experiences:
     start: 2012年5月
     end: 2015年9月
     responsibilities:
-    - 根据NPS产品客户需求，为客户设计和交付定制化功能服务。
-    - 维护客户生产环境系统，为客户解决系统在生产环境中的各种技术问题。
-    - 和团队一起为客户提供24x7x365的技术支持服务，保障系统在客户环境的稳定运行。
+    - 根据NPS产品客户需求，为客户设计和交付定制化功能服务
+    - 维护客户生产环境系统，为客户解决系统在生产环境中的技术问题
+    - 为客户提供24x7x365的技术支持服务，保障系统在客户环境的稳定运行
 
   - designation:  软件开发工程师
     start: 2010年3月
     end: 2012年4月
     responsibilities:
-    - 为MA产品进行功能维护和平台迁移。
-    - 为产品PG NGN编写升级脚本，保障数据和配置的兼容性。
-    - 根据项目需求，为产品PG NGN编写业务逻辑。
+    - 为产品进行功能开发维护和平台迁移
+    - 为产品编写升级脚本，保障数据和配置的兼容性
 
 - company:
     name: TCL通讯科技.
@@ -61,6 +60,6 @@ experiences:
     start: 2008年7月
     end: 2010年3月
     responsibilities:
-    - 基于Windows Mobile系统的GPS驱动开发，为基于WM系统的智能手机实现定位功能。
-    - 智能手机桌面应用开发（自定义桌面主题）。
-    - 使用Perl语言编写自动化测试脚本，为开发的驱动程序进行自动化测试。
+    - 基于Windows Mobile系统的GPS驱动开发，为基于WM系统的智能手机实现定位功能
+    - 手机桌面应用开发（自定义桌面主题）
+    - 编写自动化测试脚本，为开发的驱动程序进行自动化测试

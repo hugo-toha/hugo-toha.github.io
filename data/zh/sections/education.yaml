@@ -82,11 +82,11 @@ degrees:
 #   - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
 #   - Duis sed massa feugiat, ornare justo et, aliquam est.
 #   - Pellentesque ut fringilla magna.
-- name: 高级中学证书
+- name: 高级中学
   icon: fa-school
   timeframe: 2001-2004
   institution:
-    name: 贵州省瓮安县第二高级中学
+    name: 瓮安第二高级中学
     url: "http://www.xiaozhang.com.cn/school/gzwaez/about.html"
   grade: #(optional)
     # scale: GK
