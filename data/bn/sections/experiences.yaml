@@ -12,14 +12,14 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
+    name: Appscode Inc.
+    url: "https://www.appscode.com"
     location: ঢাকা ব্রাঞ্চ
     # company overview
-    overview: Example Co. হচ্ছে ক্লাউড নেটিভ ডেভেলপমেন্টের জন্যে একটি স্বীকৃত প্রতিষ্ঠান । এটি Kubernetes এর জন্যে বিভিন্ন সফটওয়্যার বানায়।
+    overview: Appscode Inc. হচ্ছে ক্লাউড নেটিভ ডেভেলপমেন্টের জন্যে একটি স্বীকৃত প্রতিষ্ঠান । এটি Kubernetes এর জন্যে বিভিন্ন সফটওয়্যার বানায়।
   positions:
-  - designation: সিনিয়র সফটওয়্যার ইঞ্জিনিয়ার
-    start: Nov 2019
+  - designation: সফটওয়্যার ইঞ্জিনিয়ার
+    start: Aug 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
