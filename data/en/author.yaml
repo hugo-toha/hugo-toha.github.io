@@ -1,6 +1,6 @@
 # some information about you
 name: "Raihan Khan"
-nickname: "Raka"
+nickname: "Raihan"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
 image: "images/author/raihan.png"
@@ -18,4 +18,4 @@ summary:
   - I work with Golang
   - I love database architectures
   - I work on open-source projects
-  - I love to work with some fun projects
+  - I love to work with some interesting projects

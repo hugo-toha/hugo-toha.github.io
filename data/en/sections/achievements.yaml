@@ -10,15 +10,21 @@ section:
 
 # Your achievements achievements
 achievements:
-- title: Best Presenter
-  image: /images/sections/achievements/presenter.jpg
-  summary: Best presenter in the 2020 XYZ conference.
-- title: Champion
-  image: /images/sections/achievements/sport.jpg
-  summary: Champion in cycling inter-city cycling championship 2020.
+- title: Judge & Problem Setter
+  image: /images/sections/achievements/judgenProblemsetter.jpeg
+  summary: Acting as a Judge and Problem setter with an amazing panel of ex-problem solvers for Intra University Programming Contest.
 - title: Graduation
-  image: /images/sections/achievements/graduation-cap.jpg
-  summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
-- title: Award Winner
-  image: /images/sections/achievements/woman-winner.jpg
-  summary: Wined best paper award at IEE Conference 2020.
+  image: /images/sections/achievements/grad.jpg
+  summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineering from Comilla University, Bangladesh.
+- title: Second Runner-UP
+  image: /images/sections/achievements/3rd.jpg
+  summary: Achieved Second Runner-UP position in CoU Intra University Programming Contest-2019
+- title: National Collegiate Programming Contest (NCPC) 2018 & 2020
+  image: /images/sections/achievements/ncpc.JPG
+  summary: Qualified for National Collegiate Programming Contest (NCPC) 2018 & 2020 as Part of team Cou_Mirror_Squad & CoU_Dauntless.
+- title: Intra CoU Programming Contest-2019
+  image: /images/sections/achievements/intra.jpg
+  summary: Achieved Second Runner-UP position in CoU Intra University Programming Contest-2019
+- title: ICPC Asia Dhaka Regional-2019
+  image: /images/sections/achievements/icpc19.png
+  summary: Qualified for ICPC Asia Dhaka Regional-2019 as Part of team Cou_Dauntless

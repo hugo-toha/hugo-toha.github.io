@@ -21,9 +21,13 @@ skills:
   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
   url: "https://golang.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+- name: ELK
+  logo: /images/sections/skills/elk.png
+  summary: "Experienced in logging with Elasticsearch, Logstash and Kibana in Kubernetes. Built K8s controllers for Elasticsearch and Kibana with automated day-2 operations support. Also, experienced in setting up Filebeat or Fluentd with ELK."
+
+- name: Kafka
+  logo: /images/sections/skills/kafka.png
+  summary: "Experienced in setting up Kafka in Kubernetes. Built Kubernetes Controller with prometheus monitoring support and Gradanfa dashboard for metrics observation."
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
@@ -32,8 +36,17 @@ skills:
 
 - name: Prometheus
   logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
+  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with setting up metric exporters for databases."
   url: "https://prometheus.io/"
+
+- name: Grafana
+  logo: /images/sections/skills/grafana.png
+  summary: "Capable of setup, configure Grafana Dashbooards. Experienced with implementing Grafana dashboards for scraping metrics from databases on Kubernetes."
+  url: "https://grafana.com/"
+
+- name: Helm
+  logo: /images/sections/skills/helm.png
+  summary: "Experienced in implementing helm charts for installing containerized applications and microservices."
 
 - name: Linux
   logo: /images/sections/skills/linux.png
@@ -41,9 +54,9 @@ skills:
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  summary: "Experienced with git-based development. Mostly, use Github"
   url: "https://git-scm.com/"
 
 - name: C++
   logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  summary: "Know basic C/C++ programming. Used for contest programming, Data Structure & Algorithm related problem solving."

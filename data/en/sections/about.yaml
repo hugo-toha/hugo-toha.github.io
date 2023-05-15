@@ -11,34 +11,34 @@ section:
 designation: Software Engineer
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: Appscode Ltd.
+  url: "https://www.appscode.com"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'As a seasoned software engineer, I specialize in developing robust backends using Golang for applications and databases on Kubernetes. I have honed my skills building Kubernetes Operators for popular databases like Elasticsearch, OpenSearch, Kafka, and tools such as Kibana, OpenSearch-dashboards, Cruise-control, and more. My experience also encompasses using Docker, Helm, Prometheus, Grafana, bash scripts, and other related tools, along with implementing effective CI/CD and release workflows.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "raihankhanraka@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  url: "https://www.github.com/raihankhan"
 
 - name: Stackoverflow
   icon: "fab fa-stack-overflow"
-  url: "#"
+  url: "https://stackoverflow.com/users/7360615/raihan-khan"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "www.linkedin.com/in/raihankhanraka"
 
 - name: Twitter
   icon: "fab fa-twitter"
@@ -48,10 +48,10 @@ socialLinks:
   icon: "fab fa-facebook"
   url: "#"
 
-- name: Mastadon
-  icon: "fab fa-mastodon"
-  url: "#"
-  rel: "me noopener"
+# - name: Mastadon
+#   icon: "fab fa-mastodon"
+#   url: "#"
+#   rel: "me noopener"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
