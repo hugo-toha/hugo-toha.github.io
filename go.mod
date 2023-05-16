@@ -1,4 +1,4 @@
-module github.com/hugo-toha/hugo-toha.github.io
+module github.com/SethranKada/blog.cadenlee.github.io
 
 go 1.19
 
