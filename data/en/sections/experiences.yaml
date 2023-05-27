@@ -11,54 +11,91 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: Rockstars IT
+    url: "https://www.teamrockstars.nl/"
+    location: Eindhoven
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: Team Rockstars is a midlance company that provides support to ambitious developers. It stands for happy developers, high impact!
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+    - designation: Software engineer
+      start: Jan 2021
+
+- company:
+    name: Rabobank
+    url: "https://www.rabobank.nl"
+    location: Eindhoven
+    # company overview
+    overview: Rabobank is a widely recognized bank in the Netherlands. I worked on a system to support the process of providing consumer loans.
+  positions:
+  - designation: Java Developer / DevOps engineer
+    start: dec 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Maintaining application
+    - Creating API's
+    - Solving production bugs
+    - Provide support to the business
+    - Deliver feedback on code
+    - BHV
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: Atos
+    url: "https://atos.net/"
+    location: Eindhoven
+    # company overview
+    overview: Atos is a widely recognized company which works in secondment for employees.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - designation: Java Developer
+      start: Feb 2020
+      end: dec 2022
+      # don't provide end date if you are currently working there. It will be replaced by "Present"
+      # end: Dec 2020
+      # give some points about what was your responsibilities at the company.
+      responsibilities:
+        - Scrum master for graduates
+        - Java tutor
+        - Young Atos board member
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: DAF
+    url: "https://www.daf.nl/"
+    location: Eindhoven
+    overview: DAF is a truck company from the Netherlands.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Lead DevOps engineer
+    start: Jul 2021
+    end: OCt 2021
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Lead of DevOps team to create pipelines
+    - Write CI/CD pipelines in Azure DevOps
+    - Consult the business
+
+- company:
+    name: NXP
+    url: "https://www.nxp.com/"
+    location: Eindhoven
+    overview: Company that used to be part of Philips, creating semiconductors for worldwide systems.
+  positions:
+  - designation: Cloud Engineer
+    start: May 2020
+    end: Jul 2021
+    responsibilities:
+    - Creating an OpenShift Cloud platform
+    - Researching container repositories
+    - Coding Ansible to create infrastructure
+    - Setting up CI/CD pipelines
+
+- company:
+    name: Prodrive technologies
+    url: "https://prodrive-technologies.com/"
+    location: Eindhoven
+  positions:
+    - designation: Graduate Engineering trainee
+      start: Jun 2019
+      end: Feb 2020
+      responsibilities:
+        - Creating mobile application to support the logistic processes within the warehouse
+        - Converting windows mobile application to android application using Xamarin
+        - Keep in touch with the business

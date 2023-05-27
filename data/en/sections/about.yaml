@@ -11,47 +11,30 @@ section:
 designation: Software Engineer
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: Rabobank.
+  url: "https://www.rabobank.nl/"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'I am a passionate software engineer with 4 years of working experience. I built tools for [Rabobank](https://www.rabobank.nl/) using Java. My tools help people to provide consumer loans.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "bryan.eggels3@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
-
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+  url: "https://www.github.com/BryanEggels"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
-
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "#"
-
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
-
-- name: Mastadon
-  icon: "fab fa-mastodon"
-  url: "#"
-  rel: "me noopener"
+  url: "https://www.linkedin.com/in/bryan-eggels-412018151/"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
@@ -64,33 +47,33 @@ resourceLinks:
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+  name: Oracle Certified Assosiate 8
+  url: "https://www.credly.com/badges/fd55abcc-1931-4420-a194-2c89a7f64b1a?source=linked_in_profile"
+  badge: "https://images.credly.com/size/340x340/images/a9848abf-f8bd-474d-a9b4-6086da11a916/Oracle_Associates_Badge__1_.png"
 
 - type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
-
-- type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+  name: Professional Scrum Master I
+  url: "https://www.scrum.org/certificates/517624"
+  badge: "https://static.scrum.org/web/badges/badge-psmi.svg"
 
 - type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
-  color: blue
-
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
+  name: Team player
+  percentage: 100
   color: yellow
 
 - type: soft-skill-indicator
+  name: Leadership
+  percentage: 100
+  color: blue
+
+- type: soft-skill-indicator
+  name: Bug hunter
+  percentage: 100
+  color: purple
+
+- type: soft-skill-indicator
   name: Hard Working
-  percentage: 85
+  percentage: 100
   color: orange
 
 # you can also provide color code instead of the color name
