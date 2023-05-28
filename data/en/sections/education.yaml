@@ -37,7 +37,7 @@ degrees:
     name: Fontys University of applied sciences
     url: "https://fontys.nl/"
   grade: #(optional)
-    scale: CGPA
+    scale: GPA
     achieved: 7
     outOf: 10
 

@@ -31,7 +31,7 @@ skills:
 
 - name: Azure cloud
   logo: /images/sections/skills/azure.svg
-  summary: "Created cloud functions in Azure"
+  summary: "Created cloud functions in Azure. Worked with several resources including but not limited to: Azure functions, Resource groups, Key vault, Application insights, CosmosDB, Face API, Forms API"
 
 - name: Kubernetes
   logo: /images/sections/skills/kubernetes.png
