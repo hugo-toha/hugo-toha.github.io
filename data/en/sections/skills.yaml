@@ -22,7 +22,7 @@ skills:
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Our software is hosted on Linux servers."
+  summary: "Our software is hosted on Linux servers. Comfortable with basic Linux usage, creating bash scripts etc."
 
 - name: Git
   logo: /images/sections/skills/git.png
