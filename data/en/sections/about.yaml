@@ -62,17 +62,17 @@ badges:
   color: yellow
 
 - type: soft-skill-indicator
-  name: Leadership
+  name: Ownership
   percentage: 100
   color: blue
 
 - type: soft-skill-indicator
-  name: Bug hunter
+  name: Problem solver
   percentage: 100
   color: purple
 
 - type: soft-skill-indicator
-  name: Hard Working
+  name: Advisor
   percentage: 100
   color: orange
 
