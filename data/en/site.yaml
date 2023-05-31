@@ -1,20 +1,23 @@
 # Copyright Notice
-copyright: © 2020 Copyright.
+copyright: Copyright © 2023 Radu Chiriac
 
 # A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
 disclaimer: "This theme is under MIT license. So, you can use it for non-commercial, commercial, or private uses.
 You can modify or distribute the theme without requiring any permission from the theme author.
 However, the theme author does not provide any warranty or takes any liability for any issue with the theme."
 
+# Legal Stuff
+privacy: "/files/Privacy-Policy.pdf"
+terms: "/files/Terms-Conditions.pdf"
+
 # Meta description for your site.  This will help the search engines to find your site.
-description: Portfolio and personal blog of John Doe.
+description: Welcome to Radu's personal website.
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
 customMenus:
-- name: Docs
-  url: https://toha-guides.netlify.app/posts/
-  # specify whether to hide the menu item from top navbar or not.
+- name: Login
+  url: https://login.zerodawn.tech
   hideFromNavbar: false
   # specify whether to show the menu item in footer or not.
   # if you set it to true, make sure you have set `footer.navigation.customMenus: true` in your config.yaml
@@ -22,8 +25,9 @@ customMenus:
 
 # Specify OpenGraph Headers
 openGraph:
-  title: John's Blog
+  title: Zero-Dawn
   type: website
-  description: Portfolio and personal blog of John Doe.
-  image: images/author/john.png
-  url: https://hugo-toha.github.io
+  description: Welcome to Radu's personal website.
+  image: images/author/Radu.png
+  url: https://zerodawn.tech
+

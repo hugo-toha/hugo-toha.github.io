@@ -2,7 +2,7 @@
 section:
   name: Education
   id: education
-  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  template: sections/education-alt.html # Use "sections/education-alt.html for alternate template.
   enable: true
   weight: 4
   showOnNavbar: true
@@ -10,81 +10,53 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
-  icon: fa-microscope
-  timeframe: 2016-2020
-  institution:
-    name: ABC University of Technology
-    url: "#"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
+- name: Bachelor Degree in International Relations and European Studies
   icon: fa-graduation-cap
-  timeframe: 2012-2016
+  timeframe: 2003-2007
   institution:
-    name: University of XYZ
-    url: "#"
+    name: University of Spiru Haret Bucharest
+    url: "https://spiruharet.ro"
   grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
+    scale: Numeric
+    achieved: 8.60
+    outOf: 10
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
-    collapseAfter: 3
+    collapseAfter: 4
     courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
+    - name: European Studies
+      achieved: 9
+      outOf: 10
+    - name: History of the European Union
+      achieved: 10
+      outOf: 10
+    - name: Communication and Negotiations Skills
+      achieved: 8
+      outOf: 10
+    - name: European Law
+      achieved: 9
+      outOf: 10
   extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Higher Secondary School Certificate
+  - Obtained my Cambridge Advanced English (CAE) diploma during college. Currently this is known as C1 Advanced.
+- name: Baccalaureate Diploma
   icon: fa-university
-  timeframe: 2010-2012
+  timeframe: 1999-2003
   institution:
-    name: MST College of Science
-    url: "#"
+    name: Gheorghe Cartianu Technical College, Piatra-Neamt
+    url: "http://www.colegiulcartianu.ro"
   grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
+    scale: Numeric
+    achieved: 8.16
+    outOf: 10
   extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
+  - Participated in various school olympics for English, Physics and Mathematics.
 - name: Secondary School Certificate
   icon: fa-school
-  timeframe: 2005-2010
+  timeframe: 1995-1999
   institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+    name: Public School Nr 2, Piatra-Neamt
+  extracurricularActivities: #(optional)
+  - Reached the Regional Stage in the Mathematics school olympics;
+  - Took chess and rifle shooting classes at the local Children's Club.
+

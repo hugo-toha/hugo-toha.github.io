@@ -11,39 +11,30 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
-
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
-
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  url: "https://www.docker.com/"
-
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
+- name: Identity and Access Management
+  logo: /images/sections/skills/okta.png
+  summary : "Experienced in resolving support tickets raised by clients that use Okta to integrate their on-prem or cloud applications with SSO, MFA and Lifecycle Management."
+  url: "https://www.okta.com"
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+  summary: "Using as the main operating system. I use RHEL 7.9 daily for work and I dual boot Fedora 38 with Windows 11 at home. I also got my Linux + certification in December 2021."
+
+- name: Technical Support
+  logo: /images/sections/skills/tech-support.png
+  summary: "Highly experienced in offering technical support, both hardware and software, while working for Lenovo, Dell and now for Okta."
+
+- name: Puppet
+  logo: /images/sections/skills/puppet.svg
+  summary: "I use it in my daily work for configuration management and automatic updates of RHEL 7 servers."
+  url: "https://puppet.com/"
+
+- name: Cloud Computing
+  logo: /images/sections/skills/cloud.png
+  summary: "Worked with most of the major clouds such as GCP, AWS and Azure. Have set up VMs for work both in AWS and GCP."
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
+  summary: "Started using git with Github in order to create and host this website and will use it for future projects also. Still learning all the capabilities it offers."
+  url: "https://github.com/the-whiz84"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."

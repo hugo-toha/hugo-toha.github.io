@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://zerodawn.tech
 
 languageCode: en-us
-title: "John's Blog"
+title: "Zero-Dawn"
 
 # Use Hugo modules to add theme
 module:
@@ -23,12 +23,9 @@ languages:
   en:
     languageName: English
     weight: 1
-  bn:
-    languageName: বাংলা
-    weight: 3
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
-# DefaultContentLanguage: bn
+#DefaultContentLanguage: en
 
 # Allow raw html in markdown file
 markup:
@@ -51,26 +48,50 @@ outputs:
 # Enable global emoji support
 enableEmoji: true
 
+# GDPR Privacy Settings
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    anonymizeIP: true
+    disable: true
+    respectDoNotTrack: true
+    useSessionStorage: false
+  instagram:
+    disable: true
+    simple: false
+  twitter:
+    disable: true
+    enableDNT: true
+    simple: true
+  vimeo:
+    disable: true
+    enableDNT: false
+    simple: false
+  youtube:
+    disable: true
+    privacyEnhanced: true
+
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  background: /images/site/bg_castle.png
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
+    main: /images/site/logo-alt.png
+    inverted: /images/site/logo-alt.png
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/the-whiz84/zerodawn.tech
   # Default branch of your Git repo
   gitBranch: main
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
-    maxVisibleSections: 5
+    maxVisibleSections: 6
 
   # Configure various features of this theme
   features:
@@ -94,23 +115,23 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: true
+      enable: false
       # Share post on different social media
       shareButtons:
         facebook: true
         twitter: true
-        linkedin: true
+        linkedin: false
         reddit: true
-        whatsapp: true
+        whatsapp: false
         email: true
         # tumblr: true
         # pocket: true
         # diaspora: true
-        # mastodon: true
+        mastodon: true
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
@@ -148,11 +169,11 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
+      enabled: false
       services:
         # Google Analytics
         google:
-          id: G-H4LBG7NDFZ
+          id: G-****
         # # CounterDev
         # counterDev:
         #   id: <your counterdev id>
@@ -168,16 +189,16 @@ params:
     support:
       enable: false
       services:
-        kofi:
-          user: hossainemruz
-          text: Tip Me
-          textColor: '#f9fafc'
-          backgroundColor: '#248aaa'
-        # buymeacoffee:
-        #   user: <your buymeacoffee.com user>
-        #   text: Support me on Buy me a coffee!
-        #   info: Buy me a coffee!
-        #   color: '#FFDD00'
+        #kofi:
+        #  user: hossainemruz
+        #  text: Tip Me
+        #  textColor: '#f9fafc'
+        #  backgroundColor: '#248aaa'
+        buymeacoffee:
+          user: <your buymeacoffee.com user>
+          text: Support me on Buy me a coffee!
+          info: Buy me a coffee!
+          color: '#FFDD00'
 
     # specify whether you want to show Table of Contents in reading page
     toc:
@@ -185,11 +206,11 @@ params:
 
     # Show tags under the post title
     tags:
-      enable: true
+      enable: false
 
     # Specify whether to show flag in the language selector. Default is true.
     flags:
-      enable: true
+      enable: false
       # # If you want to use different country flag for a language, specify them here.
       # flagOverwrites:
       #   - languageCode: en
@@ -249,7 +270,7 @@ params:
 
     # Enable to use `video-player` shortcode
     videoPlayer:
-      enable: true
+      enable: false
       services:
         # convert .js-player class into video player via https://plyr.io/
         # Can play HTML5 Video, Audio, Youtube, Vimeo.
@@ -281,9 +302,7 @@ params:
     # Currently, it supports "mailchimp".
     newsletter:
       enable: true
-      provider: mailchimp
-      mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
-      enable: true
+      enable: false

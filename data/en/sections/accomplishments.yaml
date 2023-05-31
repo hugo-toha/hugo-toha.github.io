@@ -3,7 +3,7 @@ section:
   name: Accomplishments
   id: accomplishments
   enable: true
-  weight: 8
+  weight: 6
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -11,36 +11,34 @@ section:
 
 # Your accomplishments
 accomplishments:
-- name: Linux Foundation System Administrator
-  timeline: "March 2018 - March 2019"
+- name: CompTIA Linux+ ce Certification
+  timeline: "Dec 2021 - Dec 2024"
   organization:
-    name: Linux Foundation
-    url: https://www.linuxfoundation.org
-  courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-  certificateURL: "https://example.com"
+    name: Comptia
+    url: https://www.comptia.org/certifications/linux
+  courseOverview: "Earners of the CompTIA Linux+ certification have the knowledge and skills required to succeed in a Linux operating system environment. CompTIA Linux+ earners have demonstrated the ability to configure the system, navigate the command line, and use common package management systems. They are also able to customize the environment, create scripts and configure networking."
+  certificateURL: "https://www.credly.com/badges/f4556501-eb66-4841-b7e2-f50ccb51b112/public_url"
 
-- name: Machine Learning
-  timeline: "Jun 2020 - Jan 2021"
+- name: Okta Certified Consultant
+  timeline: "Nov 2021 - Nov 2023"
   organization:
-    name: Coursera
-    url: https://www.coursera.org
-  courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
-  certificateURL: "https://example.com"
+    name: OKTA
+    url: https://www.okta.com/services/certification
+  courseOverview: "Okta Certified Consultants are technically proficient at implementing the Okta service in a variety of configurations. Consultants have experience integrating common applications, such as Office 365 and G Suite, with Okta. They also have extensive experience scoping and implementing complex Okta integrations involving multi-forest and multi-domain environments, advanced single sign-on, and inbound federation with Okta. They have working knowledge of Okta APIs and custom configuration options."
+  certificateURL: "https://www.credly.com/badges/89c97534-9cc4-4d5f-8208-7a1a03a43675/public_url"
 
-- name: Grokking the System Design Interview
-  timeline: "Jan 2018 - Sept 2018"
+- name: Okta Certified Administrator
+  timeline: "Aug 2020 - Nov 2023"
   organization:
-    name: educative
-    url: https://www.educative.io
-  courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
-  certificateURL: "https://example.com"
+    name: OKTA
+    url: https://www.okta.com/services/certification
+  courseOverview: "Okta Certified Administrators are technically proficient at managing the Okta service. They have extensive knowledge about how Okta enables advanced User Lifecycle Management scenarios involving security policy frameworks, supported SSO options, and advanced directory integration for cloud and on-premise access. Administrators use Okta policies to control user access. Administrators map identity attributes and data transformations using Universal Directory; they also troubleshoot issues."
+  certificateURL: "https://www.credly.com/badges/f24b3683-a594-4c94-8f6a-080a159c46e9/embedded"
 
-- name: Mastering Multithreading Programming with Go (Golang)
-  timeline: "Nov 2017 - Mar 2018"
+- name: Google Cloud - Create and Manage Cloud Resources
+  timeline: "Nov 2021"
   organization:
-    name: Udemy
-    url: https://www.udemy.com
-  courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, mulithreading topics.
-  certificateURL: "https://example.com"
- 
-
+    name: Google
+    url: https://www.cloudskillsboost.google/quests/120
+  courseOverview: "By completing this quest, you learn how to do the following: Write gcloud commands and use Cloud Shell, create and deploy virtual machines in Compute Engine, run containerized applications on Google Kubernetes Engine, and configure network and HTTP load balancers. A skill badge is an exclusive digital badge issued by Google Cloud in recognition of your proficiency with Google Cloud products and services and tests your ability to apply your knowledge in an interactive hands-on environment."
+  certificateURL: "https://www.cloudskillsboost.google/public_profiles/3688beff-ccbf-40b6-9b6a-0a23bd65e622/badges/1551464"

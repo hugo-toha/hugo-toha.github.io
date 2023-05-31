@@ -11,54 +11,80 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    name: ATOS IT
+    url: "https://www.atos.net"
+    location: Brasov, Romania
+    overview: Atos is a leader in cloud and digital workplace, number 1 in managed security services in Europe and number 2 worldwide leader in Security. With these capabilities plus best-in-class computing power and the pioneering Quantum Learning Machine, Atos is helping to design the future of the information space.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Technical Engineer - HPC Services
+    start: Feb 2022
+    responsibilities:
+    - Supporting the server infrastructure  for a German auto maker for one of it's most critical projects..
+    - Reviewing all the existing technical documentation and updating it accordingly to the current requirements.
+    - Using Puppet for configuration management and automatic patching of RHEL 7.9 servers.
+    - Monitoring the infrastructure using ManageNow for Datacenter Monitoring (MN4DCM) from Fujitsu.
+
+
+- company:
+    name: CGS Romania
+    url: "https://www.cgsinc.ro"
+    location: Brasov, Romania
+    # company overview
+    overview: CGS Inc. is a worldwide provider of Business Applications, Enterprise Learning and Outsourcing services offered in 25 languages from multiple locations.
+  positions:
+  - designation: Technical Support Engineer - OKTA
+    start: April 2020
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Feb 2022
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Resolving support tickets submitted by customers.
+    - Helping new admins to implement SSO, MFA and federation for their applications using SAML, OIDC and SCIM.
+    - Writing new Knowledge Articles for problems and possible solutions not yet documented.
+    - Troubleshooting Okta Access Gateway (a reverse proxy solution offered to customers to protect on-prem applications using header-based authentication and authorization) using ssh connections and Linux CLI.
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
+  - designation: L2 Technical Mentor - DELL
+    start: April 2018
+    end: March 2020
     responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
-
-- company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
-  positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Provide guidance and support for the Level 1 support team.
+    - Liason with the Level 3 team and create Jira tickets for them and other internal teams.
+    - Create and share new training materials for latest products.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: CGS Romania
+    url: "https://www.cgsinc.ro"
+    location: Bucharest, Romania
+    # company overview
+    overview: CGS Inc. is a worldwide provider of Business Applications, Enterprise Learning and Outsourcing services offered in 25 languages from multiple locations.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Technical Support Agent - LENOVO
+    start: Oct 2014
+    end: April 2018
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Log new support tickets received by phone or email.
+    - Troubleshoot hardware problems related to laptops, PCs or tablets.
+    - Find root cause for the issues and provide solution to customers.
+
+  - designation: Back Office Agent - SPRINT
+    start: Aug 2012
+    end: Oct 2014
+    responsibilities:
+    - Receive internal orders from employees in Citrix or by email.
+    - Perform eligibility checks and process the orders.
+    - Contact the employees and update account details when not valid.
+
+- company:
+    name: Mediafax
+    url: "https://www.mediafax.ro"
+    location: Bucharest, Romania
+    # company overview
+    overview: Mediafax is the first independent news agency in Romania and was established in 1995. It is a leader in providing news and information in realtime.
+  positions:
+  - designation: Monitoring Editor
+    start: Aug 2009
+    end: April 2010
+    responsibilities:
+    - Monitor the news from Romania's major TV channels.
+    - Record and capture snippets that contained key words based on customer's requests.
+    - Provide summary and translation for those news snippets to customers.

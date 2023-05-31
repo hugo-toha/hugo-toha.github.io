@@ -8,50 +8,37 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Technical Engineer - HPC Services
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: ATOS IT
+  url: "https://www.atos.net"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: "I have been working in Tech Support for 10 years. I am a tech enthusiast, passionate gamer and Linux newbie. I've been working with Linux for 2 years."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "radu@zerodawn.tech"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
-
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+  url: "https://www.github.com/the-whiz84"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/radu-chiriac"
 
 - name: Twitter
   icon: "fab fa-twitter"
-  url: "#"
-
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
-
-- name: Mastadon
-  icon: "fab fa-mastodon"
-  url: "#"
-  rel: "me noopener"
+  url: "https://www.twitter.com/The_Whiz84"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
@@ -64,22 +51,22 @@ resourceLinks:
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+  name: CompTIA Linux+
+  url: "https://www.credly.com/badges/f4556501-eb66-4841-b7e2-f50ccb51b112/public_url"
+  badge: "https://images.credly.com/size/680x680/images/6edb32c5-37d8-4fd4-98cd-2811932f0185/CompTIA_Linux_2Bce.png"
 
 - type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
+  name: Okta Certified Consultant
+  url: "https://www.credly.com/badges/89c97534-9cc4-4d5f-8208-7a1a03a43675/public_url"
+  badge: "https://images.credly.com/size/680x680/images/d9e79704-4e57-4a53-837a-313ac12c00af/Badge-Certified-Consultant_600b.png"
 
 - type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+  name: Microsoft Certified - Azure Administrator Associate
+  url: "https://www.credly.com/badges/ea8da235-8c77-4807-96d0-63b5935f5e75/public_url"
+  badge: "https://images.credly.com/size/680x680/images/336eebfc-0ac3-4553-9a67-b402f491f185/azure-administrator-associate-600x600.png"
 
 - type: soft-skill-indicator
-  name: Leadership
+  name: Communication
   percentage: 85
   color: blue
 
@@ -89,9 +76,9 @@ badges:
   color: yellow
 
 - type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
-  color: orange
+  name: Problem Solving
+  percentage: 95
+  color: sky
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
