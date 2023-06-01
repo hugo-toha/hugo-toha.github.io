@@ -6,10 +6,6 @@ disclaimer: "This theme is under MIT license. So, you can use it for non-commerc
 You can modify or distribute the theme without requiring any permission from the theme author.
 However, the theme author does not provide any warranty or takes any liability for any issue with the theme."
 
-# Legal Stuff
-privacy: "/files/Privacy-Policy.pdf"
-terms: "/files/Terms-Conditions.pdf"
-
 # Meta description for your site.  This will help the search engines to find your site.
 description: Welcome to Radu's personal website.
 
@@ -22,6 +18,16 @@ customMenus:
   # specify whether to show the menu item in footer or not.
   # if you set it to true, make sure you have set `footer.navigation.customMenus: true` in your config.yaml
   showOnFooter: false
+
+- name: Privacy Policy
+  url: /files/Privacy-Policy.pdf
+  hideFromNavbar: true
+  showOnFooter: true
+
+- name: Terms and Conditions
+  url: /files/Terms-Conditions.pdf
+  hideFromNavbar: true
+  showOnFooter: true
 
 # Specify OpenGraph Headers
 openGraph:
