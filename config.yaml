@@ -72,9 +72,18 @@ privacy:
     disable: true
     privacyEnhanced: true
 
+
 # Site parameters
 params:
   # Background image of the landing page
+
+  imaging:
+    anchor: Smart
+    bgColor: '#ffffff'
+    hint: photo
+    quality: 85
+    resampleFilter: Lanczos
+
   background: /images/site/bg_ygdrasil.png
 
   # Provide logos for your site. The inverted logo will be used in the initial
