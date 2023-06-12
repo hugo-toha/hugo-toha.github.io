@@ -27,18 +27,5 @@ experiences:
     - Implement CRD based KubeDB native features for day 2 lifecycle management of databases on cloud kubernetes clusters
     - Maintain custom built dockerfiles for databases and helm charts for installation
     - Add monitoring support for databases Using Prometheus and Grafana
-    - Provide CRD based feature supports for instance, customizable health checker, TLS support using kubernetes secrets, built-in user synchronization support, custom configuration with user provided kubernetes secret etc.
+    - Provide CRD based feature supports. for instance, customizable health checker, TLS support using kubernetes secrets, built-in user synchronization support, custom configuration with user provided kubernetes secret etc.
 
-# - company:
-#     name: Intern Counting Company (ICC).
-#     url: "https://www.example.com"
-#     location: Intern Land
-#     overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-#   positions:
-#   - designation: Intern
-#     start: Jun 2015
-#     end: Jan 2016
-#     responsibilities:
-#     - Count lost of interns.
-#     - Count more interns.
-#     - Count me as an intern.
