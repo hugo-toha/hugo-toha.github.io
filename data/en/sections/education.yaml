@@ -60,10 +60,14 @@ degrees:
   - title: Fusce eu augue ut odio porttitor pulvinar.
     url: "#"
   extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
+  - name: In vitae facilisis est, eget porta sem.
+    url: "#" #(optional)
+  - name: Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+    url: "#"
+  - name: Duis sed massa feugiat, ornare justo et, aliquam est.
+    url: "#"
+  - name: Pellentesque ut fringilla magna.
+    url: "#"
 - name: Higher Secondary School Certificate
   icon: fa-university
   timeframe: 2010-2012
@@ -75,10 +79,14 @@ degrees:
     achieved: 5
     outOf: 5
   extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
+  - name: In vitae facilisis est, eget porta sem.
+    url: "#" #(optional)
+  - name: Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+    url: "#"
+  - name: Duis sed massa feugiat, ornare justo et, aliquam est.
+    url: "#"
+  - name: Pellentesque ut fringilla magna.
+    url: "#"
 - name: Secondary School Certificate
   icon: fa-school
   timeframe: 2005-2010
