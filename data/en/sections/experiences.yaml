@@ -11,6 +11,20 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: EVIDEN
+    url: "https://www.eviden.com"
+    location: Brasov, Romania
+    overview: Eviden is an Atos business that brings together its digital, cloud and big data & security business lines. It will be a global leader in data-driven, trusted and sustainable digital transformation. A next-generation digital business, Eviden stems from worldwide leading positions in digital, cloud, data, advanced computing and security.
+  positions:
+  - designation: HPC Technical Engineer
+    start: July 2023
+    responsibilities:
+    - Supporting the server infrastructure for a German auto maker for one of it’s most critical projects.
+    - Using Puppet for configuration management and automatic patching of RHEL 7.9 servers.
+    - Monitoring the infrastructure using ManageNow for Datacenter Monitoring (MN4DCM) from Fujitsu.
+    - Participating in a project to migrate existing remote locations to a more streamlined solution.
+
+- company:
     name: ATOS IT
     url: "https://www.atos.net"
     location: Brasov, Romania
@@ -18,12 +32,12 @@ experiences:
   positions:
   - designation: Technical Engineer - HPC Services
     start: Feb 2022
+    end: July 2023
     responsibilities:
     - Supporting the server infrastructure  for a German auto maker for one of it's most critical projects..
     - Reviewing all the existing technical documentation and updating it accordingly to the current requirements.
     - Using Puppet for configuration management and automatic patching of RHEL 7.9 servers.
     - Monitoring the infrastructure using ManageNow for Datacenter Monitoring (MN4DCM) from Fujitsu.
-
 
 - company:
     name: CGS Romania

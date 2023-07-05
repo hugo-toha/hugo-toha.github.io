@@ -8,18 +8,18 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Technical Engineer - HPC Services
+designation: HPC Technical Engineer
 # your company information
 company:
-  name: ATOS IT
-  url: "https://www.atos.net"
+  name: EVIDEN
+  url: "https://www.eviden.com"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: "I have been working in Tech Support for 10 years. I am a tech enthusiast, passionate gamer and Linux newbie. I've been working with Linux for 2 years."
+summary: "I have been working in Tech Support for over 10 years. I am a tech enthusiast, passionate gamer and Linux user. I started learning Linux at 35 and been using it ever since."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
