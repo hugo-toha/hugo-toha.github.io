@@ -16,7 +16,7 @@ jobs:
         NETLIFY_TOKEN: ${{secrets.NETLIFY_TOKEN}}
 
     - name: Run Lighthouse
-      uses: foo-software/lighthouse-check-action@v9.1.0
+      uses: foo-software/lighthouse-check-action@v10.0.0
       id: lighthouseCheck
       with:
         accessToken: ${{ secrets.LIGHTHOUSE_TOKEN }}
