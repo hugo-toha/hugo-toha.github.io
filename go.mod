@@ -1,4 +1,4 @@
-module github.com/hugo-toha/hugo-toha.github.io
+module github.com/dduong26/awsmastery
 
 go 1.19
 
