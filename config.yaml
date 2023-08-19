@@ -1,7 +1,7 @@
-baseURL: https://awsmastery.net
+baseURL: https://dduong.sh
 
 languageCode: en-us
-title: "AWS Mastery"
+title: "David Duong"
 
 # Use Hugo modules to add theme
 module:
@@ -64,7 +64,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/dduong26/awsmastery
+  gitRepo: https://github.com/dduong26/DavidDuongprofile
   # Default branch of your Git repo
   gitBranch: main
 
