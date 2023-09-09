@@ -88,7 +88,7 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: true
+      enable: false
       # Share post on different social media
       shareButtons:
         facebook: true
@@ -104,7 +104,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
@@ -146,7 +146,7 @@ params:
       services:
         # Google Analytics
         google:
-          id: G-H4LBG7NDFZ
+          id: 
         # # CounterDev
         # counterDev:
         #   id: <your counterdev id>
@@ -175,16 +175,16 @@ params:
 
     # specify whether you want to show Table of Contents in reading page
     toc:
-      enable: true
+      enable: false
 
     # Show tags under the post title
     tags:
-      enable: true
+      enable: false
       on_card: true # enables tags in post cards
 
     # Specify whether to show flag in the language selector. Default is true.
     flags:
-      enable: true
+      enable: false
       # # If you want to use different country flag for a language, specify them here.
       # flagOverwrites:
       #   - languageCode: en
@@ -236,7 +236,7 @@ params:
     #   codeFences: false
     # ```
     syntaxHighlight:
-      enable: true
+      enable: false
       services:
         hljs:
           # see: https://highlightjs.readthedocs.io/en/latest/api.html#configure
@@ -244,7 +244,7 @@ params:
 
     # Enable to use `video-player` shortcode
     videoPlayer:
-      enable: true
+      enable: false
       services:
         # convert .js-player class into video player via https://plyr.io/
         # Can play HTML5 Video, Audio, Youtube, Vimeo.
@@ -285,4 +285,4 @@ params:
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
-      enable: true
+      enable: false

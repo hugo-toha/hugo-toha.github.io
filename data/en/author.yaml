@@ -1,6 +1,6 @@
 # some information about you
 name: "David Duong"
-nickname: "Dave"
+nickname: "David Duong"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
 image: "images/author/john.png"
@@ -12,7 +12,5 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - I am a Devops Engineer
-  - I love cloud
-  - I work on open-source projects
-  - I love to work with some fun projects
+  - Love tech
+  - AWS enthusiast
