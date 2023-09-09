@@ -8,50 +8,37 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: DevOps Engineer
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: ScalePoynt
+  url: "https://www.scalepoynt.io"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'I am a passionate computer engineer with 20 years of working experience.' 
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "dduong26@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
-
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+  url: "https://www.github.com/dduong26"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "www.linkedin.com/in/david-duong-0b316a44"
 
 - name: Twitter
   icon: "fab fa-twitter"
-  url: "#"
-
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
-
-- name: Mastadon
-  icon: "fab fa-mastodon"
-  url: "#"
-  rel: "me noopener"
+  url: "https://twitter.com/AWSMastery"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
@@ -64,34 +51,34 @@ resourceLinks:
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+  name: AWS Certified Solutions Architect - Professional
+  url: "https://www.credly.com/earner/earned/badge/379f3991-32f4-472e-b8c6-4d757dd0b781"
+  badge: "https://images.credly.com/size/680x680/images/2d84e428-9078-49b6-a804-13c15383d0de/image.png"
 
 - type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
+  name: AWS Certified DevOps Engineer - Professional
+  url: "https://www.credly.com/earner/earned/badge/d11c58b2-eb78-4168-a082-849ed2606440"
+  badge: "https://images.credly.com/size/680x680/images/bd31ef42-d460-493e-8503-39592aaf0458/image.png"
 
 - type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+  name: AWS Certified Developer - Associate
+  url: "https://www.credly.com/earner/earned/badge/0d217907-276e-466f-a8e9-bb4dcb233ea7"
+  badge: "https://images.credly.com/size/680x680/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png"
 
-- type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
-  color: blue
+- type: certification
+  name: AWS Certified SysOps Administrator - Associate
+  url: "https://www.credly.com/earner/earned/badge/2ecd6f30-2533-4e37-9a50-5684042b4368"
+  badge: "https://images.credly.com/size/680x680/images/f0d3fbb9-bfa7-4017-9989-7bde8eaf42b1/image.png"
 
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
-  color: yellow
+- type: certification
+  name: AWS Certified Solutions Architect - Associate
+  url: "https://www.credly.com/earner/earned/badge/b5ee63d6-64a6-4aff-8c43-3cf35ddeeb5a"
+  badge: "https://images.credly.com/size/680x680/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
 
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
-  color: orange
+- type: certification
+  name: Google Cloud Associate Cloud Engineer
+  url: "https://google.accredible.com/8aabaaaf-5412-48ad-8502-4feeaf6f8be0"
+  badge: "https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/75762088?key=b023e7cd6c3b83eaf97cb6d1720a709f37213f63a2f85b0568ac135ffd7f7d0c"
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
