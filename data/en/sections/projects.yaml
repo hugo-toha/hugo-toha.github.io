@@ -21,44 +21,51 @@ buttons:
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+- name: Face Mask Detection
+  logo: /images/sections/projects/opencv.png
+  role: Developer
+  timeline: "Nov. 2020"
+  repo: https://github.com/elkheddoumi10/face_mask_detection # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+  summary: Face Mask detection application using deep learning approache, Keras/Tensorflow and openCV.
+  tags: ["Tensorflow", "deep learning", "keras","openCV","hobby"]
 
-- name: Tensorflow
+- name: Credit card fraud detection
   logo: /images/sections/projects/tensorflow.png
   role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
+  timeline: "Oct. 2020"
+  repo: https://github.com/elkheddoumi10/Credit-Card-Fraud-Detection # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Build a deep learning model that can detect fraudulent transactions based on a data set from Kaggle.
+  tags: ["Tensorflow", "deep learning", "fraud detection","hobby"]
+
+- name: Preferences compiler
+  logo: /images/sections/projects/java.png
+  role: Developer
+  timeline: "Mar. 2020 - Sep. 2020"
   #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning","academic"]
+  summary: Design and Implement a preferences compiler with java using ILOCPLEX librerie.
+  tags: ["professional", "knowledge compilation","academic"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+- name: Sentiment analysis in a big data environment
+  logo: /images/sections/projects/spark-20-458193.png
+  role: Developer
+  timeline: "Dec. 2019"
+  summary: Using big data tools to build a real-time sentiment analysis system.
+  tags: ["spark streaming","kafka","academic"]
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
+- name: Face Recognition Attendance App
+  logo: /images/sections/projects/opencv.png
+  role: Developer
+  timeline: "Oct. 2019"
+  #repo: 
+  summary: Building a simple face recognition application using Python and openCV with a tkinter gui interface.
+  tags: ["tkinter","Python","openCV","academic"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: The nurse scheduling problem (NSP) implementation with choco solver
+  logo: /images/sections/projects/java.png
+  role: Developer
+  timeline: "jun. 2019"
+  repo: https://github.com/elkheddoumi10/ProjetInfermmier
+  summary: Using constrained programming approach to solve the nurse scheduling problem (NSP) and implimenting it with java and choco solver.
+  tags: ["constrained programming","Java","choco-solver","academic"]

@@ -1,0 +1,72 @@
+# section information
+section:
+  name: Projets
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: Tous
+  filter: "all"
+- name: Professionnel
+  filter: "professional"
+- name: Académique
+  filter: "academic"
+- name: Personnel
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Détection du masque.
+  logo: /images/sections/projects/opencv.png
+  role: Developer
+  timeline: "Nov. 2020"
+  repo: https://github.com/elkheddoumi10/face_mask_detection # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Application de détection de masque utilisant une approche d'apprentissage en profondeur, Keras / Tensorflow et openCV.
+  tags: ["Tensorflow", "deep learning", "keras","openCV","hobby"]
+
+- name: Credit card fraud detection
+  logo: /images/sections/projects/tensorflow.png
+  role: Developer
+  timeline: "Oct. 2020"
+  repo: https://github.com/elkheddoumi10/Credit-Card-Fraud-Detection # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Créer un modèle deep learning avec Tensorflow capable de détecter les transactions frauduleuses en se basant  sur un Dataset de Kaggle.
+  tags: ["Tensorflow", "deep learning", "fraud detection","hobby"]
+
+- name: Compilateur de préférences
+  logo: /images/sections/projects/java.png
+  role: Développeur
+  timeline: "Mar. 2020 - Sep. 2020"
+  #url: ""
+  summary: Concevoir et implémenter un compilateur de préférences avec Java et la librerie ILOCPLEX (pour plus d'info  voir la section des postes).
+  tags: ["professional", "knowledge compilation","academic"]
+
+- name: Analyse des sentiments dans un environnement Big Data
+  logo: /images/sections/projects/spark-20-458193.png
+  role: Développeur
+  timeline: "Dec. 2019"
+  summary: Utilisation d'outils Big Data pour créer un système d'analyse des sentiments en temps réel.
+  tags: ["spark streaming","kafka","academic"]
+
+- name: Application de la reconnaissance faciale pour la gestion des absences
+  logo: /images/sections/projects/opencv.png
+  role: Développeur
+  timeline: "Oct. 2019"
+  #repo: 
+  summary: Implémenter une application de reconnaissance faciale en utilisant Python et openCV avec une interface graphique tkinter.
+  tags: ["tkinter","Python","openCV","academic"]
+
+- name: Problème de planification des infirmières (NP)
+  logo: /images/sections/projects/java.png
+  role: Développeur
+  timeline: "jun. 2019"
+  #repo: 
+  summary: Utilisation d'une approche de programmation par contraintes pour résoudre le problème de planification des infirmières (NP) et l'implémenter avec java et choco solver.
+  tags: ["constrained programming","Java","choco-solver","academic"]
+

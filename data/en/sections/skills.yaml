@@ -11,39 +11,37 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  icon: "/images/sections/skills/kubernetes.png"
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+- name: Programming
+  icon: "/images/sections/skills/prog.png"
+  summary: "Strong programming skills : Java, Python, C, SQL, PL\\SQL, ProLog, Lisp, php."
+  
 
-- name: Go Development
-  icon: "/images/sections/skills/go.png"
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+- name: Machine Learning
+  icon: "/images/sections/skills/machine.png"
+  summary: "Able to: -Understand how and when machine learning and AI is appropriate for the business 
+            -Train and deploy models to implement productive AI solutions
+            - Explain models and predictions in terms useful to the business"
+  
+- name: Big Data
+  icon: "/images/sections/skills/big.png"
+  summary: "Hadoop stack (Hadoop, Hive, Pig, Hbase, Sqoop, Flume, Spark, Kafka, Shark, Oozie, etc.), SPSS, NOSQL Databases (I.e. HBase, Cassandra, MongoDB etc.) Elasticsearch..."
 
-- name: Cloud Computing
-  icon: "/images/sections/skills/cloud.png"
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+- name: Math and Statistics
+  icon: "/images/sections/skills/stat.png"
+  summary: "Able to: -Perform exploratory data analysis and identify important patterns and relationships;
+  -Apply rigorous statistical thinking to extract signal from noise;
+  -Understand the strengths and limitations of various tests models and why they fit a given problem"
 
-- name: Docker
-  icon: "/images/sections/skills/docker.svg"
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  url: "https://www.docker.com/"
+- name: Data Visualization and Communication
+  icon: "/images/sections/skills/dataviz.png"
+  summary: "-Business Process Modeling(UML, BPMN);-Understand the benefits and challenges of using data visualization;-Ability to share results through self-service dashboards. "
 
-- name: Prometheus
-  icon: "/images/sections/skills/prometheus.png"
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
+- name: Project management
+  icon: "/images/sections/skills/proj.png"
+  summary: "Project management methodologies: Waterfall, Agile and PMI methods"
 
-- name: Linux
-  icon: "/images/sections/skills/linux.png"
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+- name: Operational research
+  icon: "/images/sections/skills/or.png"
+  summary: "Linear programming, Non-Linear programming, Constraint programming, Dynamic programming"
 
-- name: Git
-  icon: "/images/sections/skills/git.png"
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
 
-- name: C++
-  icon: "/images/sections/skills/c++.png"
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."

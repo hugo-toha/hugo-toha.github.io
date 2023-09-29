@@ -1,0 +1,64 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Data Scientist junior
+# your company information
+company:
+  name: WAFA GESTION
+  url: "https://www.wafagestion.com/fr"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/cv_fr.pdf"
+
+# a summary about you
+summary: "Je suis Karim EL-KHEDDOUMI, 25 ans, Data Scientist junior à WAFA GESTION. Diplômé d'un Master en intelligence artificielle de l'Institut national de statistique et d'économie appliquée. Je suis passionné par l'intelligence artificielle, la Data Science, le problem-solving et la Finance. Mon histoire avec Data a commencé en 2018, depuis, j'essaie d'améliorer mes compétences pour aider la communauté."
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/elkheddoumi10"
+- name: Email
+  icon: "fas fa-envelope"
+  url: "karimelkheddoumi@outlook.de"
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/karim-el-kheddoumi/"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/elkheddoumi_k"
+
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "https://www.facebook.com/elkheddoumi"
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Esprit critique
+  percentage: 85
+  color: blue
+- name: Créativité
+  percentage: 90
+  color: yellow
+- name: Communication
+  percentage: 85
+  color: pink
+- name: Curiosité intellectuelle
+  percentage: 90
+  color: green
+- name: Fast Learner
+  percentage: 90
+  color: sky
+- name: Problem Solving
+  percentage: 90
+  color: orange

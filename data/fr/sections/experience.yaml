@@ -1,0 +1,66 @@
+# section information
+section:
+  name: Expériences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: WAFA GESTION
+    url: "https://www.wafagestion.com/fr"
+    location: CASABLANCA
+    # company overview
+    overview: "Expert en solutions d'investissement et placements, Wafa Gestion est l’acteur de référence de la gestion d’actifs pour compte de tiers au Maroc."
+  positions:
+  - designation: DATA SCIENTIST  
+    start: Janvier 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    #end: Sep. 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Promouvoir une mesure de performance indépendante et homogène de l’ensemble des actifs gérés ;
+    - Assurer le diagnostic de la position concurrentielle de la société de gestion en terme de comparatif de performance et de risque ;
+    - Maîtrise d’œuvre de projets de re-engineering et d’optimisation des procédures internes ;
+    - Développement de modèles mathématiques d’analyse, de gestion et de prévisions ; 
+    - Automatisation et informatisation des flux opérationnels ;
+    - Réalisation des différents reportings de gestion destinés aux clients de Wafa Gestion ; 
+    - Participation à la mise en œuvre et au développement d’outils d’attribution de performance adaptés aux différents processus d’investissement.  
+    - Valorisation des instruments financiers;
+    - Gestion de la base de données.
+
+- company:
+    name: ANITI (Artificial and Natural Intelligence Toulouse Institute) et IRIT (Institut de Recherche en Informatique de Toulouse).
+    url: "https://aniti.univ-toulouse.fr/"
+    location: Toulouse
+    # company overview
+    overview: " **ANITI, Artificial and Natural Intelligence Toulouse Institute, est l’institut interdisciplinaire d’intelligence artificielle de Toulouse**. L’activité d’ANITI repose sur 3 grands piliers : recherche scientifique, formation et contribution au développement économique. Sa spécificité est de développer une nouvelle génération d’intelligence artificielle dite hybride, associant de façon intégrée des techniques d’apprentissage automatique à partir de données et des modèles permettant d’exprimer des contraintes et d’effectuer des raisonnements logiques."
+  positions:
+  - designation: Projet de fin d'étude 
+    start: Mar. 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Sep. 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Etudier différents langages de représentation des préférences;
+    - Concevoir et implémenter un compilateur de préférences avec Java et la librerie ILOCPLEX;
+    - Évaluer la faisabilité pratique de l'approche en mettant en place un protocole de test sur des ensembles de données simulés.
+    
+
+#- company:
+ #   name: PreExample Co.
+  #  url: "https://www.preexample.com"
+   # location: Nowhere
+    #overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+  #positions:
+  #- designation: Software Engineer
+   # start: March 2016
+    #end: May 2017
+    #responsibilities:
+    #- Write lots of example codes.
+    #- Read lots of examples.
+    #- See lots of example videos.

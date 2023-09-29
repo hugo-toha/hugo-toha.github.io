@@ -1,0 +1,42 @@
+# section information
+section:
+  name: Compétences
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Programmation
+  icon: "/images/sections/skills/prog.png"
+  summary: "Solides compétences en programmation: Java, Python, C, SQL, PL \\ SQL, ProLog, Lisp, php."
+- name: Machine Learning
+  icon: "/images/sections/skills/machine.png"
+  summary: "Capable de : -Comprendre comment et quand la Machine Learning et l'Intelligence Artificielle sont appropriés pour le métier
+             -Former et déployer des modèles pour mettre en œuvre des solutions d'IA productives
+             - Expliquer les modèles et les prédictions en termes utiles à l'entreprise "
+- name: Big Data
+  icon: "/images/sections/skills/big.png"
+  summary: "Hadoop stack (Hadoop, Hive, Pig, Hbase, Sqoop, Flume, Spark, Kafka, Shark, Oozie, etc.), SPSS, NOSQL Databases (I.e. HBase, Cassandra, MongoDB etc.) Elasticsearch..."
+
+- name: Maths et statistiques
+  icon: "/images/sections/skills/stat.png"
+  summary: "Capable de : -Effectuer une analyse exploratoire des données et identifier les modèles et relations importants;
+   -Appliquer une réflexion statistique rigoureuse pour extraire le signal du bruit;
+   -Comprendre les forces et les limites des différents modèles de tests et pourquoi ils correspondent à un problème donné "
+
+- name: Visualisation et communication des données
+  icon: "/images/sections/skills/dataviz.png"
+  summary: "-Modélisation des processus métier (UML, BPMN); - Capable de comprendre les avantages et les défis de l'utilisation de la visualisation des données; -Capacité de partager les résultats via des tableaux de bord en libre-service."
+
+- name: Gestion de projet
+  icon: "/images/sections/skills/proj.png"
+  summary: "Méthodologies de gestion de projet: Waterfall, Agile et PMI"
+
+- name: Recherche opérationnelle
+  icon: "/images/sections/skills/or.png"
+  summary: "Programmation linéaire, programmation non linéaire, programmation par contraintes, programmation dynamique"

@@ -1,0 +1,46 @@
+# section information
+section:
+  name: Réalisations
+  id: achievements
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: Master Graduation
+  image: /images/sections/achievements/graduation.jpg
+  summary: Titulaire d'un Master en systèmes intelligents et systèmes d'information de l'Institut national de statistique et d'économie appliquée (INSEA).
+
+- title: Ranking of 11/70 in MCPC 2019
+  image: /images/sections/achievements/mcpc.png
+  summary: 11e palce dans \"2019 moroccan Collegiate Programming Contest\" à 1337 Coding School.
+- title: MCPC 2019
+  image: /images/sections/achievements/team.jpg
+  summary: 11e palce dans \"2019 moroccan Collegiate Programming Contest\" à 1337 Coding School
+
+- title: Bachelor Graduation
+  image: /images/sections/achievements/isometric-flat-graduation-cap-free-vector.png
+  summary: Diplômé en Licence mathématiques et en informatique de l'Université Abdelmalek essaadi.
+
+- title: Complited cours
+  image: /images/sections/achievements/certif.png
+  summary: Python for Data Science and AI.
+
+- title: Complited cours
+  image: /images/sections/achievements/certif2.png
+  summary: Neural netwoks and Deep Learning.
+
+- title: Complited cours
+  image: /images/sections/achievements/certif3.png
+  summary: Structurning Machine Learning Projects.
+
+- title: Complited cours
+  image: /images/sections/achievements/certif4.png
+  summary: Tools for Data Science.
+
+- title: Complited cours
+  image: /images/sections/achievements/certif5.png
+  summary: Data Visualization with Python.

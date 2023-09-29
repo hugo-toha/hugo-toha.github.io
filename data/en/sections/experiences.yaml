@@ -9,56 +9,55 @@ section:
   # hideTitle: true 
 
 # Your experiences
+
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    name: WAFA GESTION
+    url: "https://www.wafagestion.com/fr"
+    location: CASABLANCA
+    overview: Wafa Gestion is the leading asset manager in Morocco for third-party clients, and an expert in designing and managing investment solutions.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Data scientist
+    start: January 2021
+    #end: May 2017
+    responsibilities:
+    - Promote independent and consistent performance measurement of all assets under management;
+    - Diagnose the competitive position of the management company in terms of performance and risk benchmarking; 
+    - Project management of reengineering projects and optimization of internal procedures;
+    - Development of mathematical models for analysis, management and forecasting;
+    - Automation and computerization of operational flows;
+    - Production of various management reports intended for 'Wafa Gestion' clients;
+    - Financial Instruments Valuation;
+    - Database management.
+
+- company:
+    name:  ANITI (Artificial and Natural Intelligence Toulouse Institute) and IRIT (Institut de Recherche en Informatique de Toulouse).
+    url: "https://aniti.univ-toulouse.fr/"
+    location: Toulouse
+    # company overview
+    overview: "The interdisciplinary institute in artificial intelligence of Toulouse, named the Artificial and Natural Intelligence Toulouse Institute (ANITI), has been selected to be one of four institutes spearheading research on AI in France."
+  positions:
+  - designation: Final year Master internship
+    start: Mar. 2020
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Sep. 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Study different preferences representation languages;
+    - Design and Implement a preferences compiler with java and ILOCPLEX librerie ;
+    - Assess the practical feasibility of the approach by setting up a test protocol on simulated data sets.
+    
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
-
-- company:
-    name: PreExample Co.
-    url: "https://www.preexample.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
-  positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
-
-- company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.intern.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-  positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
-    responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+#- company:
+ #   name: PreExample Co.
+  #  url: "https://www.preexample.com"
+   # location: Nowhere
+    #overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+  #positions:
+  #- designation: Software Engineer
+   # start: March 2016
+    #end: May 2017
+    #responsibilities:
+    #- Write lots of example codes.
+    #- Read lots of examples.
+    #- See lots of example videos.

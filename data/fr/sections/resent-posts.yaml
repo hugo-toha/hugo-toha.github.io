@@ -1,0 +1,7 @@
+# section information
+section:
+  name: Posts récents
+  id: recent-posts
+  enable: true
+  weight: 5
+  showOnNavbar: true

@@ -8,71 +8,57 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Junior Data Scientist
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: WAFA GESTION
+  url: "https://www.wafagestion.com/fr"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/resume.pdf"
+resume: "files/cv_eng.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: "I’m Karim EL-KHEDDOUMI, 27 year old junior Data Scientist at WAFA GESTION. Graduated with a master’s degree in Artificial Intelligence from National Institute of Statistics and Applied Economics. I’m passionate about Artificial Intelligence, Data Science, Problem-Solving and Finance. My journey with Data started in 2018, since then I have been trying to improve my skills to help society and the world."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-- name: Email
-  icon: "fas fa-envelope"
-  url: "example@gmail.com"
-
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
-
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
-
+  url: "https://github.com/elkheddoumi10"
+- name: Email
+  icon: "fas fa-envelope"
+  url: "karimelkheddoumi@outlook.de"
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/karim-el-kheddoumi/"
 
 - name: Twitter
   icon: "fab fa-twitter"
-  url: "#"
+  url: "https://twitter.com/elkheddoumii"
 
 - name: Facebook
   icon: "fab fa-facebook"
-  url: "#"
-
+  url: "https://www.facebook.com/elkheddoumi"
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
-- name: Leadership
+- name: Critical thinking
   percentage: 85
   color: blue
-- name: Team Work
+- name: Creativity
   percentage: 90
   color: yellow
 - name: Communication
   percentage: 85
   color: pink
-- name: Hard Working
-  percentage: 85
+- name: Intellectual curiosity
+  percentage: 90
   color: green
 - name: Fast Learner
-  percentage: 85
+  percentage: 90
   color: sky
 - name: Problem Solving
-  percentage: 85
+  percentage: 90
   color: orange
-# you can also provide color code instead of pre-defined color name
-# - name: Example 1
-#   percentage: 75
-#   color: "#00adb5"
-# - name: Example 2
-#   percentage: 65
-#   color: "#8b8383"
