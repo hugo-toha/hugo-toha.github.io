@@ -1,4 +1,4 @@
-module github.com/hugo-toha/hugo-toha.github.io
+module github.com/byteingWolf/portfolio.github.io
 
 go 1.19
 

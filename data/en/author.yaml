@@ -1,15 +1,15 @@
 # some information about you
-name: "John Doe"
-nickname: "John"
+name: "Piotr Schlesinger"
+# nickname: "Piotrek "
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
 image: "images/author/john.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "johndoe@example.com"
-  phone: "+0123456789"
-  github: johndoe
-  linkedin: johndoe
+  email: "piotrschlesinger@gmail.com"
+  phone: "+48 882-022-446"
+  github: byteyingWolf
+  linkedin: piotrschlesinger
 
 # some summary about what you do
 summary:

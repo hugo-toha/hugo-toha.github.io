@@ -1,7 +1,7 @@
 baseURL: https://hugo-toha.github.io
 
 languageCode: en-us
-title: "John's Blog"
+title: "Piotr's little porfolio"
 
 # Use Hugo modules to add theme
 module:
@@ -23,8 +23,8 @@ languages:
   en:
     languageName: English
     weight: 1
-  bn:
-    languageName: বাংলা
+  pl:
+    languageName: Polski
     weight: 3
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
@@ -54,13 +54,13 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  # background: /images/site/background.jpg
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
     main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
+    inverted: /images/site/WALL-E-Rubiks.jpg
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
@@ -88,12 +88,12 @@ params:
       enable: true
       # Share post on different social media
       shareButtons:
-        facebook: true
-        twitter: true
-        linkedin: true
-        reddit: true
-        whatsapp: true
+        # twitter: true
         email: true
+        linkedin: true
+        facebook: true
+        # reddit: true
+        # whatsapp: true
         # tumblr: true
         # pocket: true
         # diaspora: true
@@ -108,7 +108,7 @@ params:
       enable: false
       services:
         disqus:
-          shortName: toha-example-site
+          shortName: portfolio-page-test
         # valine:
         #   appId: HTV6askWxVo3vOxlqjjaq2hd-MsYXbMMI
         #   appKey: pVrT3C85KGIuk27t07eh6bUC
