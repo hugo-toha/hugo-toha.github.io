@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     # checkout to the commit that has been pushed
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         submodules: true  # Fetch Hugo themes (true OR recursive)
         fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
@@ -23,7 +23,7 @@ jobs:
       run: hugo mod tidy
 
     - name: Setup Node
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: 18
 
@@ -36,7 +36,7 @@ jobs:
       run: hugo --minify
 
     # Run HTML Proofer
-    - uses: anishathalye/proof-html@v2.0.2
+    - uses: anishathalye/proof-html@v2.1.2
       with:
         directory: ./public
         enforce_https: true

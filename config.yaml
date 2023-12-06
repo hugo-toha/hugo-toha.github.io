@@ -23,9 +23,9 @@ languages:
   en:
     languageName: English
     weight: 1
-  bn:
-    languageName: বাংলা
-    weight: 3
+  #bn:
+    #languageName: বাংলা
+    #weight: 3
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 # DefaultContentLanguage: bn
@@ -78,15 +78,6 @@ params:
     # Enable dark theme
     darkMode:
       enable: true
-      services:
-        darkreader:
-          defaultColorScheme: system # options are 'system', 'dark', 'light'
-          fixes:
-            invert: ['img[src$=".svg"]'] # inverts svg colors.
-          theme:
-            brightness: 100
-            contrast: 100
-            sepia: 0
 
     # Enable and configure portfolio
     portfolio:
@@ -181,11 +172,12 @@ params:
 
     # specify whether you want to show Table of Contents in reading page
     toc:
-      enable: false
+      enable: true
 
     # Show tags under the post title
     tags:
-      enable: false
+      enable: true
+      on_card: true # enables tags in post cards
 
     # Specify whether to show flag in the language selector. Default is true.
     flags:
@@ -210,7 +202,7 @@ params:
 
     # Enable this to create mathematic expressions using `$$` blocks
     math:
-      enable: false
+      enable: true
       services:
         # https://katex.org/docs/autorender.html#api for more configurations
         katex:
@@ -257,6 +249,14 @@ params:
         plyr:
           # options doc: https://github.com/sampotts/plyr#options
           # fullscreen: true
+        
+        # Enable reading time support in post cards and in post pages
+        readingTime:
+          enable: false
+    
+        # Enable reading time support in post cards and in post pages
+    readingTime:
+      enable: false
 
 
   # Provide footer configuration.
