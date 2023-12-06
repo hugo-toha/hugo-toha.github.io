@@ -261,7 +261,7 @@ params:
 
   # Provide footer configuration.
   footer:
-    enable: false
+    enable: true
     # You can provide your custom footer template using this option.
     # Put your template in "layouts/partials" folder of your repo.
     template: footer.html
