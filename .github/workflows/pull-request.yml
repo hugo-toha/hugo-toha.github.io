@@ -51,7 +51,7 @@ jobs:
         gitHubAccessToken: ${{secrets.GITHUB_TOKEN}}
         emulatedFormFactor: 'all'
         prCommentEnabled: true
-        prCommentSaveOld: false
+        prCommentSaveOld: true
         timeout: 5
         urls: "${{ steps.preview.outputs.url }},${{ steps.preview.outputs.url }}/posts/,${{ steps.preview.outputs.url }}/posts/markdown-sample/,${{ steps.preview.outputs.url }}/posts/shortcodes/"
 
@@ -77,7 +77,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       with:
-        args: "--verbose --exclude-mail ${{steps.preview.outputs.url}}"
+        args: "--verbose --exclude-mail ${{steps.preview.outputs.url}} --exclude=['https://www.udemy.com/']"
         output: lychee/out.md
 
     - name: Comment Broken Links
