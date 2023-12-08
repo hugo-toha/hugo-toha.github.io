@@ -77,7 +77,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       with:
-        args: "--verbose --exclude-mail ${{steps.preview.outputs.url}}"
+        args: "--verbose --exclude-mail ${{steps.preview.outputs.url}} --exclude=['https://www.udemy.com/','https://github.us1.list-manage.com/*']"
         fail: true
 
     - name: Comment Broken Links
