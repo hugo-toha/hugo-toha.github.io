@@ -31,7 +31,7 @@ jobs:
           # update the npm dependencies
           hugo mod npm pack
 
-          # cleanup unwanted dependencies
+          # cleanup go.sum file
           hugo mod tidy
 
       - name: Install node modules
