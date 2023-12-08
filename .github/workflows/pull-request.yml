@@ -77,7 +77,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       with:
-        args: "--verbose --exclude-mail ${{steps.preview.outputs.url}} --exclude=['https://www.udemy.com/']"
+        args: "--verbose --exclude-mail ${{steps.preview.outputs.url}}"
         output: lychee/out.md
 
     - name: Comment Broken Links
