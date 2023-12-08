@@ -1,18 +1,18 @@
-name: HTML Proofer
+name: Merge to main workflows
 
-# run when a event happen in a PR
-on: [pull_request]
+# run when a commit is pushed to "source" branch
+on:
+  push:
+    branches:
+    - main
 
 jobs:
-  proof-html:
+  deploy-to-gh-pages:
     runs-on: ubuntu-latest
     steps:
     # checkout to the commit that has been pushed
     - uses: actions/checkout@v4
-      with:
-        submodules: true  # Fetch Hugo themes (true OR recursive)
-        fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-    
+
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2.6.0
       with:
@@ -35,10 +35,10 @@ jobs:
     - name: Build
       run: hugo --minify
 
-    # Run HTML Proofer
-    - uses: anishathalye/proof-html@v2.1.2
+    # push the generated content into the `gh-pages` branch.
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3.9.3
       with:
-        directory: ./public
-        enforce_https: false
-        url_ignore: "#"
-        url_ignore_re: ^https://www.pexels.com
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: gh-pages
+        publish_dir: ./public
