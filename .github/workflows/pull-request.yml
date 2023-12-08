@@ -81,11 +81,11 @@ jobs:
         output: lychee/out.md
 
     - name: Comment Broken Links
-      if: ${{ steps.lychee.outputs.exit_code }} != 0
+      if: ${{ steps.lychee.outputs.exit_code != 0 }}
       uses: marocchino/sticky-pull-request-comment@v2
       with:
         path: lychee/out.md
 
     - name: Fail workflow if broken links found
-      if: ${{ steps.lychee.outputs.exit_code }} != 0
+      if: ${{ steps.lychee.outputs.exit_code != 0 }}
       run: exit 1
