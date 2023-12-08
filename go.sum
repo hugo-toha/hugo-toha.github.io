@@ -12,3 +12,7 @@ github.com/hugo-toha/toha/v4 v4.0.0-20231031071528-05c9d3d850b2 h1:EkR94Ztv1Ao+i
 github.com/hugo-toha/toha/v4 v4.0.0-20231031071528-05c9d3d850b2/go.mod h1:p/K34lqlqmhzfPd4cx66od7sjlROBqhMxG30mJz+aKQ=
 github.com/hugo-toha/toha/v4 v4.0.0-20231031082454-cd2546d4e8ea h1:CCJ4JjZFHNWx8jLG8BQDx6Yf6pLbXY09LKgJdcUI3zc=
 github.com/hugo-toha/toha/v4 v4.0.0-20231031082454-cd2546d4e8ea/go.mod h1:p/K34lqlqmhzfPd4cx66od7sjlROBqhMxG30mJz+aKQ=
+github.com/hugo-toha/toha/v4 v4.0.0-20231206184850-bb9fec2e5d53 h1:sKr2HLVq1b3aFsgiXDUTneqBNnsakm0xCnxrqEFi/Oo=
+github.com/hugo-toha/toha/v4 v4.0.0-20231206184850-bb9fec2e5d53/go.mod h1:p/K34lqlqmhzfPd4cx66od7sjlROBqhMxG30mJz+aKQ=
+github.com/hugo-toha/toha/v4 v4.0.0 h1:rOiQeXzppzBLslTcQ1q2cqtz4KrjvYsrEVAHClbnsU8=
+github.com/hugo-toha/toha/v4 v4.0.0/go.mod h1:p/K34lqlqmhzfPd4cx66od7sjlROBqhMxG30mJz+aKQ=
