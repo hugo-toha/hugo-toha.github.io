@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Data Scientist
+designation: Cientista de Dados
 # your company information
 company:
   name: LIneA

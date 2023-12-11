@@ -2,7 +2,7 @@
 name: "Julia Gschwend"
 nickname: "Julia"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I am"
+greeting: "Olá, eu sou a"
 image: "images/author/julia.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
@@ -13,8 +13,9 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - Welcome to my website! 
-  - I am a Data Scientist with Astrophysics background.
-  - I work as a Software Developer and Project Manager.  
-  - I develop platforms to support science based on Big Data.
-  - I love working on high-impact projects! 
+  - Seja bem vindo/a/e ao meu website! 
+  - Sou cientista de dados com formação em Astrofísica. 
+  - Trabalho como desenvolvedora de software e gerente de projetos.  
+  - Desenvolvo plataformas que apoiam a ciência feita com Big Data. 
+  - Amo trabalhar em projetos de grande impacto! 
+   

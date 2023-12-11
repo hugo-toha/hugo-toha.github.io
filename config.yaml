@@ -1,7 +1,7 @@
 baseURL: https://gschwend.github.io
 
 languageCode: en-us
-title: "Julia Gschwend's Blog"
+title: "Julia Gschwend"
 
 # Use Hugo modules to add theme
 module:
@@ -23,9 +23,15 @@ languages:
   en:
     languageName: English
     weight: 1
-  bn:
-    languageName: বাংলা
+  pt: 
+    languageName: Português
+    weight: 2
+  es: 
+    languageName: Español
     weight: 3
+#  bn:
+#    languageName: বাংলা
+#    weight: 3
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 # DefaultContentLanguage: bn
@@ -54,7 +60,7 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  background: /images/site/background-site-dark.png
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
@@ -91,7 +97,7 @@ params:
         facebook: true
         twitter: true
         linkedin: true
-        reddit: true
+        # reddit: true
         whatsapp: true
         email: true
         # tumblr: true

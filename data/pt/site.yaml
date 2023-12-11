@@ -7,7 +7,7 @@ You can modify or distribute the theme without requiring any permission from the
 However, the theme author does not provide any warranty or takes any liability for any issue with the theme."
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: Portfolio and personal blog of Julia Gschwend.
+description: Portfolio and blog pessoal de Julia Gschwend.
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
@@ -24,7 +24,9 @@ customMenus:
 openGraph:
   title: Julia Gschwend
   type: website
-  description: Portfolio and personal blog of Julia Gschwend.
+  description: Portfolio and blog pessoal de Julia Gschwend.
   image: images/author/julia.png
   url: https://gschwend.github.io
 #  url: https://juliagschwend.com
+ 
+
