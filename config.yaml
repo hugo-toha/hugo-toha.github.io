@@ -21,17 +21,17 @@ module:
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
   en:
-    languageName: English
+    languageName: English  
     weight: 1
   pt: 
-    languageName: Português
+    languageName: Português 
     weight: 2
   es: 
     languageName: Español
     weight: 3
 #  bn:
 #    languageName: বাংলা
-#    weight: 3
+#    weight: 4
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 # DefaultContentLanguage: bn
@@ -189,9 +189,11 @@ params:
     flags:
       enable: true
       # # If you want to use different country flag for a language, specify them here.
-      # flagOverwrites:
-      #   - languageCode: en
-      #     countryCode: us
+      flagOverwrites:
+        #- languageCode: en
+        #  countryCode: us
+        - languageCode: pt
+          countryCode: br
 
     # Enable this to use `embed-pdf` shortcode.
     embedpdf:
