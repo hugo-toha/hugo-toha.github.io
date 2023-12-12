@@ -21,32 +21,41 @@ buttons:
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
+- name: LSST
+  logo: /images/sections/projects/rubin.png
+  role: In-kind Contributor
   timeline: "March 2018 - Present"
   repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+  summary: Legacy Survey of Space and Time
+  tags: ["photo-z", "bra-lin", "bpg-lsst"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
+- name: DES
+  logo: /images/sections/projects/logo-des-no-bkg.png
   role: Developer
   timeline: "Jun 2018 - Present"
   repo: https://github.com/tensorflow/tensorflow
   #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+  summary: The Dark Energy Survey
+  tags: ["early-carreer scientist", "builder"]
 
-- name: A sample academic paper
-  role: Team Lead
+- name: BRA-LIN
+  role: Program Manager
   timeline: "Jan 2017 - Nov 2017"
   url: "https://www.example.com"
   summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+  tags: ["academic","galaxy Evolution"]
 
-- name: Nocode
+- name: PhD Thesis
+  logo: /images/sections/projects/no-code.png
+  role: Nothing
+  timeline: "Oct 2019 - Dec 2019"
+  repo: https://github.com/kelseyhightower/nocode
+  #url: ""
+  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
+  tags: ["hobby", "fun"]
+
+- name: PhD Thesis
   logo: /images/sections/projects/no-code.png
   role: Nothing
   timeline: "Oct 2019 - Dec 2019"

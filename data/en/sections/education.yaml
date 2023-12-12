@@ -10,33 +10,43 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
+- name: PhD in Astronomy
   icon: fa-microscope
-  timeframe: 2016-2020
+  timeframe: 2015-2019
   institution:
-    name: ABC University of Technology
-    url: "#"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
+    name: Observatório Nacional 
+    url: "https://www.gov.br/observatorio/pt-br"
   publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
-  icon: fa-graduation-cap
-  timeframe: 2012-2016
+  - title: "Thesis: Using the Dark Energy Survey to Explore Galaxy Evolution"
+    url: "files/thesis_julia_gschwend.pdf" 
+  - title: "Qualify Exam: Galaxy Evolution in clusters and in the field"
+    url: "files/qualify-Julia-Gschwend"
+  - title: "Article: DES Science Portal: Computing photometric redshifts"
+    url: "files/Gschwend_2018.pdf"
+  - title: "Article: DES Science Portal II: Creating Science-Ready Catalogs"
+    url: "files/Fausti_2018.pdf"
+
+- name: MSc in Astronomy
+  icon: fa-microscope
+  timeframe: 2013-2015
   institution:
-    name: University of XYZ
-    url: "#"
+    name: Observatório Nacional 
+    url: "https://www.gov.br/observatorio/pt-br"
+  publications: #(optional)
+  - title: "Dissertation (text in Portuguese): Implantação e testes de algoritmos de redshift fotométrico no Portal do Dark Energy Survey com
+aplicação à Função de Luminosidade de Galáxias"
+    url: "files/dissertacao-julia" 
+
+- name: Physics Degree
+  icon: fa-graduation-cap
+  timeframe: 2006-2010
+  institution:
+    name: Universidade do Estado do Rio de Janeiro
+    url: "https://www.uerj.br/"
   grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
+    scale: CR
+    achieved: 7.9
+    outOf: 10
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
