@@ -21,11 +21,28 @@ degrees:
     url: "files/thesis_julia_gschwend.pdf" 
   - title: "Qualify Exam: Galaxy Evolution in clusters and in the field"
     url: "files/qualify-Julia-Gschwend"
-  - title: "Article: DES Science Portal: Computing photometric redshifts"
-    url: "files/Gschwend_2018.pdf"
-  - title: "Article: DES Science Portal II: Creating Science-Ready Catalogs"
-    url: "files/Fausti_2018.pdf"
+  #- title: "Article: DES Science Portal: Computing photometric redshifts"
+  #  url: "files/Gschwend_2018.pdf"
+  #- title: "Article: DES Science Portal II: Creating Science-Ready Catalogs"
+  #  url: "files/Fausti_2018.pdf" 
+  - title: Scholar Records Document
+    url: "files/hist_escolar_doutorado.pdf"
 
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: Data Processing in Astronomy
+      achieved: A
+      outOf: A
+    - name: Topics on Galaxy Evolution
+      achieved: A
+      outOf: A
+    - name: Positional Astronomy
+      achieved: A
+      outOf: A
+    
 - name: MSc in Astronomy
   icon: fa-microscope
   timeframe: 2013-2015
@@ -36,6 +53,23 @@ degrees:
   - title: "Dissertation (text in Portuguese): Implantação e testes de algoritmos de redshift fotométrico no Portal do Dark Energy Survey com
 aplicação à Função de Luminosidade de Galáxias"
     url: "files/dissertacao-julia" 
+  - title: Scholar Records Document
+    url: "files/hist_escolar_mestrado.pdf"
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: Data Processing in Astronomy
+      achieved: A
+      outOf: A
+    - name: Topics on Galaxy Evolution
+      achieved: A
+      outOf: A
+    - name: Positional Astronomy
+      achieved: A
+      outOf: A
+
 
 - name: Physics Degree
   icon: fa-graduation-cap
@@ -47,54 +81,28 @@ aplicação à Função de Luminosidade de Galáxias"
     scale: CR
     achieved: 7.9
     outOf: 10
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
-    collapseAfter: 3
-    courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
   extracurricularActivities: #(optional)
   - In vitae facilisis est, eget porta sem.
   - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
   - Duis sed massa feugiat, ornare justo et, aliquam est.
   - Pellentesque ut fringilla magna.
-- name: Higher Secondary School Certificate
-  icon: fa-university
+
+- name: Python 
+  icon: fa-code
   timeframe: 2010-2012
   institution:
-    name: MST College of Science
+    name: Alura
     url: "#"
-  grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
   extracurricularActivities: #(optional)
   - In vitae facilisis est, eget porta sem.
   - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
   - Duis sed massa feugiat, ornare justo et, aliquam est.
   - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
-  icon: fa-school
-  timeframe: 2005-2010
+
+- name: Google Data Analytics Professional Certificate
+  icon: fa-bar-chart
+  timeframe: 2023-2023
   institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+    name: Google on Coursera
+    url: "https://www.coursera.org/professional-certificates/google-data-analytics"
+
