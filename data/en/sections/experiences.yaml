@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Experiences
+  name: Experience
   id: experiences
   enable: true
   weight: 3
@@ -11,54 +11,91 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: Workiva
+    url: "https://www.workiva.com"
+    location: New York, NY
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    #overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Senior Staff Software Engineer
+    start: Nov 2023
+  - designation: Staff Software Engineer
+    start: Aug 2021
+    end: Nov 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
-    responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    #responsibilities:
+    #- Design and develop XYZ tool for ABC task
+    #- Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
+    #- Lead backend team.
 
-  - designation: Junior Software Engineer
+- company:
+    name: OneCloud (acquired by Workiva)
+    url: "https://www.onecloud.io"
+    location: New York, NY
+    #overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+  positions:
+  - designation: Backend Engineering Lead
+    start: Nov 2019
+    end: Aug 2021
+    #responsibilities:
+    #- Write lots of example codes.
+    #- Read lots of examples.
+    #- See lots of example videos.
+
+- company:
+    name: Flashtalking
+    url: "https://www.flashtalking.com"
+    location: New York, NY
+    #overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+  positions:
+  - designation: Backend Engineering Lead
+    start: Jan 2018
+    end: Nov 2019
+    #responsibilities:
+    #- Count lost of interns.
+    #- Count more interns.
+    #- Count me as an intern.
+- company:
+    name: Spongecell (acquired by Flashtalking)
+    url: "https://www.flashtalking.com"
+    location: New York, NY
+    #overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+  positions:
+  - designation: Backend Engineering Lead
     start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    end: Jan 2018
+  - designation: Senior Software Engineer
+    start: Oct 2016
+    end: Nov 2017
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: J.P. Morgan
+    url: "https://www.jpmorgan.com/global"
+    location: New York, NY
+    #overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
   positions:
+  - designation: Lead Developer
+    start: Mar 2015
+    end: Sep 2016
+  - designation: Associate Software Engineer
+    start: Jan 2014
+    end: Mar 2015
   - designation: Software Engineer
-    start: March 2016
-    end: May 2017
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    start: Jul 2011
+    end: Jan 2014
+  - designation: Software Engineering Intern
+    start: Jan 2010
+    end: Aug 2010
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: Orpster
+    #url: "https://www.jpmorgan.com/global"
+    location: New York, NY
+    #overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
-    responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+  - designation: CTO
+    start: May 2011
+    end: Nov 2012
+
