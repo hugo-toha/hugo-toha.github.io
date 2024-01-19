@@ -283,3 +283,7 @@ params:
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
       enable: true
+
+    # Number of posts to show to each page. Default is "12"
+    pagination:
+       maxPostsPerPage: 12
