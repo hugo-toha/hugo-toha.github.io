@@ -2,16 +2,14 @@
 name: "Lead2Biz"
 nickname: " "
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "We generate quality leads for you"
+greeting: "Sizi hedef kitlenize ulaştırıyoruz"
 image: "images/site/L2B.svg"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "ofizu@ofizu.com"
-  # phone: ""
-  # github: johndoe
-  # linkedin: ofizu
+  # ইমেইল: "ofizu@ofizu.com"
+  # ফোন: ""
 
-# some summary about what you do 
+# some summary about what you do
 summary:
-  - Helping you to grow your business
-  - We save you time and money 
+  - İşinizi büyütmenize yardım ediyoruz
+  - Zaman ve para tasarrufu sağlıyoruz

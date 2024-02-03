@@ -1,22 +1,22 @@
 # section information
 section:
-  name: আমার-সম্পর্কে
-  id: about
+  name: Hakkinda
+  id: hakkinda
   enable: true
   weight: 1
   showOnNavbar: true
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Ne İş Yapıyoruz ?
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  # name: Example Co.
+  # url: "https://www.example.com"
 
 
 # a summary about you
-summary: 'আমি X বছর অভিজ্ঞতা সম্পন্ন একজন দক্ষ সফটওয়্যার ইঞ্জিনিয়ার । আমি Go ভাষা ব্যবহার  করে [Kubernetes](https://kubernetes.io/) এর জন্য ওপেন সোর্স টুল তৈরি করি । মাঝে মাঝে আমি থিম বানানোর মত মজার প্রোজেক্ট নিয়ে কাজ করি ।'
+summary: 'Lead2Biz, sosyal medya platformları, online pazaryerleri ve harita uygulamaları üzerindeki güncel verileri kullanarak potansiyel müşteriler elde etmenizi, trendleri takip edebilmenizi, sosyal medya hesaplarınızı etkin bir şekilde yönetebilmenizi sağlar.<br> <br> <i>Lead2Biz bir Ofizu Yazılım girişimidir.</i>'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -29,9 +29,9 @@ socialLinks:
   icon: "fab fa-github"
   url: "https://www.github.com/example"
 
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+# - name: Stackoverflow
+#   icon: "fab fa-stack-overflow"
+#   url: "#"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
