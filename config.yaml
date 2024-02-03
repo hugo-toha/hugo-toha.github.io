@@ -1,4 +1,4 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://lead2biz.com
 
 languageCode: en-us
 title: "John's Blog"
@@ -64,7 +64,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/isanecat/Lead2BizHugo
   # Default branch of your Git repo
   gitBranch: main
 
@@ -139,7 +139,7 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
+      enabled: false
       services:
         # Google Analytics
         google:
