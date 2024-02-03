@@ -1,7 +1,7 @@
 baseURL: https://lead2biz.com
 
 languageCode: en-us
-title: "John's Blog"
+title: "Lead2Biz"
 
 # Use Hugo modules to add theme
 module:
@@ -23,9 +23,9 @@ languages:
   en:
     languageName: English
     weight: 1
-  bn:
-    languageName: বাংলা
-    weight: 3
+  tr:
+    languageName: Türkçe
+    weight: 2
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 # DefaultContentLanguage: bn
@@ -54,14 +54,14 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  background: /images/site/background.png
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/site/L2B.svg
+    inverted: /images/site/L2B.svg
+    favicon: /images/site/L2B.svg
 
   # GitHub repo of your site
   gitRepo: https://github.com/isanecat/Lead2BizHugo
@@ -272,7 +272,7 @@ params:
       customMenus: true
     # Show/hide "Contact Me" section in the footer. Default is "true".
     contactMe:
-      enable: true
+      enable: false
     # Show/hide credentials section in the footer. Default is "true".
     credentials:
       enable: true
