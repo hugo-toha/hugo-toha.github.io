@@ -86,6 +86,7 @@ params:
     # Enable and configure blog posts
     blog:
       enable: false
+      showAuthor: true # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
         facebook: true
@@ -189,7 +190,7 @@ params:
 
     # Enable this to use `embed-pdf` shortcode.
     embedpdf:
-      enable: false
+      enable: true
 
     # Enable this to create flowcharts using shortcodes.
     flowchart:
@@ -198,7 +199,7 @@ params:
         # Uncomment for `mermaid` shortcode.
         mermaid:
           # For config options, see: https://mermaid-js.github.io/mermaid/#/Setup?id=configuration
-           theme: dark
+           theme: forest
 
     # Enable this to create mathematic expressions using `$$` blocks
     math:
@@ -257,6 +258,10 @@ params:
         # Enable reading time support in post cards and in post pages
     readingTime:
       enable: false
+    
+    # Number of posts to show to each page. Default is "12"
+    pagination:
+      maxPostsPerPage: 12
 
 
   # Provide footer configuration.
@@ -281,9 +286,9 @@ params:
     # Currently, it supports "mailchimp".
     newsletter:
       enable: false
-      provider: mailchimp
-      mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
-
+      # provider: mailchimp
+      # mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
+    
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
       enable: false
