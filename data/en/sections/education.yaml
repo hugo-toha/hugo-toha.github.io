@@ -64,7 +64,7 @@ degrees:
   - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
   - Duis sed massa feugiat, ornare justo et, aliquam est.
   - Pellentesque ut fringilla magna.
-  custonSections: #(opcional)
+  custonSections: #(optional)
     - name: Tesis
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     - name: Supervisor
