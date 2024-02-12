@@ -53,6 +53,10 @@ socialLinks:
   url: "#"
   rel: "me noopener"
 
+- name: ResearchGate
+  icon: "fab fa-researchgate"
+  url: "https://www.researchgate.net/profile/john-doe"
+
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
