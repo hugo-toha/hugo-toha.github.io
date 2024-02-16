@@ -77,21 +77,21 @@ privacy:
 params:
   # Background image of the landing page
 
-  imaging:
-    anchor: Smart
-    bgColor: '#ffffff'
-    hint: photo
-    quality: 85
-    resampleFilter: Lanczos
+  # imaging:
+  #   anchor: Smart
+  #   bgColor: '#ffffff'
+  #   hint: photo
+  #   quality: 85
+  #   resampleFilter: Lanczos
 
-  background: /images/site/stripes.jpg
+  background: /images/site/bg_ygdrasil.png
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/logo-alt.png
-    inverted: /images/site/logo-alt.png
-    favicon: /images/site/favicon.png
+    main: /images/site/logo-round.png
+    inverted: /images/site/logo-round.png
+    favicon: /images/site/logo-round.png
 
   # GitHub repo of your site
   gitRepo: https://github.com/the-whiz84/zerodawn.tech
@@ -108,15 +108,6 @@ params:
     # Enable dark theme
     darkMode:
       enable: true
-      services:
-        darkreader:
-          defaultColorScheme: system # options are 'system', 'dark', 'light'
-          fixes:
-            invert: ['img[src$=".svg"]'] # inverts svg colors.
-          theme:
-            brightness: 100
-            contrast: 100
-            sepia: 0
 
     # Enable and configure portfolio
     portfolio:
@@ -127,7 +118,7 @@ params:
       enable: false
       # Share post on different social media
       shareButtons:
-        facebook: true
+        facebook: false
         twitter: true
         linkedin: false
         reddit: true
@@ -203,11 +194,11 @@ params:
         #  text: Tip Me
         #  textColor: '#f9fafc'
         #  backgroundColor: '#248aaa'
-        buymeacoffee:
-          user: <your buymeacoffee.com user>
-          text: Support me on Buy me a coffee!
-          info: Buy me a coffee!
-          color: '#FFDD00'
+        # buymeacoffee:
+        #   user: <your buymeacoffee.com user>
+        #   text: Support me on Buy me a coffee!
+        #   info: Buy me a coffee!
+        #   color: '#FFDD00'
 
     # specify whether you want to show Table of Contents in reading page
     toc:
@@ -215,7 +206,8 @@ params:
 
     # Show tags under the post title
     tags:
-      enable: false
+      enable: true
+      on_card: true
 
     # Specify whether to show flag in the language selector. Default is true.
     flags:
@@ -227,20 +219,20 @@ params:
 
     # Enable this to use `embed-pdf` shortcode.
     embedpdf:
-      enable: false
+      enable: true
 
     # Enable this to create flowcharts using shortcodes.
     flowchart:
-      enable: false
+      enable: true
       services:
         # Uncomment for `mermaid` shortcode.
         mermaid:
           # For config options, see: https://mermaid-js.github.io/mermaid/#/Setup?id=configuration
-          # theme: dark
+          theme: forest
 
     # Enable this to create mathematic expressions using `$$` blocks
     math:
-      enable: false
+      enable: true
       services:
         # https://katex.org/docs/autorender.html#api for more configurations
         katex:
@@ -279,7 +271,7 @@ params:
 
     # Enable to use `video-player` shortcode
     videoPlayer:
-      enable: false
+      enable: true
       services:
         # convert .js-player class into video player via https://plyr.io/
         # Can play HTML5 Video, Audio, Youtube, Vimeo.
@@ -288,6 +280,13 @@ params:
           # options doc: https://github.com/sampotts/plyr#options
           # fullscreen: true
 
+        # Enable reading time support in post cards and in post pages
+    readingTime:
+      enable: false
+    
+    # Number of posts to show to each page. Default is "12"
+    pagination:
+       maxPostsPerPage: 12
 
   # Provide footer configuration.
   footer:
