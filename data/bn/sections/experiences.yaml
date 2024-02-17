@@ -15,6 +15,7 @@ experiences:
     name: Example Co.
     url: "https://www.example.com"
     location: ঢাকা ব্রাঞ্চ
+    logo: /images/sections/experiences/company1.jpg
     # company overview
     overview: Example Co. হচ্ছে ক্লাউড নেটিভ ডেভেলপমেন্টের জন্যে একটি স্বীকৃত প্রতিষ্ঠান । এটি Kubernetes এর জন্যে বিভিন্ন সফটওয়্যার বানায়।
   positions:
@@ -40,6 +41,7 @@ experiences:
     name: PreExample Co.
     url: "https://www.example.com"
     location: Nowhere
+    logo: /images/sections/experiences/company2.jpg
     overview: PreExample Co. হচ্ছে Example co.  তে যাওয়ার মাধ্যম। সুতারাং, এখানে বিশেষ কিছু নেই।
   positions:
   - designation: সফটওয়্যার ইঞ্জিনিয়ার
@@ -54,6 +56,7 @@ experiences:
     name: Intern Counting Company (ICC).
     url: "https://www.example.com"
     location: Intern Land
+    logo: /images/sections/experiences/company3.jpg
     overview: Intern counting Company (ICC) বিশ্বব্যাপী ইন্টার্ন ইঞ্জিনিয়ারদের গণনার জন্য দায়ী ।
   positions:
   - designation: ইন্টার্ন

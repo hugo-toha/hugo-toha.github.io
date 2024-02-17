@@ -16,6 +16,7 @@ degrees:
   institution:
     name: ABC University of Technology
     url: "#"
+    logo: /images/sections/education/tech_college.png
   grade: #(optional)
     scale: CGPA
     achieved: 3.6
@@ -33,6 +34,7 @@ degrees:
   institution:
     name: University of XYZ
     url: "#"
+    logo: /images/sections/education/university.jpg
   grade: #(optional)
     scale: CGPA
     achieved: 3.5
@@ -75,6 +77,7 @@ degrees:
   institution:
     name: MST College of Science
     url: "#"
+    logo: /images/sections/education/science_college.png
   grade: #(optional)
     scale: GPA
     achieved: 5
