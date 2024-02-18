@@ -14,6 +14,7 @@ experiences:
     name: Workiva
     url: "https://www.workiva.com"
     location: New York, NY
+    #logo: 
     # company overview
     #overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
   positions:

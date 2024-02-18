@@ -16,6 +16,7 @@ degrees:
   institution:
     name: Syracuse University
     url: "https://www.syr.edu"
+    logo: /images/sections/education/Syracuse.png
   grade: #(optional)
     scale: GPA
     achieved: 3.6
