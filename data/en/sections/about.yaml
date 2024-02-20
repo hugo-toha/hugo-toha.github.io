@@ -18,34 +18,34 @@ company:
 resume: "files/billschenk-resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate IT Professional with over 10 years of working experience.  I enjoy learning and tinkering with all things tech'
+summary: "I am a passionate IT Professional with over 14 years of working experience.  I enjoy learning and tinkering with all things tech"
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-- name: Email
-  icon: "fas fa-envelope"
-  url: "bill@schenk.tech"
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "bill@schenk.tech"
 
-- name: Github
-  icon: "fab fa-github"
-  url: "https://github.com/BillSchenk"
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://github.com/BillSchenk"
 
-- name: GitLab
-  icon: "fab fa-gitlab"
-  url: "https://gitlab.com/wschenk"
+  - name: GitLab
+    icon: "fab fa-gitlab"
+    url: "https://gitlab.com/wschenk"
 
-#- name: Stackoverflow
-#  icon: "fab fa-stack-overflow"
-#  url: "#"
+  #- name: Stackoverflow
+  #  icon: "fab fa-stack-overflow"
+  #  url: "#"
 
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "https://www.linkedin.com/in/bill-schenk/"
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/bill-schenk/"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "https://twitter.com/SchenkTech"
+#- name: Twitter
+#  icon: "fab fa-twitter"
+#  url: "https://twitter.com/SchenkTech"
 
 #- name: Facebook
 #  icon: "fab fa-facebook"
@@ -55,36 +55,35 @@ socialLinks:
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
-- type: certification
-  name: AWS Certified Cloud Practioner
-  url: "https://www.credly.com/badges/3affb53e-001c-4824-bfe0-6cc78c5521de/linked_in_profile"
-  badge: "https://images.credly.com/size/220x220/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
+  - type: certification
+    name: AWS Certified Cloud Practioner
+    url: "https://www.credly.com/badges/3affb53e-001c-4824-bfe0-6cc78c5521de/linked_in_profile"
+    badge: "https://images.credly.com/size/220x220/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
 
-- type: certification
-  name: AWS Certified Certified Solutions Architect – Associate
-  url: "https://www.credly.com/badges/13376eda-0b5d-4902-9df1-5763cc503583/linked_in_profile"
-  badge: "https://images.credly.com/size/220x220/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
+  - type: certification
+    name: AWS Certified Certified Solutions Architect – Associate
+    url: "https://www.credly.com/badges/13376eda-0b5d-4902-9df1-5763cc503583/linked_in_profile"
+    badge: "https://images.credly.com/size/220x220/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
 
-- type: certification
-  name: Terraform Certified Associate
-  url: "https://www.credly.com/badges/b7828f54-f7ce-4473-8514-f3df23b21a14/linked_in_profile"
-  badge: "https://images.credly.com/size/680x680/images/99289602-861e-4929-8277-773e63a2fa6f/image.png"
+  - type: certification
+    name: Terraform Certified Associate
+    url: "https://www.credly.com/badges/b7828f54-f7ce-4473-8514-f3df23b21a14/linked_in_profile"
+    badge: "https://images.credly.com/size/680x680/images/99289602-861e-4929-8277-773e63a2fa6f/image.png"
 
-- type: soft-skill-indicator
-  name: Collaborative
-  percentage: 90
-  color: yellow
-  
-- type: soft-skill-indicator
-  name: Mentorship
-  percentage: 90
-  color: green
+  - type: soft-skill-indicator
+    name: Collaborative
+    percentage: 90
+    color: yellow
 
-- type: soft-skill-indicator
-  name: Problem Solving
-  percentage: 95
-  color: pink
+  - type: soft-skill-indicator
+    name: Mentorship
+    percentage: 90
+    color: green
 
+  - type: soft-skill-indicator
+    name: Problem Solving
+    percentage: 95
+    color: pink
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
 #   name: Example 1

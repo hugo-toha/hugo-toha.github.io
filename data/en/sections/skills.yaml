@@ -11,73 +11,71 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
+  - name: Amazon Web Services
+    logo: /images/sections/skills/aws.png
+    summary: "Experienced AWS infrastructure Engineer."
 
-- name: Amazon Web Services
-  logo: /images/sections/skills/aws.png
-  summary: "Experienced AWS infrastructure Engineer."
+  - name: Linux
+    logo: /images/sections/skills/linux.png
+    summary: "Experienced administrator of Linux systems and services. Capable of writing bash/shell scripts."
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Experienced administrator of Linux systems and services. Capable of writing bash/shell scripts."
+  - name: Git
+    logo: /images/sections/skills/git.png
+    summary: "Experienced with git-based development. Experience utilizing and managing Gitlab and Bitbucket services. Experience utilizing Github services including CI/CD and Github Pages"
+    url: "https://git-scm.com/"
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Experience utilizing and managing Gitlab and Bitbucket services. Experience utilizing Github services including CI/CD and Github Pages"
-  url: "https://git-scm.com/"
+  - name: SaltStack
+    logo: /images/sections/skills/saltstack.png
+    summary: "Experience utilizing SaltStack to manage multi-environment cloud services"
+    url: "https://saltstack.io"
 
-- name: SaltStack
-  logo: /images/sections/skills/saltstack.png
-  summary: "Experience utilizing SaltStack to manage multi-environment cloud services"
-  url: "https://saltstack.io"
+  - name: Terraform
+    logo: /images/sections/skills/terraform.png
+    summary: "Certified Terraform Associate. Experience deploying cloud services, including AWS, VMWare, NewRelic, and Cloudflare with Terraform code. Additonal experience using Terragrunt for dry and maintainable code."
+    url: "https://terraform.io"
 
-- name: Terraform
-  logo: /images/sections/skills/terraform.png
-  summary: "Certified Terraform Associate. Experience deploying cloud services, including AWS, VMWare, NewRelic, and Cloudflare with Terraform code. Additonal experience using Terragrunt for dry and maintainable code."
-  url: "https://terraform.io"
+  - name: Ansible
+    logo: /images/sections/skills/ansible.png
+    summary: "Experience utilizing Ansible for managing Linux services"
+    url: "https://www.ansible.com/"
 
-- name: Ansible
-  logo: /images/sections/skills/ansible.png
-  summary: "Experience utilizing Ansible for managing Linux services"
-  url: "https://www.ansible.com/"  
+  - name: Docker
+    logo: /images/sections/skills/docker.svg
+    summary: "Experience building, managing, and deploying docker services"
+    url: "https://www.docker.com/"
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Experience building, managing, and deploying docker services"
-  url: "https://www.docker.com/"
+  - name: Python
+    logo: /images/sections/skills/python.png
+    summary: "Capable python scriptor for managing infrastructure"
+    url: "https://www.python.org/"
 
-- name: Python
-  logo: /images/sections/skills/python.png
-  summary: "Capable python scriptor for managing infrastructure"
-  url: "https://www.python.org/"
+  - name: Databases
+    logo: /images/sections/skills/databases.png
+    summary: "Experienced Admin of many database services including MySQL, MariaDB, PostgreSQL, and Microsoft SQL"
 
-- name: Databases
-  logo: /images/sections/skills/databases.png
-  summary: "Experienced Admin of many database services including MySQL, MariaDB, PostgreSQL, and Microsoft SQL"
+  - name: Chef
+    logo: /images/sections/skills/chef.png
+    summary: "Experienced chef administrator for managing cloud and on premise services"
+    url: "https://chef.io"
 
-- name: Chef
-  logo: /images/sections/skills/chef.png
-  summary: "Experienced chef administrator for managing cloud and on premise services"
-  url: "https://chef.io"
+  - name: Puppet
+    logo: /images/sections/skills/puppet.png
+    summary: "Experienced puppet administrator utilizing Foreman server and puppet to manage linux services"
+    url: "https://puppet.com"
 
-- name: Puppet
-  logo: /images/sections/skills/puppet.png
-  summary: "Experienced puppet administrator utilizing Foreman server and puppet to manage linux services"
-  url: "https://puppet.com"
+  #- name: VMware
+  #  logo: /images/sections/skills/vmware.png
+  #  summary: "Expert virutalization engineer utilizing VMware ESXi, vCenter and vSAN"
 
-- name: VMware
-  logo: /images/sections/skills/vmware.png
-  summary: "Expert virutalization engineer utilizing VMware ESXi, vCenter and vSAN"
+  - name: Windows
+    logo: /images/sections/skills/windows.png
+    summary: "Experienced Windows administrator. Expertise in all windows services including Active Directory"
+#- name: Meraki
+#  logo: /images/sections/skills/cisco-meraki.png
+#  summary: "Experienced network administrator utilizing Cisco Meraki infrastructure"
+#  url: "https://meraki.com"
 
-- name: Windows
-  logo: /images/sections/skills/windows.png
-  summary: "Experienced Windows administrator. Expertise in all windows services including Active Directory"
-
-- name: Meraki
-  logo: /images/sections/skills/cisco-meraki.png
-  summary: "Experienced network administrator utilizing Cisco Meraki infrastructure"
-  url: "https://meraki.com"
-
-- name: Atlassian
-  logo: /images/sections/skills/atlassian.png
-  summary: "Experienced backend administrator of Atlassian services"
-  url: "https://atlassian.com"
+#- name: Atlassian
+#  logo: /images/sections/skills/atlassian.png
+#  summary: "Experienced backend administrator of Atlassian services"
+#  url: "https://atlassian.com"
