@@ -15,6 +15,8 @@ experiences:
     url: "https://www.example.com"
     location: Dhaka Branch
     logo: /images/sections/experiences/company1.jpg
+    # Can optionally show a different logo for dark theme
+    # darklogo: /images/sections/experiences/company1.jpg
     # company overview
     overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
   positions:
@@ -41,6 +43,8 @@ experiences:
     url: "https://www.example.com"
     location: Nowhere
     logo: /images/sections/experiences/company2.jpg
+    # Can optionally show a different logo for dark theme
+    # darklogo: /images/sections/experiences/company2.jpg
     overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
   positions:
   - designation: Software Engineer
@@ -56,6 +60,8 @@ experiences:
     url: "https://www.example.com"
     location: Intern Land
     logo: /images/sections/experiences/company3.jpg
+    # Can optionally show a different logo for dark theme
+    # darklogo: /images/sections/experiences/company3.jpg
     overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
   positions:
   - designation: Intern
