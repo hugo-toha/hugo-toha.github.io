@@ -17,6 +17,8 @@ degrees:
     name: ABC University of Technology
     url: "#"
     logo: /images/sections/education/tech_college.png
+    # Can optionally show a different logo for dark theme
+    # darklogo: /images/sections/education/tech_college.png
   grade: #(optional)
     scale: CGPA
     achieved: 3.6
@@ -35,6 +37,8 @@ degrees:
     name: University of XYZ
     url: "#"
     logo: /images/sections/education/university.jpg
+    # Can optionally show a different logo for dark theme
+    # darklogo: /images/sections/education/university.jpg
   grade: #(optional)
     scale: CGPA
     achieved: 3.5
@@ -78,6 +82,8 @@ degrees:
     name: MST College of Science
     url: "#"
     logo: /images/sections/education/science_college.png
+    # Can optionally show a different logo for dark theme
+    # darklogo: /images/sections/education/science_college.png
   grade: #(optional)
     scale: GPA
     achieved: 5
