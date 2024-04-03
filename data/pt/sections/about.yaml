@@ -2,9 +2,9 @@
 section:
   name: About
   id: about
-  enable: true
+  enable: false
   weight: 1
-  showOnNavbar: true
+  showOnNavbar: false
   template: sections/about.html
 
 # your designation
@@ -19,8 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
-
+summary: 'Sou uma cientista de dados com formação acadêmica. Possuo graduação em Física pela UERJ, mestrado e doutorado em Astronomia pelo Observatório Nacional. Sou programadora autodidata e sou apaixonada por tecnologia! Além de programar, hoje também atuo como gerente de projetos de desenvolvimento de software em um laboratório de suporte a e-Ciência. Nós desenhamos, construímos e mantemos plataformas científicas para auxiliar cientistas das áreas de física, astronomia e cosmologia a analisarem grandes volumes de dados.'
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
@@ -56,8 +55,8 @@ socialLinks:
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-- title: "My Resume"
-  url: "files/resume.pdf"
+- title: "Meu currículo"
+  url: "files/CV_Julia_Gschwend_dec_2022.pdf"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
@@ -80,17 +79,17 @@ badges:
 
 - type: soft-skill-indicator
   name: Leadership
-  percentage: 85
+  percentage: 100
   color: blue
 
 - type: soft-skill-indicator
   name: Team Work
-  percentage: 90
+  percentage: 100
   color: yellow
 
 - type: soft-skill-indicator
   name: Hard Working
-  percentage: 85
+  percentage: 100
   color: orange
 
 # you can also provide color code instead of the color name

@@ -2,9 +2,9 @@
 section:
   name: About
   id: about
-  enable: true
+  enable: false
   weight: 1
-  showOnNavbar: true
+  showOnNavbar: false
   template: sections/about.html
 
 # your designation
@@ -72,34 +72,34 @@ badges:
 
 - type: soft-skill-indicator
   name: Leadership
-  percentage: 75
+  percentage: 99
   color: "#2FD3F0"
 
 - type: soft-skill-indicator
   name: Team Work
-  percentage: 90
+  percentage: 99
   color: "#2FD3F0"
   #color: yellow
 
 - type: soft-skill-indicator
   name: Organizational
-  percentage: 95
+  percentage: 99
   color: "#2FD3F0"
 
 
 - type: soft-skill-indicator
   name: Creativity
-  percentage: 85
+  percentage: 99
   color: "#2FD3F0"
   
 - type: soft-skill-indicator
   name: Problem-solving
-  percentage: 85
+  percentage: 99
   color: "#2FD3F0"
 
 - type: soft-skill-indicator
   name: Communication
-  percentage: 85
+  percentage: 100
   color: "#2FD3F0"
 
 
