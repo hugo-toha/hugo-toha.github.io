@@ -19,82 +19,88 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'I am a Data Scientist with an academic background. I hold a degree in Physics, an MSc, and a PhD in Astronomy, and I am a self-taught software developer. I love coding! Currently, I lead a small team of developers who are experts in software to support e-science. We build online platforms to help Astronomers do big data analysis. Fun fact: I started learning piano during the pandemic.'                                                
+
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "julia@linea.org.br"
+  #url: "contact@juliagschwend.com"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  url: "https://www.github.com/gschwend"
 
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+#- name: Stackoverflow
+#  icon: "fab fa-stack-overflow"
+#  url: "#"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/julia-gschwend-037010aa/"
 
 - name: Twitter
   icon: "fab fa-twitter"
-  url: "#"
-
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
-
-- name: Mastadon
-  icon: "fab fa-mastodon"
-  url: "#"
-  rel: "me noopener"
+  url: "https://twitter.com/JuliaGschwend"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
 - title: "My Resume"
-  url: "files/resume.pdf"
-
+  url: "files/CV_Julia_Gschwend_dec_2022.pdf"
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
-- type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+# - type: certification
+#   name: "" #Certified Kubernetes Security Specialist
+#   url: "" #"https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+#   badge: "#" #https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
 
-- type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
+# - type: certification
+#   name: Istio and IBM Cloud Kubernetes Service
+#   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+#   badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
 
-- type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+# - type: certification
+#   name: Artificial Intelligence and Machine Learning
+#   url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
+#   badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
 
 - type: soft-skill-indicator
   name: Leadership
-  percentage: 85
-  color: blue
+  percentage: 75
+  color: "#2FD3F0"
 
 - type: soft-skill-indicator
   name: Team Work
   percentage: 90
-  color: yellow
+  color: "#2FD3F0"
+  #color: yellow
 
 - type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
-  color: orange
+  name: Organizational
+  percentage: 95
+  color: "#2FD3F0"
 
-# you can also provide color code instead of the color name
-# - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
-#   color: "#00adb5"
+
+- type: soft-skill-indicator
+  name: Creativity
+  percentage: 85
+  color: "#2FD3F0"
+  
+- type: soft-skill-indicator
+  name: Problem-solving
+  percentage: 85
+  color: "#2FD3F0"
+
+- type: soft-skill-indicator
+  name: Communication
+  percentage: 85
+  color: "#2FD3F0"
+
+
+
