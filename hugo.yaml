@@ -1,6 +1,6 @@
 baseURL: https://hugo-toha.github.io
 
-languageCode: en-us
+languageCode: bn
 title: "John's Blog"
 
 # Use Hugo modules to add theme
@@ -21,14 +21,18 @@ module:
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
   en:
+    languageCode: en
     languageName: English
+    title: "John's Blog"
     weight: 1
   bn:
+    languageCode: bn
     languageName: বাংলা
-    weight: 3
+    title: জনের ব্লগ
+    weight: 2
+# default language for the content
+defaultContentLanguage: en
 
-# Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
-# DefaultContentLanguage: bn
 
 # Allow raw html in markdown file
 markup:
