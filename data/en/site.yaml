@@ -27,6 +27,3 @@ openGraph:
   description: Portfolio and personal blog of John Doe.
   image: images/author/john.png
   url: https://hugo-toha.github.io
-
-# specify the title appearing on the navbar.
-navBarTitle: "Toha"
