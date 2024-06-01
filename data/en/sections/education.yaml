@@ -18,7 +18,7 @@ degrees:
     url: "#"
     logo: /images/sections/education/tech_college.png
     # Can optionally show a different logo for dark theme
-    # darklogo: /images/sections/education/tech_college.png
+    # darkLogo: /images/sections/education/tech_college.png
   grade: #(optional)
     scale: CGPA
     achieved: 3.6
@@ -38,7 +38,7 @@ degrees:
     url: "#"
     logo: /images/sections/education/university.jpg
     # Can optionally show a different logo for dark theme
-    # darklogo: /images/sections/education/university.jpg
+    # darkLogo: /images/sections/education/university.jpg
   grade: #(optional)
     scale: CGPA
     achieved: 3.5
@@ -83,7 +83,7 @@ degrees:
     url: "#"
     logo: /images/sections/education/science_college.png
     # Can optionally show a different logo for dark theme
-    # darklogo: /images/sections/education/science_college.png
+    # darkLogo: /images/sections/education/science_college.png
   grade: #(optional)
     scale: GPA
     achieved: 5
