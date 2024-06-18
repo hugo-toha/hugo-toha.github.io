@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://blog.narokuu.com
 
 languageCode: bn
-title: "John's Blog"
+title: "Naro's Blog"
 
 # Use Hugo modules to add theme
 module:
@@ -23,7 +23,7 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Narokuu's Blog"
     weight: 1
   bn:
     languageCode: bn
@@ -68,13 +68,13 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/narokuu/naro-blog
   # Default branch of your Git repo
   gitBranch: main
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
-    maxVisibleSections: 5
+    maxVisibleSections: 7
 
   # Configure various features of this theme
   features:
@@ -144,7 +144,7 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
+      enabled: false
       services:
         # Google Analytics
         google:
