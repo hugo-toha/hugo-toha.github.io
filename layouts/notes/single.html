@@ -1,0 +1,16 @@
+{{ define "main" }}
+  {{ $isMultilingual := false }}
+  {{ if gt (len .Site.Languages) 1 }}
+    {{ $isMultilingual = true }}
+  {{ end }}
+
+  {{ if $isMultilingual }}
+    <!-- Multilingual specific content -->
+    <p>This site supports multiple languages.</p>
+  {{ else }}
+    <!-- Default content -->
+    <p>This site is not multilingual.</p>
+  {{ end }}
+
+  <!-- Rest of your single.html template content -->
+{{ end }}
