@@ -26,6 +26,7 @@ languages:
     title: "Narokuu"
     weight: 1
   bn:
+    disabled: true
     languageCode: bn
     languageName: বাংলা
     title: জনের ব্লগ
