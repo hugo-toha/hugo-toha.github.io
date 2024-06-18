@@ -1,6 +1,6 @@
 baseURL: https://blog.narokuu.com
 
-languageCode: en-us
+languageCode: en
 title: "Naro's Blog"
 
 # Use Hugo modules to add theme
