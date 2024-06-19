@@ -2,7 +2,7 @@
 section:
   name: Accomplishments
   id: accomplishments
-  enable: true
+  enable: false
   weight: 9
   showOnNavbar: true
   # Can optionally hide the title in sections
@@ -10,14 +10,14 @@ section:
 
 
 # Your accomplishments
-accomplishments:
-- name: CompTIA Security+ Certified CE
-  timeline: "September 2023"
-  organization:
-    name: CompTIA
-    url: https://www.comptia.org/
-  courseOverview: A global certification that validates the skills necessary to perform core security functions and pursue an IT security career
-  certificateURL: "https://www.credly.com/org/comptia/badge/comptia-security-certification.2"
+# accomplishments:
+# - name: CompTIA Security+ Certified CE
+#   timeline: "September 2023"
+#   organization:
+#     name: CompTIA
+#     url: https://www.comptia.org/
+#   courseOverview: A global certification that validates the skills necessary to perform core security functions and pursue an IT security career
+#   certificateURL: "https://www.credly.com/org/comptia/badge/comptia-security-certification.2"
 
 # - name: Machine Learning
 #   timeline: "Jun 2020 - Jan 2021"

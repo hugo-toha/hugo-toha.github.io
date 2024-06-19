@@ -32,9 +32,9 @@ socialLinks:
   icon: "fab fa-github"
   url: "https://www.github.com/narokuu"
 
-#- name: Stackoverflow
-#  icon: "fab fa-stack-overflow"
-#  url: "#"
+- name: discord
+  icon: "fab fa-discord"
+  url: "#"
 
 #- name: LinkedIn
 #  icon: "fab fa-linkedin"
@@ -66,11 +66,11 @@ resourceLinks:
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
-badges:
-- type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/comptia/badge/comptia-security-certification.2"
-  badge: "https://images.credly.com/size/340x340/images/446e08ae-bbb5-4648-b85d-24b9a939eb8d/CompTIA_Security_2B.png"
+# badges:
+# - type: certification
+#   name: Certified Kubernetes Security Specialist
+#   url: "https://www.credly.com/org/comptia/badge/comptia-security-certification.2"
+#   badge: "https://images.credly.com/size/340x340/images/446e08ae-bbb5-4648-b85d-24b9a939eb8d/CompTIA_Security_2B.png"
 
 #- type: certification
 #  name: Istio and IBM Cloud Kubernetes Service
