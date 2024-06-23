@@ -11,63 +11,58 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
+    name: Lucky Cart
+    url: "https://www.luckycart.com/en/"
+    location: Paris, France
+    logo: /images/sections/experiences/lc.svg
     # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company1.jpg
+    darkLogo: /images/sections/experiences/lc.svg
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: Lucky Cart is a major player on retail media. We provide a platform to create, manage and optimize digital campaigns for FMCG brands.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Analytics Engineer Apprentice
+    start: Nov 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Conduct data audit and ensure data quality.
+    - Create data app for accelerating data analysis.
+    - Refactor data models for better performance.
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
 
 - company:
-    name: PreExample Co.
+    name: My Job Glasses
     url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
+    location: Paris, France
+    logo: /images/sections/experiences/mjg.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    overview:  My Job Glasses is a platform that connects students and professionals for career advice.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Analytics Engineer Intern
+    start: June 2023
+    end: Nov 2023
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Create and maintain data models for a variety of business needs with dbt
+    - Create macro for dbt to automate data transformation and data analysis.
+    - Proficiency in Git, including interactive rebasing for precise version control.
+
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
+    name:  Click and Boat
+    url: "https://www.clickandboat.com/en/"
+    location: Boulogne-Billancourt, France
+    logo: /images/sections/experiences/cab.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    overview: Click and Boat is a platform that connects boat owners and renters. It's the Airbnb of boats.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Data Analyst Intern
+    start: May 2022
+    end: Dec 2022
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Create dbt models for data analysis.
+    - Create Tableau dashboards for data visualization.
+    - Conduct audience behavior analysis for understanding user behavior on the platform.
+  

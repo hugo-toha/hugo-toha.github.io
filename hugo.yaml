@@ -1,7 +1,7 @@
 baseURL: https://hugo-toha.github.io
 
-languageCode: bn
-title: "John's Blog"
+languageCode: en
+title: "Camille Lebrun"
 
 # Use Hugo modules to add theme
 module:
@@ -23,15 +23,8 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Camille Lebrun's Portfolio"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
-# default language for the content
-defaultContentLanguage: en
 
 
 # Allow raw html in markdown file
@@ -58,7 +51,7 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  background: /images/site/bg.jpg
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
@@ -74,7 +67,7 @@ params:
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
-    maxVisibleSections: 5
+    maxVisibleSections: 10
 
   # Configure various features of this theme
   features:
@@ -89,16 +82,16 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: true
+      enable: false
       showAuthor: true # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
-        facebook: true
-        twitter: true
-        linkedin: true
-        reddit: true
-        whatsapp: true
-        email: true
+        facebook: false
+        twitter: false
+        linkedin: false
+        reddit: false
+        whatsapp: false
+        email: false
         # tumblr: true
         # pocket: true
         # diaspora: true
@@ -106,7 +99,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
@@ -144,11 +137,11 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
+      enabled: false
       services:
         # Google Analytics
-        google:
-          id: G-H4LBG7NDFZ
+       # google:
+        #  id: G-H4LBG7NDFZ
         # # CounterDev
         # counterDev:
         #   id: <your counterdev id>
@@ -165,7 +158,7 @@ params:
       enable: false
       services:
         kofi:
-          user: hossainemruz
+          user: 
           text: Tip Me
           textColor: '#f9fafc'
           backgroundColor: '#248aaa'
@@ -272,7 +265,7 @@ params:
     template: footer.html
     # Show/hide navigation in the footer. Default is "true".
     navigation:
-      enable: true
+      enable: false
       # show custom menus in the footer
       customMenus: true
     # Show/hide "Contact Me" section in the footer. Default is "true".
@@ -291,4 +284,4 @@ params:
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
-      enable: true
+      enable: false
