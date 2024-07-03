@@ -1,0 +1,114 @@
+# eslint-plugin-no-jquery
+
+Disallow jQuery functions, with suggestions for native equivalents where possible.
+
+Originally a fork of [eslint-plugin-jquery](https://github.com/dgraham/eslint-plugin-jquery/).
+
+## ⬇️ Installation
+
+You'll first need to install [ESLint](http://eslint.org):
+
+```sh
+npm install eslint --save-dev
+```
+
+Next, install `eslint-plugin-no-jquery`:
+
+```sh
+npm install eslint-plugin-no-jquery --save-dev
+```
+
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-no-jquery` globally.
+
+## 🛠️ Usage
+
+Add `no-jquery` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+
+```json
+{
+  "extends": "plugin:no-jquery/deprecated",
+  "plugins": [
+    "no-jquery"
+  ]
+}
+```
+
+## 📋 Configs
+
+The config **`plugin:no-jquery/recommended`** includes the recommended rule [`no-jquery/variable-pattern`](docs/rules/variable-pattern.md) which is required for method rules to work correctly.
+
+The config **`plugin:no-jquery/deprecated`** includes all known deprecated and removed code, and is updated as new releases of jQuery come out. You can instead use configs targeting specific versions of jQuery if you know the environment in which your code will operate. There is a config for all minor versions from 1.0 to 3.6 (`deprecated-1.0`, ..., `deprecated-3.6`). Deprecation configs are cumulative, so they include all the rules for jQuery versions below them.
+
+The config **`plugin:no-jquery/slim`** includes all features excluded from the official "slim" build of jQuery, specifically the [ajax](https://api.jquery.com/category/ajax/) and [effects](https://api.jquery.com/category/effects/) modules.
+
+The config **`plugin:no-jquery/all`** includes all methods and utilies and should be used when you are aiming to remove all jQuery usage from your code.
+
+Alternatively, you can pick out rules individually (see below).
+
+## ⚙️ Settings
+
+The following global settings can be used under the `no-jquery` property to configure the linter:
+
+* `constructorAliases` - An array of aliases for the jQuery constructor. Defaults to `[ "$", "jQuery" ]`.
+* `variablePattern` - Regular expression pattern for matching jQuery variables. Defaults to `"^\\$."`. This pattern can be enforced with the [`no-jquery/variable-pattern`](docs/rules/variable-pattern.md) rule.
+* `collectionReturningPlugins` - An object describing the return types of jQuery plugins. Keys are plugin method names, and values can be one of:
+  * `'always'` a plugin which always returns a jQuery collection.
+    * e.g. `$bar = $foo.stop()`
+  * `'accessor'` a plugin which only returns a jQuery collection when an argument is given.
+    * e.g. `w = $foo.width()`, `$bar = $foo.width( 200 )`
+  * `'valueAccessor'` a plugin which only returns a jQuery collection when more than one argument is given.
+    * e.g. `w = $foo.css( 'width' )`, `$bar = $foo.css( 'width', '1em' )`
+  * `'never'` (default) a plugin which never returns a jQuery collection.
+    * e.g. `arr = $foo.toArray()`
+
+```json
+{
+  "settings": {
+    "no-jquery": {
+        "constructorAliases": [ "$", "jQuery" ],
+        "variablePattern": "^\\$.|^element$",
+        "collectionReturningPlugins": {
+          "datePicker": "always"
+        }
+    }
+  },
+  "plugins": [
+    "no-jquery"
+  ]
+}
+```
+
+## 📖 Rules
+
+Rules with options are indicated with ⚙️. Rules which are fixable are indicated with 🔧.
+
+Where rules are included in the configs `recommended`, `slim`, `all` or `deprecated-X.X` it is indicated below. Where rules are included in a config with non-default options this is indicated with a `†`.
+
+<!-- rules -->
+
+### ⚠️ Deprecated
+
+<!-- deprecated -->
+
+## 🤖 Development
+
+```sh
+npm install
+npm test
+```
+
+To update documentation after modifying a rule or its tests, use
+
+```sh
+npm run doc
+```
+
+To run a specific test or tests:
+
+```sh
+npm run testpath tests/rules/no-ajax
+```
+
+## ⚖️ License
+
+Distributed under the MIT license. See LICENSE for details.

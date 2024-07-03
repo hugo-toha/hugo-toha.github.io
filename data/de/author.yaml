@@ -1,0 +1,20 @@
+# some information about you
+name: "David Anthony Parham"
+nickname: "David"
+
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, ich bin"
+image: "images/author/david.jpg"
+
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "davidanthonyparham@yahoo.de"
+  github: "https://github.com/dxvidparham/"
+  linkedin: "https://www.linkedin.com/in/david-anthony-parham/"
+
+# some summary about what you do
+summary:
+  - Wilkommen auf meiner Persönlichen Webseite!
+  - Ich bin ein Computer Vision Engineer
+  - ansäßig in Kopenhagen, Dänemark
+  - und ich habe eine starke Leidenschaft für Linux, Python und alles rundum KI

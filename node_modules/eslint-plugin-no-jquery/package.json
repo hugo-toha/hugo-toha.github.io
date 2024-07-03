@@ -1,0 +1,50 @@
+{
+	"name": "eslint-plugin-no-jquery",
+	"version": "2.7.0",
+	"description": "Disallow jQuery functions with native equivalents.",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/wikimedia/eslint-plugin-no-jquery.git"
+	},
+	"license": "MIT",
+	"keywords": [
+		"eslint",
+		"eslintplugin",
+		"eslint-plugin"
+	],
+	"main": "src/index.js",
+	"scripts": {
+		"pretest": "eslint --report-unused-disable-directives .",
+		"test": "nyc mocha --reporter dot tests/** && git diff --exit-code docs/ src/ README.md",
+		"onlytest": "mocha --reporter dot tests/** --nofix",
+		"report": "nyc report --reporter=text-lcov > coverage.lcov",
+		"reporthtml": "nyc report --reporter=html",
+		"testpath": "mocha",
+		"doc": "rm -f docs/rules/* && env DOCGEN=1 mocha --reporter dot tests/** && node tools/build-readme.js",
+		"build": "npm run doc && node tools/build-all-methods.js"
+	},
+	"files": [
+		"src"
+	],
+	"peerDependencies": {
+		"eslint": ">=2.3.0"
+	},
+	"devDependencies": {
+		"codecov": "^3.8.3",
+		"eslint-config-wikimedia": "^0.20.0",
+		"eslint-docgen": "^0.5.1",
+		"eslint-plugin-eslint-plugin": "^3.6.1",
+		"eslint-plugin-self": "^1.2.1",
+		"jquery": "3.6.0",
+		"jsdom": "^16.7.0",
+		"mocha": "^8.4.0",
+		"nyc": "^15.1.0"
+	},
+	"bugs": {
+		"url": "https://github.com/wikimedia/eslint-plugin-no-jquery/issues"
+	},
+	"homepage": "https://github.com/wikimedia/eslint-plugin-no-jquery#readme",
+	"directories": {
+		"test": "tests"
+	}
+}

@@ -1,0 +1,69 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Software Engineer
+# your company information
+company:
+  name: LEGO
+  url: "https://www.lego.com/en-dk"
+
+# a summary about you
+summary: 'I consider myself a selective perfectionist and an avid lifelong learner who actively pursues and embraces new challenges to broaden my knowledge and refine my skills to the fullest extent possible, often with a playful approach. My lasting fascination with artificial intelligence, its profound impact on societal issues, and its potential for societal benefit runs deep—and likely always will. Therefore, I aim to contribute to a brighter future by sharing my insights with the computer vision & deep learning community.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "davidanthonyparham@yahoo.de"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/dxvidparham/"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/david-anthony-parham/"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: "My Resume"
+  url: "files/resume.pdf"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+
+softSkills:
+- name: Computer Vision
+  percentage: 100
+  color: blue
+- name: Deep Learning
+  percentage: 100
+  color: yellow
+- name: Programming
+  percentage: 100
+  color: green
+- name: OpenCV
+  percentage: 100
+  color: blue
+- name: PyTorch
+  percentage: 100
+  color: yellow
+- name: Python
+  percentage: 100
+  color: green
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"

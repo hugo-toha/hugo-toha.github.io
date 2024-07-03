@@ -1,0 +1,68 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: LEGO Group
+    url: "https://www.lego.com"
+    location: Copenhagen, Denmark
+    logo: /images/sections/experiences/lego.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company1.jpg
+    # company overview
+    overview: The LEGO Group is a Danish toy company renowned for its iconic interlocking plastic bricks, fostering creativity and learning through play.
+  positions:
+  - designation: Software Engineer
+    start: Aug 2024
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Develop digital modules for recognizing and sorting LEGO bricks using imaging sensors.
+    - Ensure modules are robust, secure, and scalable for industrial applications.
+    - Explore new technologies and methods, building prototypes with the product team.
+    - Collaborate with other engineers to drive mechanical and digital innovation.
+
+- company:
+    name: Alexandra Institute
+    url: "https://alexandra.dk/"
+    location: Copenhagen, Denmark
+    logo: /images/sections/experiences/alexandra.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company2.jpg
+    overview: The Alexandra Institute is a Danish non-profit R&D organization that transfers the latest IT research to businesses and the public sector, creating advanced and secure digital solutions. 
+  positions:
+  - designation: Visual Computing Engineer
+    start: March 2023
+    end: July 2024
+    responsibilities:
+    - Translating academic insights into industry applications.
+    - Designing and deploying customized solutions.
+    - Utilizing a blend of traditional computer vision techniques and advanced deep learning methods.
+    - Overseeing projects involving 2D and 3D data.
+    - Ensuring the integration of state-of-the-art technologies to meet project goals effectively.
+
+# - company:
+#     name: Intern Counting Company (ICC).
+#     url: "https://www.example.com"
+#     location: Intern Land
+#     logo: /images/sections/experiences/company3.jpg
+#     # Can optionally show a different logo for dark theme
+#     # darkLogo: /images/sections/experiences/company3.jpg
+#     overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+#   positions:
+#   - designation: Intern
+#     start: Jun 2015
+#     end: Jan 2016
+#     responsibilities:
+#     - Count lost of interns.
+#     - Count more interns.
+#     - Count me as an intern.

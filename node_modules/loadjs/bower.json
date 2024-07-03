@@ -1,0 +1,30 @@
+{
+  "name": "loadjs",
+  "version": "4.3.0",
+  "license": "MIT",
+  "authors": [
+    "Andres Morey <andres@kubetail.com>"
+  ],
+  "homepage": "https://github.com/kubetail-org/loadjs",
+  "description": "LoadJS is a tiny async loader for modern browsers.",
+  "main": [
+    "dist/loadjs.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kubetail-org/loadjs.git"
+  },
+  "keywords": [
+    "async loader",
+    "dependency manager"
+  ],
+  "dependencies": {
+  },
+  "ignore": [
+    "examples",
+    "gulpfile.js",
+    "package.json",
+    "test",
+    "umd-templates"
+  ]
+}

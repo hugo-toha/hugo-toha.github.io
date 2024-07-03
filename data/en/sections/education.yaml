@@ -1,0 +1,39 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Msc.Eng. in Autonomous Systems
+  icon: fa-graduation-cap
+  timeframe: 08/2020-10/2022
+  institution:
+    name: Technical University of Denmark
+    url: "https://www.dtu.dk/english/"
+    logo: /images/sections/education/dtu.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/university.jpg
+
+  customSections:
+    - name: Description
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+- name: B.Eng. in Internet of Things
+  icon: fa-graduation-cap
+  timeframe: 09/2015-02/2020
+  institution:
+    name: University of applied sciences Aalen
+    url: "https://www.hs-aalen.de/en/facilities/131"
+    logo: /images/sections/education/aalen.png
+
+  customSections:
+    - name: Description
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    - name: Thesis
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.

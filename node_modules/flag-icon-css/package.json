@@ -1,0 +1,28 @@
+{
+  "name": "flag-icon-css",
+  "version": "4.1.7",
+  "author": "Panayiotis Lipiridis <lipiridis@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/lipis/flag-icons"
+  },
+  "devDependencies": {
+    "http-server": "14.0.0",
+    "less": "4.1.2",
+    "prettier": "2.5.1",
+    "svgo": "2.8.0"
+  },
+  "scripts": {
+    "build": "yarn build:dev && yarn build:min",
+    "build:dev": "lessc less/flag-icons.less > css/flag-icons.css",
+    "build:min": "lessc -x less/flag-icons.less > css/flag-icons.min.css",
+    "start": "http-server -a localhost -p 8000",
+    "svgo": "svgo --pretty --indent=2 --precision=1",
+    "svgo:min": "find flags | grep '\\.svg$' | xargs -Iz -n 1 svgo z",
+    "svgo:all": "find flags | grep '\\.svg$' | xargs -Iz -n 1 yarn svgo z",
+    "fix": "yarn prettier --write",
+    "prettier": "prettier \"**/*.{html,json,md,scss,less,yaml,yml}\"",
+    "test": "yarn prettier --list-different"
+  }
+}

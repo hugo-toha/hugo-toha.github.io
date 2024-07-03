@@ -1,0 +1,72 @@
+{
+  "name": "filterizr",
+  "version": "2.2.4",
+  "description": "Filterizr is a jQuery plugin that sorts, shuffles, searches and applies stunning filters over responsive galleries using CSS3 transitions and custom CSS effects",
+  "main": "dist/filterizr.min.js",
+  "types": "dist/index.d.ts",
+  "author": "Yiotis Kaltsikis <yiotiskal@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giotiskl/filterizr/issues"
+  },
+  "homepage": "https://yiotis.net/filterizr",
+  "scripts": {
+    "start": "webpack-dev-server --env.env=development --mode development",
+    "start-with-jquery": "webpack-dev-server --progress --inline --hot --env.env=development --env.withjquery=false",
+    "build": "webpack -p --progress --env.env=production && webpack -p --progress --env.env=production --env.buildTarget=var",
+    "build-commonjs": "webpack -p --progress --env.env=production",
+    "build-var": "webpack -p --progress --env.env=production --env.buildTarget=var",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "showcoverage": "xdg-open ./coverage/lcov-report/index.html",
+    "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}'",
+    "preversion": "yarn test",
+    "version": "yarn build",
+    "postversion": "git push && git push --tags",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/giotiskl/Filterizr.git"
+  },
+  "dependencies": {
+    "fast-memoize": "^2.5.1",
+    "imagesloaded": "^4.1.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/jquery": "^3.3.30",
+    "@typescript-eslint/eslint-plugin": "^1.12.0",
+    "@typescript-eslint/parser": "^1.12.0",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "jest": "^24.8.0",
+    "jquery": "^3.4.1",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.0.2",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "keywords": [
+    "filter",
+    "shuffle",
+    "search",
+    "sort",
+    "filterizr",
+    "gallery",
+    "responsive",
+    "css3",
+    "css",
+    "lightweight",
+    "customizable",
+    "Yiotis",
+    "javascript",
+    "library",
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ]
+}
