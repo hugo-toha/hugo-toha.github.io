@@ -1,24 +1,25 @@
 # Copyright Notice
-copyright: © 2020 Copyright.
-
-# A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
-disclaimer: "এই থিমটি এমআইটি লাইসেন্সের অধীনে। সুতরাং, আপনি এটি অ-বাণিজ্যিক, বাণিজ্যিক বা ব্যক্তিগত ব্যবহারের জন্য ব্যবহার করতে পারবেন।
-থিম লেখকের কোনও অনুমতি ছাড়াই আপনি থিমটি সংশোধন বা বিতরণ করতে পারবেন।
-তবে থিম লেখক কোনও ওয়্যারেন্টি সরবরাহ করবে না বা থিমের যে কোনও সমস্যার জন্য কোনও দায়বদ্ধতা গ্রহণ করবেন না।"
+copyright: © 2024 Copyright.
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: জন ডো এর বাক্তিগত পোর্টফোলিও ও ব্লগ.
+description: Portfolio und persönlicher Blog von David Anthony Parham.
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
-customMenus:
-- name: ডকুমেন্টেশন
-  url: https://toha-guides.netlify.app/posts/
+
+# customMenus:
+# - name: Docs
+#   url: https://toha-guides.netlify.app/posts/
+#   # specify whether to hide the menu item from top navbar or not.
+#   hideFromNavbar: false
+#   # specify whether to show the menu item in footer or not.
+#   # if you set it to true, make sure you have set `footer.navigation.customMenus: true` in your config.yaml
+#   showOnFooter: false
 
 # Specify OpenGraph Headers
 openGraph:
-  title: জনের ব্লগ
+  title: David Anthony Parham
   type: website
-  description: জন ডো এর বাক্তিগত পোর্টফোলিও ও ব্লগ.
-  image: images/author/john.png
+  description: Portfolio und persönlicher Blog von David Anthony Parham.
+  image: images/author/david.jpg
   url: https://hugo-toha.github.io

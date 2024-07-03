@@ -11,39 +11,43 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "With approximately 2 years of professional programming experience and 8 years of proficiency as my primary language."
+  url: "https://www.python.org/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+- name: PyTorch
+  logo: /images/sections/skills/pytorch.png
+  summary: "Leveraging PyTorch and its ecosystem to develop state-of-the-art deep learning models for both research and production environments."
+  url: "https://pytorch.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+- name: OpenCV
+  logo: /images/sections/skills/opencv.png
+  summary: "As a foundational tool in my toolkit, OpenCV plays a crucial role in my image processing projects."
+
+- name: Modalities
+  logo: /images/sections/skills/modalities.png
+  summary: "Extensive experience handling diverse data modalities from 2D images and 3D point clouds to volumetric data in the realm of computer vision and deep learning."
+  url: ""
 
 - name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  logo: /images/sections/skills/docker.png
+  summary: "I've leveraged Docker extensively to streamline development and deployment processes in my deep learning projects, ensuring efficiency and scalability."
   url: "https://www.docker.com/"
-
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
-
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  summary: "Git is indispensable in my coding journey, empowering me with robust version control practices, continuous integration, and seamless collaboration."
   url: "https://git-scm.com/"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+- name: MLOps
+  logo: /images/sections/skills/mlops.png
+  summary: "I've navigated the entire MLOps pipeline, from preparing data to deploying and scaling machine learning models, enhancing my skills in operationalizing AI solutions."
+
+- name: Linux
+  logo: "images/sections/skills/linux.png"
+  summary: "Proficient in both local and remote operations across various Linux distributions, including Ubuntu, Debian, Arch, Gentoo, and openSUSE."
+
+- name: VS-Codium
+  logo: "images/sections/skills/codium.png"
+  summary: "Opting for the open-source VS Code variant, VS-Codium aligns perfectly with my preference for clean and efficient code writing experiences."

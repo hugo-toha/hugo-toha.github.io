@@ -24,12 +24,12 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "David Anthony Parham"
     weight: 1
   de:
     languageCode: de
     languageName: Deutsch
-    title: জনের ব্লগ
+    title: "David Anthony Parham"
     weight: 2
 # default language for the content
 defaultContentLanguage: en
@@ -64,9 +64,9 @@ params:
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/author/david.jpg
+    inverted: /images/author/david.jpg
+    favicon: /images/author/david.jpg
 
   # GitHub repo of your site
   gitRepo: https://github.com/dxvidparham/dxvidparham.github.io.git
@@ -106,7 +106,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
