@@ -21,13 +21,22 @@ buttons:
 
 # your projects
 projects:
+- name: ReRun
+  #logo: /images/sections/projects/tensorflow.png
+  role: UI/UX Programmer & Designer
+  timeline: "Oct 2023"
+  #repo:
+  url: "https://unseenverse.itch.io/rerun"
+  summary: Watch out for the monster from your TV! Collect the 4 batteries to recharge your remote control and defeat the monster. The themes for this Game Jam were Distortion & Stuck In A Loop. A Retro Runner Game with various inspirations from CRT TV’s to Grandma’s House! ReRun was created by a group of 7 Game Developer students over the course of 48 hours during UW Stout's IGDA Fall 2023 Game Jam. Feel free to click the link to play the game in browser! Winner of UW Stout's IGDA Fall 2023 Game Jam in the categories of Best Use of Theme & Best Visuals!
+  tags: ["hobby", "game-dev","godot"]
+
 - name: CULT-ure War
   #logo: /images/sections/projects/kubernetes.png
   role: Project Manager
-  timeline: "2023"
+  timeline: "May 2023"
   #repo: # If your project is a public repo on GitHub, then provide this link. it will show star count.
   url: "https://www.uwstout.edu/academics/colleges-schools/college-arts-and-human-sciences/school-art-design/sgx/sgx23-first-year-student-games"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Players are given the opportunity to have all the fun of starting a cult and gathering followers, without any disastrous consequences. Players will design their cult, and deity. Then gather followers in hopes of summoning the deity to defeat the opposing cults. First your opposing cults, then the world!
+  summary: Players are given the opportunity to have all the fun of starting a cult and gathering followers, without any disastrous consequences. Players will design their cult, and deity. Then gather followers in hopes of summoning the deity to defeat the opposing cults. First your opposing cults, then the world! Presented at Stout Game Expo in Spring 2023. As Project Manager I managed the other 3 team members tasks and made marketing material for the Expo. I also made sure the graphic design of paper parts of the game was consistent.  
   tags: ["academic", "game-dev", "table-top"]
 
 - name: Fish Feast
@@ -38,3 +47,21 @@ projects:
   url: "https://gulfbones.itch.io/fish-feast"
   summary: Fish Feast was created by a group of 8 Game Developer students over the course of 48 hours during UW Stout's 2023 Game Jam hosted by the on campus IGDA club. In Fish Feast you play as a fish where your goal is to eat other fish and items in the ocean to eventually get big enough to eat the whole map! Fish Feast won the Most Innovative award. Feel free to click the link to play the game in browser!
   tags: ["hobby", "game-dev","unity"]
+
+- name: Eclipse
+  #logo: /images/sections/projects/tensorflow.png
+  role: Lead Programmer
+  timeline: "Oct 2022"
+  #repo:
+  url: "https://unseenverse.itch.io/ascent"
+  summary: First 48 hour UW Stout IGDA Game Jam I participated in! Fall 2022 Semester. The themes for this Game Jam were Ethereal, Sun and Moon. Pixel Platformer. First time developing with the Godot engine. No awards. However I was the solo programmer with 5 artists! Feel free to click the link to check it out. Not my best work but was definitely a challenge. Not all features were implemented.
+  tags: ["hobby", "game-dev","godot"]
+
+- name: Call of Duty - Cold War
+  #logo: /images/sections/projects/tensorflow.png
+  role: QA Functional Tester
+  timeline: "May 2021 - Oct 2021"
+  #repo:
+  url: "https://unseenverse.itch.io/ascent"
+  summary: First Person Shooter Game developed by Treyarch and Raven Software and published by Activision. I personally Verified functionality, data content, performance, 1st Party (Sony, Microsoft, Nintendo) compliance, usability/playability, and hardware/software compatibility. As a QA Tester I implemented various types of Functional Testing including Black Box Testing, Smoke Testing, Regression Testing, and Load Testing. Received QA Credit.
+  tags: ["professional", "game-dev","qa"]
