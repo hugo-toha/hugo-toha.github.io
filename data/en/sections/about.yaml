@@ -19,22 +19,22 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: ' I am Analytics Engineer at Lucky Cart. I build data models, ensure data quality, help to automate tasks and use data science to improve the product.'
+summary: 'I am Analytics Engineer at Lucky Cart. I build data models, ensure data quality, help to automate tasks and use data science to improve the product.'
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "camille.lebrun.edu@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  url: "https://github.com/camlebrun"
 
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/camille-lebrun-ai/"
 
 
 # You can put custom buttons to link your relevant resources.

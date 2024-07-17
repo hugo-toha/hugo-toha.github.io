@@ -1,97 +1,44 @@
-# section information
 section:
   name: Education
   id: education
-  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  template: sections/education.html  # Consider using "sections/education-alt.html" for an alternate template.
   enable: true
   weight: 4
   showOnNavbar: true
-  # Can optionally hide the title in sections
+  # Uncomment the line below to hide the title in sections
   # hideTitle: true
 
 degrees:
-- name: Mastere in Artificial Intelligence & Data
-  icon: fa-microscope
-  timeframe: 2022-2024
-  institution:
-    name: HETIC
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
+  - name: Master's in Artificial Intelligence & Data
+    icon: fa-university
+    timeframe: 2022-present
+    institution:
+      name: HETIC
+    Description:
+      - Advanced proficiency in Python for data analysis and visualization with state-of-the-art tools.
+      - Strong command of SQL and NoSQL databases, leveraging their unique capabilities effectively.
+      - Deep understanding of AI principles, mathematics, DevOps (Docker, AWS, GCP, Azure), Big Data (Spark, ELK), and Git for version control.
+    Skills:
+      - Machine Learning
+      - Deep Learning
+      - Natural Language Processing (NLP)
+      - End-to-End Project Development
+      - Data Analysis
+      - Docker
 
-
-
-- name: B.Sc. in Computer Science & Engineering
-  icon: fa-graduation-cap
-  timeframe: 2012-2016
-  institution:
-    name: University of XYZ
-    url: "#"
-    logo: /images/sections/education/university.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/university.jpg
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
-    collapseAfter: 3
-    courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-  custonSections: #(optional)
-    - name: Thesis
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - name: Supervisor
-      content: Fusce eu augue ut odio porttitor pulvinar.
-- name: Higher Secondary School Certificate
-  icon: fa-university
-  timeframe: 2010-2012
-  institution:
-    name: MST College of Science
-    url: "#"
-    logo: /images/sections/education/science_college.png
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/science_college.png
-  grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
-  icon: fa-school
-  timeframe: 2005-2010
-  institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+  - name: MSc in Structural Functional Biochemistry
+    icon: fa-microscope
+    timeframe: 2018-2020
+    institution:
+      name: Toulouse University
+    Description:
+      - Proficient in designing and executing experimental protocols essential for precise data handling and analysis in Structural Biochemistry.
+      - Expertise in applying analytical techniques to address biological inquiries and resolve challenges in the field.
+      - Skilled in critically evaluating scientific literature to support informed decision-making and staying updated with emerging methodologies.
+    Skills:
+      - Experimental Design and Execution
+      - NMR Spectroscopy (Liquid and Solid State)
+      - Mass Spectrometry
+      - Bioinformatics
+      - Critical Thinking
+      - Scientific Literature Analysis

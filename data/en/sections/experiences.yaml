@@ -11,12 +11,12 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Lucky Cart
+    name: Lucky Cart 
     url: "https://www.luckycart.com/en/"
     location: Paris, France
     logo: /images/sections/experiences/lc.svg
     # Can optionally show a different logo for dark theme
-    darkLogo: /images/sections/experiences/lc.svg
+    #darkLogo: /images/sections/experiences/lc.svg
     # company overview
     overview: Lucky Cart is a major player on retail media. We provide a platform to create, manage and optimize digital campaigns for FMCG brands.
   positions:
@@ -28,12 +28,13 @@ experiences:
     responsibilities:
     - Conduct data audit and ensure data quality.
     - Create data app for accelerating data analysis.
-    - Refactor data models for better performance.
+    - Refactor data models for better performance and maintainability with dbt.
+    - Help stakeholders to understand data and make data-driven decisions.
 
 
 - company:
-    name: My Job Glasses
-    url: "https://www.example.com"
+    name: My Job Glasses 
+    url: "https://www.myjobglasses.com"
     location: Paris, France
     logo: /images/sections/experiences/mjg.png
     # Can optionally show a different logo for dark theme
@@ -46,11 +47,12 @@ experiences:
     responsibilities:
     - Create and maintain data models for a variety of business needs with dbt
     - Create macro for dbt to automate data transformation and data analysis.
+    - Create data visualization with Metabase for many teams.
     - Proficiency in Git, including interactive rebasing for precise version control.
 
 
 - company:
-    name:  Click and Boat
+    name:  Click and Boat 
     url: "https://www.clickandboat.com/en/"
     location: Boulogne-Billancourt, France
     logo: /images/sections/experiences/cab.png
@@ -65,4 +67,5 @@ experiences:
     - Create dbt models for data analysis.
     - Create Tableau dashboards for data visualization.
     - Conduct audience behavior analysis for understanding user behavior on the platform.
+    - Help the marketing team to understand the impact of their campaigns.
   

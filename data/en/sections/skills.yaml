@@ -9,41 +9,33 @@ section:
   # hideTitle: true
 
 # Your Skills.
-# Give a summary of you each skill in the summary section.
+# Give a summary of each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+- name: dbt
+  summary: "Experienced with dbt, capable of writing complex models (including incremental models), tests, and documentation. Skilled in transforming raw data into valuable insights through efficient data modeling"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+- name: Python
+  summary: "Proficient in writing complex programs and experienced with libraries such as Streamlit, Keras, TensorFlow, and Pandas. Able to develop data-driven applications and perform advanced data analysis."
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+- name: SQL
+  summary: "Skilled in writing complex SQL queries and experienced with BigQuery and Snowflake. Adept at optimizing queries for performance and managing large datasets."
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  url: "https://www.docker.com/"
+  summary: "Proficient in writing Dockerfiles and docker-compose files. Experienced in containerizing applications and ensuring consistent environments across development, testing, and production."
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
+- name: Data Visualization
+  summary: "Experienced with data visualization libraries like Matplotlib, Seaborn, Plotly, and Streamlit, as well as BI tools like Tableau, Looker, and Metabase. Capable of creating insightful visualizations to communicate data effectively."
 
 - name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+  summary: "Proficient in basic Linux commands. Comfortable working in a Linux environment for development and deployment purposes."
 
 - name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
+  summary: "Experienced with git-based development, primarily using GitHub. Also experienced with GitLab and Bitbucket. Skilled in managing version control and collaborating on codebases."
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+- name: Data Analysis
+  summary: "Skilled in performing exploratory data analysis (EDA) using Python and SQL. Experienced with data cleaning, data wrangling, and data transformation to derive meaningful insights."
+
+- name: Data applications
+  summary: "Experienced in developing data-driven applications using Python and libraries like Streamlit. Skilled in creating interactive dashboards and web applications to visualize data and insights."
+

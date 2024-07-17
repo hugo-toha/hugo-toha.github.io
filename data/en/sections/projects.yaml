@@ -13,51 +13,48 @@ buttons:
 - name: All
   filter: "all"
 
-- name: Academic
-  filter: "academic"
+- name: Streamlit
+  filter: "streamlit"
 - name: Hobby
   filter: "hobby"
+- name: Data Analysis
+  filter: "data-analysis"
+- name: Machine Learning
+  filter: "machine-learning"
+- name: NLP
+  filter: "nlp"
+- name: At Work
+  filter: "at-work" 
+- name: School
+  filter: "school"
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+- name: Poem Generator with Streamlit
+  repo: https://github.com/projet-md5-lebrun/PoetSynth# If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: [ "kubernetes", "cloud"]
+  summary: Poem Generator with Streamlit is a straightforward app that creates poems based on themes, syllable counts, and author styles, using an SQLite database to store the results. It features the ability to generate poems, display recent creations, and download the poems database.
+  tags: [ "streamlit", "hobby", "nlp", "school"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: [ "machine-learning"]
+- name: Credit rapide
+  repo: https://github.com/projet-md5-lebrun/loan_poject_hetic
+  summary: This project is a web-based quick loan simulator. It enables users to estimate a fast loan based on their needs and repayment capacity.
+  tags: ["streamlit", "machine-learning", "school"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+- name: TDoR - Transgender Day of Remembrance
+  repo: https://github.com/camlebrun/TDoRDataAwareness
+  summary: Develop a data visualization application to display real-time data on TDoR (Transgender Day of Remembrance) victims, leveraging the TransLivesMatter association's API for interactive exploration. Ensure automatic updates and visualizations each year without technical intervention. Maintain high information quality and credibility by using reliable sources and adhering to transgender rights protection standards.
+  tags: ["streamlit", "data-analysis", "hobby"]
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
+- name: Mental Health project
+  repo: https://github.com/camlebrun/MentalHealthAssessment
+  summary: The goal of this project is to develop a web application for patients and doctors to diagnose mental illnesses like depression, anxiety, and PTSD using scientifically recognized tests (CBT and EMDR). The application will use MCQs, initially available locally and later on a web app, without storing any patient data.
+  tags: ["hobby", "streamlit", "school"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: Data app for accelerating data analysis
+  summary: This app enables users to track campaign information and automatically populate Google Sheets with results from queries.
+  tags: ["at-work", "streamlit", "data-analysis"]
+
+- name: Refactoring of the data transformation repository
+  summary: Refactor the data transformation repository to enhance performance and maintainability using dbt. Ensure the quality of SQL code with sqlfluff.
+  tags: ["at-work", "streamlit"]
