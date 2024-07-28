@@ -12,7 +12,7 @@ designation: Analytics Engineer
 # your company information
 company:
   name: Lucky Cart
-  url: "https://www.example.com"
+  url: "https://www.luckycart.com/en/"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
