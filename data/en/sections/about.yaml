@@ -36,11 +36,15 @@ socialLinks:
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/camille-lebrun-ai/"
 
+- name: Medium
+  icon: "fab fa-medium"
+  url: "https://medium.com/@camille.lebrun"
+
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 #resourceLinks:
-#- title: "My Resume"
+- title: "My Resume"
  # url: "files/resume.pdf"
 
 # Show your badges
