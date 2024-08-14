@@ -21,6 +21,8 @@ buttons:
   filter: "school"
 - name: Data Engineering
   filter: "data-engineering"
+- name: At Work
+  filter: "at-work"
 
 # your projects
 projects:
@@ -28,12 +30,12 @@ projects:
 - name: TDoR - Transgender Day of Remembrance
   repo: https://github.com/camlebrun/TDoRDataAwareness
   summary: Develop a data visualization application to display real-time data on TDoR (Transgender Day of Remembrance) victims, leveraging the TransLivesMatter association's API for interactive exploration. Ensure automatic updates and visualizations each year without technical intervention. Maintain high information quality and credibility by using reliable sources and adhering to transgender rights protection standards.
-  tags: ["streamlit", "data-analysis" ]
+  tags: ["streamlit", "data-analysis" , "school"]
 
 - name: Mental Health project
   repo: https://github.com/camlebrun/MentalHealthAssessment
   summary: The goal of this project is to develop a web application for patients and doctors to diagnose mental illnesses like depression, anxiety, and PTSD using scientifically recognized tests (CBT and EMDR). The application will use MCQs, initially available locally and later on a web app, without storing any patient data.
-  tags: [ "streamlit"]
+  tags: [ "streamlit", "school"]
 
 - name: Data app for accelerating data analysis
   summary: This app enables users to track campaign information and automatically populate Google Sheets with results from queries.
