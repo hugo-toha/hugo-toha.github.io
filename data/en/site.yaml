@@ -27,7 +27,3 @@ openGraph:
   description: Portfolio and personal blog of John Doe.
   image: images/author/john.png
   url: https://hugo-toha.github.io
-
-# Specify the theme to set as the default theme. Possible values ​​are 'system', 'light' or 'dark'.
-# If not set, the default is 'system'.
-defaultTheme: system
