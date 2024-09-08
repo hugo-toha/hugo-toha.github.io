@@ -3,7 +3,7 @@ title: Bash Variables
 weight: 210
 menu:
   notes:
-    name: Variables
+    name: Variable
     identifier: notes-bash-variables
     parent: notes-bash
     weight: 10
