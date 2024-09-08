@@ -18,7 +18,7 @@ degrees:
     url: "https://www.northeastern.edu/"
   grade: #(optional)
     scale: GPA
-    achieved: 3.5
+    achieved: 3.6
     outOf: 4.0
   extracurricularActivities: #(optional)
   - Member of Northeastern University's Blockchain Club NEU Blockchain.
