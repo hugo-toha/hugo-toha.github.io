@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Accomplishments
+  name: Certifications
   id: accomplishments
   enable: true
   weight: 9
@@ -11,36 +11,26 @@ section:
 
 # Your accomplishments
 accomplishments:
-- name: Linux Foundation System Administrator
-  timeline: "March 2018 - March 2019"
+- name: Machine Learning - Introduction Nanodegree
+  timeline: "March 2020 - May 2020"
   organization:
-    name: Linux Foundation
-    url: https://www.linuxfoundation.org
-  courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-  certificateURL: "https://example.com"
+    name: Udacity
+    url: https://www.udacity.com
+  # courseOverview: The Intro to Machine Learning with Pytorch program covers machine learning concepts and techniques, with a focus on supervised and unsupervised learning. The program includes three courses and covers topics such as linear regression, logistic regression, decision trees, Naive Bayes, support vector machines, neural networks, and clustering. The courses include projects that allow learners to apply these techniques to real-world problems, such as identifying potential donors for a charity and clustering customers based on their spending habits. The program uses Python and PyTorch for implementation and includes lessons on model evaluation and tuning.
+  certificateURL: "https://graduation-api.udacity.com/api/certificate/3QQCFGJE/download"
 
-- name: Machine Learning
-  timeline: "Jun 2020 - Jan 2021"
+- name: Natural Language Processing Nanodegree
+  timeline: "March 2020 - May 2020"
   organization:
-    name: Coursera
-    url: https://www.coursera.org
-  courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
-  certificateURL: "https://example.com"
+    name: Udacity
+    url: https://www.udacity.com
+  # courseOverview:
+  certificateURL: "https://graduation.udacity.com/confirm/FQ9QS49S"
 
-- name: Grokking the System Design Interview
-  timeline: "Jan 2018 - Sept 2018"
+- name: Intermediate Python for Data Science
+  timeline: "June 2019 - July 2019"
   organization:
-    name: educative
-    url: https://www.educative.io
-  courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
-  certificateURL: "https://example.com"
-
-- name: Mastering Multithreading Programming with Go (Golang)
-  timeline: "Nov 2017 - Mar 2018"
-  organization:
-    name: Udemy
-    url: https://www.udemy.com
-  courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, mulithreading topics.
-  certificateURL: "https://example.com"
- 
-
+    name: Datacamp
+    url: https://www.datacamp.com
+  # courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
+  certificateURL: "https://www.datacamp.com/statement-of-accomplishment/course/adf33926cc5a44347b9062ca29334346bdf9ba19"

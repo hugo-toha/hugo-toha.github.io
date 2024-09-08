@@ -10,95 +10,50 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
-  icon: fa-microscope
-  timeframe: 2016-2020
-  institution:
-    name: ABC University of Technology
-    url: "#"
-    logo: /images/sections/education/tech_college.png
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/tech_college.png
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
+- name: Masters of Sciences in Information Systems
   icon: fa-graduation-cap
-  timeframe: 2012-2016
+  timeframe: 2023-Ongoing
   institution:
-    name: University of XYZ
-    url: "#"
-    logo: /images/sections/education/university.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/university.jpg
+    name: Northeastern University
+    url: "https://www.northeastern.edu/"
+  grade: #(optional)
+    scale: GPA
+    achieved: 3.5
+    outOf: 4.0
+  extracurricularActivities: #(optional)
+  - Member of Northeastern University's Blockchain Club NEU Blockchain.
+- name: B.Engineering in Electronics & Communication Engineering
+  icon: fa-graduation-cap
+  timeframe: 2017-2021
+  institution:
+    name: Thapar Institute of Engineering and Technology
+    url: "https://www.thapar.edu/"
   grade: #(optional)
     scale: CGPA
-    achieved: 3.5
-    outOf: 4
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
-    collapseAfter: 3
-    courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
+    achieved: 7.68
+    outOf: 10
   publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
+  - title: Patent - Braille Reading Device
+    url: "https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/PatentDetails"
+  - title: Patent - Communication device for Visually Impaired People
+    url: "https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/PatentDetails"
+  - title: System to provide assistance in Autism Spectrum Disorder
+    url: "https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/PatentDetails"
   extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-  custonSections: #(optional)
-    - name: Thesis
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - name: Supervisor
-      content: Fusce eu augue ut odio porttitor pulvinar.
-- name: Higher Secondary School Certificate
-  icon: fa-university
-  timeframe: 2010-2012
-  institution:
-    name: MST College of Science
-    url: "#"
-    logo: /images/sections/education/science_college.png
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/science_college.png
-  grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
+  - Founded Developer Student Clubs TIET chapter along with an amazing team of fellow developers.
+  - Fellow Core Member of GirlScript Patiala team.
+  - Conducted HackTIET, a 24-hour hackathon with 200+ participants.
+
+- name: Secondary School
   icon: fa-school
-  timeframe: 2005-2010
+  timeframe: 2015-2017
   institution:
-    name: JK School of Science
+    name: Seth Anandram Jaipuria School
   grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+    scale: Percentage
+    achieved: 92
+    outOf: 100
+  extracurricularActivities: #(optional)
+  - Founder of Cyber Crew - SAJS's first computer society
+  - Deputy Head Boy for academic session 2016-17
+  - Active participant in various debates and Model United Nations

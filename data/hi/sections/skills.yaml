@@ -1,0 +1,41 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "व्यावसायिक विकास के लिए मुख्य भाषा के रूप में उपयोग करना। स्केलेबल, परीक्षण योग्य और रखरखाव योग्य प्रोग्राम लिखने में सक्षम।"
+  url: "https://www.python.org/"
+
+- name: Django
+  logo: /images/sections/skills/django.png
+  summary: "व्यावसायिक विकास के लिए मुख्य ढांचे के रूप में उपयोग करना। स्केलेबल, परीक्षण योग्य और रखरखाव योग्य प्रोग्राम लिखने में सक्षम।"
+  url: "https://www.djangoproject.com/"
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "अधिकांश प्रोग्रामों को डॉकरीकृत कंटेनर के रूप में लिखें। मल्टी-स्टेज, मल्टी-आर्क निर्माण प्रक्रिया का अनुभव।"
+  url: "https://www.docker.com/"
+
+- name: Cloud Computing
+  logo: /images/sections/skills/cloud.png
+  summary: "अधिकांश प्रमुख क्लाउड जैसे GCP, AWS, Azure आदि के साथ काम किया।"
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "गिट-आधारित विकास का अनुभव। अधिकतर, Github का उपयोग करें। साथ ही GitLab के साथ काम करने का अनुभव भी हो।"
+  url: "https://git-scm.com/"
+
+- name: Solidity
+  logo: /images/sections/skills/solidity.png
+  summary: "एथेरियम ब्लॉकचेन के लिए स्मार्ट अनुबंध लिखने का अनुभव।"
+  url: "https://soliditylang.org/"

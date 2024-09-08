@@ -1,0 +1,17 @@
+# some information about you
+name: "शुभांक सक्सैना"
+nickname: "शुभांक"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "नमस्ते! मैं हूँ"
+image: "images/author/shubhank.jpeg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  ईमेल: "saxena.shubhank.19@gmail.com"
+  फ़ोन: "+1-857-763-7586"
+
+# some summary about what you do
+summary:
+  - मैं एक बैकएंड डेवलपर हूं
+  - मुझे सर्वर पसंद हैं
+  - मैं ओपन-सोर्स प्रोजेक्ट्स पर काम करता हूं
+  - मुझे कुछ मनोरंजक परियोजनाओं पर काम करना पसंद है

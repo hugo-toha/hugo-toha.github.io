@@ -1,6 +1,6 @@
 # section information
 section:
-  name: About
+  name: शुभांक सक्सैना
   id: about
   enable: true
   weight: 1
@@ -8,22 +8,19 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Graduate Student
+designation: Engineering Lead
 # your company information
 company:
-  name: Northeastern University
-  url: "https://www.northeastern.edu/"
+  name: Wall.
+  url: "https://www.wall.app"
 
-# your resume. this file path should be relative to you "static" directory
-# Dreprecated. Use resourceLinks instead.
-# resume: "files/resume.pdf"
 
 # a summary about you
-summary: "I am a passionate software engineer with 2 years of working experience.
-Mission-driven full stack developer and Deep Learning Practitioner with a passion for thoughtful Product Design, collaboration, and teaching.
-I’ve always sought out opportunities and challenges that are meaningful to me. Although my academic path has taken many twists and turns, I've never stopped engaging my passion to help others and solve problems.
+summary: "मैं 2 साल के कार्य अनुभव के साथ एक उत्साही सॉफ्टवेयर इंजीनियर हूं।
+विचारशील उत्पाद डिजाइन, सहयोग और शिक्षण के जुनून के साथ मिशन-संचालित पूर्ण स्टैक डेवलपर और डीप लर्निंग प्रैक्टिशनर।
+मैंने हमेशा ऐसे अवसरों और चुनौतियों की तलाश की है जो मेरे लिए सार्थक हों। हालाँकि मेरे शैक्षणिक पथ में कई मोड़ आए, लेकिन मैंने दूसरों की मदद करने और समस्याओं को हल करने के अपने जुनून को कभी नहीं छोड़ा।
 
-As a Web and AI developer, I enjoy using my obsessive attention to detail, my unequivocal love for making things, and my mission-driven work ethic to literally change the world. That's why I’m excited to make dent in this universe!"
+एक वेब और एआई डेवलपर के रूप में, मैं विस्तार पर अपने जुनूनी ध्यान, चीजों को बनाने के लिए अपने स्पष्ट प्यार और दुनिया को सचमुच बदलने के लिए अपने मिशन-संचालित कार्य नैतिकता का उपयोग करने का आनंद लेता हूं। इसीलिए मैं इस ब्रह्मांड में सेंध लगाने के लिए उत्साहित हूं!"
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -52,7 +49,8 @@ socialLinks:
 # For example, you can put link for your resume.
 resourceLinks:
 - title: "My Resume"
-  url: "files/shubhank_saxena_resume.pdf"
+  url: "https://drive.google.com/file/d/1bK7Ud6fU9EIMM5sKxUxe7yxGQbncBVyA/view?usp=sharing"
+
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.

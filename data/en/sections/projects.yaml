@@ -12,53 +12,132 @@ section:
 buttons:
 - name: All
   filter: "all"
+- name: Personal
+  filter: "personal"
 - name: Professional
   filter: "professional"
-- name: Academic
-  filter: "academic"
-- name: Hobby
-  filter: "hobby"
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+
+- name: Stress-ng REST Server
+  # logo: /images/sections/projects/tensorflow.png
+  # role: Research Intern
+  timeline: "July 2021 - September 2021"
+  repo: https://github.com/shubhank-saxena/dnn-speech-recognizer
+  #url: ""
+  summary: This is a very basic Flask based REST server which takes in the stress-ng factors like compute, storage and network along with time and allows to run time-varying stress tests.
+          stress-ng is an existing CLI tool. This project acts as a wrapper around it.
+  tags: ["personal", "docker", "REST"]
+
+- name: ASL Translator
+  # logo: /images/sections/projects/tensorflow.png
+  # role: Research Intern
+  timeline: "Jan 2021 - March 2021"
+  repo: https://github.com/shubhank-saxena/dnn-speech-recognizer
+  #url: ""
+  summary: This project is a sign language alphabet recognizer using Python, OpenCV and TensorFlow for training the InceptionV3 model, a convolutional neural network model for classification.
+  tags: ["professional", "deep-learning", "computer-vision"]
+
+- name: Speech Recognition DNN
+  # logo: /images/sections/projects/tensorflow.png
+  # role: Research Intern
+  timeline: "August 2020 - October 2020"
+  repo: https://github.com/shubhank-saxena/dnn-speech-recognizer
+  #url: ""
+  summary: Built a deep neural network that functions as part of end-to-end automatic speech recognition (ASR) pipeline. I used LibreSpeech dataset to train and evaluate models. This algorithm first converts any raw audio to feature representation that are commonly used for ASR, and then another network maps these audio features to transcribed text.
+  tags: ["personal", "deep-learning"]
+
+- name: Flower Classification
+  # logo: /images/sections/projects/tensorflow.png
+  # role: Research Intern
+  timeline: "July 2020 - August 2020"
+  # repo: https://github.com/shubhank-saxena/dnn-speech-recognizer
+  #url: ""
+  summary: This project is my introductory project to the world of Deep Learning. I trained an image classifier to recognize different species of flowers. I used Maria-Elena Nilsback and Andrew Zisserman's dataset of 102 flower categories(http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html) for training. The flowers are chosen to be flower commonly occurring in the United Kingdom. Each class consists of between 40 and 258 images.
+          I used ResNet as my pre-trained model for feature extraction and the following structure is of the classifier model layers on top of it
+  tags: ["personal", "deep-learning"]
+
+- name: Fruit Ripeness classification
+  # logo: /images/sections/projects/tensorflow.png
+  role: Research Intern at IIIT Allahabad
+  timeline: "May 2019 - July 2019"
+  # repo: https://github.com/tensorflow/tensorflow
+  #url: ""
+  summary: Using calibrated electronic sensors and Arduino board, I collected gaseous data and olfactory chemical substrates of various fruits. The fruit of every type was further in 3 categories of under-ripe, ripe and overripe. The overall outcome was a portable electronic nose like device which would predict the state of the fruit. The multiclass classification was used to achieve this task.
+  tags: ["professional", "machine-learning", "arduino", "hardware"]
+
+- name: Auscare
+  # logo: /images/sections/projects/tensorflow.png
+  role: Hackathon Project
+  timeline: "April 2019 - May 2019"
+  # repo: https://github.com/tensorflow/tensorflow
+  #url: ""
+  summary: Created a Google Glasses like AR device to assist Autistic kids to understand emotions and help them with constant learning and recitation.
+  tags: ["personal", "Hardware", "raspberry-pi"]
+
+- name: Cisco Meraki's DevNet App
+  # logo: /images/sections/projects/tensorflow.png
+  role: Hackathon Project
+  timeline: "March 2019 - April 2019"
+  # repo: https://github.com/shubhank-saxena/dnn-speech-recognizer
+  #url: ""
+  summary: Developed a Flutter based cross platform for analysing and presenting the data which was given by CiSCO's Meraki Camera. Along with that, provided future prediction of queue analysis by implementing LSTM. Entire features and outcomes were also conveyed by Google Assistant and Alexa, along with automated messaging services in local language support for non-feature mobile phones.
+          This ecosystem had provision for Admin warning in the form of automated SMS as well as generated mail.
+  tags: ["personal", "software", "python"]
+
+- name: Blindspot
+  # logo: /images/sections/projects/tensorflow.png
+  role: Hackathon Project
+  timeline: "Dec 2018 - Jan 2019"
+  # repo: https://github.com/shubhank-saxena/dnn-speech-recognizer
+  #url: ""
+  summary: An all in one device for visually impaired person. Scene description, OCR, navigation, path detection and Integrated Payments system. Targeted at low income sections.
+  tags: ["personal", "hardware", "raspberry-pi"]
+
+- name: Amaurotic
+  # logo: /images/sections/projects/tensorflow.png
+  role: Hackathon Project
+  timeline: "Aug 2018 - Sep 2018"
+  # repo: https://github.com/shubhank-saxena/dnn-speech-recognizer
+  #url: ""
+  summary: A portable Braille for visually impaired people. Low cost effective mechanical-electronic device.
+  tags: ["personal", "hardware", "raspberry-pi"]
+
+- name: Publication Portal
+  # logo: /images/sections/projects/kubernetes.png
+  role: Developer role at TIET
+  timeline: "Jun 2018 - Aug 2018"
+  summary: Developed MySQL Database managing publications of TIET. In addition to that made the website accessing the Database. The Server-End of the Website was based on PHP. 
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+  tags: ["python", "php", "mysql", "web-development", "professional"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+
+### Samples
+# - name: A sample academic paper
+#   role: Team Lead
+#   timeline: "Jan 2017 - Nov 2017"
+#   url: "https://www.example.com"
+#   summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
+#   tags: ["academic","iot"]
+
+# - name: Nocode
+#   logo: /images/sections/projects/no-code.png
+#   role: Nothing
+#   timeline: "Oct 2019 - Dec 2019"
+#   repo: https://github.com/kelseyhightower/nocode
+#   #url: ""
+#   summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
+#   tags: ["hobby", "fun"]
+
+# - name: Toha
+#   logo: /images/sections/projects/toha.png
+#   role: Owner
+#   timeline: "Jun 2019 - Present"
+#   repo: https://github.com/hossainemruz/toha
+#   summary: A Hugo theme for personal portfolio.
+#   tags: ["hobby","hugo","theme","professional"]
