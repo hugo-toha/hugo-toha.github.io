@@ -78,7 +78,6 @@ params:
 
   # Configure various features of this theme
   features:
-
     # [Deprecated] Enable dark theme
     # This is a deprecated setting, but has not been removed to maintain backward compatibility
     # If `theme` is set, the `darkMode` setting will be discarded.
@@ -265,7 +264,11 @@ params:
           # options doc: https://github.com/sampotts/plyr#options
           # fullscreen: true
     
-        # Enable reading time support in post cards and in post pages
+    # Enables copy code button
+    copyCodeButton:
+      enable: true
+
+    # Enable reading time support in post cards and in post pages
     readingTime:
       enable: false
     
