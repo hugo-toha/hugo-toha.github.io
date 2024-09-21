@@ -229,6 +229,6 @@ erDiagram
 
 {{< gist hossainemruz 4ad86c9b6378677e14eff12713e75e44 >}}
 
-## Embeded PDF
+## Embedded PDF
 
 {{< embed-pdf src="/files/resume.pdf" >}}
