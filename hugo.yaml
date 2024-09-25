@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://diogo-dantas.github.io
 
-languageCode: bn
-title: "John's Blog"
+languageCode: en
+title: DiogoData
 
 # Use Hugo modules to add theme
 module:
@@ -20,16 +20,14 @@ module:
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
+  pt-br:
+    languageCode: pt-br
+    languageName: Português Brasileiro
+    title: "D i o g o D a t a"
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
-    weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
+    title: "D i o g o D a t a"
 # default language for the content
 defaultContentLanguage: en
 
@@ -68,7 +66,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/diogo-dantas/diogo-dantas.github.io
   # Default branch of your Git repo
   gitBranch: main
 
@@ -153,7 +151,7 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
+      enabled: false
       services:
         # Google Analytics
         google:
@@ -165,6 +163,7 @@ params:
         # goatCounter:
         #   code: <your goat counter code>
         # # Matomo / Piwik
+
         # matomo:
         #   instance: matomo.example.com
         #   siteId: 1 # Or any other number

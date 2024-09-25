@@ -24,12 +24,6 @@ categories: ["বেসিক"]
 
 {{< vs >}}
 
-### টুইটের নুমুনা
-
-{{< tweet user="SanDiegoZoo" id="1453110110599868418" >}}
-
-{{< vs >}}
-
 ### ইউটিওবের ভিডিও নমুনা
 
 {{< youtube ZJthWmvUzzc >}}
