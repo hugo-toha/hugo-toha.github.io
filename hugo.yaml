@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://f-yanez.github.io
 
-languageCode: bn
-title: "John's Blog"
+languageCode: en-us
+title: "Fernando's Hub"
 
 # Use Hugo modules to add theme
 module:
@@ -22,13 +22,13 @@ module:
 languages:
   en:
     languageCode: en
-    languageName: English
-    title: "John's Blog"
+    languageName: EN
+    # title: "Fernando's Corner"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
+  es:
+    languageCode: es
+    languageName: ES
+    title: "Fernando's Corner"
     weight: 2
 # default language for the content
 defaultContentLanguage: en
@@ -63,12 +63,12 @@ params:
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
+    main: /images/site/fy-logo.png
+    inverted: /images/site/fy-logo.png
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/f-yanez/f-yanez.github.io
   # Default branch of your Git repo
   gitBranch: main
 
@@ -157,7 +157,7 @@ params:
       services:
         # Google Analytics
         google:
-          id: G-H4LBG7NDFZ
+          id: G-01D691PCR4
         # # CounterDev
         # counterDev:
         #   id: <your counterdev id>
@@ -197,9 +197,9 @@ params:
     flags:
       enable: true
       # # If you want to use different country flag for a language, specify them here.
-      # flagOverwrites:
-      #   - languageCode: en
-      #     countryCode: us
+      flagOverwrites:
+        - languageCode: en
+          countryCode: us
 
     # Enable this to use `embed-pdf` shortcode.
     embedpdf:

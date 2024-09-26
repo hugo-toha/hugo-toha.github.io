@@ -77,6 +77,206 @@
 &lt;p&gt;I often reflect on a particular phrase that captures my feelings of being different in a casual yet effective way. I&amp;rsquo;m usually the odd one out—the one who doesn&amp;rsquo;t get hot chocolate at a Christmas market because it doesn&amp;rsquo;t bring the same joy as my mom&amp;rsquo;s, or the one who stays quiet for hours at gatherings because I prefer discussing ideas and concepts rather than people. However, I&amp;rsquo;ve learned to embrace this uniqueness instead of running away from it.&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>Rich Content</title>
+      <link>http://localhost:1313/posts/category/sub-category/rich-content/</link>
+      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/category/sub-category/rich-content/</guid>
+      <description>&lt;p&gt;This sample post tests the followings:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Category, sub-category nesting in the sidebar.&lt;/li&gt;
+&lt;li&gt;Hero image and other images are in &lt;code&gt;images&lt;/code&gt; folder inside this post directory.&lt;/li&gt;
+&lt;li&gt;Different media rendering like image, tweet, YouTube video, Vimeo video etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;image-sample&#34;&gt;Image Sample&lt;/h3&gt;
+&lt;img src=&#34;http://localhost:1313/posts/category/sub-category/rich-content/images/forest.jpg&#34;
+    
+        alt=&#34;Forest&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: rem;&#34;&gt;&lt;/div&gt;
+&lt;h3 id=&#34;tweet-sample&#34;&gt;Tweet Sample&lt;/h3&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Owl bet you&amp;#39;ll lose this staring contest 🦉 &lt;a href=&#34;https://t.co/eJh4f2zncC&#34;&gt;pic.twitter.com/eJh4f2zncC&lt;/a&gt;&lt;/p&gt;&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) &lt;a href=&#34;https://twitter.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw&#34;&gt;October 26, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+&lt;div style=&#34;margin-top: rem;&#34;&gt;&lt;/div&gt;
+&lt;h3 id=&#34;youtube-video-sample&#34;&gt;YouTube Video Sample&lt;/h3&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/ZJthWmvUzzc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;div style=&#34;margin-top: rem;&#34;&gt;&lt;/div&gt;
+&lt;h3 id=&#34;vimeo-video-sample&#34;&gt;Vimeo Video Sample&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://player.vimeo.com/video/48912912&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Shortcodes Samples</title>
+      <link>http://localhost:1313/posts/shortcodes/</link>
+      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/shortcodes/</guid>
+      <description>&lt;p&gt;This is a sample post intended to test the followings:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Default hero image.&lt;/li&gt;
+&lt;li&gt;Different shortcodes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;alert&#34;&gt;Alert&lt;/h2&gt;
+&lt;p&gt;The following alerts are available in this theme.&lt;/p&gt;
+
+
+
+    
+
+
+&lt;div class=&#34;alert success&#34;&gt;
+    &lt;span&gt;&lt;i data-feather=&#34;check-circle&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;span&gt;&lt;strong&gt;This is sample alert with &lt;code&gt;type=&amp;quot;success&amp;quot;&lt;/code&gt;.&lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+
+
+
+    
+
+
+&lt;div class=&#34;alert danger&#34;&gt;
+    &lt;span&gt;&lt;i data-feather=&#34;alert-octagon&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;span&gt;&lt;strong&gt;This is sample alert with &lt;code&gt;type=&amp;quot;danger&amp;quot;&lt;/code&gt;.&lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+
+
+
+    
+
+
+&lt;div class=&#34;alert warning&#34;&gt;
+    &lt;span&gt;&lt;i data-feather=&#34;alert-triangle&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;span&gt;&lt;strong&gt;This is sample alert with &lt;code&gt;type=&amp;quot;warning&amp;quot;&lt;/code&gt;.&lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+
+
+
+    
+
+
+&lt;div class=&#34;alert info&#34;&gt;
+    &lt;span&gt;&lt;i data-feather=&#34;info&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;span&gt;&lt;strong&gt;This is sample alert with &lt;code&gt;type=&amp;quot;info&amp;quot;&lt;/code&gt;.&lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+
+
+
+
+&lt;div class=&#34;alert dark&#34;&gt;
+    &lt;span&gt;&lt;i data-feather=&#34;alert-circle&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;span&gt;&lt;strong&gt;This is sample alert with &lt;code&gt;type=&amp;quot;dark&amp;quot;&lt;/code&gt;.&lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+
+
+
+
+&lt;div class=&#34;alert primary&#34;&gt;
+    &lt;span&gt;&lt;i data-feather=&#34;alert-circle&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;span&gt;&lt;strong&gt;This is sample alert with &lt;code&gt;type=&amp;quot;primary&amp;quot;&lt;/code&gt;.&lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+
+
+
+
+&lt;div class=&#34;alert secondary&#34;&gt;
+    &lt;span&gt;&lt;i data-feather=&#34;alert-circle&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;span&gt;&lt;strong&gt;This is sample alert with &lt;code&gt;type=&amp;quot;secondary&amp;quot;&lt;/code&gt;.&lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;image&#34;&gt;Image&lt;/h2&gt;
+&lt;h4 id=&#34;a-sample-image-without-any-attribute&#34;&gt;A sample image without any attribute.&lt;/h4&gt;
+&lt;img src=&#34;http://localhost:1313/posts/shortcodes/boat.jpg&#34;
+    
+        alt=&#34;A boat at the sea&#34;
+    
+    
+    
+    
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;h4 id=&#34;a-sample-image-with-height-and-width-attributes&#34;&gt;A sample image with &lt;code&gt;height&lt;/code&gt; and &lt;code&gt;width&lt;/code&gt; attributes.&lt;/h4&gt;
+&lt;img src=&#34;http://localhost:1313/posts/shortcodes/boat.jpg&#34;
+    
+        alt=&#34;A boat at the sea&#34;
+    
+    
+        width=&#34;600&#34;
+    
+    
+        height=&#34;400&#34;
+    
+    
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;h4 id=&#34;a-center-aligned-image-with-height-and-width-attributes&#34;&gt;A center aligned image with &lt;code&gt;height&lt;/code&gt; and &lt;code&gt;width&lt;/code&gt; attributes.&lt;/h4&gt;
+&lt;img src=&#34;http://localhost:1313/posts/shortcodes/boat.jpg&#34;
+    
+        alt=&#34;A boat at the sea&#34;
+    
+    
+        width=&#34;600&#34;
+    
+    
+        height=&#34;400&#34;
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;h4 id=&#34;a-image-with-float-attribute&#34;&gt;A image with &lt;code&gt;float&lt;/code&gt; attribute.&lt;/h4&gt;
+&lt;img src=&#34;http://localhost:1313/posts/shortcodes/boat.jpg&#34;
+    
+        alt=&#34;A boat at the sea&#34;
+    
+    
+        width=&#34;500&#34;
+    
+    
+        height=&#34;200&#34;
+    
+    
+        style=&#34;float: right;&#34;
+    
+    
+&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas lectus sed leo ultricies ultricies. Praesent tellus risus, eleifend vel efficitur ac, venenatis sit amet sem. Ut ut egestas erat. Fusce ut leo turpis. Morbi consectetur sed lacus vitae vehicula. Cras gravida turpis id eleifend volutpat. Suspendisse nec ipsum eu erat finibus dictum. Morbi volutpat nulla purus, vel maximus ex molestie id. Nullam posuere est urna, at fringilla eros venenatis quis.&lt;/p&gt;</description>
+    </item>
+    
     
   </channel>
 </rss>
