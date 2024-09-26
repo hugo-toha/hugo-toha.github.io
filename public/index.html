@@ -16,7 +16,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<link rel="stylesheet" href="/application.019188301a3ee0f550458ce91f141f1ff7cb8a3a7d8656018b63230fd7fe44b5.css" integrity="sha256-AZGIMBo&#43;4PVQRYzpHxQfH/fLijp9hlYBi2MjD9f&#43;RLU=" />
+<link rel="stylesheet" href="/application.57df7d9717dddf036e3490c434eae9fbc6609104ba427b7c2bd65c0119701b2f.css" integrity="sha256-V999lxfd3wNuNJDENOrp&#43;8ZgkQS6Qnt8K9ZcARlwGy8=" />
 
 
 
@@ -47,31 +47,51 @@
 <meta property="og:url" content="https://f-yanez.github.io">
 
 
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Fernando&#39;s Hub">
+
+
+
     
-        
-        
         
             
             
+                
+                
+                
+            
+
+            
+            
+
+            
+            
+
+            
+            
+
+            
+
             
         
-
-        
-        
-
-        
-        
-
-        
-        
-        
     
 
 
 
 
-</head>
-  <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
+<script>
+      theme = localStorage.getItem('theme-scheme') || localStorage.getItem('darkmode:color-scheme') || 'light';
+      if (theme == 'system') {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          theme = 'dark';
+        } else {
+          theme = 'light';
+        }
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+    </script>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#top-navbar" data-bs-offset="100">
 
     
 
@@ -87,19 +107,13 @@
 
 
 
-  
 
 
   
 
 
+  
 
-
-  
-  
-    
-  
-  
 
 
 
@@ -111,6 +125,11 @@
 
 
 
+  
+  
+    
+  
+  
 
 
 
@@ -118,8 +137,22 @@
   
 
 
-<nav class="navbar navbar-expand-xl top-navbar initial-navbar" id="top-navbar">
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar shadow transparent-navbar homepage" id="top-navbar">
   <div class="container">
+    
     <a class="navbar-brand" href="/">
       
         <img src="/images/site/fy-logo_hu8778836580289981708.png" id="logo" alt="Logo">
@@ -128,15 +161,15 @@
       class="navbar-toggler navbar-dark"
       id="navbar-toggler"
       type="button"
-      data-toggle="collapse"
-      data-target="#top-nav-items"
+      data-bs-toggle="collapse"
+      data-bs-target="#top-nav-items"
       aria-label="menu"
     >
-      <span class="navbar-toggler-icon"></span>
+      <i data-feather="menu"></i>
     </button>
 
     <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
-      <ul class="navbar-nav ml-auto">
+      <ul class="nav navbar-nav ms-auto">
         <li class="nav-item">
           <a class="nav-link" href="#home">Home</a>
         </li>
@@ -178,7 +211,7 @@
             
           
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 
                 
@@ -218,32 +251,43 @@
           
         
         
-          <div class="dropdown-divider" id="top-navbar-divider"></div>
+          <div id="top-navbar-divider"></div>
         
         
           <li class="nav-item">
-            <a class="nav-link" id="blog-link" href="/posts/">Posts</a>
+            <a class="nav-link" id="blog-link" href="/posts">Posts</a>
           </li>
         
         
         
         
         
-          <li class="nav-item dropdown">
+          
+
+
+
+
+<li class="nav-item dropdown">
 <a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
-  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-  <img id="navbar-theme-icon-svg" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
 </a>
 <div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  
   <a class="dropdown-item nav-link" href="#" data-scheme="light">
-    <img class="menu-icon-center" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+    <img class="theme-icon" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
   </a>
+  
+  
   <a class="dropdown-item nav-link" href="#" data-scheme="dark">
-    <img class="menu-icon-center" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+    <img class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
   </a>
+  
+  
   <a class="dropdown-item nav-link" href="#" data-scheme="system">
-    <img class="menu-icon-center" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+    <img class="theme-icon" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
   </a>
+  
 </div>
 </li>
 
@@ -394,7 +438,7 @@
       
       
         
-          <div class="container-fluid section-holder d-flex bg-white">
+          <div class="container-fluid section-holder d-flex bg-primary">
             
 
   
@@ -424,7 +468,7 @@
 <p>I&rsquo;m interested in building the future of education by personalizing the content and explanations we show students, aiming to maximize their understanding. Traditional education is based on previous limitations, dating back to medieval times, where one person must address many students at the same time. Thus, their teaching techniques had to be developed to address many at a time. Nowadays, we have the technology to build Intelligent Adaptive Teaching Systems that will personalize their teaching to the individual. This work will touch many areas such as Adaptive Algorithms, Generative Modeling, Machine Learning, Recommendation Systems, Information Retrieval, and Cognitive Science. I&rsquo;m looking forward to joining efforts with people in these areas.</p>
 
       </p>
-      <div class="text-container ml-auto">
+      <div class="text-container ms-auto">
         <ul class="social-link d-flex">
           
           <li>
@@ -449,7 +493,7 @@
       
     </div>
     
-    <div class="col-sm-6 pt-5 pl-md-4 pl-sm-3 pt-sm-0">
+    <div class="col-sm-6 pt-5 ps-md-4 ps-sm-3 pt-sm-0">
       <div class="row">
         
         
@@ -468,7 +512,7 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-dimmed">
+          <div class="container-fluid section-holder d-flex bg-secondary">
             
 
   
@@ -486,82 +530,147 @@
   <div class="container">
     <div class="row" id="recent-post-cards">
       
-        <div class="col-lg-4 col-md-6 pt-2 post-card">
-  <a href="/posts/build/ideation_training/" title="Ideation as a Muscle: Training Your Mind to Generate Great Ideas" class="post-card-link">
-    <div class="card">
-      <div class="card-head">
-        <img class="card-img-top" src='/posts/build/ideation_training/hero.png'
-          alt="Card image cap"
-        />
-      </div>
-      <div class="card-body">
+        <div class="post-card">
+  <div class="card">
+    <div class="card-head">
+      <a href="/posts/build/ideation_training/" class="post-card-link">
+        <img class="card-img-top" src='/posts/build/ideation_training/hero.png' alt="Hero Image">
+      </a>
+    </div>
+    <div class="card-body">
+      <a href="/posts/build/ideation_training/" class="post-card-link">
         <h5 class="card-title">Ideation as a Muscle: Training Your Mind to Generate Great Ideas</h5>
-        <p class="card-text post-summary"> <h3 id="understanding-our-goals-developing-a-process-and-trusting-the-journey">Understanding Our Goals, Developing a Process, and Trusting the Journey</h3>
-<blockquote>
-<p>&ldquo;A company that’s likely to make a substantial change in the status quo &hellip; is thinking about a problem or a customer need in a way you’ve never heard before, but which makes perfect sense once you hear it.&quot;<p>
-—<strong>Tony Fadell</strong>, <a href="https://www.goodreads.com/book/show/59696349-build" target="_blank" rel="noopener">Build</a></p>
-</blockquote>
-<h4 id="why-understand-our-goal-for-ideation"><strong>Why</strong>: Understand Our Goal for Ideation</h4>
-<p>Ideation is a muscle that we must train, similar to how we exercise our bodies to become stronger and healthier. Good ideas don&rsquo;t simply come out of the blue or happen by chance. They are a result of consistent effort and practice. By generating multiple ideas and discerning whether they are good or bad, we can identify the necessary features for successful ideas and refine our ideation skills. This continuous exercise helps us build a strong foundation for innovation and creativity, enabling us to tackle challenges, seize opportunities with confidence, and frame solutions to problems in creative ways.</p></p>
-      </div>
-      <div class="card-footer">
-        <span class="float-left">May 2, 2023</span>
-        <a href="/posts/build/ideation_training/" title="Read" class="float-right btn btn-outline-info btn-sm">Read</a>
-      </div>
-    </div>
-  </a>
+        <p class="card-text post-summary">Understanding Our Goals, Developing a Process, and Trusting the Journey &ldquo;A company that’s likely to make a substantial change in the status quo &hellip; is thinking about a problem or a customer need in a way you’ve never heard before, but which makes perfect sense once you hear it.&quot; —Tony Fadell, Build
+Why: Understand Our Goal for Ideation Ideation is a muscle that we must train, similar to how we exercise our bodies to become stronger and healthier. Good ideas don&rsquo;t simply come out of the blue or happen by chance. They are a result of consistent effort and practice. By generating multiple ideas and discerning whether they are good or bad, we can identify the necessary features for successful ideas and refine our ideation skills. This continuous exercise helps us build a strong foundation for innovation and creativity, enabling us to tackle challenges, seize opportunities with confidence, and frame solutions to problems in creative ways.
+</p>
+      </a>
+      
+        <div class="tags">
+  <ul style="padding-left: 0;">
+    
+    
+    <li class="rounded"><a href="/tags/personal-growth/" class="btn btn-sm btn-info">personal growth</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/ideation/" class="btn btn-sm btn-info">ideation</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/creativity/" class="btn btn-sm btn-info">creativity</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/productivity/" class="btn btn-sm btn-info">productivity</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/innovation/" class="btn btn-sm btn-info">innovation</a></li>
+    
+  </ul>
 </div>
 
       
-        <div class="col-lg-4 col-md-6 pt-2 post-card">
-  <a href="/posts/build/the_art_of_doing_failing_and_learning/" title="The Art of Doing, Failing, and Learning" class="post-card-link">
-    <div class="card">
-      <div class="card-head">
-        <img class="card-img-top" src='/posts/build/the_art_of_doing_failing_and_learning/hero.png'
-          alt="Card image cap"
-        />
-      </div>
-      <div class="card-body">
+    </div>
+    <div class="card-footer">
+      <span class="float-start">
+          Tuesday, May 2, 2023
+          </span>
+      <a
+      href="/posts/build/ideation_training/"
+      class="float-end btn btn-outline-info btn-sm">Read</a>
+    </div>
+  </div>
+</div>
+
+      
+        <div class="post-card">
+  <div class="card">
+    <div class="card-head">
+      <a href="/posts/build/the_art_of_doing_failing_and_learning/" class="post-card-link">
+        <img class="card-img-top" src='/posts/build/the_art_of_doing_failing_and_learning/hero.png' alt="Hero Image">
+      </a>
+    </div>
+    <div class="card-body">
+      <a href="/posts/build/the_art_of_doing_failing_and_learning/" class="post-card-link">
         <h5 class="card-title">The Art of Doing, Failing, and Learning</h5>
-        <p class="card-text post-summary"> <h3 id="navigating-lifes-cycles-embracing-change-and-learning">Navigating Life&rsquo;s Cycles: Embracing Change and Learning</h3>
-<blockquote>
-<p>&ldquo;Adulthood is your opportunity to screw up continually until you learn how to screw up a little bit less. (&hellip;) Do, fail, learn. The rest will follow.&quot;<p>
-—<strong>Tony Fadell</strong>, <a href="https://www.goodreads.com/book/show/59696349-build" target="_blank" rel="noopener">Build</a></p>
-</blockquote>
-<p>Over the past decade, I&rsquo;ve come to realize that my life has been a series of cycles: not knowing what I&rsquo;m doing, choosing a reasonable next step, advancing as much as possible, noticing things aren&rsquo;t entirely right, and starting again. The important aspect of these cycles is the presence of constants: my vision for my future and my values. These guiding principles help me evaluate options, seek advice, and make decisions.</p></p>
-      </div>
-      <div class="card-footer">
-        <span class="float-left">May 1, 2023</span>
-        <a href="/posts/build/the_art_of_doing_failing_and_learning/" title="Read" class="float-right btn btn-outline-info btn-sm">Read</a>
-      </div>
-    </div>
-  </a>
+        <p class="card-text post-summary">Navigating Life&rsquo;s Cycles: Embracing Change and Learning &ldquo;Adulthood is your opportunity to screw up continually until you learn how to screw up a little bit less. (&hellip;) Do, fail, learn. The rest will follow.&quot; —Tony Fadell, Build
+Over the past decade, I&rsquo;ve come to realize that my life has been a series of cycles: not knowing what I&rsquo;m doing, choosing a reasonable next step, advancing as much as possible, noticing things aren&rsquo;t entirely right, and starting again. The important aspect of these cycles is the presence of constants: my vision for my future and my values. These guiding principles help me evaluate options, seek advice, and make decisions.
+</p>
+      </a>
+      
+        <div class="tags">
+  <ul style="padding-left: 0;">
+    
+    
+    <li class="rounded"><a href="/tags/personal-growth/" class="btn btn-sm btn-info">personal growth</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/self-reflection/" class="btn btn-sm btn-info">self-reflection</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/learning/" class="btn btn-sm btn-info">learning</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/philosophy/" class="btn btn-sm btn-info">philosophy</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/resilience/" class="btn btn-sm btn-info">resilience</a></li>
+    
+  </ul>
 </div>
 
       
-        <div class="col-lg-4 col-md-6 pt-2 post-card">
-  <a href="/posts/the_happiness_project/do_what_ought_to_be_done/" title="Do What Oughts to Be Done" class="post-card-link">
-    <div class="card">
-      <div class="card-head">
-        <img class="card-img-top" src='/posts/the_happiness_project/do_what_ought_to_be_done/hero.jpg'
-          alt="Card image cap"
-        />
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Do What Oughts to Be Done</h5>
-        <p class="card-text post-summary"> <h3 id="trust-that-everything-will-work-out-in-the-end">Trust that everything will work out in the end</h3>
-<blockquote>
-<p>&ldquo;I invoked my Tenth Commandment: ‘Do what ought to be done’.&quot;<p>
-—<strong>Gretchen Rubin</strong>, <a href="https://www.goodreads.com/book/show/6398634-the-happiness-project" target="_blank" rel="noopener"><em>The Happiness Project</em></a></p>
-</blockquote>
-<p>In December 2016, while volunteering in Curitiba, Brazil, I came across a saying that deeply resonated with me: “<em>tudo vai dar certo</em>”, which translates to “everything will turn out right”. This phrase reflected my approach to situations, where I focused on making the right decisions and believed that favorable outcomes would follow.</p></p>
-      </div>
-      <div class="card-footer">
-        <span class="float-left">January 4, 2022</span>
-        <a href="/posts/the_happiness_project/do_what_ought_to_be_done/" title="Read" class="float-right btn btn-outline-info btn-sm">Read</a>
-      </div>
     </div>
-  </a>
+    <div class="card-footer">
+      <span class="float-start">
+          Monday, May 1, 2023
+          </span>
+      <a
+      href="/posts/build/the_art_of_doing_failing_and_learning/"
+      class="float-end btn btn-outline-info btn-sm">Read</a>
+    </div>
+  </div>
+</div>
+
+      
+        <div class="post-card">
+  <div class="card">
+    <div class="card-head">
+      <a href="/posts/the_happiness_project/do_what_ought_to_be_done/" class="post-card-link">
+        <img class="card-img-top" src='/posts/the_happiness_project/do_what_ought_to_be_done/hero.jpg' alt="Hero Image">
+      </a>
+    </div>
+    <div class="card-body">
+      <a href="/posts/the_happiness_project/do_what_ought_to_be_done/" class="post-card-link">
+        <h5 class="card-title">Do What Oughts to Be Done</h5>
+        <p class="card-text post-summary">Trust that everything will work out in the end &ldquo;I invoked my Tenth Commandment: ‘Do what ought to be done’.&quot; —Gretchen Rubin, The Happiness Project
+In December 2016, while volunteering in Curitiba, Brazil, I came across a saying that deeply resonated with me: “tudo vai dar certo”, which translates to “everything will turn out right”. This phrase reflected my approach to situations, where I focused on making the right decisions and believed that favorable outcomes would follow.
+</p>
+      </a>
+      
+        <div class="tags">
+  <ul style="padding-left: 0;">
+    
+    
+    <li class="rounded"><a href="/tags/personal-growth/" class="btn btn-sm btn-info">Personal Growth</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/decision-making/" class="btn btn-sm btn-info">Decision Making</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/responsibility/" class="btn btn-sm btn-info">Responsibility</a></li>
+    
+  </ul>
+</div>
+
+      
+    </div>
+    <div class="card-footer">
+      <span class="float-start">
+          Tuesday, January 4, 2022
+          </span>
+      <a
+      href="/posts/the_happiness_project/do_what_ought_to_be_done/"
+      class="float-end btn btn-outline-info btn-sm">Read</a>
+    </div>
+  </div>
 </div>
 
       
@@ -578,7 +687,7 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-white">
+          <div class="container-fluid section-holder d-flex bg-primary">
             
 
   
@@ -596,28 +705,41 @@
      
        <div class="row align-items-center  d-flex">
          <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-  <div class="circle font-weight-bold">1</div>
+  <div class="circle fw-bold">1</div>
 </div>
 
-         
-  <div class="col-10 col-lg-8">
+         <div class="col-10 col-lg-8">
     <div class="experience-entry-heading">
         
         
-        <h5>Research Assistant</h5>
-        <h6><a href=https://www.cs.toronto.edu/~cnobre/ title="Human Interactive Visualizations - HIVE Lab" target="_blank" rel="noopener">Human Interactive Visualizations - HIVE Lab</a></h6>
         
-        <p class="text-muted">Sep 2022 - Present,
-            Toronto, Canada
+        
+        
+        
+        <div class="company-heading">
+            <h5><a href=https://www.cs.toronto.edu/~cnobre/ title="Human Interactive Visualizations - HIVE Lab" target="_blank" rel="noopener">Human Interactive Visualizations - HIVE Lab</a></h5>
+            <p class="text-muted">
+                Sep 2022 - Present
+            </p>
+        </div>
+        <p class="text-muted">
+            <i class="fa-solid fa-location-dot"></i> Toronto, Canada
         </p>
+        
+        <p>ML-powered visualizations for personalized visual literacy, supervised by Prof. Carolina Nobre.</p>
     </div>
     
-    <p>ML-powered visualizations for personalized visual literacy, supervised by Prof. Carolina Nobre.</p>
+    <div class="positions">
     
+        <div class="company-heading">
+            <h5 class="designation">Research Assistant</h5>
+            <p class="text-muted">Sep 2022 -  Present </p>
+        </div>
+        
+        
     
+    </div>
 </div>
-
-
 
        </div>
      
@@ -638,35 +760,48 @@
    
      
        <div class="row align-items-center justify-content-end d-flex">
-         
-  <div class="col-10 col-lg-8">
+         <div class="col-10 col-lg-8">
     <div class="experience-entry-heading">
         
         
-        <h5>Course Instructor</h5>
-        <h6><a href=https://web.cs.toronto.edu/ title="University of Toronto" target="_blank" rel="noopener">University of Toronto</a></h6>
         
-        <p class="text-muted">Sep 2022 - Apr 2023,
-            Toronto, Canada
+        
+        
+        
+        <div class="company-heading">
+            <h5><a href=https://web.cs.toronto.edu/ title="University of Toronto" target="_blank" rel="noopener">University of Toronto</a></h5>
+            <p class="text-muted">
+                Sep 2022 - Apr 2023
+            </p>
+        </div>
+        <p class="text-muted">
+            <i class="fa-solid fa-location-dot"></i> Toronto, Canada
         </p>
+        
+        <p></p>
     </div>
     
-    <p></p>
+    <div class="positions">
     
+        <div class="company-heading">
+            <h5 class="designation">Course Instructor</h5>
+            <p class="text-muted">Sep 2022 -  Apr 2023 </p>
+        </div>
+        
+        
+            <h6 class="text-heading">Responsibilities:</h6>
+            <ul class="justify-content-around">
+                
+                    <li>Introduction to Computer Programming (Fall 2022, Winter 2023).</li>
+                
+            </ul>
+        
     
-    <h6 class="text-muted">Responsibilities:</h6>
-    <ul class="justify-content-around">
-    
-        <li>Introduction to Computer Programming (Fall 2022, Winter 2023).</li>
-    
-    </ul>
-    
+    </div>
 </div>
 
-
-
          <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-  <div class="circle font-weight-bold">2</div>
+  <div class="circle fw-bold">2</div>
 </div>
 
        </div>
@@ -689,28 +824,41 @@
      
        <div class="row align-items-center  d-flex">
          <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-  <div class="circle font-weight-bold">3</div>
+  <div class="circle fw-bold">3</div>
 </div>
 
-         
-  <div class="col-10 col-lg-8">
+         <div class="col-10 col-lg-8">
     <div class="experience-entry-heading">
         
         
-        <h5>Research Assistant</h5>
-        <h6><a href=https://www.josephjaywilliams.com/ title="Intelligent Adaptive Interactions - IAI Lab" target="_blank" rel="noopener">Intelligent Adaptive Interactions - IAI Lab</a></h6>
         
-        <p class="text-muted">Sep 2021 - Sep 2022,
-            Toronto, Canada
+        
+        
+        
+        <div class="company-heading">
+            <h5><a href=https://www.josephjaywilliams.com/ title="Intelligent Adaptive Interactions - IAI Lab" target="_blank" rel="noopener">Intelligent Adaptive Interactions - IAI Lab</a></h5>
+            <p class="text-muted">
+                Sep 2021 - Sep 2022
+            </p>
+        </div>
+        <p class="text-muted">
+            <i class="fa-solid fa-location-dot"></i> Toronto, Canada
         </p>
+        
+        <p>Implement Multi-Armed Bandits algorithms in educational settings, supervised by Prof. Joseph Williams.</p>
     </div>
     
-    <p>Implement Multi-Armed Bandits algorithms in educational settings, supervised by Prof. Joseph Williams.</p>
+    <div class="positions">
     
+        <div class="company-heading">
+            <h5 class="designation">Research Assistant</h5>
+            <p class="text-muted">Sep 2021 -  Sep 2022 </p>
+        </div>
+        
+        
     
+    </div>
 </div>
-
-
 
        </div>
      
@@ -731,28 +879,41 @@
    
      
        <div class="row align-items-center justify-content-end d-flex">
-         
-  <div class="col-10 col-lg-8">
+         <div class="col-10 col-lg-8">
     <div class="experience-entry-heading">
         
         
-        <h5>Software Engineer</h5>
-        <h6><a href=https://www.microsoft.com/ title="Microsoft" target="_blank" rel="noopener">Microsoft</a></h6>
         
-        <p class="text-muted">Jan 2020 - Sep 2021,
-            Vancouver, Canada
+        
+        
+        
+        <div class="company-heading">
+            <h5><a href=https://www.microsoft.com/ title="Microsoft" target="_blank" rel="noopener">Microsoft</a></h5>
+            <p class="text-muted">
+                Jan 2020 - Sep 2021
+            </p>
+        </div>
+        <p class="text-muted">
+            <i class="fa-solid fa-location-dot"></i> Vancouver, Canada
         </p>
+        
+        <p>Developer at the Services Platform for Account &amp; Connected Experiences team in the W+D organization contributing to different web services powering Windows’ and account.microsoft.com’s experiences while connecting with major backend services (e.g., Office, Xbox).</p>
     </div>
     
-    <p>Developer at the Services Platform for Account &amp; Connected Experiences team in the W+D organization contributing to different web services powering Windows’ and account.microsoft.com’s experiences while connecting with major backend services (e.g., Office, Xbox).</p>
+    <div class="positions">
     
+        <div class="company-heading">
+            <h5 class="designation">Software Engineer</h5>
+            <p class="text-muted">Jan 2020 -  Sep 2021 </p>
+        </div>
+        
+        
     
+    </div>
 </div>
 
-
-
          <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-  <div class="circle font-weight-bold">4</div>
+  <div class="circle fw-bold">4</div>
 </div>
 
        </div>
@@ -775,28 +936,41 @@
      
        <div class="row align-items-center  d-flex">
          <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-  <div class="circle font-weight-bold">5</div>
+  <div class="circle fw-bold">5</div>
 </div>
 
-         
-  <div class="col-10 col-lg-8">
+         <div class="col-10 col-lg-8">
     <div class="experience-entry-heading">
         
         
-        <h5>Visiting Researcher</h5>
-        <h6><a href=https://www.bsc.es/discover-bsc/organisation/scientific-structure/quantic title="QUANTIC - Barcelona Supercomputing Center" target="_blank" rel="noopener">QUANTIC - Barcelona Supercomputing Center</a></h6>
         
-        <p class="text-muted">Sep 2019 - Nov 2019,
-            Barcelona, Spain
+        
+        
+        
+        <div class="company-heading">
+            <h5><a href=https://www.bsc.es/discover-bsc/organisation/scientific-structure/quantic title="QUANTIC - Barcelona Supercomputing Center" target="_blank" rel="noopener">QUANTIC - Barcelona Supercomputing Center</a></h5>
+            <p class="text-muted">
+                Sep 2019 - Nov 2019
+            </p>
+        </div>
+        <p class="text-muted">
+            <i class="fa-solid fa-location-dot"></i> Barcelona, Spain
         </p>
+        
+        <p>Study Gaussian Processes and their intersections with Quantum Computing, supervised by Prof. J.I. Latorre.</p>
     </div>
     
-    <p>Study Gaussian Processes and their intersections with Quantum Computing, supervised by Prof. J.I. Latorre.</p>
+    <div class="positions">
     
+        <div class="company-heading">
+            <h5 class="designation">Visiting Researcher</h5>
+            <p class="text-muted">Sep 2019 -  Nov 2019 </p>
+        </div>
+        
+        
     
+    </div>
 </div>
-
-
 
        </div>
      
@@ -817,41 +991,54 @@
    
      
        <div class="row align-items-center justify-content-end d-flex">
-         
-  <div class="col-10 col-lg-8">
+         <div class="col-10 col-lg-8">
     <div class="experience-entry-heading">
         
         
-        <h5>Adjunct Instructor and Researcher</h5>
-        <h6><a href=https://www.unimet.edu.ve/ title="Metropolitan University" target="_blank" rel="noopener">Metropolitan University</a></h6>
         
-        <p class="text-muted">Sep 2018 - Jan 2020,
-            Caracas, Venezuela
+        
+        
+        
+        <div class="company-heading">
+            <h5><a href=https://www.unimet.edu.ve/ title="Metropolitan University" target="_blank" rel="noopener">Metropolitan University</a></h5>
+            <p class="text-muted">
+                Sep 2018 - Jan 2020
+            </p>
+        </div>
+        <p class="text-muted">
+            <i class="fa-solid fa-location-dot"></i> Caracas, Venezuela
         </p>
+        
+        <p></p>
     </div>
     
-    <p></p>
+    <div class="positions">
     
+        <div class="company-heading">
+            <h5 class="designation">Adjunct Instructor and Researcher</h5>
+            <p class="text-muted">Sep 2018 -  Jan 2020 </p>
+        </div>
+        
+        
+            <h6 class="text-heading">Responsibilities:</h6>
+            <ul class="justify-content-around">
+                
+                    <li>Algorithms and Programming (Winter 2019, Summer 2019).</li>
+                
+                    <li>Statistics I (Winter 2019, Summer 2019).</li>
+                
+                    <li>Differential Equations (Winter 2019, Summer 2019).</li>
+                
+                    <li>Pre-Calculus (Fall 2018, Winter 2019, Summer 2019).</li>
+                
+            </ul>
+        
     
-    <h6 class="text-muted">Responsibilities:</h6>
-    <ul class="justify-content-around">
-    
-        <li>Algorithms and Programming (Winter 2019, Summer 2019).</li>
-    
-        <li>Statistics I (Winter 2019, Summer 2019).</li>
-    
-        <li>Differential Equations (Winter 2019, Summer 2019).</li>
-    
-        <li>Pre-Calculus (Fall 2018, Winter 2019, Summer 2019).</li>
-    
-    </ul>
-    
+    </div>
 </div>
 
-
-
          <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-  <div class="circle font-weight-bold">6</div>
+  <div class="circle fw-bold">6</div>
 </div>
 
        </div>
@@ -869,7 +1056,7 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-dimmed">
+          <div class="container-fluid section-holder d-flex bg-secondary">
             
 
 
@@ -900,6 +1087,11 @@
                     </td>
                     <td class="details">
                         <div class="degree-info card">
+
+                            
+                            
+                            
+
                             <div class="row">
                                 <div class="col-lg-10 col-md-8">
                                     
@@ -910,13 +1102,13 @@
                             </div>
                             <h6>Ph.D in Computer Science</h6>
                             
-                                <h6><span class="text-muted">CGPA: </span><span>4</span> out of <span>4</span></h6>
+                                <h6><span class="text-heading">CGPA: </span><span>4</span> out of <span>4</span></h6>
                             
                             
                             
                             
                             <div class="extracurricular-activities">
-                                <h6 class="text-muted">Extracurricular Activities</h6>
+                                <h6 class="text-heading">Extracurricular Activities:</h6>
                                 <ul>
                                 
                                     <li>Volunteer as a mentor for the Grad Application Assistance Program.</li>
@@ -929,6 +1121,7 @@
                                 
                                 </ul>
                             </div>
+                            
                             
                         </div>
                     </td>
@@ -948,6 +1141,11 @@
                     </td>
                     <td class="details">
                         <div class="degree-info card">
+
+                            
+                            
+                            
+
                             <div class="row">
                                 <div class="col-lg-10 col-md-8">
                                     
@@ -958,13 +1156,13 @@
                             </div>
                             <h6>B.Sc. in Systems Engineering</h6>
                             
-                                <h6><span class="text-muted">CGPA: </span><span>3.86</span> out of <span>4</span></h6>
+                                <h6><span class="text-heading">CGPA: </span><span>3.86</span> out of <span>4</span></h6>
                             
                             
                             
                             
                             <div class="extracurricular-activities">
-                                <h6 class="text-muted">Extracurricular Activities</h6>
+                                <h6 class="text-heading">Extracurricular Activities:</h6>
                                 <ul>
                                 
                                     <li>UNIMET SAE Aero Design - Member and Secretary-General.</li>
@@ -977,6 +1175,7 @@
                                 
                                 </ul>
                             </div>
+                            
                             
                         </div>
                     </td>
@@ -996,6 +1195,11 @@
                     </td>
                     <td class="details">
                         <div class="degree-info card">
+
+                            
+                            
+                            
+
                             <div class="row">
                                 <div class="col-lg-10 col-md-8">
                                     
@@ -1006,7 +1210,8 @@
                             </div>
                             <h6>Diploma in Advanced Math</h6>
                             
-                                <h6><span class="text-muted">GPA: </span><span>4</span> out of <span>4</span></h6>
+                                <h6><span class="text-heading">GPA: </span><span>4</span> out of <span>4</span></h6>
+                            
                             
                             
                             
@@ -1029,6 +1234,11 @@
                     </td>
                     <td class="details">
                         <div class="degree-info card">
+
+                            
+                            
+                            
+
                             <div class="row">
                                 <div class="col-lg-10 col-md-8">
                                     
@@ -1039,7 +1249,8 @@
                             </div>
                             <h6>B.Sc. in Production Engineering - Partial Studies</h6>
                             
-                                <h6><span class="text-muted">GPA: </span><span>3.66</span> out of <span>4</span></h6>
+                                <h6><span class="text-heading">GPA: </span><span>3.66</span> out of <span>4</span></h6>
+                            
                             
                             
                             
@@ -1065,7 +1276,7 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-white">
+          <div class="container-fluid section-holder d-flex bg-primary">
             
 
   
@@ -1076,7 +1287,7 @@
     <h1 class="text-center">
         <span id="publications"></span>Patents</h1>
   
-  <div class="container ml-auto text-center">
+  <div class="container ms-auto text-center">
     <div class="btn-group flex-wrap" role="pub-group" id="publication-filter-buttons">
       
       <button type="button" class="btn btn-dark pub-filtr-control" data-filter="pub-all">
@@ -1118,15 +1329,15 @@
       <h5 class="card-title mb-0">Shared Visual Content Filtering during Virtual Meetings</h5>
       <div class="sub-title">
         <span><a class="" href="https://www.microsoft.com/en-us/legal/intellectualproperty/patents">Microsoft</a></span>
-        <span class="ml-2">6 August 2021</span>
+        <span class="ms-2">6 August 2021</span>
       </div>
       <div class="authors">
         
-          <span class="mr-2"><a class="" href="https://www.linkedin.com/in/romrey/">Romain Rey</a></span>
+          <span class="me-2"><a class="" href="https://www.linkedin.com/in/romrey/">Romain Rey</a></span>
         
-          <span class="mr-2"><a class="" href="https://www.linkedin.com/in/mastafa-foufa/">Mastafa Foufa</a></span>
+          <span class="me-2"><a class="" href="https://www.linkedin.com/in/mastafa-foufa/">Mastafa Foufa</a></span>
         
-          <span class="mr-2"><a class="" href="www.linkedin.com/in/f-yanez/">Fernando Yánez</a></span>
+          <span class="me-2"><a class="" href="www.linkedin.com/in/f-yanez/">Fernando Yánez</a></span>
         
       </div>
     </div>
@@ -1136,21 +1347,21 @@
     <div class="card-footer">
       <div class="tags">
         
-            <span class="btn badge btn-info ml-1 p-2">
+            <span class="btn badge btn-info ms-1 p-2">
               Machine Learning
             </span>
         
-            <span class="btn badge btn-info ml-1 p-2">
+            <span class="btn badge btn-info ms-1 p-2">
               Embeddings
             </span>
         
-            <span class="btn badge btn-info ml-1 p-2">
+            <span class="btn badge btn-info ms-1 p-2">
               Access Control
             </span>
         
       </div>
       <div class="details-btn">
-        <a class="btn btn-outline-info ml-1 pl-2 mb-2" href="https://patents.justia.com/patent/20230042015" target="_blank" rel="noopener" role="button">Details</a>
+        <a class="btn btn-outline-info ms-1 ps-2 mb-2" href="https://patents.justia.com/patent/20230042015" target="_blank" rel="noopener" role="button">Details</a>
       </div>
     </div>
   </div>
@@ -1175,15 +1386,15 @@
       <h5 class="card-title mb-0">User-specific Computer Interaction Recall</h5>
       <div class="sub-title">
         <span><a class="" href="https://www.microsoft.com/en-us/legal/intellectualproperty/patents">Microsoft</a></span>
-        <span class="ml-2">12 April 2021</span>
+        <span class="ms-2">12 April 2021</span>
       </div>
       <div class="authors">
         
-          <span class="mr-2"><a class="" href="www.linkedin.com/in/f-yanez/">Fernando Yánez</a></span>
+          <span class="me-2"><a class="" href="www.linkedin.com/in/f-yanez/">Fernando Yánez</a></span>
         
-          <span class="mr-2"><a class="" href="https://www.linkedin.com/in/mastafa-foufa/">Mastafa Foufa</a></span>
+          <span class="me-2"><a class="" href="https://www.linkedin.com/in/mastafa-foufa/">Mastafa Foufa</a></span>
         
-          <span class="mr-2"><a class="" href="https://www.linkedin.com/in/romrey/">Romain Rey</a></span>
+          <span class="me-2"><a class="" href="https://www.linkedin.com/in/romrey/">Romain Rey</a></span>
         
       </div>
     </div>
@@ -1193,25 +1404,25 @@
     <div class="card-footer">
       <div class="tags">
         
-            <span class="btn badge btn-info ml-1 p-2">
+            <span class="btn badge btn-info ms-1 p-2">
               Machine Learning
             </span>
         
-            <span class="btn badge btn-info ml-1 p-2">
+            <span class="btn badge btn-info ms-1 p-2">
               Embeddings
             </span>
         
-            <span class="btn badge btn-info ml-1 p-2">
+            <span class="btn badge btn-info ms-1 p-2">
               Recommendation Systems
             </span>
         
-            <span class="btn badge btn-info ml-1 p-2">
+            <span class="btn badge btn-info ms-1 p-2">
               Information Retrieval
             </span>
         
       </div>
       <div class="details-btn">
-        <a class="btn btn-outline-info ml-1 pl-2 mb-2" href="https://patents.justia.com/patent/20220327120" target="_blank" rel="noopener" role="button">Details</a>
+        <a class="btn btn-outline-info ms-1 ps-2 mb-2" href="https://patents.justia.com/patent/20220327120" target="_blank" rel="noopener" role="button">Details</a>
       </div>
     </div>
   </div>
@@ -1234,15 +1445,15 @@
       <h5 class="card-title mb-0">Method and System of Intelligently Providing Responses for a User in the User’s Absence</h5>
       <div class="sub-title">
         <span><a class="" href="https://www.microsoft.com/en-us/legal/intellectualproperty/patents">Microsoft</a></span>
-        <span class="ml-2">23 November 2020</span>
+        <span class="ms-2">23 November 2020</span>
       </div>
       <div class="authors">
         
-          <span class="mr-2"><a class="" href="https://www.linkedin.com/in/romrey/">Romain Rey</a></span>
+          <span class="me-2"><a class="" href="https://www.linkedin.com/in/romrey/">Romain Rey</a></span>
         
-          <span class="mr-2"><a class="" href="https://www.linkedin.com/in/mastafa-foufa/">Mastafa Foufa</a></span>
+          <span class="me-2"><a class="" href="https://www.linkedin.com/in/mastafa-foufa/">Mastafa Foufa</a></span>
         
-          <span class="mr-2"><a class="" href="www.linkedin.com/in/f-yanez/">Fernando Yánez</a></span>
+          <span class="me-2"><a class="" href="www.linkedin.com/in/f-yanez/">Fernando Yánez</a></span>
         
       </div>
     </div>
@@ -1252,21 +1463,21 @@
     <div class="card-footer">
       <div class="tags">
         
-            <span class="btn badge btn-info ml-1 p-2">
+            <span class="btn badge btn-info ms-1 p-2">
               Machine Learning
             </span>
         
-            <span class="btn badge btn-info ml-1 p-2">
+            <span class="btn badge btn-info ms-1 p-2">
               Data Security
             </span>
         
-            <span class="btn badge btn-info ml-1 p-2">
+            <span class="btn badge btn-info ms-1 p-2">
               Access Control
             </span>
         
       </div>
       <div class="details-btn">
-        <a class="btn btn-outline-info ml-1 pl-2 mb-2" href="https://patents.justia.com/patent/20220166731" target="_blank" rel="noopener" role="button">Details</a>
+        <a class="btn btn-outline-info ms-1 ps-2 mb-2" href="https://patents.justia.com/patent/20220166731" target="_blank" rel="noopener" role="button">Details</a>
       </div>
     </div>
   </div>
@@ -1351,7 +1562,7 @@
 
   <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
     <div class="container pt-5">
-      <div class="row text-left">
+      <div class="row text-start">
         
         <div class="col-md-4 col-sm-12">
           <h5>Navigation</h5>
@@ -1442,7 +1653,7 @@
     
     <hr />
     <div class="container">
-      <div class="row text-left">
+      <div class="row text-start">
         <div class="col-md-4">
           <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
             <img src="/images/theme-logo_hu16779671404603505019.png" alt="Toha Theme Logo">
@@ -1450,7 +1661,7 @@
           </a>
         </div>
         <div class="col-md-4 text-center">© 2020 Copyright.</div>
-        <div class="col-md-4 text-right">
+        <div class="col-md-4 text-end">
           <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
           <img
             src="/images/hugo-logo.svg"
@@ -1465,8 +1676,7 @@
   </footer>
 
 
-    <script src="/application.2909d6163fb77a75883376a28746a3a0cc1def343d37222ec9c534ecdb7f274e.js" integrity="sha256-KQnWFj&#43;3enWIM3aih0ajoMwd7zQ9NyIuycU07Nt/J04=" defer></script>
-
+    <script src="/application.645827c3a18344d4ca8530f13a0fa5abac9e999322c2214cb4b20321736a513f.js" integrity="sha256-ZFgnw6GDRNTKhTDxOg&#43;lq6yemZMiwiFMtLIDIXNqUT8=" defer></script>
 
 
     

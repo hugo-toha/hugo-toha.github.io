@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<link rel="stylesheet" href="/application.019188301a3ee0f550458ce91f141f1ff7cb8a3a7d8656018b63230fd7fe44b5.css" integrity="sha256-AZGIMBo&#43;4PVQRYzpHxQfH/fLijp9hlYBi2MjD9f&#43;RLU=" />
+<link rel="stylesheet" href="/application.57df7d9717dddf036e3490c434eae9fbc6609104ba427b7c2bd65c0119701b2f.css" integrity="sha256-V999lxfd3wNuNJDENOrp&#43;8ZgkQS6Qnt8K9ZcARlwGy8=" />
 
 
 
@@ -38,6 +38,10 @@
     <meta property="article:tag" content="Productivity">
     <meta property="article:tag" content="Innovation">
 
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ideation as a Muscle: Training Your Mind to Generate Great Ideas">
+  <meta name="twitter:description" content="Understanding Our Goals, Developing a Process, and Trusting the Journey">
 
     
     
@@ -48,31 +52,46 @@
 
     
         
-        
-        
             
             
+                
+                
+                
             
-        
 
-        
-        
+            
+            
 
-        
-        
+            
+            
 
-        
-        
+            
+            
+
+            
+
+            
         
     
 
 
 
 
-</head>
+<script>
+      theme = localStorage.getItem('theme-scheme') || localStorage.getItem('darkmode:color-scheme') || 'light';
+      if (theme == 'system') {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          theme = 'dark';
+        } else {
+          theme = 'light';
+        }
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+    </script>
+  </head>
 
-  <body class="type-posts kind-page" data-spy="scroll" data-target="#TableOfContents" data-offset="80">
-    <div class="container-fluid bg-dimmed wrapper">
+  <body class="type-posts kind-page" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="80">
+    <div class="container-fluid bg-secondary wrapper">
       
       
     
@@ -81,6 +100,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
   
 
 
@@ -104,42 +133,168 @@
   
 
 
-<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar shadow " id="top-navbar">
   <div class="container">
-      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
-      <span class="navbar-toggler-icon"></span>
+    
+    <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
+      <i data-feather="sidebar"></i>
     </button>
+    
     <a class="navbar-brand" href="/">
       
-        <img src="/images/site/fy-logo_hu8778836580289981708.png" alt="Logo">
+        <img src="/images/site/fy-logo_hu8778836580289981708.png" id="logo" alt="Logo">
       Fernando&#39;s Hub</a>
-    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button">
-      <span class="navbar-toggler-icon"></span>
+    <button
+      class="navbar-toggler navbar-light"
+      id="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#top-nav-items"
+      aria-label="menu"
+    >
+      <i data-feather="menu"></i>
     </button>
 
-    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
-      <ul class="navbar-nav ml-auto">
-      
-      
-        <li class="nav-item dropdown">
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
+      <ul class="nav navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/#home">Home</a>
+        </li>
+        
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#about">About</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#recent-posts">Recent Posts</a>
+                </li>
+              
+            
+            
+              
+              
+            
+            
+              
+              
+            
+            
+            
+            
+              
+              
+            
+            
+            
+            
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/#experiences">Experiences</a>
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/#education">Education</a>
+                    
+                  
+                  
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/#publications">Patents</a>
+                    
+                  
+                  
+                  
+                  
+              </div>
+            </li>
+          
+        
+        
+          <div id="top-navbar-divider"></div>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="blog-link" href="/posts">Posts</a>
+          </li>
+        
+        
+        
+        
+        
+          
+
+
+
+
+<li class="nav-item dropdown">
 <a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
-  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-  <img id="navbar-theme-icon-svg" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
 </a>
 <div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  
   <a class="dropdown-item nav-link" href="#" data-scheme="light">
-    <img class="menu-icon-center" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+    <img class="theme-icon" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
   </a>
+  
+  
   <a class="dropdown-item nav-link" href="#" data-scheme="dark">
-    <img class="menu-icon-center" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+    <img class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
   </a>
+  
+  
   <a class="dropdown-item nav-link" href="#" data-scheme="system">
-    <img class="menu-icon-center" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+    <img class="theme-icon" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
   </a>
+  
 </div>
 </li>
 
-      
+        
       </ul>
     </div>
   </div>
@@ -177,7 +332,7 @@
   
     
     <li>
-      <i class="fas fa-minus-circle"></i><a class="active" href="/posts/build/">Build by Tony Fadell</a>
+      <i data-feather="minus-circle"></i><a class="active list-link" href="/posts/build/"> Build by Tony Fadell</a>
       
       <ul class="active">
         
@@ -187,7 +342,7 @@
   
   
     
-    <li><a class="" href="/posts/build/the_art_of_doing_failing_and_learning/" title="The Art of Doing, Failing, and Learning">The Art of Doing, Failing, and Learning</a></li>
+    <li><a class=" list-link" href="/posts/build/the_art_of_doing_failing_and_learning/" title="The Art of Doing, Failing, and Learning">The Art of Doing, Failing, and Learning</a></li>
   
 
   
@@ -199,7 +354,7 @@
   
   
     
-    <li><a class="active" href="/posts/build/ideation_training/" title="Ideation Training">Ideation Training</a></li>
+    <li><a class="active list-link" href="/posts/build/ideation_training/" title="Ideation Training">Ideation Training</a></li>
   
 
 
@@ -214,7 +369,7 @@
   
     
     <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/the_happiness_project/">The Happiness Project by Gretchen Rubin</a>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/posts/the_happiness_project/"> The Happiness Project by Gretchen Rubin</a>
       
       <ul class="">
         
@@ -224,7 +379,7 @@
   
   
     
-    <li><a class="" href="/posts/the_happiness_project/being_the_odd_one_out/" title="Being the Odd One Out">Being the Odd One Out</a></li>
+    <li><a class=" list-link" href="/posts/the_happiness_project/being_the_odd_one_out/" title="Being the Odd One Out">Being the Odd One Out</a></li>
   
 
   
@@ -233,7 +388,7 @@
   
   
     
-    <li><a class="" href="/posts/the_happiness_project/knowledge_acquisition_vs_knowledge_production/" title="Knowledge Acquisition vs. Knowledge Production">Knowledge Acquisition vs. Knowledge Production</a></li>
+    <li><a class=" list-link" href="/posts/the_happiness_project/knowledge_acquisition_vs_knowledge_production/" title="Knowledge Acquisition vs. Knowledge Production">Knowledge Acquisition vs. Knowledge Production</a></li>
   
 
   
@@ -242,7 +397,7 @@
   
   
     
-    <li><a class="" href="/posts/the_happiness_project/do_what_ought_to_be_done/" title="Do What Oughts to Be Done">Do What Oughts to Be Done</a></li>
+    <li><a class=" list-link" href="/posts/the_happiness_project/do_what_ought_to_be_done/" title="Do What Oughts to Be Done">Do What Oughts to Be Done</a></li>
   
 
 
@@ -270,36 +425,42 @@
 
       
       <div class="page-content">
-        <div class="author-profile ml-auto align-self-lg-center">
+        
+        <div class="author-profile ms-auto align-self-lg-center">
           <img class="rounded-circle" src='/images/author/fyanez_hu3379274516126749896.png' alt="Author Image">
           <h5 class="author-name">Fernando Yánez</h5>
-          <p>Tuesday, May 2, 2023</p>
+          <p class="text-muted">Tuesday, May 2, 2023</p>
         </div>
-
+        
+        
         <div class="title">
           <h1>Ideation as a Muscle: Training Your Mind to Generate Great Ideas</h1>
         </div>
+
         
-        <div class="taxonomy-terms">
-          <ul style="padding-left: 0;">
-            
-            
-            <li class="rounded"><a href="/tags/personal-growth/" class="btn, btn-sm">personal growth</a></li>
-            
-            
-            <li class="rounded"><a href="/tags/ideation/" class="btn, btn-sm">ideation</a></li>
-            
-            
-            <li class="rounded"><a href="/tags/creativity/" class="btn, btn-sm">creativity</a></li>
-            
-            
-            <li class="rounded"><a href="/tags/productivity/" class="btn, btn-sm">productivity</a></li>
-            
-            
-            <li class="rounded"><a href="/tags/innovation/" class="btn, btn-sm">innovation</a></li>
-            
-          </ul>
-        </div>
+
+        
+          <div class="tags">
+  <ul style="padding-left: 0;">
+    
+    
+    <li class="rounded"><a href="/tags/personal-growth/" class="btn btn-sm btn-info">personal growth</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/ideation/" class="btn btn-sm btn-info">ideation</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/creativity/" class="btn btn-sm btn-info">creativity</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/productivity/" class="btn btn-sm btn-info">productivity</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/innovation/" class="btn btn-sm btn-info">innovation</a></li>
+    
+  </ul>
+</div>
+
         
         <div class="post-content" id="post-content">
           <h3 id="understanding-our-goals-developing-a-process-and-trusting-the-journey">Understanding Our Goals, Developing a Process, and Trusting the Journey</h3>
@@ -337,42 +498,42 @@
         </div>
 
         
-        <div class="row pl-3 pr-3">
+        <div class="row ps-3 pe-3">
         
-        <div class="col-md-6 share-buttons">
-        
+          <div class="col-md-6 share-buttons">
+          
             <strong>Share on:</strong>
             
-            <a class="btn btn-sm facebook-btn" href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2fbuild%2fideation_training%2f" target="_blank">
+            <a class="btn icon-button bg-facebook" href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2fbuild%2fideation_training%2f" target="_blank">
               <i class="fab fa-facebook"></i>
             </a>
             
             
-                <a class="btn btn-sm twitter-btn" href="https://twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fbuild%2fideation_training%2f&text=Ideation%20as%20a%20Muscle%3a%20Training%20Your%20Mind%20to%20Generate%20Great%20Ideas&via=Fernando%27s%20Hub" target="_blank">
+                <a class="btn icon-button bg-twitter" href="https://twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fbuild%2fideation_training%2f&text=Ideation%20as%20a%20Muscle%3a%20Training%20Your%20Mind%20to%20Generate%20Great%20Ideas&via=Fernando%27s%20Hub" target="_blank">
                   <i class="fab fa-twitter"></i>
                 </a>
             
             
-                <a  class="btn btn-sm reddit-btn" href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fbuild%2fideation_training%2f&title=Ideation%20as%20a%20Muscle%3a%20Training%20Your%20Mind%20to%20Generate%20Great%20Ideas" target="_blank">
+                <a  class="btn icon-button bg-reddit" href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fbuild%2fideation_training%2f&title=Ideation%20as%20a%20Muscle%3a%20Training%20Your%20Mind%20to%20Generate%20Great%20Ideas" target="_blank">
                   <i class="fab fa-reddit"></i>
                 </a>
             
             
             
             
-                <a class="btn btn-sm linkedin-btn" href="https://www.linkedin.com/shareArticle?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fbuild%2fideation_training%2f&title=Ideation%20as%20a%20Muscle%3a%20Training%20Your%20Mind%20to%20Generate%20Great%20Ideas" target="_blank">
+                <a class="btn icon-button bg-linkedin" href="https://www.linkedin.com/shareArticle?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fbuild%2fideation_training%2f&title=Ideation%20as%20a%20Muscle%3a%20Training%20Your%20Mind%20to%20Generate%20Great%20Ideas" target="_blank">
                   <i class="fab fa-linkedin"></i>
                 </a>
             
             
              
             
-                 <a class="btn btn-sm whatsapp-btn" href="https://api.whatsapp.com/send?text=Ideation%20as%20a%20Muscle%3a%20Training%20Your%20Mind%20to%20Generate%20Great%20Ideas http%3a%2f%2flocalhost%3a1313%2fposts%2fbuild%2fideation_training%2f" target="_blank">
+                 <a class="btn icon-button bg-whatsapp" href="https://api.whatsapp.com/send?text=Ideation%20as%20a%20Muscle%3a%20Training%20Your%20Mind%20to%20Generate%20Great%20Ideas http%3a%2f%2flocalhost%3a1313%2fposts%2fbuild%2fideation_training%2f" target="_blank">
                   <i class="fab fa-whatsapp"></i>
                 </a>
             
             
-                <a class="btn btn-sm email-btn" href="mailto:?subject=Ideation%20as%20a%20Muscle%3a%20Training%20Your%20Mind%20to%20Generate%20Great%20Ideas&body=http%3a%2f%2flocalhost%3a1313%2fposts%2fbuild%2fideation_training%2f" target="_blank">
+                <a class="btn icon-button" href="mailto:?subject=Ideation%20as%20a%20Muscle%3a%20Training%20Your%20Mind%20to%20Generate%20Great%20Ideas&body=http%3a%2f%2flocalhost%3a1313%2fposts%2fbuild%2fideation_training%2f" target="_blank">
                   <i class="fas fa-envelope-open-text"></i>
                 </a>
             
@@ -435,7 +596,7 @@
 <div class="row next-prev-navigator">
   
     <div class="col-md-6 previous-article">
-      <a href="/posts/build/the_art_of_doing_failing_and_learning/" title="The Art of Doing, Failing, and Learning" class="btn btn-outline-info">
+      <a href="/posts/build/the_art_of_doing_failing_and_learning/" title="The Art of Doing, Failing, and Learning" class="btn filled-button">
         <div><i class="fas fa-chevron-circle-left"></i> Prev</div>
         <div class="next-prev-text">The Art of Doing, Failing, and Learning</div>
       </a>
@@ -447,7 +608,7 @@
         
       
       <div class="col-md-6 next-article">
-        <a href="/posts/the_happiness_project/being_the_odd_one_out/" title="Being the Odd One Out" class="btn btn-outline-info">
+        <a href="/posts/the_happiness_project/being_the_odd_one_out/" title="Being the Odd One Out" class="btn filled-button">
           <div>Next <i class="fas fa-chevron-circle-right"></i></div>
           <div class="next-prev-text">Being the Odd One Out</div>
         </a>
@@ -467,8 +628,9 @@
     </div>
   </div>
   
-  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
-  
+  <a id="scroll-to-top" class="btn" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Scroll to top">
+    <i class="fas fa-chevron-circle-up"></i>
+  </a>
 </section>
 
 
@@ -477,7 +639,7 @@
   <section class="toc-section" id="toc-section">
     
     <div class="toc-holder">
-      <h5 class="text-center pl-3">Table of Contents</h5>
+      <h5 class="text-center ps-3">Table of Contents</h5>
       <hr>
       <div class="toc">
         <nav id="TableOfContents">
@@ -573,7 +735,7 @@
 
   <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
     <div class="container pt-5">
-      <div class="row text-left">
+      <div class="row text-start">
         
         <div class="col-md-4 col-sm-12">
           <h5>Navigation</h5>
@@ -664,7 +826,7 @@
     
     <hr />
     <div class="container">
-      <div class="row text-left">
+      <div class="row text-start">
         <div class="col-md-4">
           <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
             <img src="/images/theme-logo_hu16779671404603505019.png" alt="Toha Theme Logo">
@@ -672,7 +834,7 @@
           </a>
         </div>
         <div class="col-md-4 text-center">© 2020 Copyright.</div>
-        <div class="col-md-4 text-right">
+        <div class="col-md-4 text-end">
           <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
           <img
             src="/images/hugo-logo.svg"
@@ -687,8 +849,7 @@
   </footer>
 
 
-    <script src="/application.2909d6163fb77a75883376a28746a3a0cc1def343d37222ec9c534ecdb7f274e.js" integrity="sha256-KQnWFj&#43;3enWIM3aih0ajoMwd7zQ9NyIuycU07Nt/J04=" defer></script>
-
+    <script src="/application.645827c3a18344d4ca8530f13a0fa5abac9e999322c2214cb4b20321736a513f.js" integrity="sha256-ZFgnw6GDRNTKhTDxOg&#43;lq6yemZMiwiFMtLIDIXNqUT8=" defer></script>
 
 
     

@@ -184,6 +184,9 @@
     <lastmod>2022-01-02T00:00:00+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
+    <lastmod>2010-06-08T08:06:25+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
     <priority>0.1</priority>
   </url>
 </urlset>
