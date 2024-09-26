@@ -23,9 +23,9 @@ languages:
   en:
     languageName: EN
     weight: 1
-  es:
-    languageName: ES
-    weight: 2
+  #es:
+  #  languageName: ES
+  #  weight: 2
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 # DefaultContentLanguage: bn
@@ -148,11 +148,11 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: false
+      enabled: true
       services:
         # Google Analytics
         google:
-          id: G-H4LBG7NDFZ
+          id: G-01D691PCR4
         # # CounterDev
         # counterDev:
         #   id: <your counterdev id>
@@ -186,6 +186,7 @@ params:
     # Show tags under the post title
     tags:
       enable: true
+      on_card: true
 
     # Specify whether to show flag in the language selector. Default is true.
     flags:
