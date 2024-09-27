@@ -34,14 +34,14 @@ jobs:
   lighthouse-check:
     runs-on: ubuntu-latest
     steps:
-    - name: Waiting for Netlify Preview
-      uses: kamranayub/wait-for-netlify-action@v2.1.1
-      id: preview
-      with:
-        site_name: "toha"
-        max_timeout: 300
-      env:
-        NETLIFY_TOKEN: ${{secrets.NETLIFY_TOKEN}}
+    #- name: Waiting for Netlify Preview
+    #  uses: kamranayub/wait-for-netlify-action@v2.1.1
+    #  id: preview
+    #  with:
+    #    site_name: "toha"
+    #    max_timeout: 300
+    #  env:
+    #    NETLIFY_TOKEN: ${{secrets.NETLIFY_TOKEN}}
 
     - name: Run Lighthouse
       uses: foo-software/lighthouse-check-action@v12.0.1
@@ -62,14 +62,14 @@ jobs:
     # checkout to latest commit
     - uses: actions/checkout@master
 
-    - name: Waiting for Netlify Preview
-      uses: kamranayub/wait-for-netlify-action@v2.1.1
-      id: preview
-      with:
-        site_name: "toha"
-        max_timeout: 300
-      env:
-        NETLIFY_TOKEN: ${{secrets.NETLIFY_TOKEN}}
+    #- name: Waiting for Netlify Preview
+    #  uses: kamranayub/wait-for-netlify-action@v2.1.1
+    #  id: preview
+    #  with:
+    #    site_name: "toha"
+    #    max_timeout: 300
+    #  env:
+    #    NETLIFY_TOKEN: ${{secrets.NETLIFY_TOKEN}}
 
     - name: Link Checker
       id: lychee
