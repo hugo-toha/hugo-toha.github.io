@@ -43,17 +43,17 @@ jobs:
     #  env:
     #    NETLIFY_TOKEN: ${{secrets.NETLIFY_TOKEN}}
 
-    - name: Run Lighthouse
-      uses: foo-software/lighthouse-check-action@v12.0.1
-      id: lighthouseCheck
-      with:
-        accessToken: ${{ secrets.LIGHTHOUSE_TOKEN }}
-        gitHubAccessToken: ${{secrets.GITHUB_TOKEN}}
-        emulatedFormFactor: 'all'
-        prCommentEnabled: true
-        prCommentSaveOld: true
-        timeout: 5
-        urls: "${{ steps.preview.outputs.url }},${{ steps.preview.outputs.url }}/posts/,${{ steps.preview.outputs.url }}/posts/markdown-sample/,${{ steps.preview.outputs.url }}/posts/shortcodes/"
+    #- name: Run Lighthouse
+    #  uses: foo-software/lighthouse-check-action@v12.0.1
+    #  id: lighthouseCheck
+    #  with:
+    #    accessToken: ${{ secrets.LIGHTHOUSE_TOKEN }}
+    #    gitHubAccessToken: ${{secrets.GITHUB_TOKEN}}
+    #    emulatedFormFactor: 'all'
+    #    prCommentEnabled: true
+    #    prCommentSaveOld: true
+    #    timeout: 5
+    #    urls: "${{ steps.preview.outputs.url }},${{ steps.preview.outputs.url }}/posts/,${{ steps.preview.outputs.url }}/posts/markdown-sample/,${{ steps.preview.outputs.url }}/posts/shortcodes/"
 
   # Check for any broken links
   markdown-link-check:
