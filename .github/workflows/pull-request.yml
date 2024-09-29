@@ -47,7 +47,6 @@ jobs:
       uses: foo-software/lighthouse-check-action@v12.0.1
       id: lighthouseCheck
       with:
-        accessToken: ${{ secrets.LIGHTHOUSE_TOKEN }}
         gitHubAccessToken: ${{secrets.GITHUB_TOKEN}}
         emulatedFormFactor: 'all'
         prCommentEnabled: true
