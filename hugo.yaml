@@ -22,11 +22,11 @@ module:
 languages:
   pt-br:
     languageCode: pt-br
-    languageName: Português Brasileiro
+    languageName: PT-BR
     title: "D i o g o D a t a"
   en:
     languageCode: en
-    languageName: English
+    languageName: EN
     title: "D i o g o D a t a"
 # default language for the content
 defaultContentLanguage: en
@@ -56,7 +56,7 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background2.jpg
+  background: /images/site/background2.png
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
@@ -72,7 +72,7 @@ params:
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
-    maxVisibleSections: 5
+    maxVisibleSections: 3
 
   # Configure various features of this theme
   features:
@@ -113,7 +113,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:

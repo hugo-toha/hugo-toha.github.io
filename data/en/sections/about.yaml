@@ -8,93 +8,78 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Developer
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  #name: Example Co.
+  #url: "https://www.example.com"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: "With more than 11 years of experience in HR and finance, I developed solid skills in data analysis and analytical reporting, which were fundamental to optimizing processes and reducing costs.<br>
+This background inspired me to deepen my knowledge of data engineering through courses and hands-on projects that allowed me to explore advanced data manipulation and transformation techniques.<br>
+I'm excited about the opportunity to apply this expertise in a data engineering role, where I can help create efficient solutions and drive data-driven decision making<br>."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "diogo.dantas@live.com"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
-
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+  url: "https://www.github.com/diogo-dantas"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/diogodantasp"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "#"
-
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
-
-- name: Mastadon
-  icon: "fab fa-mastodon"
-  url: "#"
-  rel: "me noopener"
-
-- name: ResearchGate
-  icon: "fab fa-researchgate"
-  url: "https://www.researchgate.net/profile/john-doe"
+- name: Medium
+  icon: "fab fa-medium"
+  url: "https://medium.com/@diogodantas_"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-- title: "My Resume"
+- title: "My resume"
   url: "files/resume.pdf"
 
 # Show your badges
-# You can show your verifiable certificates from https://www.credly.com.
+# You can show your verifiable certificates from https:/www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
-- type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+- #type: certification
+  #name: Certified Associate Data Engineer in SQL
+  #url: "https://www.datacamp.com/completed/statement-of-accomplishment/track/f642b2c4078e7ddf8f7aeb8a3a4ff68487c964c2"
+  #image: "images/badge.png
 
-- type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
+- #type: certification
+  #name: Java com orientação a objetos
+  #url: "https://cursos.alura.com.br/degree/certificate/4ccfdd86-5975-4ec1-bde3-5d526881112d?lang"
+  #badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
 
-- type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+- #type: certification
+  #name: Python for Data Science, AI & Development
+  #url: "https://coursera.org/share/09c4941f33ef3846a41db68abcfa3023"
+  #badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
 
 - type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
+  name: Team work
+  percentage: 95
   color: blue
 
 - type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
+  name: Discipline
+  percentage: 95
   color: yellow
 
 - type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
+  name: Logical Thinking
+  percentage: 95
   color: orange
 
 # you can also provide color code instead of the color name

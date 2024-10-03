@@ -10,40 +10,36 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
-  icon: fa-microscope
-  timeframe: 2016-2020
+- name: Degree in Mathematics
+  icon: fa-graduation-cap
+  timeframe: 2022-2026
   institution:
-    name: ABC University of Technology
-    url: "#"
-    logo: /images/sections/education/tech_college.png
+    name: Univesp 
+    url: "https://univesp.br/"
+    logo: /images/sections/education/Univesp.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/tech_college.png
-  grade: #(optional)
+  #grade: #(optional)
     scale: CGPA
     achieved: 3.6
     outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
+  #publications: #(optional)
+  #- title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  # url: "#"
+- name: Systems Analysis and Development
   icon: fa-graduation-cap
-  timeframe: 2012-2016
+  timeframe: 2017-2019
   institution:
-    name: University of XYZ
-    url: "#"
-    logo: /images/sections/education/university.jpg
+    name: Unip
+    url: "https://unip.br/"
+    logo: /images/sections/education/unip.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/university.jpg
-  grade: #(optional)
+  #grade: #(optional)
     scale: CGPA
     achieved: 3.5
     outOf: 4
-  takenCourses: #(optional)
+  #takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
     collapseAfter: 3
@@ -60,45 +56,36 @@ degrees:
     - name: Artificial Intelligent
       achieved: 3.75
       outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-  custonSections: #(optional)
+  #publications: #(optional)
+  #- title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  # url: "#"
+  #extracurricularActivities: #(optional)
+  #- In vitae facilisis est, eget porta sem.
+  #- Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  #- Duis sed massa feugiat, ornare justo et, aliquam est.
+  #- Pellentesque ut fringilla magna.
+  #custonSections: #(optional)
     - name: Thesis
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     - name: Supervisor
       content: Fusce eu augue ut odio porttitor pulvinar.
-- name: Higher Secondary School Certificate
+- name: Data Science - Lato Sensu Specialisation
   icon: fa-university
-  timeframe: 2010-2012
+  timeframe: 2020-2021
   institution:
-    name: MST College of Science
-    url: "#"
-    logo: /images/sections/education/science_college.png
+    name: Mackenzie
+    url: "https://www.mackenzie.br/"
+    logo: /images/sections/education/mackenzie.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/science_college.png
-  grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
-  icon: fa-school
-  timeframe: 2005-2010
+
+- name: Bachelor of Accounting Sciences
+  icon: fa-graduation-cap
+  timeframe: 2012-2015
   institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+    name: Anhanguera
+    url: "https://www.anhanguera.com/"
+    logo: /images/sections/education/anhanguera.png
+  takenCourses: 
+    courses:
+    - name: Incomplete, to be carried out by the third year.

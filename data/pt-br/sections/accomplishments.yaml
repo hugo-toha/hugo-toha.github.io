@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Accomplishments
+  name: Certificados
   id: accomplishments
   enable: true
   weight: 9
@@ -11,21 +11,28 @@ section:
 
 # Your accomplishments
 accomplishments:
-- name: Linux Foundation System Administrator
-  timeline: "March 2018 - March 2019"
+- name: Associate Data Engineer in SQL
+  timeline: "Jun 2024"
   organization:
-    name: Linux Foundation
-    url: https://www.linuxfoundation.org
-  courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-  certificateURL: "https://example.com"
+    name: Datacamp
+    url: https://www.datacamp.com
+  courseOverview: "Os cursos cobrem o caminho completo para se tornar um engenheiro de dados, desde o básico de SQL até técnicas avançadas de modelagem e visualização de dados. O aprendizado é reforçado por meio de projetos práticos que simulam cenários do mundo real.<br>
+  <br>**Habilidades Desenvolvidas:** <br><br>
 
-- name: Machine Learning
-  timeline: "Jun 2020 - Jan 2021"
+    **SQL**: Domínio da linguagem para manipulação e análise de dados.<br>
+    **Modelagem de Dados**: Criação de estruturas de dados eficientes e consistentes.<br>
+    **Data Warehousing**: Compreensão dos princípios de armazenamento e organização de grandes volumes de dados.<br>
+    **Visualização de Dados**: Criação de gráficos e visualizações eficazes para comunicar insights.<br>
+    **Ferramentas**: Experiência com diferentes ferramentas de banco de dados (PostgreSQL, SQL Server, Snowflake e Redshift)."
+  certificateURL: "https://www.datacamp.com/completed/statement-of-accomplishment/track/f642b2c4078e7ddf8f7aeb8a3a4ff68487c964c2"
+
+- name: Java com Orientação a Objetos
+  timeline: "Fev 2022"
   organization:
-    name: Coursera
-    url: https://www.coursera.org
-  courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
-  certificateURL: "https://example.com"
+    name: Alura
+    url: https://www.alura.com.br/
+  courseOverview: "O curso de Java abrange os conceitos básicos da linguagem, incluindo variáveis, tipos de dados, operadores, estruturas de controle, coleções, Wrappers e expressões Lambda. O curso administra os temas de classes e objetos, incluindo criação, atributos, métodos e construtores. O curso também aborda herança, polimorfismo e interfaces, além de princípios avançados de orientação a objetos, como abstração, encapsulamento e composição. A prática é reforçada por meio do desenvolvimento de pequenos projetos e do uso de TDD com JUnit."
+  certificateURL: "https://cursos.alura.com.br/user/diogodantasp/degree-java-v142134-142134/certificate"
 
 - name: Grokking the System Design Interview
   timeline: "Jan 2018 - Sept 2018"

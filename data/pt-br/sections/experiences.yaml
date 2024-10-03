@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Experiences
+  name: Histórico Profissional
   id: experiences
   enable: true
   weight: 3
@@ -11,63 +11,62 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
+    name: Gi Group 
+    url: "https://br.gigroup.com/"
+    location: São Bernardo do Campo - SP
+    logo: /images/sections/experiences/Gigroup.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company1.jpg
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: Prestador de serviços residente na empresa Volkswagen. 
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Controlador
+    start: Jul 2013
+    end: Ago 2024
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
-
+    - Execução e acompanhamento do ciclo completo de contas a pagar e contas a receber nas áreas de Bus e Food pertinentes ao RH da planta Anchieta, garantindo precisão e pontualidade nos processos de pagamento e recebimento;
+    - Estudos através de pesquisa e mensuração de indicadores de contratos com objetivo de fornecer novas informações para tomada de decisão e otimização de performance e saving à área;
+    - Criação de relatórios e apresentações de KPI's para a alta gerência sobre a performance;
+    - Atualização da base de dados para cobrança de empregados e prestadores; 
+    - Fechamento dos serviços executados com os prestadores contratados;
+    - Controle de inadimplência (third parties);
+    - Suporte aos funcionários e prestadores em questões relacionadas a descontos dos respectivos serviços;
+    - Conciliação e reclassificação mensal, apoio na construção do forecast e orçamento;
+    - Acompanhamento e análise do real x orçado;
+    - Eventuais compras de materiais e contratações de serviços, garantindo a qualidade e o custo-benefício;
+    - Colaboração com outros departamentos para garantir a integração e eficiência dos processos administrativos e financeiros.
+     <br><br><b>Sistemas utilizados:</b> SAP - módulos HR e FI, Sistema de compras gerais SAP (KSRM), Senior (SQL),  pacote Office e Power BI.
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
+    name: Alditel Gestão Econômica em Telecomunicações 
+    url: "https://www.aitivus.com.br/"
+    location: São Bernardo do Campo - SP
+    logo: /images/sections/experiences/alditel.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    overview: Suporte presencial a clientes como Cimpor, JSL Logística e Intercement. 
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Assistente administrativo
+    start: Jun 2011
+    end: Jun 2013
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Alocação de custo, gestão de ativos de telecom e elaboração de relatórios gerenciais.  
+    - Atividades de contas a pagar e suporte presencial e telefônica para equipe.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
+    name: Banco do Brasil
+    url: "https://www.bb.com.br"
+    location: São Paulo - SP
+    logo: /images/sections/experiences/bb.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    overview: Estágio no Edifício do Banco do Brasil (Centro Histórico de SP).
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Estagiário de contabilidade
+    start: Fev 2010
+    end: Dez 2010
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Elaboração de cálculos estatísticos cálculo de faturas, identificação de lotes de documentos, suporte a clientes, suporte telefônico para agências e elaboração de tabelas de controle.
+    - Logística para atendimento e manutenção de caixas eletrônicos.

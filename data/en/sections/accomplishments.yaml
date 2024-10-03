@@ -11,21 +11,28 @@ section:
 
 # Your accomplishments
 accomplishments:
-- name: Linux Foundation System Administrator
-  timeline: "March 2018 - March 2019"
+- name: Associate Data Engineer in SQL
+  timeline: "Jun 2024"
   organization:
-    name: Linux Foundation
-    url: https://www.linuxfoundation.org
-  courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-  certificateURL: "https://example.com"
+    name: Datacamp
+    url: https://www.datacamp.com
+  courseOverview: "Courses cover the complete path to becoming a data engineer, from the basics of SQL to advanced data modeling and visualization techniques. Learning is reinforced through hands-on projects that simulate real-world scenarios.<br>
+  <br>**Skills developed:** <br><br>
 
-- name: Machine Learning
-  timeline: "Jun 2020 - Jan 2021"
+    **SQL**: Mastery of data manipulation and analysis language.<br>
+    **Data modelling**: Create efficient and consistent data structures.<br>
+    **Data Warehousing**: Understand the principles of storing and organising large amounts of data.<br>
+    **Data visualisation**: Create effective charts and visualisations to communicate insights.<br>
+    **Tools**: Experience with various database tools (PostgreSQL, SQL Server, Snowflake and Redshift)."
+  certificateURL: "https://www.datacamp.com/completed/statement-of-accomplishment/track/f642b2c4078e7ddf8f7aeb8a3a4ff68487c964c2"
+
+- name: Java with OO
+  timeline: "Feb 2022"
   organization:
-    name: Coursera
-    url: https://www.coursera.org
-  courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
-  certificateURL: "https://example.com"
+    name: Alura
+    url: https://www.alura.com.br/
+  courseOverview: "The Java course covers the basic concepts of the language, including variables, data types, operators, control structures, collections, wrappers and lambda expressions. The course covers the topics of classes and objects, including creation, attributes, methods and constructors. It also covers inheritance, polymorphism and interfaces, and advanced object-oriented principles such as abstraction, encapsulation and composition. Practice is reinforced through the development of small projects and the use of TDD with JUnit."
+  certificateURL: "https://cursos.alura.com.br/user/diogodantasp/degree-java-v142134-142134/certificate"
 
 - name: Grokking the System Design Interview
   timeline: "Jan 2018 - Sept 2018"
