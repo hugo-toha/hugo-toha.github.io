@@ -34,20 +34,22 @@ accomplishments:
   courseOverview: "The Java course covers the basic concepts of the language, including variables, data types, operators, control structures, collections, wrappers and lambda expressions. The course covers the topics of classes and objects, including creation, attributes, methods and constructors. It also covers inheritance, polymorphism and interfaces, and advanced object-oriented principles such as abstraction, encapsulation and composition. Practice is reinforced through the development of small projects and the use of TDD with JUnit."
   certificateURL: "https://cursos.alura.com.br/user/diogodantasp/degree-java-v142134-142134/certificate"
 
-- name: Grokking the System Design Interview
-  timeline: "Jan 2018 - Sept 2018"
+- name: Python with OO
+  timeline: "Jul 2022"
   organization:
-    name: educative
-    url: https://www.educative.io
-  courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
-  certificateURL: "https://example.com"
+    name: Alura
+    url: https://www.alura.com.br/
+  courseOverview: "Solid training in Python and OOP, combining language fundamentals with advanced development and data manipulation techniques."
+  certificateURL: "https://cursos.alura.com.br/user/diogodantasp/degree-Python-linguagem-v162571-162571/certificate"
 
-- name: Mastering Multithreading Programming with Go (Golang)
-  timeline: "Nov 2017 - Mar 2018"
+- name: Design Patterns in Java I and II
+  timeline: "Mar 2022"
   organization:
-    name: Udemy
-    url: https://www.udemy.com
-  courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, multithreading topics.
-  certificateURL: "https://example.com"
- 
+    name: Alura
+    url: https://www.alura.com.br/
+  courseOverview: "Use of design patterns to optimize code, increase readability and reduce repetition.
+The standards were applied to a practical project, understanding the theory and application of each. This gave me a solid foundation for solving design problems and improving code quality in Java projects. Course II deepened my knowledge of design patterns, focusing on advanced techniques for optimizing software design. Concepts such as Adapters, Decorators, Composite, Facade and Proxy patterns."
+  certificateURL: "https://cursos.alura.com.br/user/diogodantasp/course/introducao-design-patterns-java/certificate"
+  certificateURL: "https://cursos.alura.com.br/user/diogodantasp/course/avancando-design-patterns-java/certificate"
+
 
