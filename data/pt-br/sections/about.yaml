@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'Com mais de 11 anos de experiência nos setores de RH e finanças, desenvolvi habilidades sólidas em análise de dados e relatórios analíticos, que foram fundamentais para a otimização de processos e a redução de custos. Essa trajetória me inspirou a aprofundar meus conhecimentos na área de engenharia de dados, por meio de cursos e projetos práticos, onde pude explorar técnicas avançadas de manipulação e transformação de dados. Estou empolgado com a oportunidade de aplicar essa expertise em um papel de engenharia de dados, onde posso contribuir para a criação de soluções eficientes e impulsionar a tomada de decisões baseadas em dados.'
+summary: 'Com mais de 11 anos de experiência nos setores de RH e finanças, desenvolvi habilidades sólidas em análise de dados e relatórios analíticos, que foram fundamentais para a otimização de processos e a redução de custos. Essa trajetória me inspirou a aprofundar meus conhecimentos na área de engenharia de dados, por meio de cursos e projetos práticos, onde pude explorar técnicas avançadas de manipulação e transformação de dados. Estou empolgado com a oportunidade de aplicar essa expertise em um papel de engenharia de dados, onde posso contribuir para a criação de soluções eficientes e impulsionar a tomada de decisões baseadas em dados.<br>'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -36,13 +36,13 @@ socialLinks:
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/diogodantasp"
 
-- name: Medium
-  icon: "fab fa-medium"
-  url: "https://medium.com/@diogodantas_"
+  #name: Medium
+  #icon: "fab fa-medium"
+  #url: "https://medium.com/@diogodantas_"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
-resourceLinks:
+#resourceLinks:
 - title: "Meu resumo"
   url: "files/resume.pdf"
 

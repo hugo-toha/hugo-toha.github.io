@@ -25,10 +25,10 @@ buttons:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+  #name: Cloud Computing
+  #logo: /images/sections/skills/cloud.png
+  #summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  #categories: ["others"]
 
 - name: Linux
   logo: /images/sections/skills/linux.png
@@ -54,10 +54,10 @@ skills:
   #categories: ["basic", "language"]
   #url: "https://golang.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "GCP, AWS, Azure."
-  categories: ["others"]
+  #name: Cloud Computing
+  #logo: /images/sections/skills/cloud.png
+  #summary: "GCP, AWS, Azure."
+  #categories: ["others"]
 
 - name: Java
   logo: /images/sections/skills/java.png
@@ -70,6 +70,7 @@ skills:
   summary: "Pandas, Numpy, Matplotlib, BeautifulSoup, requests, Jupyter <br>Frameworks: Django, Scrapy, pytest"
   categories: ["basic", "language"]
   url: "https://docs.python.org/3/"
+
 
   #name: C++
   #logo: /images/sections/skills/c++.png

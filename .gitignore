@@ -1,3 +1,5 @@
 resources/*
 node_modules/*
 public/*
+assets/*
+data/*

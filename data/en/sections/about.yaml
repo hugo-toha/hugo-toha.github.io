@@ -21,7 +21,7 @@ company:
 # a summary about you
 summary: "With more than 11 years of experience in HR and finance, I developed solid skills in data analysis and analytical reporting, which were fundamental to optimizing processes and reducing costs.<br>
 This background inspired me to deepen my knowledge of data engineering through courses and hands-on projects that allowed me to explore advanced data manipulation and transformation techniques.<br>
-I'm excited about the opportunity to apply this expertise in a data engineering role, where I can help create efficient solutions and drive data-driven decision making<br>."
+I'm excited about the opportunity to apply this expertise in a data engineering role, where I can help create efficient solutions and drive data-driven decision making.<br><br><br>"
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -38,13 +38,13 @@ socialLinks:
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/diogodantasp"
 
-- name: Medium
-  icon: "fab fa-medium"
-  url: "https://medium.com/@diogodantas_"
+  #name: Medium
+  #icon: "fab fa-medium"
+  #url: "https://medium.com/@diogodantas_"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
-resourceLinks:
+#resourceLinks:
 - title: "My resume"
   url: "files/resume.pdf"
 

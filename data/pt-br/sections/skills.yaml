@@ -38,10 +38,10 @@ skills:
   #categories: ["basic", "language"]
   #url: "https://golang.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "GCP, AWS, Azure."
-  categories: ["others"]
+  #name: Cloud Computing
+  #logo: /images/sections/skills/cloud.png
+  #summary: "GCP, AWS, Azure."
+  #categories: ["others"]
 
 - name: Java
   logo: /images/sections/skills/java.png
