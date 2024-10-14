@@ -1,0 +1,110 @@
+---
+// Custom Form Component for Contact Form with design intact
+const formActionUrl = "https://formspree.io/f/xkgnnola";  // Formspree URL
+
+const inputs = [
+  {
+    type: 'text',
+    name: 'name',
+    id: 'name',
+    label: 'Name',
+    placeholder: 'Your name',
+    required: true,
+  },
+  {
+    type: 'email',
+    name: '_replyto',
+    id: 'email',
+    label: 'Email',
+    placeholder: 'Your email',
+    required: true,
+  }
+];
+
+const textarea = {
+  name: 'message',
+  id: 'message',
+  label: 'Message',
+  placeholder: 'Your message here...',
+  required: true,
+};
+
+const hiddenFields = [
+  {
+    name: '_subject',
+    value: 'Contact Form Submission',
+  }
+];
+---
+
+<form action={formActionUrl} method="POST" class="contact-form">
+  {inputs.map(input => (
+    <div class="form-group">
+      <label for={input.id} class="form-label">{input.label}</label>
+      <input
+        type={input.type}
+        id={input.id}
+        name={input.name}
+        class="form-input"
+        placeholder={input.placeholder}
+        required={input.required}
+      />
+    </div>
+  ))}
+  
+  <div class="form-group">
+    <label for={textarea.id} class="form-label">{textarea.label}</label>
+    <textarea
+      id={textarea.id}
+      name={textarea.name}
+      class="form-textarea"
+      placeholder={textarea.placeholder}
+      required={textarea.required}
+    ></textarea>
+  </div>
+  
+  {hiddenFields.map(field => (
+    <input type="hidden" name={field.name} value={field.value} />
+  ))}
+  
+  <button type="submit" class="submit-button">Submit</button>
+</form>
+
+<style>
+  /* Example CSS to retain your initial design */
+  .contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .form-input,
+  .form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .submit-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+</style>

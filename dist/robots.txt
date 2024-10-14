@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://camlebrun.github.io/sitemap-index.xml

@@ -1,0 +1,53 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import ContactForm from '~/components/ContactForm.astro'; // Import your custom form
+import Features2 from '~/components/widgets/Features2.astro';
+
+const metadata = {
+  title: 'Contact',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- HeroText Widget ******************* -->
+  <HeroText tagline="Contact" title="Let's Connect!" />
+
+  <!-- Contact Form Component ************** -->
+  <ContactForm />
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="We are here to help!"
+    items={[
+      {
+        title: 'General support',
+        description: `Chat with us for inquiries related to account management, website navigation, payment issues, or general questions about the website's functionality.`,
+      },
+      {
+        title: 'Contact sales',
+        description: 'Chat with us for questions about purchases, customization options, licensing for commercial use, inquiries about specific templates, etc.',
+      },
+      {
+        title: 'Technical support',
+        description: 'Chat with us for technical assistance, including installation, compatibility issues with software, download errors, or other technical challenges.',
+      },
+      {
+        title: 'Phone',
+        description: '+1 (234) 567-890',
+        icon: 'tabler:headset',
+      },
+      {
+        title: 'Email',
+        description: 'contact@support.com',
+        icon: 'tabler:mail',
+      },
+      {
+        title: 'Location',
+        description: '1234 Lorem Ipsum St, 12345, Miami, USA',
+        icon: 'tabler:map-pin',
+      },
+    ]}
+  />
+</Layout>

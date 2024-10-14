@@ -1,0 +1,335 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Header from '~/components/widgets/Header.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import { getPermalink } from '~/utils/permalinks';
+
+const metadata = {
+  title: 'Personal Homepage Demo',
+};
+---
+
+<Layout metadata={metadata}>
+  <Fragment slot="announcement"></Fragment>
+  <Fragment slot="header">
+    <Header
+      links={[
+        { text: 'Home', href: '#' },
+        { text: 'About', href: '#about' },
+        { text: 'Resume', href: '#resume' },
+        { text: 'Porfolio', href: '#porfolio' },
+        { text: 'Blog', href: '#blog' },
+        { text: 'Github', href: 'https://github.com/onwidget' },
+      ]}
+      actions={[
+        {
+          text: 'Hire me',
+          href: '#',
+        },
+      ]}
+      isSticky
+      showToggleTheme
+    />
+  </Fragment>
+
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero
+    id="hero"
+    title="Camille Lebrun"
+    tagline="Porfolio"
+    actions={[{ variant: 'primary', text: 'Hire me', href: getPermalink('/contact#form') }]}
+  >
+  <Fragment slot="subtitle">
+I’m Camille Lebrun, an Analytics Engineer specializing in transforming raw data into scalable and efficient data models using a modern data stack. With tools like dbt for data transformations and two years of experience, I turn complex datasets into actionable insights, enabling organizations to make confident, data-driven decisions.
+
+  </Fragment>
+  </Hero>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    id="about"
+    columns={3}
+    items={[
+      {
+        icon: 'tabler:brand-linkedin',
+        callToAction: {
+          target: '_blank',
+          text: 'Linkedin',
+          href: 'https://www.linkedin.com/in/camille-lebrun-ai/',
+        },
+      },
+      {
+        icon: 'tabler:brand-github',
+        callToAction: {
+          target: '_blank',
+          text: 'Github',
+          href: 'https://github.com/camlebrun',
+        },
+      },
+      {
+        icon: 'tabler:brand-medium',
+        callToAction: {
+          target: '_blank',
+          text: 'Medium',
+          href: 'https://medium.com/@camille.lebrun',
+        },
+      },
+    ]}
+    image={{
+      src: 'https://media.licdn.com/dms/image/v2/D4E03AQHlr7QktKvP0w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724607196080?e=1734566400&v=beta&t=LlEAVe1orkWWBtt1hY0mK4J4munBmgTBObRGYIiII-o',
+      alt: 'Colorful Image',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">About me</h2>
+      <p>
+I’m an Analytics Engineer with two years of experience in building scalable data models and ensuring data accuracy. My expertise lies in dbt and SQL, supported by Python for data science tasks, including natural language processing (NLP) and AI-driven models.
+
+      </p>
+      <br />
+      <p>
+I leverage modern data stacks—Google BigQuery, Snowflake, dbt, and Metabase—to deliver end-to-end solutions, automate processes, and create interactive dashboards using tools like Tableau and PowerBI.
+
+      </p>
+      <br />
+      <p>
+As a non-binary professional, I am committed to promoting diversity, equity, and inclusion in tech, believing that innovation flourishes through diverse perspectives.
+:</p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Steps Widget ****************** -->
+
+  <Steps
+    id="resume"
+    title="Work experience"
+    items={[
+      {
+        title:
+          'Analytics Engineer Apprentice <br /> <span class="font-normal">Lucky Cart, Paris, France </span> <br /> <span class="text-sm font-normal">Nov.2023 - Present</span>',
+        description: `I ensure data quality through audits and develop data applications to accelerate analysis. <br> I refactor data models for better performance and maintainability using dbt. <br> By simplifying complex data, I help stakeholders make informed, data-driven decisions.`,
+        icon: 'tabler:briefcase',
+      },
+      {
+        title:
+          'Analytics Engineer Intern <br /> <span class="font-normal">My Job Glasses, Paris, France </span> <br /> <span class="text-sm font-normal">June.2023 - Nov-2023</span>',
+        description: `I create and maintain data models using dbt to meet diverse business needs, including automating data transformations with dbt macros. <br> I design data visualizations in Metabase for various teams and ensure precise version control with Git, including interactive rebasing.`,
+        icon: 'tabler:briefcase',
+      },
+            {
+        title:
+          'Data Analyst Intern <br /> <span class="font-normal">My Job Glasses, Paris, France </span> <br /> <span class="text-sm font-normal">June.2023 - Nov-2023</span>',
+        description: `I develop dbt models for data analysis and create Tableau dashboards for data visualization. I analyze audience behavior to understand user actions on the platform. I also support the marketing team by evaluating the impact of their campaigns.`,
+        icon: 'tabler:briefcase',
+      },
+    ]}
+    classes={{ container: 'max-w-3xl' }}
+  />
+
+  <!-- Steps Widget ****************** -->
+
+  <Steps
+    id="resume"
+    title="Education"
+    items={[
+      {
+        title: `Mastere Data & AI <br /> <span class="font-normal">HETIC, Montreuil</span> <br /> <span class="text-sm font-normal">2022 - 2024</span>`,
+        icon: 'tabler:school',
+      },
+      {
+        title: `MSc in Structural Functional Biochemistry<br /> <span class="font-normal">Univercity Toulouse III Paul Sabatier, Toulouse</span> <br /> <span class="text-sm font-normal">2018 - 2020</span>`,
+        icon: 'tabler:school',
+      },
+    ]}
+    classes={{ container: 'max-w-3xl' }}
+  />
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+  title="Skills"
+  subtitle="Explore the technical proficiencies that enable me to transform raw data into actionable insights."
+  columns={3}
+  defaultIcon="tabler:point-filled"
+  items={[
+    {
+      title: 'dbt',
+      description: 'Experienced in writing complex models, tests, and documentation to transform raw data into valuable insights through efficient data modeling.',
+    },
+    {
+      title: 'Python',
+      description: 'Proficient in developing data-driven applications and performing advanced data analysis using libraries such as Streamlit, Keras, TensorFlow, and Pandas.',
+    },
+    {
+      title: 'SQL',
+      description: 'Skilled in writing complex SQL queries, optimizing performance, and managing large datasets using BigQuery and Snowflake.',
+    },
+    {
+      title: 'Docker',
+      description: 'Proficient in writing Dockerfiles and docker-compose files, and containerizing applications for consistent environments across development and production.',
+    },
+    {
+      title: 'Data Visualization',
+      description: 'Experienced in using Matplotlib, Seaborn, Plotly, and tools like Tableau, Looker, and Metabase to create effective visualizations for communicating data insights.',
+    },
+    {
+      title: 'Linux',
+      description: 'Proficient in basic Linux commands and comfortable working in Linux environments for development and deployment purposes.',
+    },
+    {
+      title: 'Git',
+      description: 'Skilled in managing version control with GitHub, GitLab, and Bitbucket, ensuring smooth collaboration and precise versioning using techniques like interactive rebasing.',
+    },
+    {
+      title: 'Data Analysis',
+      description: 'Skilled in exploratory data analysis (EDA), data cleaning, and transformation using Python and SQL to derive meaningful insights from datasets.',
+    },
+    {
+      title: 'Data Applications',
+      description: 'Experienced in developing interactive data-driven applications and dashboards using Python and Streamlit to visualize data and provide actionable insights.',
+    },
+  ]}
+/>
+  <!-- Content Widget **************** -->
+
+  <Content
+    id="porfolio"
+    title="Explore my projects"
+    subtitle="Discover how I've leveraged my skills to create impactful data solutions."
+    isReversed
+    items={[
+    {
+      title: 'Description:',
+      description:
+        'Refactored the data transformation repository to enhance performance and maintainability using dbt. Ensured the quality of SQL code with sqlfluff, maintaining best practices for data consistency and accuracy.',
+    },
+    {
+      title: 'Role:',
+      description: `Optimized data models for better performance, reduced query times, and streamlined data workflows. Led initiatives to improve data transformation processes using dbt and automated quality checks to ensure robust, maintainable SQL code.`,
+    },
+  ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1596008194705-2091cd6764d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1639&q=80',
+      alt: 'Tech Design Image',
+    }}
+
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+      At Lucky Cart <br /><span class="text-2xl">Refactoring of the data transformation repository </span>
+      </h3>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isReversed
+    isAfterContent={true}
+    items={[
+      {
+        title: 'Description:',
+        description:
+          'Refactor the data transformation repository to enhance performance and maintainability using dbt. Ensure the quality of SQL code with sqlfluff.',
+      },
+      {
+        title: 'Role:',
+      description: `Worked closely with team members to identify root causes of data discrepancies, providing immediate fixes while developing sustainable long-term strategies. Facilitated collaboration across teams to ensure robust data pipelines and adherence to best practices.`,
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1552664688-cf412ec27db2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+      alt: 'Art and Music Poster Image',
+    }}
+    callToAction={{
+      target: '_blank',
+      text: 'Go to the project',
+      icon: 'tabler:chevron-right',
+      href: '#',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        At Lucky Cart <br /><span class="text-2xl">Bug managment</span>
+      </h3>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isReversed
+    isAfterContent={true}
+    items={[
+      {
+        title: 'Description:',
+      description: 'Developed a data visualization application to display real-time data on TDoR (Transgender Day of Remembrance) victims. Leveraged the TransLivesMatter API to provide interactive exploration and automatic updates each year, ensuring accurate and reliable information from trusted sources.',
+      },
+      {
+        title: 'Role:',
+      description: `Designed and implemented a Streamlit-based web app that visualizes real-time data. Integrated API connections for automatic yearly updates, requiring no technical intervention post-deployment. Ensured high-quality data representation that adheres to transgender rights protection standards.`,
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1525909002-1b05e0c869d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
+      alt: 'Art and Music Poster Image',
+    }}
+    callToAction={{
+      target: '_blank',
+      text: 'Go to the project',
+      icon: 'tabler:chevron-right',
+      href: '#',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        TDoR <br /><span class="text-2xl">Transgender Day of Remembrance</span>
+      </h3>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    title="Let's create together"
+    subtitle="Ready to transform your vision into captivating designs?"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Hire me',
+        href: '/',
+      },
+    ]}
+  />
+
+  <!-- BlogLatestPost Widget **************** -->
+
+</Layout>
