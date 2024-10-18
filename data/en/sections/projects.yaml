@@ -57,6 +57,7 @@ projects:
 
 - name: Toha
   logo: /images/sections/projects/toha.png
+  image: /images/sections/projects/toha_website.png
   role: Owner
   timeline: "Jun 2019 - Present"
   repo: https://github.com/hossainemruz/toha
