@@ -1,65 +1,63 @@
+
 # section information
 section:
   name: Projects
   id: projects
   enable: true
-  weight: 5
+  weight: 2
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
-# filter buttons
 buttons:
 - name: All
   filter: "all"
-- name: Professional
-  filter: "professional"
-- name: Academic
-  filter: "academic"
-- name: Hobby
-  filter: "hobby"
-
+- name: API
+  filter: "WebServices"
+- name: Java Web Application
+  filter: "WebApplication"
+- name: Java SpringBoot
+  filter: "SpringBoot"
+- name: Java
+  filter: "Java"
+- name: Data Science
+  filter: "ds"
+  
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+- name: LESOG
+  summary: |
+    LESOG (Local Exchange Service Order Generator) receives LSR from CLEC through Frontend Systems to LASR. LASR receives the XML input file does initial validation (VER, PON verification) stores the input file for record keeping and sends the LSR to LESOG. LESOG receives the LSR from LASR does 1st Level & 2nd Level validation, generates the Service Order and sends response back to LASR. LESOG interfaces to different mainframe systems (BOCRIS, BOCABS, ICLOC, TIRKS, RSAG, ATLAS, COFFI, LFACS etc) for data acquisition and entry. LESOG generates service orders from LSRs submitted LASR, updates the Service Order in SOCS and sends the response message (successful/failure) back to LASR.
+  tags: ["SpringBoot", "Java", "RestFul", "SQL", "Taskmate", "Linux", "Unix"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+- name: MQAdapters
+  summary: |
+    Adapter is the interface between the provisioning server and the MQ Billing & CRM. 
+    It picks requests from MQ Billing & CRM and sends them to the provisioning server 
+    in a format understandable by the provisioning server. Adapter waits for a response 
+    from the provisioning server for the request sent. After receiving the response 
+    from the provisioning server, the adapter sends the response to MQ Billing & CRM 
+    in a format understandable by it.
+  tags: ["Java", "SQL", "WebServices", "MQRabbit", "MVC", "JDBC", "Multi-Threading", "Collections"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+  
+- name: MQRadius
+  
+  summary: RADIUS (Remote Authentication Dial-in User Service) is a networking protocol that provides centralized Authentication, Authorization, Accounting (AAA) management for users who connect and use a network service. Radius is designed based on IETF standard RFC 2865 and RFC 2866 respectively. It is possible to integrate with various broadband network elements like NAS systems and Bandwidth Manager. Radius is a client/server protocol that runs in the application layer using UDP as transport.
+  
+  tags: ["Java", "SQL", "WebServices", "MQRabbit", "MVC", "JDBC", "Multi-Threading", "Collections"]
+  
+- name: MQNsure
+  
+  summary: MQNSURE is a complete end-to-end solution addressing the operator challenges and also ensuring growth even while technology changes. It is a web application that provides the service providers an easy way to create and modify bandwidths, plans and policies and apply those to users.
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
+  tags: ["WebApplication", "SQL", "WebServices", "MQRabbit", "MVC", "JDBC", "Multi-Threading", "Collections"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+
+- name: MQNWebServices
+  summary: MQNSUREWEBSERVICE provides the feasibility to integrate the External system (BSS) with MQNSURE (OSS). The BSS systems communicate with OSS systems using MQNSUREWEBSERVICE. These APIs allow continuous pooling and getting the required data and pushing back into MQNSURE.
+  tags: ["WebServices", "API", "SOAP" , "JDBC"]
+
+- name: Hate Speech Detection
+
+  summary: This repository is part of an ongoing research for hate speech detection using RNN, LSTM and GRU based architecture moving on to transfer finetuning using RoBERTa.
+
+  tags: ["ds", "nlp"]

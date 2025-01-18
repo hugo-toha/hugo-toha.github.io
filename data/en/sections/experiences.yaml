@@ -11,63 +11,48 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
+    name: Amdocs Development Center India.
+    url: "https://www.amdocs.com/"
+    location: Pune, India
+    logo: /images/sections/experiences/Amdocs.gif
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company1.jpg
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: |
+        My time at Amdocs was truly transformative. Working on the LESOG (Local Exchange Service Order Generator) project was a defining experience, where I had the chance to be part of an incredible journey to modernize a legacy system by transitioning it to Java Spring Boot Application. It was both challenging and rewarding to see how our work improved the system’s performance and made a tangible impact. 
+        
+        Beyond the technical achievements, what stands out the most are the people I worked with—their support, collaboration, and camaraderie made every challenge worthwhile. The lessons I learned there, both personal and professional, continue to guide me, and I’m deeply grateful for the memories, mentors, and friends I gained along the way.
+  positions:
+  - designation: Software Developer
+    start: Nov 2021
+    end: Jan 2023
+    responsibilities:
+    - Contributed to the migration of LESOG (Local Exchange Service Order Generator) from legacy systems to Java Spring Boot, integrating RESTful web services to improve system performance by concurrently processing 5000+ LSRs (Local Service Requests) monthly.
+    - Managed integration between LESOG and downstream mainframe systems (BOCRIS, BOCABS, ICLOC) using APIs, leading to faster data retrieval and a reduction in service order generation time.
+    - Enhanced system performance by refactoring 20,000 lines of legacy code, reducing API response times by 30%.
+    - Restructured COBOL calls into Spring Cloud Gateway patterns and introduced web services (SOAP and RESTful) to improve system interoperability and communication, significantly enhancing response time efficiency.
+    - Optimized backend algorithms for LESOG, which significantly improved service order throughput, supporting peak loads during high-demand periods without system degradation, enhancing reliability and reducing operational risks.
+
+- company:
+    name: Magnaquest Technologies Pvt Ltd
+    url: "https://www.magnaquest.com/"
+    location: Hyderabad, India
+    logo: /images/sections/experiences/Magnaquest.png
+    overview: I joined Magnaquest right after college, and it quickly became a place where I grew both professionally and personally. The guidance and support from my managers and team leads helped me develop into the professional I am today. It was a time of learning, building skills, and forming relationships that have had a lasting impact on my career.
   positions:
   - designation: Senior Software Engineer
-    start: Nov 2019
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
+    start: Aug 2020
+    end: Nov 2021
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Designed and implemented a multi-threading adapter for RaceOnline Bangladesh, utilizing Java, Servlets, RESTful Web Services, JSON, RabbitMQ, JDBC, and MySQL to enhance system performance and scalability.
+    - Developed and integrated Multi-Level Fair Usage Policy Plan and Add-on plans into the Radius Server (AAA), resulting in a 25% increase in subscription upgrades. 
+    - Demonstrated proficiency in the project life cycle, including requirements collection and other project management activities.
+    - Implemented MAC authentication functionalities as per client requirements, enabling and disabling as needed.
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
-
-- company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
-  positions:
   - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+    start: Jan 2019
+    end: Aug 2020
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
-
-- company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-  positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
-    responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Developed and deployed Web Services using both RESTful and SOAP protocols with Apache Axis, integrating log4j for efficient logging and tracking of service-related activities.
+    - Skilled in monitoring Application Servers and Web Servers, with advanced troubleshooting and debugging expertise, leveraging log messages to quickly identify and resolve issues.
+    - Built reporting functionality as per client requirements using Apache POI, Jasper Reports with TIBCO, and IReport in various formats such as PDF, HTML, CSV, Word, etc.

@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://venkatsaisarvasuddi.com
 
-languageCode: bn
-title: "John's Blog"
+languageCode: en
+title: "Venkat Sai Sarvasuddi"
 
 # Use Hugo modules to add theme
 module:
@@ -10,7 +10,7 @@ module:
   mounts:
   - source: static/files
     target: static/files
-  - source: ./node_modules/flag-icons/flags
+  - source: ./node_modules/flag-icon-css/flags
     target: static/flags
   - source: ./node_modules/@fontsource/mulish/files
     target: static/files
@@ -23,14 +23,9 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Venkat Sai Sarvasuddi"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
-# default language for the content
+
 defaultContentLanguage: en
 
 
@@ -58,17 +53,17 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  background: /images/site/background.png
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/site/vslogo.png
+    inverted: /images/site/vslogo.png
+    favicon: /images/site/vslogo.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/Venkatss2209/my-hugo-portfolio
   # Default branch of your Git repo
   gitBranch: main
 
@@ -98,7 +93,7 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: true
+      enable: false
       showAuthor: true # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
@@ -115,7 +110,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
@@ -153,11 +148,11 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
+      enabled: true #Need to check again
       services:
         # Google Analytics
         google:
-          id: G-H4LBG7NDFZ
+          id: G-ND3PB9EC6S
         # # CounterDev
         # counterDev:
         #   id: <your counterdev id>
@@ -247,7 +242,7 @@ params:
     #   codeFences: false
     # ```
     syntaxHighlight:
-      enable: true
+      enable: false
       services:
         hljs:
           # see: https://highlightjs.readthedocs.io/en/latest/api.html#configure
@@ -304,4 +299,4 @@ params:
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
-      enable: true
+      enable: false
