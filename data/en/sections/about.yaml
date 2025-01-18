@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer|Java & Spring Expert|API Developer
+designation: Java Application Developer | Backend Engineer | Spring Framework Expert |  API Developer
 # your company information
 #company:
 #  name: Example Co.
@@ -19,7 +19,7 @@ designation: Software Engineer|Java & Spring Expert|API Developer
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I specialize in building scalable solutions using Java, J2EE, and Spring frameworks. I have a strong background in core Java, multi-threading, concurrency, and API development, with expertise in both SOAP and RESTful web services. I am skilled in working with databases like MySQL and Oracle, focusing on performance tuning and reliability. I have worked on projects involving the migration of legacy systems to Java Spring Boot applications, and have hands-on experience with tools such as Eclipse, STS, Maven, and Postman. My strong communication and team coordination skills help me collaborate effectively and deliver efficient solutions.'
+summary: 'I’m Venkat Sai Sarvasuddi, a software developer with over 4 years of experience building scalable and efficient backend systems. I specialize in Java and Spring Boot, focusing on creating robust APIs and improving system performance. I have a strong track record of delivering high-quality, reliable solutions and thrive in collaborative environments where I can align technical work with business goals. I’m passionate about problem-solving and always eager to learn new technologies to keep up in this ever-evolving field.'
 
 socialLinks:
 - name: Email
