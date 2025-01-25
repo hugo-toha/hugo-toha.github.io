@@ -1,5 +1,5 @@
 # some information about you
-name: "John Doe"
+name: "Joel"
 nickname: "John"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
