@@ -16,7 +16,7 @@ accomplishments:
   organization:
     name: Weights & Biases
     url: https://wandb.ai/site/
-  courseOverview: Principled Machine Learning workflows for model development
+  courseOverview: Flujos de trabajo de Machine Learning basados en principios para el desarrollo de modelos
   certificateURL: "https://www.credential.net/75adf12e-53fc-4f81-8efb-43e4dd3436c3#gs.hx068h"
 
 - name: AWS Educate Introduction to Cloud 101
@@ -24,7 +24,7 @@ accomplishments:
   organization:
     name: AWS
     url: https://awseducate.instructure.com/
-  courseOverview: Introduction to Cloud
+  courseOverview: Introducción a elementos de la nube
   certificateURL: "https://www.credly.com/badges/4459c260-9deb-4d79-9d68-304ab51f04ba/public_url"
 
 - name: AI Agents in LangGraph
@@ -32,7 +32,7 @@ accomplishments:
   organization:
     name: DeepLearningAI
     url: https://www.deeplearning.ai/
-  courseOverview: Build agentic AI workflows using LangChain's LangGraph and Tavily's agentic search.
+  courseOverview: Construcción de flujos de trabajo de IA agente utilizando LangGraph de LangChain y la búsqueda agente de Tavily.
   certificateURL: "https://learn.deeplearning.ai/accomplishments/f1ddba07-d715-4fe4-ae33-2dd6a3d7aa18?usp=sharing"
 
 - name: Machine Learning
@@ -40,7 +40,7 @@ accomplishments:
   organization:
     name: DeepLearningAI
     url: https://www.deeplearning.ai/
-  courseOverview: "Short course on the powerful and extensible usage of LangChain framework, using prompts, parsing, memory, chains, question answering, and agents."
+  courseOverview: "Curso breve sobre el uso poderoso y extensible del marco LangChain, utilizando prompts, análisis, memoria, cadenas, respuestas a preguntas y agentes."
   certificateURL: "https://learn.deeplearning.ai/accomplishments/2e422a46-be82-4087-b0cd-d07c801c3697?usp=sharing"
 
 

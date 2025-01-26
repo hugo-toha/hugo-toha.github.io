@@ -3,71 +3,65 @@ section:
   name: Experiences
   id: experiences
   enable: true
-  weight: 3
+  weight: 4
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true 
 
 # Your experiences
 experiences:
+
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
+    name: Mutt Data
+    url: "https://muttdata.ai/"
+    location: Remote
+    logo: /images/sections/experiences/mutt_data_logo.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company2.jpg
+    overview: Mutt Data is a technology company that offers machine learning and data science solutions to businesses.
+
+  positions:
+  - designation: Machine Learning Engineer
+    start: Jan 2025
+    end: Present
+    responsibilities:
+    - Led the productization of ML models by implementing MLops best practices, enhancing model performance, reliability, and scalability for client use cases.
+    - Bridged Data Science and Engineering roles by managing model lifecycle optimization, infrastructure orchestration, and data governance, ensuring seamless integration.
+    - Fostered innovation by researching and deploying emerging technologies, contributing to internal knowledge sharing and industry-leading AI/ML practices.
+
+- company:
+    name: Scale AI
+    url: "https://scale.com/"
+    location: Remote
+    logo: /images/sections/experiences/scale_AI_logo.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company2.jpg
+    overview: Scale provides labeled data for training AI applications, leveraging enterprise data to customize generative models. Its platform offers tools to collect, curate, and annotate data, while also optimizing and evaluating models to ensure AI performance tailored to business needs.
+
+  positions:
+  - designation: Software Engineer Freelance
+    start: Feb 2023
+    end: Jun 2024
+    responsibilities:
+    - Improved chatbot efficiency by delivering high quality code for conversational AI systems, resulting in increased user satisfaction and response coherence.
+    - Enhanced dataset quality by collaborating with cross-functional teams to create high-quality datasets, increasing model accuracy.
+
+- company:
+    name: Zowl Labs
+    url: "https://www.zowllabs.com/"
+    location: Buenos Aires, AR
+    logo: /images/sections/experiences/zowllabs_logo.jpeg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company1.jpg
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: Zowl Labs is a recognized startup for AI-based health diagnosis in professional enviroments
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Computer Vision Developer
+    start: Aug 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Feb 2023
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
-
-- company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
-  positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
-
-- company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-  positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
-    responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Accelerated project workflow by overseeing the entire lifecycle of computer vision models, from data collection to deployment
+    - Optimized model performance by designing and implementing a physical prototype for a computer vision experiment setup, ensuring precise evaluation conditions.
+    - Delivered state-of-the-art research insights monthly, leading to continuous innovation and improved project outcomes

@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Education
+  name: Educación
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
@@ -10,11 +10,11 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Electronic Engineering
+- name: Ingeniería Electrónica
   icon: fa-atom
   timeframe: 2016-2025
   institution:
-    name: Buenos Aires University
+    name: Universidad de Buenos Aires
     url: "https://www.fi.uba.ar/"
     logo: /images/sections/education/logo_fiuba.png
     # Can optionally show a different logo for dark theme
@@ -89,9 +89,9 @@ degrees:
 #     achieved: 5
 #     outOf: 5
   extracurricularActivities: #(optional)
-  - "Machine Learning (Introductory course): Covered mathematical and computational foundations."
-  - "Blockchain Project: Developed simplified crypto coins using C++."
-  - "Mobile robots course: Paradigm of control mobile robots, bayesians filters, SLAM and trajectory planning"
+  - "Machine Learning (Curso introductorio): Se cubrieron los fundamentos matemáticos y computacionales."
+  - "Proyecto de Blockchain: Desarrollo de monedas criptográficas simplificadas usando C++."
+  - "Curso de robots móviles: Paradigma de control de robots móviles, filtros bayesianos, SLAM y planificación de trayectorias."
 
 # - name: Secondary School Certificate
 #   icon: fa-school

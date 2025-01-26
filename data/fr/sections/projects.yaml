@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Projects
+  name: Projets
   id: projects
   enable: true
   weight: 3
@@ -10,7 +10,7 @@ section:
 
 # filter buttons
 buttons:
-- name: All
+- name: Tout
   filter: "all"
 - name: NLP
   filter: "nlp"
@@ -21,13 +21,13 @@ buttons:
 
 # your projects
 projects:
-- name: Car Safety predictor
+- name: Prédicteur de sécurité automobile
   logo: /images/sections/projects/mlflow.jpeg
   role: Creator
   timeline: "Jun 2024 - Jul 2024"
   repo: https://github.com/burna680/MLFlow_demo # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: This project implements a complete MLOps pipeline for a machine learning scikit-learn model using Python
+  summary: Ce projet met en œuvre un pipeline d'entrainement pour un modèle de machine learning scikit-learn en utilisant Python.
   tags: ["machine-learning", "mlops"]
 
 - name: LTSM stock forecasting
@@ -36,7 +36,7 @@ projects:
   timeline: "Jul 2024 - Aug 2024"
   repo: https://burna680ltsmforecasting.streamlit.app/
   #url: ""
-  summary: A complete and customizable stock forecasting implementation using LTSM models.
+  summary: Une implémentation complète et personnalisable de prévision des actions utilisant des modèles LSTM.
   tags: ["forecasting", "machine-learning"]
 
 # - name: A sample academic paper
@@ -60,5 +60,5 @@ projects:
   role: Owner
   timeline: "Aug 2024 - Sept 2024"
   # repo: https://github.com/hossainemruz/toha
-  summary: A conversational chatbot using Meta-Llama-3-8B as base model, integrated with Langchain and LlamaIndex for enhanced data retrieval and interaction.
+  summary: Un chatbot conversationnel utilisant Meta-Llama-3-8B comme modèle de base, intégré avec Langchain et LlamaIndex pour améliorer la récupération de données et l'interaction.
   tags: ["nlp","chatbot"]

@@ -2,12 +2,12 @@
 copyright: © 2025 Copyright.
 
 # A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
-disclaimer: "This theme is under MIT license. So, you can use it for non-commercial, commercial, or private uses.
-You can modify or distribute the theme without requiring any permission from the theme author.
-However, the theme author does not provide any warranty or takes any liability for any issue with the theme."
+disclaimer: "Ce thème est sous licence MIT. Vous pouvez donc l'utiliser à des fins non commerciales, commerciales ou privées.
+Vous pouvez modifier ou distribuer le thème sans avoir besoin de l'autorisation de l'auteur du thème.
+Cependant, l'auteur du thème ne fournit aucune garantie et n'assume aucune responsabilité en cas de problème lié au thème."
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: "Machine Learning Engineer: Career and projects | Lucas Burna"
+description: "Machine Learning Engineer: Carrière et projets | Lucas Burna"
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
@@ -26,4 +26,4 @@ openGraph:
   type: website
   description: Portfolio.
   image: images/author/avatar.png
-  url: https://burna680.github.io/portfolio/en
+  url: https://burna680.github.io/portfolio/fr

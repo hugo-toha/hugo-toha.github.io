@@ -1,6 +1,6 @@
 # Section information
 section:
-  name: Skills
+  name: Habilidades
   id: skills
   enable: true
   weight: 2
@@ -11,11 +11,11 @@ section:
 
 # Filter buttons
 buttons:
-- name: All
+- name: Todo
   filter: "all"
-- name: Basic
+- name: Básico
   filter: "basic"
-- name: Language
+- name: Lenguaje
   filter: "language"
 - name: Container
   filter: "container"

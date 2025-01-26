@@ -1,6 +1,6 @@
 # section information
 section:
-  name: About
+  name: Sur moi
   id: about
   enable: true
   weight: 1
@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a Machine Learning Engineer with expertise in AI and software engineering. I specialize in developing and optimizing ML models from data gathering to deployment, with experience in conversational AI, computer vision, and MLOps. Focused on efficiency and impact, I turn complex problems into actionable solutions while staying current with emerging technologies.'
+summary: "Je suis un Ingénieur en Machine Learning spécialisé en IA et en ingénierie logicielle. Je me spécialise dans le développement et l'optimisation de modèles de ML, depuis la collecte des données jusqu'au déploiement, avec une expérience en intelligence artificielle conversationnelle, vision par ordinateur et MLOps. Axé sur l'efficacité et l'impact, je transforme des problèmes complexes en solutions concrètes tout en restant à jour sur les technologies émergentes."
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
@@ -59,8 +59,8 @@ socialLinks:
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-- title: "My Resume"
-  url: "files/resume_en.pdf"
+- title: "Mon Currículum Vitae"
+  url: "files/resume_fr.pdf"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.

@@ -2,7 +2,7 @@
 name: "Lucas Burna"
 nickname: "Lucas"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I am"
+greeting: "Salut! Je suis"
 image: "images/author/avatar.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
@@ -14,5 +14,5 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - I am a Machine Learning Engineer
-  - I love AI
+  - Je suis Machine Learning Engineer
+  - J'aime l'Inteligence Artificielle 

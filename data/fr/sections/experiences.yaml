@@ -1,0 +1,67 @@
+# section information
+section:
+  name: Expériences
+  id: experiences
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+
+- company:
+    name: Mutt Data
+    url: "https://muttdata.ai/"
+    location: À distance
+    logo: /images/sections/experiences/mutt_data_logo.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company2.jpg
+    overview: Mutt Data est une entreprise technologique qui propose des solutions de machine learning et de science des données aux entreprises.
+
+  positions:
+  - designation: Machine Learning Engineer
+    start: Jan 2025
+    end: Present
+    responsibilities:
+    - J'ai dirigé la productisation des modèles de ML en implémentant les meilleures pratiques de MLOps, améliorant la performance, la fiabilité et la scalabilité des modèles pour les cas d'usage des clients.
+    - J'ai fait le lien entre les rôles de Data Science et d'Ingénierie en gérant l'optimisation du cycle de vie des modèles, l'orchestration de l'infrastructure et la gouvernance des données, garantissant une intégration fluide.
+    - J'ai favorisé l'innovation en recherchant et en déployant des technologies émergentes, contribuant au partage des connaissances internes et aux pratiques de pointe en IA/ML dans l'industrie.
+
+- company:
+    name: Scale AI
+    url: "https://scale.com/"
+    location: Remote
+    logo: /images/sections/experiences/scale_AI_logo.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company2.jpg
+    overview: Scale fournit des données étiquetées pour l'entraînement des applications IA, en utilisant les données d'entreprise pour personnaliser les modèles génératifs. Sa plateforme offre des outils pour collecter, organiser et annoter les données, tout en optimisant et évaluant les modèles pour garantir des performances IA adaptées aux besoins des entreprises.
+
+  positions:
+  - designation: Software Engineer Freelance
+    start: Feb 2023
+    end: Jun 2024
+    responsibilities:
+    - J'ai amélioré l'efficacité du chatbot en fournissant un code de haute qualité pour les systèmes d'IA conversationnelle, ce qui a conduit à une augmentation de la satisfaction des utilisateurs et à une meilleure cohérence des réponses.
+    - J'ai amélioré la qualité des ensembles de données en collaborant avec des équipes interfonctionnelles pour créer des ensembles de données de haute qualité, augmentant ainsi la précision des modèles.
+
+- company:
+    name: Zowl Labs
+    url: "https://www.zowllabs.com/"
+    location: Buenos Aires, AR
+    logo: /images/sections/experiences/zowllabs_logo.jpeg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company1.jpg
+    # company overview
+    overview: Zowl Labs est une startup reconnue pour son diagnostic de santé basé sur l'IA dans des environnements professionnels.
+  positions:
+  - designation: Computer Vision Developer
+    start: Aug 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Feb 2023
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - J'ai accéléré le flux de travail du projet en supervisant l'ensemble du cycle de vie des modèles de vision par ordinateur, de la collecte des données au déploiement.
+    - J'ai optimisé les performances du modèle en concevant et en mettant en œuvre un prototype physique pour une configuration expérimentale de vision par ordinateur, garantissant des conditions d'évaluation précises.
+    - J'ai fourni des informations de recherche de pointe chaque mois, conduisant à une innovation continue et à de meilleurs résultats pour le projet.
