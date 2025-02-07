@@ -70,7 +70,7 @@ degrees:
   - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
   - Duis sed massa feugiat, ornare justo et, aliquam est.
   - Pellentesque ut fringilla magna.
-  custonSections: #(optional)
+  customSections: #(optional)
     - name: Thesis
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     - name: Supervisor
