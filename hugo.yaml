@@ -25,11 +25,6 @@ languages:
     languageName: English
     title: "John's Blog"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
 # default language for the content
 defaultContentLanguage: en
 
@@ -58,16 +53,16 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  background: /images/site/gray.png
   # Background image of the landing page for dark theme
-  #darkBackground: /images/site/background.jpg
+  darkBackground: /images/site/gray.png
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/author/carlos-circle.png
+    inverted: /images/author/carlos-circle.png
+    favicon: /images/author/carlos-circle.png
 
   # GitHub repo of your site
   gitRepo: https://github.com/carlos-collado/portfolio.git
@@ -100,7 +95,7 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: true
+      enable: false
       showAuthor: true # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
