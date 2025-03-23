@@ -1,4 +1,3 @@
-# section information
 section:
   name: Skills
   id: skills
@@ -6,66 +5,208 @@ section:
   weight: 2
   showOnNavbar: true
   filter: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
+  # hideTitle: true  # (Uncomment if you want to hide the section title)
 
-# filter buttons
+# Filter Buttons
 buttons:
 - name: All
   filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
-  filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+- name: Main
+  filter: "cat_main"
+- name: Languages
+  filter: "cat_lang"
+- name: Machine Learning & AI
+  filter: "cat_ai"
+- name: Cloud & DevOps
+  filter: "cat_devops"
+- name: High-Performance Computing
+  filter: "cat_hpc"
+- name: Domain Knowledge
+  filter: "cat_domain"
 
-# Your Skills.
-# Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+  - name: "Python"
+    logo: "/images/sections/skills/python.png"
+    summary: "My primary coding language, used extensively in research, internships, and personal projects."
+    categories: ["cat_main", "cat_lang", "cat_ai"]
+    url: "https://www.python.org/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+  - name: "PyTorch"
+    logo: "/images/sections/skills/pytorch.png"
+    summary: "My preferred deep learning framework. Proficient also with torchvision, torchaudio, and torchsummary."
+    categories: ["cat_main", "cat_ai"]
+    url: "https://pytorch.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+  - name: "Computer Vision (CV)"
+    logo: "/images/sections/skills/computervision.png"
+    summary: "Proficient in image processing and CV architectures, such as ResNet, U-Net, ViT, and MAE (Masked AutoEncoder)."
+    categories: ["cat_main", "cat_ai"]
+    url: "https://pytorch.org/vision/stable/index.html"
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
+  - name: "Natural Language Processing (NLP)"
+    logo: "/images/sections/skills/nlp.png"
+    summary: "Proficient with transformer-based models (GPT, T5, BERT, etc.), tokenization, retrieval-augmented generation, etc."
+    categories: ["cat_main", "cat_ai"]
+    url: "https://huggingface.co/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+  - name: "Docker"
+    logo: "/images/sections/skills/docker.svg"
+    summary: "Highly skilled in containerizing applications for edge AI deployment and simulation workflows."
+    categories: ["cat_main", "cat_devops"]
+    url: "https://www.docker.com/"
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+  - name: "SQL"
+    logo: "/images/sections/skills/sql.png"
+    summary: "Skilled in database queries, schema design, and relational DB management, primarily from my load forecasting internship."
+    categories: ["cat_main", "cat_lang"]
+    url: "https://www.postgresql.org/"
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
+  - name: "Git"
+    logo: "/images/sections/skills/git.png"
+    summary: "Proficient in version control. Mostly use GitHub, but also have experience in GitLab."
+    categories: ["cat_main", "cat_lang"]
+    url: "https://git-scm.com/"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+  - name: "C++"
+    logo: "/images/sections/skills/c++.png"
+    summary: "Robust experience, especially in HPC contexts (CUDA, MPI, OpenMP)."
+    categories: ["cat_main", "cat_lang", "cat_hpc"]
+    url: "https://isocpp.org/"
+
+  - name: "Linux CLI"
+    logo: "/images/sections/skills/linux.png"
+    summary: "Proficient in shell scripting and command-line workflows; using it as the main OS for AI projects (through VMs)."
+    categories: ["cat_main", "cat_lang", "cat_devops"]
+    url: "https://www.linux.org/"
+
+  - name: "Foundation Models & Self-Supervised Learning"
+    logo: "/images/sections/skills/foundationmodel.png"
+    summary: "Working with large-scale pre-trained models and fine-tuning (few-shot and zero-shot)."
+    categories: ["cat_main", "cat_ai"]
+    url: "https://arxiv.org/abs/2108.07258"
+
+  - name: "Multimodal ML"
+    logo: "/images/sections/skills/multimodal.png"
+    summary: "Combining text, vision, audio, and other modalities (e.g., CLIP, Flamingo, Speech-to-Text)."
+    categories: ["cat_main", "cat_ai"]
+    url: "https://arxiv.org/abs/2106.08203"
+
+  - name: "Other DL Frameworks (ONNX, TensorFlow, Keras, JAX, OpenVINO)"
+    logo: "/images/sections/skills/tensorflow.png"
+    summary: "Experience with ONNX, TensorFlow, Keras, JAX, and OpenVINO—especially converting models among frameworks."
+    categories: ["cat_ai"]
+    url: "https://onnx.ai/"
+
+  - name: "Multi-node DDP"
+    logo: "/images/sections/skills/ddp.png"
+    summary: "Distributed Data Parallel for large-scale deep learning on multiple nodes."
+    categories: ["cat_ai", "cat_hpc"]
+    url: "https://pytorch.org/docs/stable/distributed.html"
+
+  - name: "Result Logging (TensorBoard, W&B)"
+    logo: "/images/sections/skills/wandb.png"
+    summary: "Tracking experiments, metrics, and visualizations."
+    categories: ["cat_ai"]
+    url: "https://pytorch.org/tutorials/recipes/recipes/tensorboard_with_pytorch.html"
+
+  - name: "Time Series Analysis"
+    logo: "/images/sections/skills/timeseries.png"
+    summary: "Forecasting and modeling techniques (especially in the electricity market)."
+    categories: ["cat_main", "cat_ai"]
+    url: "https://en.wikipedia.org/wiki/Time_series"
+
+  - name: "CUDA"
+    logo: "/images/sections/skills/cuda.png"
+    summary: "GPU parallel computing for accelerating numerical workloads (in both Python and C++)."
+    categories: ["cat_ai", "cat_hpc"]
+    url: "https://developer.nvidia.com/cuda-zone"
+
+  - name: "Model Pruning & Distillation"
+    logo: "/images/sections/skills/pruning.png"
+    summary: "Techniques to reduce model size and compute load (e.g., EfficientViT, DynamicViT, NViT)."
+    categories: ["cat_ai"]
+    url: "https://arxiv.org/abs/1506.02626"
+
+  - name: "Automatic Mixed Precision (AMP)"
+    logo: "/images/sections/skills/amp.png"
+    summary: "Accelerating training without performance impacts."
+    categories: ["cat_ai"]
+    url: "https://pytorch.org/docs/stable/amp.html"
+
+  - name: "Quantization Aware Training (QAT)"
+    logo: "/images/sections/skills/qat.png"
+    summary: "Reducing model precision for inference efficiency (edge deployment)."
+    categories: ["cat_ai"]
+    url: "https://pytorch.org/docs/stable/quantization.html"
+
+  - name: "SLURM"
+    logo: "/images/sections/skills/slurm.svg"
+    summary: "Proficient in scheduling and managing compute-cluster jobs on HPC systems."
+    categories: ["cat_hpc"]
+    url: "https://slurm.schedmd.com/"
+
+  - name: "MPI"
+    logo: "/images/sections/skills/mpi.png"
+    summary: "Message Passing Interface for parallel computing on distributed-memory systems (in Python and C++)."
+    categories: ["cat_hpc"]
+    url: "https://www.mpi-forum.org/"
+
+  - name: "GPU/CPU Memory Profiling"
+    logo: "/images/sections/skills/prof.png"
+    summary: "Profiling and optimizing resource usage for high-performance computations."
+    categories: ["cat_hpc"]
+    url: "https://docs.nvidia.com/cuda/profiler-users-guide/index.html"
+
+  - name: "Matlab"
+    logo: "/images/sections/skills/matlab.png"
+    summary: "Highly skilled in numerical methods, simulations, and control engineering (including Simulink)."
+    categories: ["cat_lang"]
+    url: "https://www.mathworks.com/"
+
+  - name: "Web Development"
+    logo: "/images/sections/skills/web.png"
+    summary: "Experience with HTML, CSS, and JavaScript (e.g., this website, advanced data visualizations)."
+    categories: ["cat_lang"]
+    url: "#"
+
+  - name: "SSH"
+    logo: "/images/sections/skills/ssh.png"
+    summary: "Proficient in working with virtual machines via SSH (at EPFL, ESA, etc.)."
+    categories: ["cat_devops"]
+    url: "https://man.openbsd.org/ssh"
+
+  - name: "Google Cloud"
+    logo: "/images/sections/skills/googlecloud.png"
+    summary: "Experience with deploying and scaling applications on GCP, primarily from my load forecasting internship."
+    categories: ["cat_devops"]
+    url: "https://cloud.google.com/"
+
+  - name: "Geospatial Data Acquisition"
+    logo: "/images/sections/skills/sentinelhub.png"
+    summary: "Proficient in SentinelHub API, MajorTOM, and Copernicus Browser."
+    categories: ["cat_domain"]
+    url: "https://www.sentinel-hub.com/"
+
+  - name: "Geospatial Data Handling"
+    logo: "/images/sections/skills/gdal.png"
+    summary: "Experience with GDAL, Raster, GeoTIFF, GeoPandas, PyProj, Folium, etc."
+    categories: ["cat_domain"]
+    url: "https://gdal.org/"
+
+  - name: "Renewable Energy"
+    logo: "/images/sections/skills/renewable.png"
+    summary: "Knowledge of solar energy generation, heat transfer, green hydrogen, desalination, and more."
+    categories: ["cat_domain"]
+    url: "https://www.nrel.gov/"
+
+  - name: "Electricity Market"
+    logo: "/images/sections/skills/electricity.png"
+    summary: "Experience with market dynamics, pricing models, and trading of electric power."
+    categories: ["cat_main", "cat_domain"]
+    url: "https://en.wikipedia.org/wiki/Electricity_market"
+
+  - name: "Bayesian Optimization"
+    logo: "/images/sections/skills/bayes.png"
+    summary: "Gained experience during a research project (soon to be published) on multi-agent Bayesian optimization."
+    categories: ["cat_ai"]
+    url: "https://en.wikipedia.org/wiki/Bayesian_optimization"

@@ -6,68 +6,53 @@ section:
   weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
-  # hideTitle: true 
+  # hideTitle: true
 
 # Your experiences
 experiences:
-- company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company1.jpg
-    # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
-  positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
-    responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: "European Space Agency (ESA)"
+    url: "https://philab.esa.int/our-people/"
+    location: "Frascati, Italy"
+    logo: "/images/sections/experiences/esa.png"
+    overview: "At ESRIN, ESA's Centre for Earth Observation, specifically at Φ-lab's Explore Office, the research unit focused on AI."
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - designation: "Machine Learning Research Intern"
+      start: "Sep 2024"
+      end: "Feb 2025"   # Omit or comment out this line if you'd like it to show 'Present'
+      responsibilities:
+        - "Pretrained a Foundation Model for onboard AI (Φsat-2) via multi-task learning with multi-node DDP."
+        - "Created 800+ GB datasets to pretrain and benchmark model against SOTA models (Prithvi, SatMAE, SeCo)."
+        - "Developed a novel Sentinel-2 preprocessing technique that accelerates model training."
+        - "Created a database to compare training policies, architectures, and datasets of Foundation Models for EO."
+        - "First author on an upcoming paper, working with experts in onboard AI, Foundation Models, and dataset creation."
+        - "Accepted (with funding) to present my work at the ESA-NASA International Workshop on AI Foundation Models for EO."
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: "Peninsula Clean Energy"
+    url: "https://www.peninsulacleanenergy.com"
+    location: "Redwood City, CA (Silicon Valley)"
+    logo: "/images/sections/experiences/pce.png"
+    overview: "Pioneering community-led electricity provider delivering affordable, renewable energy in San Mateo County (Silicon Valley) and beyond."
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
-    responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - designation: "Data Science Intern"
+      start: "June 2023"
+      end: "Sept 2023"
+      responsibilities:
+        - "Improved by 10% the long-term forecast of the electricity demand in Silicon Valley."
+        - "Designed a ML model that identified key trends in load divergence of up to 15%."
+
+- company:
+    name: "Tecnicas Reunidas"
+    url: "https://track.tecnicasreunidas.es/en/"
+    location: "Madrid, Spain"
+    logo: "/images/sections/experiences/tecnicasreunidas.svg.png"
+    overview: "Global leader in engineering and construction, specializing in energy and industrial projects. Worked in the energy transition division."
+  positions:
+    - designation: "Engineering Intern"
+      start: "May 2022"
+      end: "July 2022"
+      responsibilities:
+        - "Benchmarked green hydrogen technology technical and economic specifications."
+        - "Led a study on the success rate of energy transition projects."

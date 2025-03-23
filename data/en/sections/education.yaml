@@ -10,13 +10,13 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
+- name: M.Sc. in Computational Science and Engineering
   icon: fa-microscope
   timeframe: 2016-2020
   institution:
     name: ABC University of Technology
     url: "#"
-    logo: /images/sections/education/tech_college.png
+    logo: /images/sections/education/epfl.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/tech_college.png
   grade: #(optional)
