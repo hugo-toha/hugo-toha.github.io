@@ -19,7 +19,7 @@ experiences:
     overview: "Directed by Professor [Devis Tuia](https://scholar.google.com/citations?user=p3iJiLIAAAAJ&hl=en), the Environmental Computational Science and Earth Observation Laboratory (ECEO) focuses on applying artificial intelligence to Earth observation data."
   positions:
     - designation: "Sensor-Agnostic Foundation Model Compression for Onboard AI "
-      start: "Feb 2025"
+      start: "Feb. 2025"
       end: "Present"   # Omit or comment out this line if you'd like it to show 'Present'
       responsibilities:
         - "Compressing ViT-based Foundation Models via pruning and knowledge distillation (DynamicViT, NViT)."
@@ -73,7 +73,7 @@ experiences:
   positions:
     - designation: "Performance modeling and cost optimization of a solar desalination system"
       start: "Jan. 2022"
-      end: "May. 2024"
+      end: "May 2024"
       responsibilities:
         - "Designed and simulated the electrical and thermal behavior of a solar-thermal desalination system."
         - "Optimized cost and energy use to competitive market levels via Particle Swarm Optimization (PSO)."
