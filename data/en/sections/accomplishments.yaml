@@ -2,7 +2,7 @@
 section:
   name: Accomplishments
   id: accomplishments
-  enable: true
+  enable: false
   weight: 9
   showOnNavbar: true
   # Can optionally hide the title in sections

@@ -5,6 +5,7 @@ section:
   enable: true
   weight: 5
   showOnNavbar: true
+  template: sections/projects.html
   # Can optionally hide the title in sections
   # hideTitle: true
 
@@ -14,10 +15,12 @@ buttons:
   filter: "all"
 - name: Machine Learning & AI
   filter: "machine-learning"
-- name: Design
+- name: Design & Web
   filter: "design"
-- name: Energy & Environment
-  filter: "energy"
+- name: Sustainability
+  filter: "sustainability"
+- name: Publications
+  filter: "publications"
 
 # your projects
 
@@ -30,7 +33,7 @@ projects:
   # repo: https://github.com/carlos-collado/phi2FM # If your project is a public repo on GitHub, then provide this link. it will show star count.
   # url: "https://github.com/carlos-collado/phi2FM"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Techniques to reduce model size and compute load (e.g., EfficientViT, DynamicViT, NViT) of ViTs for EO.
-  tags: ["machine-learning", "computer-vision", "foundation-model", "remote-sensing", "model-compression"]
+  tags: ["machine-learning", "computer-vision", "foundation-model", "remote-sensing", "model-compression", "ViT", "DDP", "geospatial-data"]
 
 
 
@@ -41,8 +44,8 @@ projects:
   timeline: "March 2024 - Present"
   # repo: https://github.com/carlos-collado/phi2FM # If your project is a public repo on GitHub, then provide this link. it will show star count.
   url: "https://drive.google.com/file/d/1uVaNudcAH_pWEYi0gZT20hjQu_tsddWC/view?usp=sharing"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Combined video (ViT), audio (MFCC), and text (BERT) modalities via cross-modal attention. In details see status of the project in May 2024. Because of its potential, expanded into a conference publication since then.
-  tags: ["machine-learning", "computer-vision", "NLP", "remote-sensing", "dataset-creation"]
+  summary: Combined video (ViT), audio (MFCC), and text (BERT) modalities via cross-modal attention. Because of its potential, expanded into a conference publication since May 2024 (report under "Details").
+  tags: ["machine-learning", "computer-vision", "foundation-model", "remote-sensing", "dataset-creation", "publications"]
 
 
 
@@ -54,22 +57,113 @@ projects:
   # repo: https://github.com/carlos-collado/phi2FM # If your project is a public repo on GitHub, then provide this link. it will show star count.
   url: "https://github.com/carlos-collado/phi2FM"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Main project during my time at ESA. Φsat-2 dataset creation, pretraining, and benchmarking.
-  tags: ["machine-learning", "computer-vision", "foundation-model", "remote-sensing", "dataset-creation"]
+  tags: ["machine-learning", "computer-vision", "foundation-model", "remote-sensing", "dataset-creation", "DDP", "geospatial-data", "publications"]
 
 
 
 - name: "Multi-Agent Bayesian Optimization in Building Temperature Control"
   logo: /images/sections/projects/renewable.png
-  image: /images/sections/projects/dmabo.png
+  image: /images/sections/projects/bayesian.png
   # role: First Author
   timeline: "Feb. 2024 - July 2024"
   # repo: https://github.com/carlos-collado/phi2FM # If your project is a public repo on GitHub, then provide this link. it will show star count.
   url: "https://github.com/carlos-collado/bayesian-opt-multi-agent"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Implemented and parallelized a multi-agent bayesian optimization algorithm. Collaborated until October to publish results (currently under review).
-  tags: ["machine-learning", "optimization", "electricity-market", "bayesian-opt", "gaussian-process", "sustainability"]
+  tags: ["machine-learning", "optimization", "electricity-market", "bayesian-opt", "gaussian-process", "sustainability", "publications"]
 
 
 
+- name: "Coin Detection Challenge"
+  logo: /images/sections/projects/pytorch.png
+  image: /images/sections/projects/coins.jpg
+  # role: First Author
+  timeline: "March 2024 - June 2024"
+  # repo: https://github.com/carlos-collado/phi2FM # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://github.com/carlos-collado/coin-detection-challenge"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Using OpenCV for circle-based segmentation, transfer learning (with a basic AlexNet), we achieved a 0.9740 public score, 4th best in competition.
+  tags: ["machine-learning", "computer-vision", "image-processing"]
+
+
+
+- name: "Advanced Data Visualization: VineMap"
+  logo: /images/sections/projects/data.png
+  image: /images/sections/projects/datavis.png
+  # role: First Author
+  timeline: "March 2024 - June 2024"
+  # repo: https://github.com/carlos-collado/phi2FM # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://github.com/carlos-collado/coin-detection-challenge"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Used tools like HTML, CSS, D3.js, and weather APIs to create interactive visualizations (map, treemap, area chart, bar chart animation, scatterplot) and storytelling components.
+  tags: ["web-development", "data-visualization", "data-analysis", "design"]
+
+
+
+- name: "Catch the Bias! Learning AI Fairness"
+  logo: /images/sections/projects/art.png
+  image: /images/sections/projects/twinery.png
+  # role: First Author
+  timeline: "Oct. 2023 - May 2024"
+  # repo: https://github.com/carlos-collado/phi2FM # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://drive.google.com/file/d/1Glat6qBApHn_2obcZx1qGcrU1uEUTY70/view?usp=sharing"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: We designed a non-linear cooperative game on AI ethics using Twine (no-code tool), featuring 6 scenarios ranging from facial recognition and university admissions to biased word embeddings.
+  tags: ["design", "ai-ethics", "no-code", "machine-learning", "web-development"]
+
+
+
+- name: "RCNNs for coronal jets identification"
+  logo: /images/sections/projects/pytorch.png
+  image: /images/sections/projects/solarjets.jpeg
+  # role: First Author
+  timeline: "Oct. 2023 - Jan. 2024"
+  # repo: https://github.com/carlos-collado/phi2FM # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://drive.google.com/file/d/15cPaSS5KsVAqGjo_yuK3Sv4b9-HMZhWH/view?usp=sharing"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: "Built an RCNN to detect solar coronal jets in image sequences, using SunPy to retrieve citizen science–labeled data. In collaboration with ESA researcher."
+  tags: ["machine-learning", "computer-vision"]
+
+
+- name: "Analysis of Wikispeedia: A Game on Finding Paths in Wikipedia"
+  logo: /images/sections/projects/data.png
+  image: /images/sections/projects/wikispeedia.png
+  # role: First Author
+  timeline: "Sept. 2023 - Jan. 2024"
+  # repo: https://github.com/carlos-collado/phi2FM # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://danielx278.github.io/data-story/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: "Created human-like agents for the Wikispeedia game using HuggingFace Transformers, NetworkX for graph analysis, and Plotly/Seaborn for visualizations."
+  tags: ["machine-learning", "data-analysis", "web-development", "data-visualization", "graph-analysis", "design"]
+
+
+- name: "GoogleOurMaps: A Social-Based Map Search Engine"
+  logo: /images/sections/projects/art.png
+  image: /images/sections/projects/ourmaps.png
+  # role: First Author
+  timeline: "Aug. 2022 - Dec. 2023"
+  # repo: https://github.com/carlos-collado/phi2FM # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://danielx278.github.io/data-story/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: "Developed a social-based map search engine prototype (Figma), integrating Agile practices and strategic business planning, collaborating with experts at GoogleMaps and TripAdvisor."
+  tags: ["product-management", "entrepreneurship", "web-development", "app-development", "figma", "business-planning", "design"]
+
+
+
+- name: "Technology Consultant: Optimizing Energy and Plastic Consumption"
+  logo: /images/sections/projects/art.png
+  image: /images/sections/projects/deplastify.png
+  # role: First Author
+  timeline: "Jan. 2023 - May. 2023"
+  # repo: https://github.com/carlos-collado/phi2FM # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://drive.google.com/file/d/19cnG1LfQDx0CXyzqne0gV5PbChEe98Ai/view?usp=sharing"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: "Optimized energy consumption on production lines of Sidel (TetraPak), resulting in $47,000 in annual cost savings."
+  tags: ["consulting", "entrepreneurship", "technology-scout", "figma", "business-planning", "design", "sustainability"]
+
+
+
+- name: "Performance modeling and cost optimization of a solar desalination system "
+  logo: /images/sections/projects/renewable.png
+  image: /images/sections/projects/trnsys.jpeg
+  # role: First Author
+  timeline: "Jan. 2022 - May. 2024"
+  # repo: https://github.com/carlos-collado/phi2FM # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://doi.org/10.1016/j.renene.2024.120866"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: "Optimized cost and energy use to competitive market levels via Particle Swarm Optimization (PSO). First-author publication in journal Renewable Energy (IF 9.0)."
+  tags: ["renewable-energy", "optimization", "control", "thermal", "simulation", "sustainability", "publications"]
 
 
 

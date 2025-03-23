@@ -8,7 +8,7 @@ template: sections/home_ai.html
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "carlos.colladocapell@epfl.ch"
-  phone: "+34 688 91 37 61"
+  # phone: "+34 688 91 37 61"
   github: carlos-collado
   linkedin: carlos-collado-
   # researchgate: john-doe
