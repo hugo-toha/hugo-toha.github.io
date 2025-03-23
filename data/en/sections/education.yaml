@@ -10,95 +10,118 @@ section:
   # hideTitle: true
 
 degrees:
-- name: M.Sc. in Computational Science and Engineering
-  icon: fa-microscope
-  timeframe: 2016-2020
+- name: M.Sc. in Computational Science and Engineering (120 ECTS)
+  icon: fa-computer
+  timeframe: Sept. 2023 - Jan. 2026
   institution:
-    name: ABC University of Technology
-    url: "#"
+    name: "EPFL: Swiss Federal Institute of Technology Lausanne"
+    url: "https://www.epfl.ch/en/"
     logo: /images/sections/education/epfl.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/tech_college.png
   grade: #(optional)
     scale: CGPA
-    achieved: 3.6
-    outOf: 4
+    achieved: 5.43
+    outOf: 6.00
   publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
-  icon: fa-graduation-cap
-  timeframe: 2012-2016
-  institution:
-    name: University of XYZ
-    url: "#"
-    logo: /images/sections/education/university.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/university.jpg
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
+  - title: "Multi-Agent Constrained Bayesian Optimization (Submitted, Under Review)"
+  - title: "HateVATC: Multi-Modal Hate Speech Detection in Videos (To be submitted in the next month)"
+  takenCourses:
+    showGrades: false
     collapseAfter: 3
     courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-  customSections: #(optional)
-    - name: Thesis
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - name: Supervisor
-      content: Fusce eu augue ut odio porttitor pulvinar.
-- name: Higher Secondary School Certificate
-  icon: fa-university
-  timeframe: 2010-2012
+      - name: Modern Natural Language Processing
+        achieved: NA
+        outOf: 6.00
+      - name: Applied Data Analysis
+        achieved: NA
+        outOf: 6.00
+      - name: Deep Learning
+        achieved: NA
+        outOf: 6.00
+      - name: Image Processing II
+        achieved: NA
+        outOf: 6.00
+      - name: Parallel and high-performance computing
+        achieved: NA
+        outOf: 6.00
+      - name: Computational Linear Algebra
+        achieved: NA
+        outOf: 6.00
+      - name: "Others: Data Visualization, Machine Learning, Parallelism and concurrency in software, Image analysis and pattern recognition, Numerical analysis and computational mathematics"
+        achieved: NA
+        outOf: 6.00
+  customSections:
+    - name: Awards
+      content: |
+        - [Nova 111 Student List (2025)](https://www.novatalent.com/111/spain/student-list/2025): Selected as one of the 111 students that will change the future of Spain.
+        - [Fellowship Mutua Madrileña Foundation (2023)](https://www.fundacionmutua.es/accion-social/jovenes/becas-posgrado/convocatoria-anterior/2023/): To fully cover my master’s tuition and accommodation expenses.
+
+
+- name: B.Sc. in Industrial Technologies Engineering (240 ECTS)
+  icon: fa-gear
+  timeframe: Sept. 2019 - May 2023
   institution:
-    name: MST College of Science
-    url: "#"
-    logo: /images/sections/education/science_college.png
+    name: "UC3M: University Carlos III of Madrid"
+    url: "https://www.uc3m.es/Home"
+    logo: /images/sections/education/uc3m.png
     # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/science_college.png
+    # darkLogo: /images/sections/education/tech_college.png
   grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
-  icon: fa-school
-  timeframe: 2005-2010
+    scale: CGPA
+    achieved: 9.32
+    outOf: "10.00 (Valedictorian: #1/159)"
+  customSections:
+    - name: Thesis
+      content: |
+        - Performance modeling and cost optimization of a solar desalination system using forward osmosis with energy storage.
+        - Published at Journal. Grade: 10/10
+  customSections:
+    - name: Awards
+      content: |
+        - [Bachelor's Degree Extraordinary Award (2023)](https://www.linkedin.com/in/carlos-collado-/details/honors/1635551134659/single-media-viewer/?profileId=ACoAAC_wNAMBRLDgxNjlJcI9fJrvq76AivJag0w): Best academic record of my year (#1/159).
+        - [Award of Excellence of Madrid (2019, 2020, 2021, 2022, 2023)](https://www.comunidad.madrid/servicios/educacion/becas-excelencia-universitarios): Among the top 1% of students in the region.
+        - [Excellence Award of University Carlos III of Madrid Social Council (2022)](https://www.uc3m.es/consejosocial/media/consejosocial/doc/archivo/doc_premios-exc-2022---resolucion-ganadores/resolucion-premios-excelencia-2022-v1_justificante.pdf): Given to the top 8 students in STEM majors based on academic achievements, among more than 5000 students.
+        - [Santander Excellence Scholarship (2021, 2022)](https://www.uc3m.es/online-secretary/non-european-mobility-call#financiacion): Awarded to top students with extra funding for studies abroad.
+        - [University Carlos III of Madrid Talent Program (2019)](https://www.linkedin.com/in/carlos-collado-/details/honors/1635547613476/single-media-viewer/?profileId=ACoAAC_wNAMBRLDgxNjlJcI9fJrvq76AivJag0w): Awarded to the top 30 (2%) of admitted STEM students.
+        - Honors in University Courses: Top 5% with excellent grades in 14 courses, for a total of 84 ECTS.
+
+
+- name: Exchange Scholarship during B.Sc. (60 ECTS)
+  icon: fa-plane
+  timeframe: Aug. 2022 - May 2023
   institution:
-    name: JK School of Science
+    name: "University of California, Berkeley"
+    url: "https://www.berkeley.edu/"
+    logo: /images/sections/education/berkeley.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/tech_college.png
   grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+    scale: CGPA
+    achieved: 3.85
+    outOf: 4.00
+  extracurricularActivities: #(optional)
+  - "[Berkeley Certificate in Technology and Entrepreneurship](https://www.linkedin.com/in/carlos-collado-/details/certifications/1635545049285/single-media-viewer/?profileId=ACoAAC_wNAMBRLDgxNjlJcI9fJrvq76AivJag0w): product development, and technical consulting."
+  - "[Berkeley Changemaker Certificate](https://changemaker.berkeley.edu/berkeley-changemaker-certificate-completion): first at Berkeley to receive it - critical thinking, communication, and collaboration."
+  - "[The Berkeley Changemaker Program](https://executive.berkeley.edu/programs/berkeley-changemaker-program): involved in cleaning mountain trails to promote nature conservation."
+
+
+- name: Exchange Scholarship during B.Sc. (60 ECTS)
+  icon: fa-plane
+  timeframe: Aug. 2021 - May 2022
+  institution:
+    name: "Georgia Tech: Georgia Institute of Technology"
+    url: "https://www.gatech.edu/"
+    logo: /images/sections/education/gatech.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/tech_college.png
+  grade: #(optional)
+    scale: CGPA
+    achieved: 3.85
+    outOf: 4.00
+  extracurricularActivities: #(optional)
+  - "[i-Atlanta President](https://ihouse.gatech.edu/Committees): Organized activities in Atlanta for international students (budget/team management)."
+  - "[Geography Tournament Lead](https://ihouse.gatech.edu/): co-led the the successful tournament (ideation, budget, regulations)."
+  - "[The Campus Kitchen Project](https://gatech.campuslabs.com/engage/organization/the-campus-kitchen-project): package leftover dining hall food to improve sustainability and reduce food waste on campus."
+
+

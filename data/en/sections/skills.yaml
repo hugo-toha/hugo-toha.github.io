@@ -5,12 +5,13 @@ section:
   weight: 2
   showOnNavbar: true
   filter: true
+  template: sections/skills_mod.html
   # hideTitle: true  # (Uncomment if you want to hide the section title)
 
 # Filter Buttons
 buttons:
-- name: All
-  filter: "all"
+# - name: All
+#   filter: "all"
 - name: Main
   filter: "cat_main"
 - name: Languages
@@ -58,7 +59,7 @@ skills:
   - name: "SQL"
     logo: "/images/sections/skills/sql.png"
     summary: "Skilled in database queries, schema design, and relational DB management, primarily from my load forecasting internship."
-    categories: ["cat_main", "cat_lang"]
+    categories: ["cat_lang"]
     url: "https://www.postgresql.org/"
 
   - name: "Git"
@@ -76,7 +77,7 @@ skills:
   - name: "Linux CLI"
     logo: "/images/sections/skills/linux.png"
     summary: "Proficient in shell scripting and command-line workflows; using it as the main OS for AI projects (through VMs)."
-    categories: ["cat_main", "cat_lang", "cat_devops"]
+    categories: ["cat_lang", "cat_devops"]
     url: "https://www.linux.org/"
 
   - name: "Foundation Models & Self-Supervised Learning"
