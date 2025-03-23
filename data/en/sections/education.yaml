@@ -21,11 +21,8 @@ degrees:
     # darkLogo: /images/sections/education/tech_college.png
   grade: #(optional)
     scale: CGPA
-    achieved: 5.43
-    outOf: 6.00
-  publications: #(optional)
-  - title: "Multi-Agent Constrained Bayesian Optimization (Submitted, Under Review)"
-  - title: "HateVATC: Multi-Modal Hate Speech Detection in Videos (To be submitted in the next month)"
+    achieved: "5.43"
+    outOf: "6.00"
   takenCourses:
     showGrades: false
     collapseAfter: 3
@@ -52,6 +49,11 @@ degrees:
         achieved: NA
         outOf: 6.00
   customSections:
+    - name: Research Projects
+      content: |
+        - Multi-Agent Constrained Bayesian Optimization (submitted to journal paper, Under Review)
+        - HateVATC: Multi-Modal Hate Speech Detection in Videos (to be submitted in the next month)
+        - Sensor-Agnostic Foundation Model Compression for Onboard AI
     - name: Awards
       content: |
         - [Nova 111 Student List (2025)](https://www.novatalent.com/111/spain/student-list/2025): Selected as one of the 111 students that will change the future of Spain.
@@ -69,7 +71,7 @@ degrees:
     # darkLogo: /images/sections/education/tech_college.png
   grade: #(optional)
     scale: CGPA
-    achieved: 9.32
+    achieved: "9.32"
     outOf: "10.00 (Valedictorian: #1/159)"
   customSections:
     - name: Thesis
@@ -98,8 +100,8 @@ degrees:
     # darkLogo: /images/sections/education/tech_college.png
   grade: #(optional)
     scale: CGPA
-    achieved: 3.85
-    outOf: 4.00
+    achieved: "3.85"
+    outOf: "4.00"
   extracurricularActivities: #(optional)
   - "[Berkeley Certificate in Technology and Entrepreneurship](https://www.linkedin.com/in/carlos-collado-/details/certifications/1635545049285/single-media-viewer/?profileId=ACoAAC_wNAMBRLDgxNjlJcI9fJrvq76AivJag0w): product development, and technical consulting."
   - "[Berkeley Changemaker Certificate](https://changemaker.berkeley.edu/berkeley-changemaker-certificate-completion): first at Berkeley to receive it - critical thinking, communication, and collaboration."
@@ -117,33 +119,37 @@ degrees:
     # darkLogo: /images/sections/education/tech_college.png
   grade: #(optional)
     scale: CGPA
-    achieved: 3.85
-    outOf: 4.00
+    achieved: "4.00"
+    outOf: "4.00"
   extracurricularActivities: #(optional)
   - "[i-Atlanta President](https://ihouse.gatech.edu/Committees): Organized activities in Atlanta for international students (budget/team management)."
   - "[Geography Tournament Lead](https://ihouse.gatech.edu/): co-led the the successful tournament (ideation, budget, regulations)."
   - "[The Campus Kitchen Project](https://gatech.campuslabs.com/engage/organization/the-campus-kitchen-project): package leftover dining hall food to improve sustainability and reduce food waste on campus."
 
 
+# - name: High School Diploma (Bachillerato)
+#   icon: fa-school
+#   timeframe: Sept. 2017 - May 2019
+#   institution:
+#     name: "Colegio San Jaime"
+#     url: "https://colegiosanjaime.es/"
+#     logo: /images/sections/education/sanjaime.png
+#     # Can optionally show a different logo for dark theme
+#     # darkLogo: /images/sections/education/tech_college.png
+#   grade: #(optional)
+#     scale: CGPA
+#     achieved: 9.95
+#     outOf: 10.00
+#   extracurricularActivities: #(optional)
+#   - "[Computer tutor](https://drive.google.com/file/d/1gWJPNq8KMT7fQwtzcBjmrxaqWhvBBvVS/view?usp=share_link): at an occupational center for women with disabilities."
+#   - "[High-School Magazine Writer](https://drive.google.com/file/d/1rAvXqKXgvCoxM3qUopiFQYkuh6DxI_X_/view): Increased interest in the high-school magazine by promoting and writing opinion articles."
 
-- name: Colegio San Jaime
-  icon: fa-school
-  timeframe: Sept. 2017 - May 2019
-  institution:
-    name: "Colegio San Jaime"
-    url: "https://colegiosanjaime.es/"
-    logo: /images/sections/education/sanjaime.png
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/tech_college.png
-  grade: #(optional)
-    scale: CGPA
-    achieved: 9.95
-    outOf: 10.00
-  extracurricularActivities: #(optional)
-  - "[Computer tutor](https://drive.google.com/file/d/1gWJPNq8KMT7fQwtzcBjmrxaqWhvBBvVS/view?usp=share_link): at an occupational center for women with disabilities."
-  - "[High-School Magazine Writer](https://ihouse.gatech.edu/): Increased interest in the high-school magazine by promoting and writing opinion articles."
+#   customSections:
+#     - name: Awards
+#       content: |
+#         - [Honors (2019)](https://drive.google.com/file/d/1pVILiJDybqLcmi7OspK7ti3LBh0IV4ZL/view?usp=share_link): Award and scholarship for the top 5% of each year.
 
-  customSections:
-    - name: Awards
-      content: |
-        - [Honors (2019)](https://drive.google.com/file/d/1pVILiJDybqLcmi7OspK7ti3LBh0IV4ZL/view?usp=share_link): Award and scholarship for the top 5% of each year.
+
+
+
+
