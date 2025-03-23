@@ -1,0 +1,87 @@
+# section information
+section:
+  name: Research
+  id: experiences
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+
+- company:
+    name: "EPFL - ECEO Laboratory"
+    url: "https://www.epfl.ch/labs/eceo/"
+    location: "Sion, Switzerland"
+    logo: "/images/sections/education/epfl.png"
+    overview: "Directed by Professor [Devis Tuia](https://scholar.google.com/citations?user=p3iJiLIAAAAJ&hl=en), the Environmental Computational Science and Earth Observation Laboratory (ECEO) focuses on applying artificial intelligence to Earth observation data."
+  positions:
+    - designation: "Sensor-Agnostic Foundation Model Compression for Onboard AI "
+      start: "Feb 2025"
+      end: "Present"   # Omit or comment out this line if you'd like it to show 'Present'
+      responsibilities:
+        - "Compressing ViT-based Foundation Models via pruning and knowledge distillation (DynamicViT, NViT)."
+        - "Pretraining a ViT-Tiny backbone from scratch to benchmark against compressed ViT-Base and ViT-Large."
+        - "Semester Project at EPFL. 12-16 hours per week."
+
+
+
+- company:
+    name: "IDIAP"
+    url: "https://www.idiap.ch/en/about/people#b_start=0&c6=Research+Intern"
+    location: "Martigny, Switzerland (Remote)"
+    logo: "/images/sections/experiences/idiap.png"
+    overview: "Directed by Professor [Andrea Cavallaro](https://scholar.google.com/citations?user=KZmcljoAAAAJ&hl=en), the institute focuses on fundamental research in AI (e.g., original development of Torch, advancements in speech recognition)."
+  positions:
+    - designation: "HateVATC: Multi-Modal Hate Speech Detection in Videos"
+      start: "March 2024"
+      end: "Present"
+      responsibilities:
+        - "Developed a multi-modal deep learning model that outperformed the benchmark on detecting hate speech in video content, integrating cross-modal attention (CMA) across text (BERT), audio (MFCC), and image (ViT) embeddings."
+        - "Explored feature extractors for multi-modal data: Whisper, wav2vec, BERT, RoBERTa, ViT, CLIP."
+        - "Started as a class project at EPFL. Because of its potential, expanded into a conference publication since May 2024. 5-8 hours per week."
+        - "Submission to conference expected in the next month."
+
+
+
+- company:
+    name: "EPFL - Predictive Control Lab"
+    url: "https://www.epfl.ch/labs/la3/"
+    location: "Lausanne, Switzerland"
+    logo: "/images/sections/education/epfl.png"
+    overview: "Directed by Professor [Colin Jones](https://scholar.google.com/citations?user=SulkJJQAAAAJ&hl=en), the lab focuses on data-driven optimization and predictive control methods for large-scale and fast dynamical systems."
+  positions:
+    - designation: "Distributed Multi-Agent Bayesian Optimization in Building Temperature Control"
+      start: "Feb. 2024"
+      end: "Jan. 2025"
+      responsibilities:
+        - "Optimized a multi-agent building cluster system using our lab-developed DMABO algorithm and Bayesian learning to adjust temperature control settings to minimize daily peak energy consumption."
+        - "Enabled multi-node optimization of the algorithm (MPI), and implemented in Python via GPy, Scipy, Pandas."
+        - "Main work done as a semester project at EPFL. 12-16 hours per week. Worked for around 50 hours after that to finalize the paper submission."
+        - "Submitted to a journal in January 2025. Awaiting review."
+
+
+
+- company:
+    name: "Georgia Tech - WERL"
+    url: "https://amenonlab.me.gatech.edu/undergraduate-students-2/"
+    location: "Madrid, Spain"
+    logo: "/images/sections/education/gatech.png"
+    overview: "Directed by Professor [Akanksha Menon](https://www.me.gatech.edu/faculty/menon), the Water–Energy Research Lab (WERL) applies thermal science and functional materials to develop sustainable energy and water technologies."
+  positions:
+    - designation: "Performance modeling and cost optimization of a solar desalination system"
+      start: "Jan. 2022"
+      end: "May. 2024"
+      responsibilities:
+        - "Designed and simulated the electrical and thermal behavior of a solar-thermal desalination system."
+        - "Optimized cost and energy use to competitive market levels via Particle Swarm Optimization (PSO)."
+        - "This project was my bachelor thesis (Grade: 10/10). 18-20 hours per week until May 2022."
+        - "Continued the work afterward ~5 hours per week to finalize technical work and prepare a journal publication."
+        - "Paper published at Renewable Energy Journal (IF 9.0): [https://doi.org/10.1016/j.renene.2024.120866](https://doi.org/10.1016/j.renene.2024.120866)."
+
+
+
+
+

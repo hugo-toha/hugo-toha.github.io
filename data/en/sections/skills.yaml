@@ -2,7 +2,7 @@ section:
   name: Skills
   id: skills
   enable: true
-  weight: 2
+  weight: 3
   showOnNavbar: true
   filter: true
   template: sections/skills_mod.html
@@ -10,8 +10,8 @@ section:
 
 # Filter Buttons
 buttons:
-# - name: All
-#   filter: "all"
+- name: All
+  filter: "all"
 - name: Main
   filter: "cat_main"
 - name: Languages
