@@ -125,3 +125,25 @@ degrees:
   - "[The Campus Kitchen Project](https://gatech.campuslabs.com/engage/organization/the-campus-kitchen-project): package leftover dining hall food to improve sustainability and reduce food waste on campus."
 
 
+
+- name: Colegio San Jaime
+  icon: fa-school
+  timeframe: Sept. 2017 - May 2019
+  institution:
+    name: "Colegio San Jaime"
+    url: "https://colegiosanjaime.es/"
+    logo: /images/sections/education/sanjaime.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/tech_college.png
+  grade: #(optional)
+    scale: CGPA
+    achieved: 9.95
+    outOf: 10.00
+  extracurricularActivities: #(optional)
+  - "[Computer tutor](https://drive.google.com/file/d/1gWJPNq8KMT7fQwtzcBjmrxaqWhvBBvVS/view?usp=share_link): at an occupational center for women with disabilities."
+  - "[High-School Magazine Writer](https://ihouse.gatech.edu/): Increased interest in the high-school magazine by promoting and writing opinion articles."
+
+  customSections:
+    - name: Awards
+      content: |
+        - [Honors (2019)](https://drive.google.com/file/d/1pVILiJDybqLcmi7OspK7ti3LBh0IV4ZL/view?usp=share_link): Award and scholarship for the top 5% of each year.

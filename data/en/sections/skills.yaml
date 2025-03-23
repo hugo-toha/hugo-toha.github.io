@@ -191,7 +191,7 @@ skills:
   - name: "Geospatial Data Handling"
     logo: "/images/sections/skills/gdal.png"
     summary: "Experience with GDAL, Raster, GeoTIFF, GeoPandas, PyProj, Folium, etc."
-    categories: ["cat_domain"]
+    categories: ["cat_main, cat_domain"]
     url: "https://gdal.org/"
 
   - name: "Renewable Energy"

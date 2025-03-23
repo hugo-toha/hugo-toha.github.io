@@ -28,10 +28,8 @@
     <div class="row" id="primary-skills">
   {{ end }}
       {{ range .skills }}
-        {{ if in .categories "cat_main" }}
-          {{ partial "cards/skill.html" . }}
-        {{ end }}
-      {{ end }}
+      {{ partial "cards/skill.html" . }}
+    {{ end }}
     </div>
   </div>
 </div>
