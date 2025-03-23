@@ -44,7 +44,7 @@ projects:
   timeline: "March 2024 - Present"
   # repo: https://github.com/carlos-collado/phi2FM # If your project is a public repo on GitHub, then provide this link. it will show star count.
   url: "https://drive.google.com/file/d/1uVaNudcAH_pWEYi0gZT20hjQu_tsddWC/view?usp=sharing"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Combined video (ViT), audio (MFCC), and text (BERT) modalities via cross-modal attention. Because of its potential, expanded into a conference publication since May 2024 (report under "Details").
+  summary: Combined video (ViT), audio (MFCC), and text (BERT) modalities via cross-modal attention. Because of its potential, expanded into a conference publication since May 2024 (report under "Details" is from May 2024).
   tags: ["machine-learning", "computer-vision", "foundation-model", "remote-sensing", "dataset-creation", "publications"]
 
 
