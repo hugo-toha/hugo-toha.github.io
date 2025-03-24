@@ -1,6 +1,6 @@
 baseURL: https://carloscollado.eu/
 
-languageCode: bn
+languageCode: en
 title: "Carlos's Web"
 
 # Use Hugo modules to add theme
@@ -19,14 +19,14 @@ module:
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
-languages:
-  en:
-    languageCode: en
-    languageName: English
-    title: "Carlos's Web"
-    weight: 1
-# default language for the content
-defaultContentLanguage: en
+# languages:
+#   en:
+#     languageCode: en
+#     languageName: English
+#     title: "Carlos's Web"
+#     weight: 1
+# # default language for the content
+# defaultContentLanguage: en
 
 
 # Allow raw html in markdown file
@@ -192,7 +192,7 @@ params:
 
     # Specify whether to show flag in the language selector. Default is true.
     flags:
-      enable: true
+      enable: false
       # # If you want to use different country flag for a language, specify them here.
       # flagOverwrites:
       #   - languageCode: en
