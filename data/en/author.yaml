@@ -2,7 +2,7 @@
 name: "Carlos Collado Capell"
 nickname: "Carlos"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hola, I am"
+greeting: "Hola! I am"
 image: "images/author/carlos-close.jpeg"
 template: sections/home_ai.html
 # give your some contact information. they will be used in the footer
@@ -15,9 +15,6 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - I am an AI/ML engineer
-  - I turn big ideas (and datasets) into code that (usually) runs
-  - I love efficient code and clean design
-  - I mix deep learning with domain impact
-  - I love to work with some fun projects
-  - I hate 
+  - AI/ML engineer
+  - Always on the lookout for fun projects
+  - Currently looking for master thesis opportunities
