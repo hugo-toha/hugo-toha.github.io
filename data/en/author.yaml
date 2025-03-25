@@ -4,7 +4,7 @@ nickname: "Carlos"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hola! I am"
 image: "images/author/carlos-close.jpeg"
-template: sections/home_ai.html
+template: sections/home.html
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "carlos.colladocapell@epfl.ch"

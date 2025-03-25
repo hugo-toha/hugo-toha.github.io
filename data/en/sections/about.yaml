@@ -5,7 +5,7 @@ section:
   enable: true
   weight: 1
   showOnNavbar: true
-  template: sections/about_image.html
+  template: sections/about.html
 
 # your designation
 designation: M.Sc. Student in Computational Science

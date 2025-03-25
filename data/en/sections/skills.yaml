@@ -5,7 +5,7 @@ section:
   weight: 3
   showOnNavbar: true
   filter: true
-  template: sections/skills_mod.html
+  template: sections/skills.html
   # hideTitle: true  # (Uncomment if you want to hide the section title)
 
 # Filter Buttons
