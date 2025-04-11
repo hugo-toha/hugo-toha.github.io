@@ -35,8 +35,6 @@ projects:
   summary: Building assistants to answer students' questions using ChatGPT-distilled preference data, RAG and DPO.
   tags: ["machine-learning", "NLP", "RAG", "LLM"]
 
-
-projects:
 - name: "Sensor-Agnostic Foundation Model Compression for Onboard AI"
   logo: /images/sections/projects/eo.png
   image: /images/sections/projects/nvit.png
