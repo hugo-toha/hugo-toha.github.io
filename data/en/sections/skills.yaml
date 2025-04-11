@@ -40,13 +40,13 @@ skills:
 
   - name: "Computer Vision (CV)"
     logo: "/images/sections/skills/computervision.png"
-    summary: "Proficient in image processing and CV architectures, such as ResNet, U-Net, ViT, and MAE (Masked AutoEncoder)."
+    summary: "ViT, Swin, DeiT, ResNet, U-Net, MAE; SSL (MoCo, DINOv2)."
     categories: ["cat_main", "cat_ai"]
     url: "https://pytorch.org/vision/stable/index.html"
 
   - name: "Natural Language Processing (NLP)"
     logo: "/images/sections/skills/nlp.png"
-    summary: "Proficient with transformer-based models (GPT, T5, BERT, etc.), tokenization, retrieval-augmented generation, etc."
+    summary: "BERT, GPT, T5, RoBERTa; fine-tuning, prompt engineering, in-context learning, RAG, instruction tuning."
     categories: ["cat_main", "cat_ai"]
     url: "https://huggingface.co/"
 

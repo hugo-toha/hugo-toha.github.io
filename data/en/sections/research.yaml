@@ -56,7 +56,7 @@ experiences:
   positions:
     - designation: "Distributed Multi-Agent Bayesian Optimization in Building Temperature Control"
       start: "Feb. 2024"
-      end: "Jan. 2025"
+      end: "July 2024"
       responsibilities:
         - "Optimized a multi-agent building cluster system using our lab-developed DMABO algorithm and Bayesian learning to adjust temperature control settings to minimize daily peak energy consumption."
         - "Enabled multi-node optimization of the algorithm (MPI), and implemented in Python via GPy, Scipy, Pandas."
@@ -74,12 +74,12 @@ experiences:
   positions:
     - designation: "Performance modeling and cost optimization of a solar desalination system"
       start: "Jan. 2022"
-      end: "May 2024"
+      end: "May 2022"
       responsibilities:
         - "Designed and simulated the electrical and thermal behavior of a solar-thermal desalination system."
         - "Optimized cost and energy use to competitive market levels via Particle Swarm Optimization (PSO)."
         - "This project was my bachelor thesis (Grade: 10/10). 18-20 hours per week until May 2022."
-        - "Continued the work afterward ~5 hours per week to finalize technical work and prepare a journal publication."
+        - "Continued the work afterward ~5 hours per week to finalize technical work and prepare a journal publication. Final submission in June 2024."
         - "Paper published at Renewable Energy Journal (IF 9.0): [https://doi.org/10.1016/j.renene.2024.120866](https://doi.org/10.1016/j.renene.2024.120866)."
 
 

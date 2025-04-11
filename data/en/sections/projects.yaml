@@ -25,11 +25,23 @@ buttons:
 # your projects
 
 projects:
+- name: "LLM-powered Education Assistant"
+  logo: /images/sections/projects/pytorch.png
+  image: /images/sections/projects/mnlp.jpg
+  # role: First Author
+  timeline: "Feb. 2025 - Present"
+  # repo: https://github.com/carlos-collado/phi2FM # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  # url: "https://github.com/carlos-collado/phi2FM"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Building assistants to answer students' questions using ChatGPT-distilled preference data, RAG and DPO.
+  tags: ["machine-learning", "NLP", "RAG", "LLM"]
+
+
+projects:
 - name: "Sensor-Agnostic Foundation Model Compression for Onboard AI"
   logo: /images/sections/projects/eo.png
   image: /images/sections/projects/nvit.png
   # role: First Author
-  timeline: "Sept. 2024 - Present"
+  timeline: "Feb. 2025 - Present"
   # repo: https://github.com/carlos-collado/phi2FM # If your project is a public repo on GitHub, then provide this link. it will show star count.
   # url: "https://github.com/carlos-collado/phi2FM"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Techniques to reduce model size and compute load (e.g., EfficientViT, DynamicViT, NViT) of ViTs for EO.
@@ -45,7 +57,7 @@ projects:
   # repo: https://github.com/carlos-collado/phi2FM # If your project is a public repo on GitHub, then provide this link. it will show star count.
   url: "https://drive.google.com/file/d/1uVaNudcAH_pWEYi0gZT20hjQu_tsddWC/view?usp=sharing"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Combined video (ViT), audio (MFCC), and text (BERT) modalities via cross-modal attention. Because of its potential, expanded into a conference publication since May 2024 (report under "Details" is from May 2024).
-  tags: ["machine-learning", "computer-vision", "foundation-model", "remote-sensing", "dataset-creation", "publications"]
+  tags: ["machine-learning", "NLP", "multi-modal", "publications"]
 
 
 
@@ -126,7 +138,7 @@ projects:
   logo: /images/sections/projects/pytorch.png
   image: /images/sections/projects/solarjets.jpeg
   # role: First Author
-  timeline: "Oct. 2023 - Dec. 2024"
+  timeline: "Oct. 2023 - Jan. 2024"
   # repo: https://github.com/carlos-collado/phi2FM # If your project is a public repo on GitHub, then provide this link. it will show star count.
   url: "https://drive.google.com/file/d/15cPaSS5KsVAqGjo_yuK3Sv4b9-HMZhWH/view?usp=sharing"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: "Built an RCNN to detect solar coronal jets in image sequences, using SunPy to retrieve citizen science–labeled data. In collaboration with ESA researcher."
@@ -137,7 +149,7 @@ projects:
   logo: /images/sections/projects/data.png
   image: /images/sections/projects/wikispeedia.png
   # role: First Author
-  timeline: "Sept. 2023 - Jan. 2024"
+  timeline: "Sept. 2023 - Dec. 2023"
   # repo: https://github.com/carlos-collado/phi2FM # If your project is a public repo on GitHub, then provide this link. it will show star count.
   url: "https://danielx278.github.io/data-story/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: "Created human-like agents for the Wikispeedia game using HuggingFace Transformers, NetworkX for graph analysis, and Plotly/Seaborn for visualizations."
