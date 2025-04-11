@@ -32,7 +32,7 @@ projects:
   timeline: "Feb. 2025 - Present"
   # repo: https://github.com/carlos-collado/phi2FM # If your project is a public repo on GitHub, then provide this link. it will show star count.
   # url: "https://github.com/carlos-collado/phi2FM"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Building assistants to answer students' questions using ChatGPT-distilled preference data, RAG and DPO.
+  summary: Building an assistant to answer students' questions using ChatGPT-distilled preference data, RAG and DPO.
   tags: ["machine-learning", "NLP", "RAG", "LLM"]
 
 - name: "Sensor-Agnostic Foundation Model Compression for Onboard AI"
