@@ -103,12 +103,16 @@ class="center"
 &lt;div style="margin-top: rem;">&lt;/div>
 &lt;h3 id="ইউটওবর-ভডও-নমন">ইউটিওবের ভিডিও নমুনা&lt;/h3>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ZJthWmvUzzc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ZJthWmvUzzc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
 &lt;/div>
 &lt;div style="margin-top: rem;">&lt;/div>
 &lt;h3 id="ভমও-ভডও-নমন">ভীমেও ভিডিও নমুনা&lt;/h3>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://player.vimeo.com/video/48912912" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen>&lt;/iframe>
+&lt;div
+style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe
+src="https://player.vimeo.com/video/48912912?dnt=0"
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allow="fullscreen" loading="eager" title="Vimeo video">
+&lt;/iframe>
 &lt;/div></description></item><item><title>অনুসন্ধানের ফলাফল</title><link>https://hugo-toha.github.io/bn/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://hugo-toha.github.io/bn/search/</guid><description>&lt;p>This file exists solely to respond to /search URL with the related &lt;code>search&lt;/code> layout template.&lt;/p>
 &lt;p>No content shown here is rendered, all content is based in the template layouts/page/search.html&lt;/p>
 &lt;p>Setting a very low sitemap priority will tell search engines this is not important content.&lt;/p>
