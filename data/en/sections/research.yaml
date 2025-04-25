@@ -43,7 +43,7 @@ experiences:
         - "Developed a multi-modal deep learning model that outperformed the benchmark on detecting hate speech in video content, integrating cross-modal attention (CMA) across text (BERT), audio (MFCC), and image (ViT) embeddings."
         - "Explored feature extractors for multi-modal data: Whisper, wav2vec, BERT, RoBERTa, ViT, CLIP."
         - "Started as a class project at EPFL. Because of its potential, expanded into a conference publication since May 2024. 5-8 hours per week."
-        - "Submission to conference expected in the next month."
+        - "Submitted as conference paper in April 2025. Awaiting review."
 
 
 
