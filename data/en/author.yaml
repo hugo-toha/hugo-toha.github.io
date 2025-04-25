@@ -3,7 +3,7 @@ name: "Carlos Collado Capell"
 nickname: "Carlos"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi! I am"
-image: "images/author/berkeley_headshot.jpeg"
+image: "images/author/square_berkeley.jpeg"
 template: sections/home.html
 # give your some contact information. they will be used in the footer
 contactInfo:
