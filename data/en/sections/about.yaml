@@ -8,94 +8,111 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Data Analyst
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: Blue Cross and Blue Shield of Alabama
+  url: "https://www.bcbsal.org/web/"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: You know how everyone talks about data but few actually make it useful? That's where I come in -- **I take messy data and turn them into real-world solutions that tell a story -- YOUR STORY**. At Blue Cross, I rewrote our SQL reports to run 94% faster so our doctors could actually use patient data in time to help people. Over at UT Health East Texas, I built a really useful Python script that got ambulance and helicopter software ready to dispatch in 5 minutes instead of an hour -- paramedics still thank me for that one! And at UT Tyler, those dashboards I built? They became the official source for our national rankings. What I really like though, is breaking down the tech stuff -- my [YouTube](https://www.youtube.com/@JoinTheQuery) channel teaches data skills to others who never thought they could *get* analytics. At the end of the day, I just like to make data work for people instead of the other way around.
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "jointhequery@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  url: "https://www.github.com/CarlosOnDevOps"
 
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+- name: YouTube
+  icon: "fab fa-youtube"
+  url: "https://www.youtube.com/@JoinTheQuery"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/carlosonthecloud/"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "#"
+- name: Tableau Public
+  icon: "fas fa-chart-line"
+  url: "https://public.tableau.com/app/profile/carlos.m.4312/vizzes"
 
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
+- name: Kaggle
+  icon: "fab fa-kaggle"
+  url: "https://www.kaggle.com/carlosondevops"
 
-- name: Mastadon
-  icon: "fab fa-mastodon"
-  url: "#"
-  rel: "me noopener"
-
-- name: ResearchGate
-  icon: "fab fa-researchgate"
-  url: "https://www.researchgate.net/profile/john-doe"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
 - title: "My Resume"
-  url: "files/resume.pdf"
+  url: "files/carlos-resume.pdf"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+  name: AWS
+  url: "https://www.credly.com/earner/earned/badge/acdaf9ec-7c3a-4c05-bfe5-17078e7ade5c"
+  badge: "https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
 
 - type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
+  name: 'Microsoft Certified: Azure Fundamentals'
+  url: "https://www.credly.com/earner/earned/badge/2e5a9773-3ca0-41a0-b5b8-f01578b35b06"
+  badge: "https://images.credly.com/size/340x340/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png"
 
 - type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+  name: Cisco CCNA
+  url: "https://www.credly.com/earner/earned/badge/dc3ccc4f-a0a3-4c7d-93bc-cff02282f42f"
+  badge: "https://images.credly.com/images/683783d8-eaac-4c37-a14d-11bd8a36321d/ccna_600.png"
 
-- type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
-  color: blue
+- type: certification
+  name: Project+
+  url: "https://www.credly.com/earner/earned/badge/ff680ce2-3edd-47fb-87b2-835afcf3e395"
+  badge: "https://images.credly.com/images/dbc9a5b0-1650-4b8d-a6a6-6dba09d09509/blob"
 
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
-  color: yellow
+- type: certification
+  name: CySA+
+  url: "https://www.credly.com/earner/earned/badge/48516320-17f6-4161-ae5c-de2aec38037e"
+  badge: "https://images.credly.com/size/340x340/images/dcd99b5b-da24-40a6-9364-62126d590c37/blob"
 
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
-  color: orange
+- type: certification
+  name: Security+
+  url: "https://www.credly.com/earner/earned/badge/7b0e6744-061c-47ec-9a5c-26d02d61443c"
+  badge: "https://images.credly.com/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob"
+
+- type: certification
+  name: Network+
+  url: "https://www.credly.com/earner/earned/badge/7f0c2c04-8dc1-4675-8bfb-56ab25e8dd7b"
+  badge: "https://images.credly.com/size/340x340/images/c70ba73e-3c8a-46fa-9d60-4a9af94ad662/blob"
+
+- type: certification
+  name: A+
+  url: "https://www.credly.com/earner/earned/badge/0112dfbc-ab2d-4110-af4b-8ed915083bfe"
+  badge: "https://images.credly.com/size/340x340/images/f6d62c5d-1e1d-4de6-92ee-8dc8c80b1c7b/blob"
+
+# - type: soft-skill-indicator
+#   name: Leadership
+#   percentage: 100
+#   color: blue
+
+# - type: soft-skill-indicator
+#   name: Team Work
+#   percentage: 90
+#   color: yellow
+
+# - type: soft-skill-indicator
+#   name: Hard Working
+#   percentage: 85
+#   color: orange
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator

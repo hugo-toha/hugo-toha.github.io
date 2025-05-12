@@ -23,13 +23,13 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Carlos Moreno"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
+  # bn:
+  #   languageCode: es
+  #   languageName: Spanish
+  #   title: Spanish
+  #   weight: 2
 # default language for the content
 defaultContentLanguage: en
 
