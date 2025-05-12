@@ -1,7 +1,7 @@
 baseURL: https://carlosondevops.github.io
 
 languageCode: bn
-title: "Carlos's Blog"
+title: "Join the Query"
 
 # Use Hugo modules to add theme
 module:
