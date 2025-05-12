@@ -1,4 +1,4 @@
-module github.com/CarlosOnDevOps/carlosondevops.github.io.git
+module github.com/CarlosOnDevOps/carlosondevops.github.io
 
 go 1.21
 
