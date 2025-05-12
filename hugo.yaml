@@ -67,7 +67,7 @@ params:
   logo:
     main: /images/site/hugo.svg
     inverted: /images/site/hugo.svg
-    favicon: /images/site/hugo.svg
+    favicon: /images/site/favicon.png
 
   # GitHub repo of your site
   gitRepo: https://github.com/carlosondevops/carlosondevops.github.io
