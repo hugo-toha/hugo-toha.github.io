@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://carlosondevops.github.io
 
 languageCode: bn
-title: "John's Blog"
+title: "Carlos's Blog"
 
 # Use Hugo modules to add theme
 module:
@@ -70,7 +70,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/carlosondevops/carlosondevops.github.io
   # Default branch of your Git repo
   gitBranch: main
 
