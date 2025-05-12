@@ -2,7 +2,7 @@
 section:
   name: Publications
   id: publications
-  enable: false #turn section on or off
+  enable: true #turn section on or off
   weight: 6
   showOnNavbar: true
   # Can optionally hide the title in sections
