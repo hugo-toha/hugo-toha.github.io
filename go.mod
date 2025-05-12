@@ -1,4 +1,4 @@
-module github.com/hugo-toha/hugo-toha.github.io
+module github.com/CarlosOnDevOps/carlosondevops.github.io.git
 
 go 1.21
 
