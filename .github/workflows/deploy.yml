@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ "source" ]  # This is the key change!
+    branches: [ "source" ]
 
 jobs:
   deploy:
@@ -12,6 +12,16 @@ jobs:
         with:
           submodules: true
           fetch-depth: 0
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Install dependencies
+        run: |
+          hugo mod npm pack
+          npm install
           
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
