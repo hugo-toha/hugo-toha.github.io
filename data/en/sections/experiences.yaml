@@ -11,63 +11,86 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
+    name: Blue Cross and Blue Shield of Alabama
+    url: "https://www.bcbsal.org/web/"
+    location: Remote
+    logo: /images/sections/experiences/bcbsal.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company1.jpg
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: Blue Cross and Blue Shield of Alabama is a nonprofit health insurance company headquartered in Birmingham, Alabama. The company was founded in 1936, provides coverage to more than 3 million people and is a member of the Blue Cross and Blue Shield Association.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Data Analyst, Healthcare
+    start: Mar 2024
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Automated legacy healthcare compliance reports by optimizing the SQL codebase to reduce runtime from 11 seconds to 3 seconds (a 94% improvement), enabling faster delivery of claims/patient data for clients terminating their contracts.
+    - Developed a Tableau dashboard for executive leadership by writing a complex SQL script to identify members testing positive/negative for depression.
+    - Streamlined SQL query documentation by developing an automated query analysis tool using Python, reducing SQL review time by 50% and increasing team productivity.
+    - SQL, Python, Tableau, Jira, Excel
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+  # - designation: Junior Software Engineer
+  #   start: Nov 2017
+  #   end: Oct 2019
+  #   responsibilities:
+  #   - Implement and test xyz feature for abc tool.
+  #   - Support client for abc tool.
+  #   - Learn k,d,w technology for xyz.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
+    name: University of Texas at Tyler
+    url: "https://www.uttyler.edu/"
+    location: Remote
+    logo: /images/sections/experiences/uttyler.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    overview: The University of Texas at Tyler is a public research university in Tyler, Texas, United States. Founded in 1971, it is a part of the University of Texas System.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Data Analyst, Institutional
+    start: Aug 2023
+    end: Mar 2024
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Supported U.S. News rankings by developing [enrollment/degree dashboards](https://www.uttyler.edu/offices/information-analysis/fact-books/) used in national benchmarking.
+    - Streamlined new-hire onboarding by optimizing and documenting the protocol, reducing the average onboarding time from 8 hours to 2 hours (a 75% improvement).
+    - Developed dynamic dashboards to track enrollment, student satisfaction, and institutional performance, supporting data-driven decision-making for leadership.
+    - SQL, SAS, Power BI, Excel
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
+    name: UT Health East Texas
+    url: "https://uthealtheasttexas.com/"
+    location: Remote
+    logo: /images/sections/experiences/uthet.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    overview: UT Health East Texas is a for-profit hospital system based in Tyler, Texas founded February 2018. The system is jointly-owned by the University of Texas System and Ardent Health Services, and was formed following a merger of the East Texas Medical Center and the University of Texas Health Science Center at Tyler.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Data Analyst, Emergency Medical Services (EMS)
+    start: Jan 2023
+    end: Aug 2023
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Contributed to cost-cutting measures by transforming a 10-year backlog of Tableau reports into Power BI dashboards.
+    - Significantly improved emergency response readiness by writing Python scripts to automate ambulance and helicopter software configuration, cutting setup time from 1 hour to 5 minutes per unit (a 92% improvement).
+    - Streamlined inventory management by developing a real-time Microsoft Power App, improving data collection and extraction processes across multiple departments.
+    - Significantly reduced ticket resolution times by engineering a customized IT ticketing system using Microsoft Forms and SharePoint.
+    - SQL, Python, Tableau, Power BI, Excel, SharePoint, Microsoft Forms, Smartsheet
+
+- company:
+    name: CalTech
+    url: "https://integrisit.com/"
+    location: Remote
+    logo: /images/sections/experiences/integris.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company3.jpg
+    overview: Integris is a premium, national, managed IT services provider, dedicated to helping our customers stay one step ahead of their IT infrastructure and data safety needs. Integris offers strategic IT consulting services, hardware and software management, networking, a 24/7 service desk, on-site troubleshooting/installations, cybersecurity monitoring, backup solutions, and more. Founded in 2021 from the merger of several like-minded MSPs, Integris offers clients the power of a national network, with the personal service of a nearby, local-market MSP.
+  positions:
+  - designation: Analyst, Information Security
+    start: Jan 2023
+    end: Aug 2023
+    responsibilities:
+    - CalTech was [acquired January 2023 by IT managed service provider (MSP), Integris](https://integrisit.com/caltech-joins-integris/).
+    - Reduced manual effort and minimized risk by automating the creation and upkeeping of hundreds of event notifications in a new SIEM platform using Python and REST APIs, saving hours of time and eliminating potential human error.
+    - Ensured data accuracy and consistency by developing a quality assurance Python script that leveraged APIs from two vendors to verify the presence of hundreds of servers across both applications.
+    - Improved threat response strategies by analyzing emerging zero-day threats, evaluating their cost, impact, and severity, recommending appropriate mitigation actions.
+    - Python, Microsoft Azure, Bitdefender, Perch SIEM, Lionguard, KnowBe4, Auvik

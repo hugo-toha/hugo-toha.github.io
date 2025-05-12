@@ -12,71 +12,95 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: "Machine Learning"
-  filter: "machinelearning"
-- name: "Image Processing"
-  filter: "image-processing"
-- name: Security
-  filter: "security"
+- name: "Technical Onboarding" #beginner-friendly setup guides #tags: Databases, SQL
+  filter: "tech-onboarding"
+- name: "Cloud Infrastructure" #cloud operations or cloud related stuff
+  filter: "cloud-infra"
+- name: Industry Insights #original research/surveys
+  filter: "industry"
+- name: Data Engineering Playbooks #advanced technical content
+  filter: "data"
+- name: Career Growth #career advice from experience
+  filter: "career"
 
 # your publications
 publications:
-- title: An Example Paper on Machine Learning
+- title: PostgresSQL Installation Guide
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: Medium
+    date: Dec 2022
+    url: https://medium.com/@cmor3/how-to-install-postgresql-and-pgadmin-4-simplified-270e0b32a05b
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Carlos Moreno, MBA
+    url: https://www.linkedin.com/in/carlosonthecloud/
+  # - name: Dr. Lessmad
+  #   url: https://example.com
+  # - name: Dr. Moremad
+  #   url: https://example.com
+  # - name: Dr. Goodman
+  #   url: https://example.com
   paper:
-    summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
-    url: https://example.com
-  categories: ["machinelearning","image-processing"]
-  tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
+    summary: I teach you how to install the world's most advanced open source relational database, PostgreSQL and PgAdmin 4 to get you ready to query data and manage databases.
+    url: https://medium.com/@cmor3/how-to-install-postgresql-and-pgadmin-4-simplified-270e0b32a05b
+  categories: ["tech-onboarding"]
+  tags: ["Databases", "SQL"]
 
-- title: An Sample Paper on Image Processing
+- title: MySQL Setup Simplified
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: Medium
+    date: Nov 2022
+    url: https://medium.com/@cmor3/how-to-install-mysql-and-mysql-workbench-simplified-bbcf637f28f0
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Carlos Moreno, MBA
+    url: https://www.linkedin.com/in/carlosonthecloud/
+  # - name: Dr. Lessmad
+  #   url: https://example.com
+  # - name: Dr. Moremad
+  #   url: https://example.com
+  # - name: Dr. Goodman
+  #   url: https://example.com
   paper:
-    summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
-    url: https://example.com
-  categories: ["image-processing"]
-  tags: ["Image Processing", "Computer Vision"]
+    summary: I guide you through installing MySQL and MySQL Workbench to get you ready for interacting with databases and querying data.
+    url: https://medium.com/@cmor3/how-to-install-mysql-and-mysql-workbench-simplified-bbcf637f28f0
+  categories: ["tech-onboarding"]
+  tags: ["Databases", "SQL"]
 
-- title: An Example Paper on Security
+- title: What Do Data Professionals Think About Their Career?
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: Medium
+    date: Nov 2022
+    url: https://medium.com/@cmor3/an-insightful-survey-of-database-professionals-c2721af9d65e
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Carlos Moreno, MBA
+    url: https://www.linkedin.com/in/carlosonthecloud/
+  # - name: Dr. Lessmad
+  #   url: https://example.com
+  # - name: Dr. Moremad
+  #   url: https://example.com
+  # - name: Dr. Goodman
+  #   url: https://example.com
   paper:
-    summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
-    url: https://example.com
-  categories: ["security"]
-  tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
+    summary: I analyzed survey data collected over one month from data professionals around the world to find out industry trends such as salary, job roles, common tech stacks, etc.
+    url: https://medium.com/@cmor3/an-insightful-survey-of-database-professionals-c2721af9d65e
+  categories: ["industry","career"]
+  tags: ["Survey", "Industry Trends", "Data Career Opportunities"]
+
+- title: Azure Budgeting 101
+  publishedIn:
+    name: Medium
+    date: Oct 2022
+    url: https://medium.com/@cmor3/how-to-create-a-budget-in-azure-95ec4fddffb1
+  authors:
+  - name: Carlos Moreno, MBA
+    url: https://www.linkedin.com/in/carlosonthecloud/
+  # - name: Dr. Lessmad
+  #   url: https://example.com
+  # - name: Dr. Moremad
+  #   url: https://example.com
+  # - name: Dr. Goodman
+  #   url: https://example.com
+  paper:
+    summary: I show you how to configure a budget to limit the costs of the resources you use.
+    url: https://medium.com/@cmor3/how-to-create-a-budget-in-azure-95ec4fddffb1
+  categories: ["cloud-infra","tech-onboarding"]
+  tags: ["Microsoft Azure", "Budgeting"]

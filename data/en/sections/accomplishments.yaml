@@ -2,7 +2,7 @@
 section:
   name: Accomplishments
   id: accomplishments
-  enable: true
+  enable: false #boolean value lets you hide/show this section
   weight: 9
   showOnNavbar: true
   # Can optionally hide the title in sections
@@ -11,36 +11,148 @@ section:
 
 # Your accomplishments
 accomplishments:
-- name: Linux Foundation System Administrator
-  timeline: "March 2018 - March 2019"
+- name: CCNA
+  timeline: "Nov 2021"
   organization:
-    name: Linux Foundation
-    url: https://www.linuxfoundation.org
-  courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-  certificateURL: "https://example.com"
+    name: Cisco
+    url: https://www.credly.com/organizations/cisco
+  courseOverview: Earners of Cisco CCNA - Implementing and Administering Cisco Solutions (CCNA) have demonstrated knowledge and skills related to network fundamentals, network access, IP connectivity, IP services, security fundamentals, and automation and programmability.
+  certificateURL: "https://www.credly.com/earner/earned/badge/dc3ccc4f-a0a3-4c7d-93bc-cff02282f42f"
 
-- name: Machine Learning
-  timeline: "Jun 2020 - Jan 2021"
+- name: AWS Certified Cloud Practitioner
+  timeline: "Apr 2022"
   organization:
-    name: Coursera
-    url: https://www.coursera.org
-  courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
-  certificateURL: "https://example.com"
+    name: Amazon Web Services
+    url: https://www.credly.com/organizations/amazon-web-services
+  courseOverview: "Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects."
+  certificateURL: "https://www.credly.com/earner/earned/badge/acdaf9ec-7c3a-4c05-bfe5-17078e7ade5c"
 
-- name: Grokking the System Design Interview
-  timeline: "Jan 2018 - Sept 2018"
+- name: Microsoft Certified - Azure Fundamentals
+  timeline: "Apr 2022"
   organization:
-    name: educative
-    url: https://www.educative.io
-  courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
-  certificateURL: "https://example.com"
+    name: Microsoft
+    url: https://www.credly.com/organizations/microsoft-certification/badges
+  courseOverview: "Earners of the Azure Fundamentals certification have demonstrated foundational level knowledge of cloud services and how those services are provided with Microsoft Azure."
+  certificateURL: "https://www.credly.com/earner/earned/badge/2e5a9773-3ca0-41a0-b5b8-f01578b35b06"
 
-- name: Mastering Multithreading Programming with Go (Golang)
-  timeline: "Nov 2017 - Mar 2018"
+- name: 
+  timeline: ""
   organization:
-    name: Udemy
-    url: https://www.udemy.com
-  courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, multithreading topics.
-  certificateURL: "https://example.com"
+    name: 
+    url: 
+  courseOverview: ""
+  certificateURL: ""
+
+- name: 
+  timeline: ""
+  organization:
+    name: 
+    url: 
+  courseOverview: ""
+  certificateURL: ""
+
+- name: 
+  timeline: ""
+  organization:
+    name: 
+    url: 
+  courseOverview: ""
+  certificateURL: ""
+
+- name: 
+  timeline: ""
+  organization:
+    name: 
+    url: 
+  courseOverview: ""
+  certificateURL: ""
+
+- name: 
+  timeline: ""
+  organization:
+    name: 
+    url: 
+  courseOverview: ""
+  certificateURL: ""
+
+- name: 
+  timeline: ""
+  organization:
+    name: 
+    url: 
+  courseOverview: ""
+  certificateURL: ""
+
+- name: 
+  timeline: ""
+  organization:
+    name: 
+    url: 
+  courseOverview: ""
+  certificateURL: ""
+
+- name: 
+  timeline: ""
+  organization:
+    name: 
+    url: 
+  courseOverview: ""
+  certificateURL: ""
+
+- name: 
+  timeline: ""
+  organization:
+    name: 
+    url: 
+  courseOverview: ""
+  certificateURL: ""
+
+- name: 
+  timeline: ""
+  organization:
+    name: 
+    url: 
+  courseOverview: ""
+  certificateURL: ""
+
+- name: 
+  timeline: ""
+  organization:
+    name: 
+    url: 
+  courseOverview: ""
+  certificateURL: ""
+
+- name: 
+  timeline: ""
+  organization:
+    name: 
+    url: 
+  courseOverview: ""
+  certificateURL: ""
+
+- name: 
+  timeline: ""
+  organization:
+    name: 
+    url: 
+  courseOverview: ""
+  certificateURL: ""
+
+- name: 
+  timeline: ""
+  organization:
+    name: 
+    url: 
+  courseOverview: ""
+  certificateURL: ""
+
+- name: 
+  timeline: ""
+  organization:
+    name: 
+    url: 
+  courseOverview: ""
+  certificateURL: ""
  
 

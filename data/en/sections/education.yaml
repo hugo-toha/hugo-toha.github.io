@@ -10,95 +10,226 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
-  icon: fa-microscope
-  timeframe: 2016-2020
+- name: MBA in IT Management
+  icon: fa-briefcase
+  timeframe: Feb 2025
   institution:
-    name: ABC University of Technology
-    url: "#"
-    logo: /images/sections/education/tech_college.png
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/tech_college.png
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
-  icon: fa-graduation-cap
-  timeframe: 2012-2016
-  institution:
-    name: University of XYZ
-    url: "#"
-    logo: /images/sections/education/university.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/university.jpg
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
+    name: Western Governors University
+    url: "wgu.edu"
+    logo: /images/sections/education/wgu.png
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
     collapseAfter: 3
     courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
+    - name: Managing Organizations and Leading People
+      achieved: 3
+      outOf: 3
+    - name: IT Project Management
+      achieved: 3
+      outOf: 3
+    - name: Managing Human Capital
+      achieved: 3
+      outOf: 3
+    - name: Marketing
+      achieved: 3
+      outOf: 3
+    - name: IT Strategic Solutions
+      achieved: 4
       outOf: 4
-    - name: Network Security
-      achieved: 3.80
+    - name: Accounting for Decision Makers
+      achieved: 3
+      outOf: 3
+    - name: Ethical Leadership
+      achieved: 3
+      outOf: 3
+    - name: Financial Management
+      achieved: 3
+      outOf: 3
+    - name: Data-Driven Decision Making
+      achieved: 3
+      outOf: 3
+    - name: Global Economics for Managers
+      achieved: 3
+      outOf: 3
+    - name: MBA, Information Technology Management Capstone
+      achieved: 4
       outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-  customSections: #(optional)
-    - name: Thesis
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - name: Supervisor
-      content: Fusce eu augue ut odio porttitor pulvinar.
-- name: Higher Secondary School Certificate
-  icon: fa-university
-  timeframe: 2010-2012
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/tech_college.png
+  # grade: #(optional)
+  #   scale: CGPA
+  #   achieved: 3.6
+  #   outOf: 4
+  # publications: #(optional)
+  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   url: "#"
+  # - title: Fusce eu augue ut odio porttitor pulvinar.
+  #   url: "#"
+  # - title: Nullam vitae orci tincidunt purus viverra pulvinar.
+  #   url: "#"
+- name: BS in Data Management and Data Analytics
+  icon: fa-graduation-cap
+  timeframe: Feb 2024
   institution:
-    name: MST College of Science
-    url: "#"
-    logo: /images/sections/education/science_college.png
+    name: Western Governors University
+    url: "wgu.edu"
+    logo: /images/sections/education/wgu.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/university.jpg
+  # grade: #(optional)
+  #   scale: CGPA
+  #   achieved: 3.5
+  #   outOf: 4
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: Advanced Data Management
+      achieved: 3
+      outOf: 3
+    - name: Machine Learning
+      achieved: 3
+      outOf: 3
+    - name: Data Analytics
+      achieved: 4
+      outOf: 4
+    - name: Business of IT - Project Management
+      achieved: 4
+      outOf: 4
+    - name: Introduction to Programming in Python
+      achieved: 3
+      outOf: 3
+    - name: Scripting and Programming - Applications
+      achieved: 4
+      outOf: 4
+    - name: Introduction to Spreadsheets
+      achieved: 1
+      outOf: 1
+    - name: Version Control
+      achieved: 1
+      outOf: 1
+    - name: Introduction to Data Science
+      achieved: 4
+      outOf: 4
+    - name: Data Analysis with R
+      achieved: 2
+      outOf: 2
+    - name: Data Visualization
+      achieved: 2
+      outOf: 2
+    - name: Data and Information Governance
+      achieved: 2
+      outOf: 2
+    - name: Data Systems Administration
+      achieved: 3
+      outOf: 3
+    - name: Data Wrangling
+      achieved: 3
+      outOf: 3
+    - name: Data Structures and Algorithms 1
+      achieved: 4
+      outOf: 4
+    - name: Data Management/Analytics Undergraduate Capstone
+      achieved: 4
+      outOf: 4
+  # publications: #(optional)
+  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   url: "#"
+  # - title: Fusce eu augue ut odio porttitor pulvinar.
+  #   url: "#"
+  extracurricularActivities: #(optional)
+  - Created a Discord group for our degree program to help myself and other peers collaborate on data analytics and projects.
+  # customSections: #(optional)
+  #   - name: Thesis
+  #     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    # - name: Supervisor
+    #   content: Fusce eu augue ut odio porttitor pulvinar.
+- name: AAS in Network Technology
+  icon: fa-university
+  timeframe: Dec 2020
+  institution:
+    name: Tyler Junior College
+    url: "tjc.edu"
+    logo: /images/sections/education/tjc.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/science_college.png
-  grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
+  # grade: #(optional)
+  #   scale: GPA
+  #   achieved: 5
+  #   outOf: 5
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: Introduction to Computing
+      achieved: 3
+      outOf: 3
+    - name: Technical Customer Service
+      achieved: 3
+      outOf: 3
+    - name: Fundamentals of Network Technologies
+      achieved: 3
+      outOf: 3
+    - name: Introduction to PC Operating Systems
+      achieved: 3
+      outOf: 3
+    - name: Personal Computer Hardware
+      achieved: 3
+      outOf: 3
+    - name: Fundamentals of Cloud Computing
+      achieved: 3
+      outOf: 3
+    - name: Network+
+      achieved: 3
+      outOf: 3
+    - name: Intermediate PC Operating Systems
+      achieved: 3
+      outOf: 3
+    - name: Fundamentals of Information Security
+      achieved: 3
+      outOf: 3
+    - name: Contemporary Mathematics (Quantitative Reasoning)
+      achieved: 3
+      outOf: 3
+    - name: Composition 1
+      achieved: 3
+      outOf: 3
+    - name: CCNA 1 -- Introduction to Networks
+      achieved: 3
+      outOf: 3
+    - name: Implementing and Supporting Servers
+      achieved: 3
+      outOf: 3
+    - name: Information Technology Security
+      achieved: 3
+      outOf: 3
+    - name: Business and Professional Communication
+      achieved: 3
+      outOf: 3
+    - name: Public Speaking
+      achieved: 3
+      outOf: 3
+    - name: CCNA 2 -- Switching, Routing and Wireless Essentials
+      achieved: 3
+      outOf: 3
+    - name: Internship -- Computer Information Sciences, General
+      achieved: 3
+      outOf: 3
+    - name: Introduction to Scripting Languages
+      achieved: 3
+      outOf: 3
   extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
-  icon: fa-school
-  timeframe: 2005-2010
-  institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+  - I used to be a Cisco networking & routing teaching assistant (tutor) where I collaborated with the late Bill Byrd tutoring Cisco routing and switching.
+  - I also collaborated with the college as part of a student program tutoring intro-level physics.
+# - name: Secondary School Certificate
+#   icon: fa-school
+#   timeframe: 2005-2010
+#   institution:
+#     name: JK School of Science
+#   grade: #(optional)
+#     scale: GPA
+#     achieved: 4.5
+#     outOf: 5

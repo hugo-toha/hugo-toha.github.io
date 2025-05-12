@@ -12,54 +12,190 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Professional
-  filter: "professional"
-- name: Academic
-  filter: "academic"
-- name: Hobby
-  filter: "hobby"
+- name: Strategic Impact
+  filter: "business" #kpi-ownership, cost-avoidance, revenue-influence, time-to-insight, stakeholder-adoption
+- name: Technical Execution 
+  filter: "deep-dive" #youtube-tutorial, legacy-modernization, complex-modeling, data-governance, query-optimization, api-integration
+- name: Thought Leadership #mentorship, open-source, thought-leadership
+  filter: "community"
+- name: Exploratory Research
+  filter: "exploratory" #trend-discovery, narrative-analytics, cultural-diagnostics
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+- name: I Solved the SQL Murder Mystery... Here's Who Did It!
+  logo: /images/sections/projects/sql.png
+  image: /images/sections/projects/sql-murder-mystery-1.png
+  role: Data Analyst
+  timeline: "Apr 2025"
+  #repo: https://github.com/CarlosOnDevOps/the-sql-muder-mystery/blob/main/src/part_one_solution.sql # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://www.youtube.com/watch?v=s7T9O7g0buI"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Become a data detective to crack the infamous SQL Murder Mystery by Knight Lab—using nothing but SQL queries, forensic analysis, and a little bit of dramatic Law & Order flair.
+  tags: ["deep-dive","youtube-tutorial","narrative-analytics"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
+- name: SQL Murder Mystery Part 2
+  logo: /images/sections/projects/sql.png
+  image: /images/sections/projects/sql-murder-mystery-2.png
+  role: Data Analyst
+  timeline: "Apr 2025"
+  #repo: # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://www.youtube.com/watch?v=s7T9O7g0buI"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Become a data detective to crack the infamous SQL Murder Mystery by Knight Lab—using nothing but SQL queries, forensic analysis, and a little bit of dramatic Law & Order flair.
+  tags: ["deep-dive","youtube-tutorial","narrative-analytics"]
+
+- name: Why People Love Working Remotely
+  logo: /images/sections/projects/tableau.png
+  image: /images/sections/projects/working-remotely.png
+  role: Data Analyst
+  timeline: "Jul 2024"
+  #repo: # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://public.tableau.com/app/profile/carlos.m.4312/viz/TheBenefitsofWorkingfromHome_17205447756600/Storyboard"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Using real-world sales data, I reported essential metrics such as total sales, profit, and quantity sold through Big Number (BAN) visuals accompanied by sparklines. The dashboard also includes bar charts and step lines to effectively analyze trends and subcategory performance, offering an executive and comprehensive view of the company's sales dynamics.
+  tags: ["community","narrative-analytics","trend-discovery","thought-leadership"]
+
+- name: Retail Sales Performance Dashboard
+  logo: /images/sections/projects/tableau.png
+  image: /images/sections/projects/sales-performance-dashboard.png
+  role: Business Intelligence Analyst
+  timeline: "Jul 2024"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://public.tableau.com/app/profile/carlos.m.4312/viz/CactusEnterprisesSalesPerformanceDashboard/SalesDashboard"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Using real-world sales data, I reported essential metrics such as total sales, profit, and quantity sold through Big Number (BAN) visuals accompanied by sparklines. The dashboard also includes bar charts and step lines to effectively analyze trends and subcategory performance, offering an executive and comprehensive view of the company's sales dynamics.
+  tags: ["business","kpi-ownership","stakeholder-adoption"]
+
+- name: Hell's Kitchen Ratings Performance
+  logo: /images/sections/projects/tableau.png
+  image: /images/sections/projects/hells-kitchen-ratings.png
+  role: Data Analyst
+  timeline: "Jul 2024"
+  #repo: https://github.com/tensorflow/tensorflow
+  url: "https://public.tableau.com/app/profile/carlos.m.4312/viz/HellsKitchen2024_17213305905560/Dashboard"
+  summary: Visualized the IMDB ratings of the Hell's Kitchen television series, featuring a heat map to highlight top-rated episodes and seasons. The dashboard also includes a sparkline that tracks average ratings per season, facilitating easy comparison across the series. 
+  tags: ["exploratory","trend-discovery","narrative-analytics"]
+
+- name: Analyzing What Twitter Thinks About Dogs
+  logo: /images/sections/projects/python.png
+  image: /images/sections/projects/twitter-dogs.png
+  role: Data Scientist
+  timeline: "2023"
+  repo: https://github.com/CarlosOnDevOps/Projects/tree/main/Twitter_DogRatings_Analysis
   #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+  summary: Analyzed 50K+ Twitter dog ratings using Python/NumPy to decode breed popularity trends, engagement spikes, and the secret ingredients behind 'Most Petworthy' posts (spoiler! Golden Retrievers dominate).
+  tags: ["exploratory", "trend-discovery","complex-modeling"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
-
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
+- name: Quantifying What Makes Movies Profitable
+  logo: /images/sections/projects/python.png
+  image: /images/sections/projects/movie-revenue-budget.png
+  role: Data Scientist
+  timeline: "2023"
+  repo: https://github.com/CarlosOnDevOps/Projects/tree/main/Movie_Industry_Trends_Exploration
   #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
+  summary: Mapped 20 years of box office data to reveal counterintuitive insights! films with Rotten Tomatoes scores between 60-75% outperform 'fresh' 90%+ films in long-term profitability.
+  tags: ["exploratory", "trend-discovery","complex-modeling"]
 
-- name: Toha
+- name: Engineering a Music Data Pipeline
+  logo: /images/sections/projects/python.png
+  image: /images/sections/projects/sparkify.png
+  role: Data Engineer
+  timeline: "2023"
+  repo: https://github.com/CarlosOnDevOps/Projects/tree/main/Sparkify_Data_Warehouse_Engineering
+  #url: ""
+  summary: Built a data warehouse for a music streaming service.
+  tags: ["deep-dive","complex-modeling"]
+
+- name: Optimizing E-Commerce UX Through A/B Testing
+  logo: /images/sections/projects/python.png
+  image: /images/sections/projects/ab-testing.png
+  role: Data Scientist
+  timeline: "2023"
+  repo: https://github.com/CarlosOnDevOps/Projects/blob/main/ECommerce_AB_Test_Analysis/Analyze_ab_test_results_notebook.ipynb
+  #url: ""
+  summary: Mapped 20 years of box office data to reveal counterintuitive insights! films with Rotten Tomatoes scores between 60-75% outperform 'fresh' 90%+ films in long-term profitability.
+  tags: ["exploratory", "trend-discovery","complex-modeling"]
+
+- name: Exploring AdventureWorks
+  logo: /images/sections/projects/powerbi.png
+  image: /images/sections/projects/adventure-works.png
+  role: Data Analyst
+  timeline: "2023"
+  url: "https://github.com/CarlosOnDevOps/Projects/tree/main/AdventureWorks_Data_Exploration"
+  summary: Developed a global manufacturing BI solution for Adventure Works Cycles—transforming raw CSV data into interactive Power BI dashboards that tracked 15+ KPIs across six regions, uncovered $2.3M in revenue opportunities through regional benchmarking, and automated 10% of manual reporting—using advanced DAX measures and RFM analysis to pinpoint top-tier customers.
+  tags: ["business","kpi-ownership","exploratory"]
+
+- name: What Surveys Reveal About Data Careers
+  logo: /images/sections/projects/python.png
+  image: /images/sections/projects/data-pro-survey.png
+  role: Data Scientist
+  timeline: "2023"
+  repo: https://github.com/CarlosOnDevOps/Projects/tree/main/DataPro_Survey_Analysis
+  #url: ""
+  summary: Mined survey data from 600+ data professionals to identify industry pain points.
+  tags: ["exploratory", "trend-discovery","community"]
+
+- name: Supermarket Executive Sales Performance Dashboard
+  logo: /images/sections/projects/powerbi.png 
+  image: /images/sections/projects/supermarket-dashboard.png
+  role: Business Intelligence Analyst
+  timeline: "2023"
+  repo: https://github.com/CarlosOnDevOps/Projects/tree/main/Sales_Dashboard_Grocery_Company
+  #url: ""
+  summary: Transformed supermarket data into an actionable Power BI dashboard, revealing what percent of profits came from which rate of product--exposing massive inventory optimization.
+  tags: ["business","kpi-ownership"]
+
+- name: Cybersecurity Ticket Volume
+  logo: /images/sections/projects/powerbi.png
+  image: /images/sections/projects/Cybersecurity.png
+  role: Data Analyst
+  timeline: "2022"
+  repo: https://github.com/CarlosOnDevOps/Projects/tree/main/InfoSec_Dept_KPI_Analysis
+  #url: ""
+  summary: Built automated Power BI dashboards tracking critical metrics like first-response SLA compliance and ticket category trends, revealing 40% of alerts stemmed from just 3 recurring vulnerability patterns.
+  tags: ["exploratory","business","kpi-ownership"]
+
+- name: Visualizing US Demographics
+  logo: /images/sections/projects/tableau.png
+  image: /images/sections/projects/us-counties-deep-dive.png
+  role: Data Analyst
+  timeline: "2023"
+  #repo: 
+  url: "https://public.tableau.com/app/profile/carlos.m.4312/viz/VisualizingtheDemographics-ADeepDiveintoUSCounties/EXECUTIVEDASHBOARD"
+  summary: 2015 US Census data reveals interesting patterns in diversity and employment, income and poverty, and transportation habits.
+  tags: ["exploratory","community","trend-discovery"]
+
+- name: Exploring Bike Share Service Data
+  logo: /images/sections/projects/r.svg
+  image: /images/sections/projects/bikeshare.png
+  role: Data Scientist
+  timeline: "2023"
+  repo: https://github.com/CarlosOnDevOps/Projects/tree/main/Explore_Bikshare_Data
+  #url: ""
+  summary: Analyzed bike share service data across 3 major U.S. cities uncovering hidden insights.
+  tags: ["exploratory","deep-dive","narrative-analytics"]
+
+# - name: 
+#   logo: /images/sections/projects/python.png
+#   role: Data Scientist
+#   timeline: "2023"
+#   repo: 
+#   #url: ""
+#   summary: 
+#   tags: []
+
+- name: Building a Simple Healthcare Database
+  logo: /images/sections/projects/PostgresSQL.svg
+  image: /images/sections/projects/clinic-db.png
+  role: Data Engineer
+  timeline: "2023"
+  repo: https://github.com/CarlosOnDevOps/Projects/tree/main/Hospital_Data_Optimization
+  #url: ""
+  summary: Mapped 20 years of box office data to reveal counterintuitive insights! films with Rotten Tomatoes scores between 60-75% outperform 'fresh' 90%+ films in long-term profitability.
+  tags: ["deep-dive","exploratory","complex-modeling"]
+
+- name: Portfolio Website
   logo: /images/sections/projects/toha.png
   image: /images/sections/projects/toha_website.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+  role: Web Developer
+  timeline: "May 2025 - Present"
+  repo: https://github.com/CarlosOnDevOps/CarlosOnDevOps.github.io
+  summary: My Toha themed Hugo portfolio website, with a data science background built in to get setup quickly.
+  tags: ["community","open-source","mentorship"]

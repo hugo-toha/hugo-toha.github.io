@@ -13,59 +13,191 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
-  filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+- name: Core Analytics
+  filter: "core-analytics"
+- name: Executive Visualization
+  filter: "exec-viz"
+- name: Big Data Systems
+  filter: "big-data"
+- name: Cloud Data Ops
+  filter: "cloud-ops"
+- name: Strategic Domains
+  filter: "strategic-domains"
+- name: Operational Intelligence
+  filter: "ops-intel"
+- name: Cyber-Data Governance
+  filter: "data-gov"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+- name: SQL
+  logo: /images/sections/skills/sql.png
+  summary: "Optimized healthcare queries by 94% at BCBS, enabling real-time patient data delivery."
+  categories: ["core-analytics", "big-data"]
+  url: ""
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Automated ambulance deployment systems at UT Health, reducing setup from 1 hour to 5 minutes."
+  categories: ["core-analytics"]
+  url: ""
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+- name: R
+  logo: /images/sections/skills/R.svg
+  summary: "Explored bicycle ride service data across 3 U.S. cities."
+  categories: ["core-analytics"]
+  url: ""
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
+- name: Microsoft Azure
+  logo: /images/sections/skills/azure.png
+  summary: "Secured and managed cloud resources for HIPAA-compliant healthcare analytics."
+  categories: ["cloud-ops"]
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+- name: Tableau
+  logo: /images/sections/skills/tableau.png
+  summary: "Built executive dashboards tracking depression screenings across 150K+ members at BCBS."
+  categories: ["exec-viz"]
+  url: ""
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+- name: AWS
+  logo: /images/sections/skills/amazon-logo.png
+  summary: "Configured S3 data lakes for enterprise-scale healthcare reporting."
+  categories: ["cloud-ops"]
+  url: ""
+
+- name: Pandas
+  logo: /images/sections/skills/pandas.svg
+  summary: "Cleaned and analyzed 10+ years of EMS response data to optimize deployments."
+  categories: ["core-analytics"]
 
 - name: Git
   logo: /images/sections/skills/git.png
   summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
+  categories: ["cloud-ops"]
+  url: ""
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+- name: Matplotlib
+  logo: /images/sections/skills/matplotlib.svg
+  summary: "Created custom visualizations for U.S. News institutional ranking reports that eventually translated to Power BI dashboards."
+  categories: ["exec-viz"]
+
+- name: Powershell 
+  logo: /images/sections/skills/Powershell.svg
+  summary: "Automated system monitoring scripts for 500+ healthcare servers."
+  categories: ["core-analytics"]
+
+- name: Microsoft Power BI
+  logo: /images/sections/skills/powerbi.png
+  summary: "Transformed legacy Tableau reports into interactive Power BI dashboards for UT Health."
+  categories: ["exec-viz"]
+
+- name: Healthcare
+  logo: /images/sections/skills/healthcare.png
+  summary: "Delivered executive analytics for 1M+ patient records while maintaining HIPAA compliance."
+  categories: ["strategic-domains"]
+
+- name: Emergency Medical Services (EMS)
+  logo: /images/sections/skills/ems.png
+  summary: "Optimized 911 response systems, reducing rural ambulance arrival times by 15-30 seconds."
+  categories: ["strategic-domains"]
+
+- name: Institutional Research
+  logo: /images/sections/skills/education.png
+  summary: "Developed fact books driving UT Tyler's national ranking strategy."
+  categories: ["strategic-domains"]
+
+- name: IT Major Service Providers (MSP)
+  logo: /images/sections/skills/it.png
+  summary: "Managed analytics for multi-vendor healthcare IT infrastructure."
+  categories: ["strategic-domains"]
+
+- name: Microsoft SQL Server
+  logo: /images/sections/skills/mssql.svg
+  summary: "Managed petabyte-scale patient databases serving 1,200+ clinicians."
+  categories: ["big-data"]
+
+- name: DB2
+  logo: /images/sections/skills/db2.png
+  summary: "Extracted and transformed hospital patient data for monthly reports serving 200+ clinicians."
+  categories: ["big-data"]
+
+- name: Toad
+  logo: /images/sections/skills/toad.png
+  summary: "Optimized massive query codebases by streamlining multiple joins and indexing large tables."
+  categories: ["big-data"]
+
+- name: PostgresSQL
+  logo: /images/sections/skills/PostgresSQL.svg
+  summary: "Wrote complex SQL queries to report explanatory and exploratory datasets."
+  categories: ["big-data"]
+
+- name: Microsoft Excel
+  logo: /images/sections/skills/excel.png
+  summary: "Developed advanced models for patient and health program benchmarking."
+  categories: ["core-analytics", "ops-intel"]
+
+- name: Smartsheet
+  logo: /images/sections/skills/smartsheet.png
+  summary: "Automated cross-departmental reporting workflows for UT Health leadership."
+  categories: ["ops-intel"]
+
+- name: Jira
+  logo: /images/sections/skills/Jira.svg
+  summary: "Managed analytics sprint cycles for 10+ concurrent healthcare projects."
+  categories: ["ops-intel"]
+
+- name: Bash
+  logo: /images/sections/skills/Bash.svg
+  summary: "Scripted ETL pipelines at UT Health processing 50K+ daily EMS transactions. This was later automated using Python."
+  categories: ["core-analytics"]
+
+- name: SAS
+  logo: /images/sections/skills/sas.png
+  summary: "Performed statistical analysis of student metrics across 20+ degree programs."
+  categories: ["core-analytics"]
+
+- name: Microsoft SharePoint
+  logo: /images/sections/skills/sharepoint.png
+  summary: "Built secure portals at UT Health for distributing sensitive EMS analytics."
+  categories: ["ops-intel"]
+
+- name: Microsoft Forms
+  logo: /images/sections/skills/forms.png
+  summary: "Developed a customized ticketing system for UT Health resolving IT issues more efficiently."
+  categories: ["ops-intel"]
+
+- name: Bitdefender
+  logo: /images/sections/skills/bitdefender.svg
+  summary: "Protected PHI across 5K+ endpoints in HIPAA-regulated environments."
+  categories: ["data-gov"]
+
+- name: Perch (SIEM)
+  logo: /images/sections/skills/perch.png
+  summary: "Monitored our clients' networks and used data analytics to identify the most probable threats."
+  categories: ["data-gov"]
+
+- name: Lionguard
+  logo: /images/sections/skills/lionguard.png
+  summary: "Automated asset inventory and documented network config changes for over 200+ financial institutions."
+  categories: ["data-gov"]
+
+- name: KnowBe4
+  logo: /images/sections/skills/knowbe4.png
+  summary: "Trained 1,200+ banking staff on cybersecurity best practices."
+  categories: ["data-gov"]
+
+- name: Auvik
+  logo: /images/sections/skills/auvik.png
+  summary: "Monitored network traffic and maintained network maps for over 200+ financial institutions."
+  categories: ["data-gov"]
+
+- name: Crystal Reports
+  logo: /images/sections/skills/crystal.png
+  summary: "Generated compliance-ready reports for healthcare programs, audits, patient metrics, etc."
+  categories: ["exec-viz"]
+
+- name: ServiceNow
+  logo: /images/sections/skills/servicenow.png
+  summary: "Reduced IT ticket resolution times by 40%, the highest in my department, through workflow automation."
+  categories: ["ops-intel"]
