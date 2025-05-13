@@ -61,13 +61,13 @@ skills:
   url: ""
 
 - name: AWS
-  logo: /images/sections/skills/amazon-logo.png
+  logo: /images/sections/skills/aws.png
   summary: "Configured S3 data lakes for enterprise-scale healthcare reporting."
   categories: ["cloud-ops"]
   url: ""
 
 - name: Pandas
-  logo: /images/sections/skills/pandas.svg
+  logo: /images/sections/skills/Pandas.svg
   summary: "Cleaned and analyzed 10+ years of EMS response data to optimize deployments."
   categories: ["core-analytics"]
 
@@ -78,7 +78,7 @@ skills:
   url: ""
 
 - name: Matplotlib
-  logo: /images/sections/skills/matplotlib.svg
+  logo: /images/sections/skills/Matplotlib.svg
   summary: "Created custom visualizations for U.S. News institutional ranking reports that eventually translated to Power BI dashboards."
   categories: ["exec-viz"]
 
