@@ -61,42 +61,42 @@ resourceLinks:
 badges:
 - type: certification
   name: AWS
-  url: "https://www.credly.com/earner/earned/badge/acdaf9ec-7c3a-4c05-bfe5-17078e7ade5c"
+  url: "https://www.credly.com/badges/acdaf9ec-7c3a-4c05-bfe5-17078e7ade5c/public_url"
   badge: "https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
 
 - type: certification
   name: 'Microsoft Certified: Azure Fundamentals'
-  url: "https://www.credly.com/earner/earned/badge/2e5a9773-3ca0-41a0-b5b8-f01578b35b06"
+  url: "https://www.credly.com/badges/acdaf9ec-7c3a-4c05-bfe5-17078e7ade5c/public_url"
   badge: "https://images.credly.com/size/340x340/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png"
 
 - type: certification
   name: Cisco CCNA
-  url: "https://www.credly.com/earner/earned/badge/dc3ccc4f-a0a3-4c7d-93bc-cff02282f42f"
+  url: "https://www.credly.com/badges/dc3ccc4f-a0a3-4c7d-93bc-cff02282f42f/public_url"
   badge: "https://images.credly.com/images/683783d8-eaac-4c37-a14d-11bd8a36321d/ccna_600.png"
 
 - type: certification
   name: Project+
-  url: "https://www.credly.com/earner/earned/badge/ff680ce2-3edd-47fb-87b2-835afcf3e395"
+  url: "https://www.credly.com/badges/ff680ce2-3edd-47fb-87b2-835afcf3e395/public_url"
   badge: "https://images.credly.com/images/dbc9a5b0-1650-4b8d-a6a6-6dba09d09509/blob"
 
 - type: certification
   name: CySA+
-  url: "https://www.credly.com/earner/earned/badge/48516320-17f6-4161-ae5c-de2aec38037e"
+  url: "https://www.credly.com/badges/48516320-17f6-4161-ae5c-de2aec38037e/public_url"
   badge: "https://images.credly.com/size/340x340/images/dcd99b5b-da24-40a6-9364-62126d590c37/blob"
 
 - type: certification
   name: Security+
-  url: "https://www.credly.com/earner/earned/badge/7b0e6744-061c-47ec-9a5c-26d02d61443c"
+  url: "https://www.credly.com/badges/7b0e6744-061c-47ec-9a5c-26d02d61443c/public_url"
   badge: "https://images.credly.com/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob"
 
 - type: certification
   name: Network+
-  url: "https://www.credly.com/earner/earned/badge/7f0c2c04-8dc1-4675-8bfb-56ab25e8dd7b"
+  url: "https://www.credly.com/badges/7f0c2c04-8dc1-4675-8bfb-56ab25e8dd7b/public_url"
   badge: "https://images.credly.com/size/340x340/images/c70ba73e-3c8a-46fa-9d60-4a9af94ad662/blob"
 
 - type: certification
   name: A+
-  url: "https://www.credly.com/earner/earned/badge/0112dfbc-ab2d-4110-af4b-8ed915083bfe"
+  url: "https://www.credly.com/badges/0112dfbc-ab2d-4110-af4b-8ed915083bfe/public_url"
   badge: "https://images.credly.com/size/340x340/images/f6d62c5d-1e1d-4de6-92ee-8dc8c80b1c7b/blob"
 
 # - type: soft-skill-indicator
