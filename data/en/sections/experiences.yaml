@@ -86,8 +86,8 @@ experiences:
     overview: Integris is a premium, national, managed IT services provider, dedicated to helping our customers stay one step ahead of their IT infrastructure and data safety needs. Integris offers strategic IT consulting services, hardware and software management, networking, a 24/7 service desk, on-site troubleshooting/installations, cybersecurity monitoring, backup solutions, and more. Founded in 2021 from the merger of several like-minded MSPs, Integris offers clients the power of a national network, with the personal service of a nearby, local-market MSP.
   positions:
   - designation: Analyst, Information Security
-    start: Jan 2023
-    end: Aug 2023
+    start: Jan 2021
+    end: Jan 2023
     responsibilities:
     - CalTech was [acquired January 2023 by IT managed service provider (MSP), Integris](https://integrisit.com/caltech-joins-integris/).
     - Reduced manual effort and minimized risk by automating the creation and upkeeping of hundreds of event notifications in a new SIEM platform using Python and REST APIs, saving hours of time and eliminating potential human error.
