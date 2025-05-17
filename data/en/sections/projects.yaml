@@ -39,7 +39,7 @@ projects:
   role: Data Analyst
   timeline: "Apr 2025"
   #repo: # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  url: "https://www.youtube.com/watch?v=s7T9O7g0buI"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  url: "https://www.youtube.com/watch?v=EpHBEls1dgM"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Become a data detective to crack the infamous SQL Murder Mystery by Knight Lab—using nothing but SQL queries, forensic analysis, and a little bit of dramatic Law & Order flair.
   tags: ["deep-dive","youtube-tutorial","narrative-analytics"]
 
