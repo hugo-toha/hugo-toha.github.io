@@ -16,6 +16,7 @@ degrees:
   institution:
     name: এ. বি. সি. প্রযুক্তি বিশ্ববিদ্যালয়
     url: "#"
+    logo: /images/sections/education/tech_college.png
   grade:
     scale: সিজিপিএ
     achieved: ৪
@@ -33,6 +34,7 @@ degrees:
   institution:
     name: এক্স ওয়াই জেড বিশ্ববিদ্যালয়
     url: "#"
+    logo: /images/sections/education/university.jpg
   grade:
     scale: সিজিপিএ
     achieved: ৪
@@ -70,6 +72,7 @@ degrees:
   institution:
     name: এমএসটি বিজ্ঞান কলেজ
     url: "#"
+    logo: /images/sections/education/science_college.png
   grade:
     scale: জিপিএ
     achieved: ৫

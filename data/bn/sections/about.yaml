@@ -14,8 +14,6 @@ company:
   name: Example Co.
   url: "https://www.example.com"
 
-# your resume. this file path should be relative to you "static" directory
-resume: "files/resume.pdf"
 
 # a summary about you
 summary: 'আমি X বছর অভিজ্ঞতা সম্পন্ন একজন দক্ষ সফটওয়্যার ইঞ্জিনিয়ার । আমি Go ভাষা ব্যবহার  করে [Kubernetes](https://kubernetes.io/) এর জন্য ওপেন সোর্স টুল তৈরি করি । মাঝে মাঝে আমি থিম বানানোর মত মজার প্রোজেক্ট নিয়ে কাজ করি ।'
@@ -46,6 +44,12 @@ socialLinks:
 - name: Facebook
   icon: "fab fa-facebook"
   url: "#"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: "আমার জীবনবৃত্তান্ত"
+  url: "files/resume.pdf"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.

@@ -1,20 +1,18 @@
 # some information about you
-name: "John Doe"
-nickname: "John"
+name: "Carlos Moreno, MBA"
+nickname: "Carlos"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I am"
-image: "images/author/john.png"
+greeting: "Hello World! I'm"
+image: "images/author/carlos-thinking.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "johndoe@example.com"
-  phone: "+0123456789"
-  github: johndoe
-  linkedin: johndoe
+  email: "jointhequery@gmail.com"
+  phone: "Upon Request"
+  github: CarlosOnDevOps
+  linkedin: carlosonthecloud
+  #researchgate: john-doe
 
 # some summary about what you do
 summary:
-  - I am a Developer
-  - I am a Devops
-  - I love servers
-  - I work on open-source projects
-  - I love to work with some fun projects
+  - A data analyst specialized in SQL + Python + Tableau! 😎
+  - I turn messy data into clear decisions - because insights should drive action, not just decorate dashboards. 📊
