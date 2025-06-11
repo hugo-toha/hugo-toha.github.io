@@ -11,14 +11,14 @@ section:
 
 degrees:
 - name: Master's Degree in Computer Science & Automation Engineering
-  icon: fa-microscope
+  icon: fa-graduation-cap
   timeframe: 2020-2023
   institution:
     name: Polytechnic of Marche
     url: "https://www.univpm.it/Entra/"
     logo: /images/sections/education/univpm.png
     # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/tech_college.png
+    darkLogo: /images/sections/education/univpm.png
   grade: #(optional)
     scale: Graduation Mark
     achieved: 110 Cum Laude
@@ -54,7 +54,7 @@ degrees:
     url: "https://www.univpm.it/Entra/"
     logo: /images/sections/education/univpm.png
     # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/tech_college.png
+    darkLogo: /images/sections/education/univpm.png
   grade: #(optional)
     scale: Graduation Mark
     achieved: 107
