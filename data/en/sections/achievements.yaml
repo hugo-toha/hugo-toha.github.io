@@ -2,7 +2,7 @@
 section:
   name: Achievements
   id: achievements
-  enable: true
+  enable: false
   weight: 10
   showOnNavbar: true
   # Can optionally hide the title in sections
@@ -10,15 +10,21 @@ section:
 
 # Your achievements achievements
 achievements:
-- title: Best Presenter
-  image: /images/sections/achievements/presenter.jpg
-  summary: Best presenter in the 2020 XYZ conference.
-- title: Champion
-  image: /images/sections/achievements/sport.jpg
-  summary: Champion in cycling inter-city cycling championship 2020.
-- title: Graduation
-  image: /images/sections/achievements/graduation-cap.jpg
-  summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
-- title: Award Winner
-  image: /images/sections/achievements/woman-winner.jpg
-  summary: Wined best paper award at IEE Conference 2020.
+- title: Cambridge C1 Level English Certificate
+  image: /images/sections/achievements/eng.jpeg
+  summary:
+- title: DELF B1 Level French Certificate
+  image: /images/sections/achievements/delf.png
+  summary:
+- title: AWS Certified Machine Learning Specialty 2025 - Hands On!
+  image: /images/sections/achievements/udemy.png
+  summary:
+- title: Stanford Verified Certificate for Databases - Advanced Topics in SQL
+  image: /images/sections/achievements/edx.png
+  summary:
+- title: Stanford Verified Certificate for Databases - Relational Databases and SQL
+  image: /images/sections/achievements/edx.png
+  summary:
+- title: Reinforcement Learning - beginner to master - AI in Python
+  image: /images/sections/achievements/udemy.png
+  summary: https://www.linkedin.com/in/mattiasospetti/details/certifications/1741523338088/single-media-viewer/?type=DOCUMENT&profileId=ACoAAC8bKfABWgCeKvuuRnvO-he6FFYTTgDdhLM

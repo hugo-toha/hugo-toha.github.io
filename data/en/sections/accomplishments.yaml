@@ -5,42 +5,48 @@ section:
   enable: true
   weight: 9
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
+  # Can optionally hide the name in sections
+  # hidename: true
 
 
 # Your accomplishments
 accomplishments:
-- name: Linux Foundation System Administrator
-  timeline: "March 2018 - March 2019"
-  organization:
-    name: Linux Foundation
-    url: https://www.linuxfoundation.org
-  courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-  certificateURL: "https://example.com"
 
-- name: Machine Learning
-  timeline: "Jun 2020 - Jan 2021"
+- name: Cambridge C1 Level English Certificate
+  image: /images/sections/achievements/eng.jpeg
   organization:
-    name: Coursera
-    url: https://www.coursera.org
-  courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
-  certificateURL: "https://example.com"
+    name: Cambridge English
+    url: https://www.cambridgeenglish.org/exams-and-tests/advanced/
 
-- name: Grokking the System Design Interview
-  timeline: "Jan 2018 - Sept 2018"
+- name: DELF B1 Level French Certificate
+  image: /images/sections/achievements/delf.png
   organization:
-    name: educative
-    url: https://www.educative.io
-  courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
-  certificateURL: "https://example.com"
+    name: Ministère de l'Education Nationale, de la Recherche et de la Technologie
+    url: https://www.education.gouv.fr/
 
-- name: Mastering Multithreading Programming with Go (Golang)
-  timeline: "Nov 2017 - Mar 2018"
+- name: AWS Certified Machine Learning Specialty 2025 - Hands On!
+  image: /images/sections/achievements/udemy.png
   organization:
     name: Udemy
-    url: https://www.udemy.com
-  courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, multithreading topics.
-  certificateURL: "https://example.com"
- 
+    url: https://www.udemy.com/
 
+- name: Stanford Verified Certificate for Databases - Advanced Topics in SQL
+  image: /images/sections/achievements/edx.png
+  organization:
+    name: Edx
+    url: https://www.edx.org/learn/sql/stanford-university-databases-advanced-topics-in-sql
+  certificateURL: https://courses.edx.org/certificates/e97143fc49ad4ffe97ec32f6da695d66
+
+- name: Stanford Verified Certificate for Databases - Relational Databases and SQL
+  image: /images/sections/achievements/edx.png
+  organization:
+    name: Edx
+    url: https://www.edx.org/learn/sql/stanford-university-databases-advanced-topics-in-sql
+  certificateURL: https://courses.edx.org/certificates/2ed0df72f5d244b39fcb760a38f11e8e
+
+- name: Reinforcement Learning - beginner to master - AI in Python
+  image: /images/sections/achievements/udemy.png
+  organization:
+    name: Udemy
+    url: https://www.udemy.com/
+  certificateURL: https://www.linkedin.com/in/mattiasospetti/details/certifications/1741523338088/single-media-viewer/?type=DOCUMENT&profileId=ACoAAC8bKfABWgCeKvuuRnvO-he6FFYTTgDdhLM

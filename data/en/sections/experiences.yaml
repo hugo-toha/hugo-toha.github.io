@@ -11,63 +11,56 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
+    name: GrottiniLab
+    url: "https://medinnovations.it/it/"
+    location: Macerata, Italy
+    logo: /images/sections/experiences/glab.jpeg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company1.jpg
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: GrottiniLab uses the latest digital computer vision technologies supported by artificial intelligence (AI), deep learning and machine learning to monitor, analyze and improve the world of Retail and Industry..
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Machine Larning Engineer
+    start: May 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Designed and implemented Computer Vision solutions, creating new products or enhancing existing ones with new functionalities.
+    - Implemented an embedded tracking solution, proposing innovative firmware and implementing proprietary libraries, reducing costs from €500 per unit to approximately €100.
+    - Improved an internal reverse image search solution by adopting updated loss functions and a more sophisticated training task, resulting in a 4% improvement, from 92% to 96%.
+    - Ported a tracking solution from C++ to Python to improve long-term reliability and reduce technical debt, and enhanced scalability up to 100 Raspberry Pis simultaneously through automatic monitoring with AWS cloud solutions (RedShift, Lambda, AWS IoT, S3, SQS).
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
+    name: Télécom SudParis
+    url: "https://www.telecom-sudparis.eu/en/"
+    location: Paris, France
+    logo: /images/sections/experiences/tsp.svg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    overview: Télécom SudParis is a large school that forms general engineers, as well as special engineers and teachers, innovators and entrepreneurs,
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Visiting Researcher Intern
+    start: April 2024
+    end: May 2025
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Responsible for representing GrottiniLab within the “Trust Rise Project” (Marie-Curie fellowship), participating as a visiting researcher in European universities, where I collaborated with PhDs, and co-authored R&D academic articles in AI and IoT fields.
+    - Implemented a real-world simulation system to test MQTT protocols from a cybersecurity perspective.
+    - Developed classification neural networks whose accuracy increased by 10% through the adoption of more modern networks and improved training methods.
+    - Implemented a backdoor injection on a GAN neural network for risk analysis.
+    - paper publication at https://inria.hal.science/hal-04832442/
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
+    name: Tod's S.p.A.
+    url: "https://www.tods.com/it-it/home/"
+    location: Fermo, Italy
+    logo: /images/sections/experiences/tod.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    overview: Tod’s is an Italian luxury fashion brand renowned for its high-quality leather goods, including shoes, bags, and accessories.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Data Analyst Intern
+    start: October 2022
+    end: February 2023
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Internship done at the Tod’s group. Development of a software architecture, starting from web scrapers to get the data and integrating it into data warehouse and creating Business Intelligence views.

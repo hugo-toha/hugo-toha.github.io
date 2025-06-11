@@ -10,95 +10,84 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
+- name: Master's Degree in Computer Science & Automation Engineering
   icon: fa-microscope
-  timeframe: 2016-2020
+  timeframe: 2020-2023
   institution:
-    name: ABC University of Technology
-    url: "#"
-    logo: /images/sections/education/tech_college.png
+    name: Polytechnic of Marche
+    url: "https://www.univpm.it/Entra/"
+    logo: /images/sections/education/univpm.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/tech_college.png
   grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
-  icon: fa-graduation-cap
-  timeframe: 2012-2016
-  institution:
-    name: University of XYZ
-    url: "#"
-    logo: /images/sections/education/university.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/university.jpg
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
+    scale: Graduation Mark
+    achieved: 110 Cum Laude
+    outOf: 110
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
+    showGrades: false
     collapseAfter: 3
     courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
+    - name: OPERATIONS RESEARCH 2
+    - name: NON-LINEAR CONTROL
+    - name: BUSINESS ORGANIZATION
+    - name: COMPUTER VISION AND DEEP LEARNING
+    - name: SOFTWARE CYBERSECURITY
+    - name: ADVANCED PROGRAMMING
+    - name: PROJECT MANAGEMENT FOR ICT
+    - name: AUTOMATION SYSTEMS
+    - name: PROGRAMMING LANGUAGES
+    - name: DATA SCIENCE
+    - name: DRIVES FOR AUTOMATION AND ROBOTICS
+    - name: PREVENTIVE MAINTENANCE FOR ROBOTICS AND INTELLIGENT AUTOMATION
   customSections: #(optional)
     - name: Thesis
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      content: Deep Learning to intercept trends for a fashion company
     - name: Supervisor
-      content: Fusce eu augue ut odio porttitor pulvinar.
-- name: Higher Secondary School Certificate
-  icon: fa-university
-  timeframe: 2010-2012
+      content: Emanuele Frontoni
+  
+- name: Bachelor Degree in Computer Science & Automation Engineering
+  icon: fa-graduation-cap
+  timeframe: 2017-2021
   institution:
-    name: MST College of Science
-    url: "#"
-    logo: /images/sections/education/science_college.png
+    name: Polytechnic of Marche
+    url: "https://www.univpm.it/Entra/"
+    logo: /images/sections/education/univpm.png
     # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/science_college.png
+    # darkLogo: /images/sections/education/tech_college.png
   grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
-  icon: fa-school
-  timeframe: 2005-2010
-  institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+    scale: Graduation Mark
+    achieved: 107
+    outOf: 110
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 3
+    courses:
+    - name: MATHEMATICAL ANALYSIS 2
+    - name: BUSINESS ECONOMICS
+    - name: FUNDAMENTALS OF COMPUTER SCIENCE
+    - name: MATHEMATICAL ANALYSIS I
+    - name: GENERAL PHYSICS II
+    - name: GENERAL PHYSICS I
+    - name: LINEAR ALGEBRA AND GEOMETRY
+    - name: ELECTROTECHNICS
+    - name: ELEMENTS OF ELECTRONICS
+    - name: FUNDAMENTALS OF AUTOMATIC CONTROL
+    - name: AUTOMATIC CONTROL SYSTEMS
+    - name: ALGORITHMS AND DATA STRUCTURES
+    - name: PROBABILITY AND MATHEMATICAL STATISTICS
+    - name: ELECTROMAGNETISM FOR INFORMATION TRANSMISSION
+    - name: OBJECT-ORIENTED PROGRAMMING
+    - name: WEB TECHNOLOGIES
+    - name: OPERATIONS RESEARCH
+    - name: TECHNOLOGIES FOR AUTOMATION AND ROBOTICS
+    - name: INDUSTRIAL AUTOMATION
+    - name: OPERATING SYSTEMS
+    - name: MOBILE PROGRAMMING
+  
+  customSections: #(optional)
+    - name: Thesis
+      content: E-commerce application for the Android Operating System
+    - name: Supervisor
+      content: Domenico Ursino

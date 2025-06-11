@@ -11,61 +11,121 @@ section:
 
 # filter buttons
 buttons:
-- name: All
-  filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
-  filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+- name: Programming
+  filter: "programming"
+- name: Cloud
+  filter: "cloud"
+- name: Languages
+  filter: "languages"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Experience in coding general purpose and Ai-driven solution. Capable of following Pep 8 Rules. Data Structures and Algorithms skills"
+  categories: ["programming"]
+  url: "https://www.python.org"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+- name: SQL
+  logo: /images/sections/skills/prova.png
+  summary: "Experience in coding in SQL. Obtained two online certifications from Stanford University. Completed Leetcode top 50 SQL questions"
+  categories: ["programming"]
+  url: 'https://en.wikipedia.org/wiki/SQL'
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
+- name: Tensorflow
+  logo: /images/sections/skills/tensorflow.png
+  summary: "Experience in Deep Learning using Tensorflow library. Proficiency in designing, training and deploying machine learning models"
+  categories: ["programming"]
+  url: 'https://www.tensorflow.org/'
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+- name: PyTorch
+  logo: /images/sections/skills/torch.png
+  summary: "Experience in Deep Learning using PyTorch library. Proficiency in designing, training and deploying machine learning models"
+  categories: ["programming"]
+  url: 'https://pytorch.org/'
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+- name: FastAI
+  logo: /images/sections/skills/fastai.png
+  summary: "Followed along the Jeremy Howard GitHub series: experience in using and training machine learning models"
+  categories: ["programming"]
+  url: 'https://www.fast.ai/'
+
+- name: OpenCV
+  logo: /images/sections/skills/opencv1.png
+  summary: "experience in image processing and features extraction"
+  categories: ["programming"]
+  url: 'https://opencv.org/'
+
+- name: statsmodel
+  logo: /images/sections/skills/stats.svg
+  summary: "Experience (both in university and personal projects) in processing and modeling time-series data, including trend analysis, forecasting, seasonality. and temporal pattern detection, from statistical (AR to SARIMAX) models to Prophet models"
+  categories: ["programming"]
+  url: 'https://www.statsmodels.org/stable/index.html'
+
+- name: Pandas
+  logo: /images/sections/skills/pandas.png
+  summary: "Proficient in data manipulation and analysis using Pandas, including data cleaning, transformation, and exploratory analysis. Completed Leetcode top 50 Pandas questions."
+  categories: ["programming"]
+  url: 'https://pandas.pydata.org/'
+
+- name: scikit-learn
+  logo: /images/sections/skills/sklearn.png
+  summary: "Experience in building and evaluating machine learning models using Scikit-Learn, with knowledge of preprocessing, model selection and gists of model interpretability (XAI)."
+  categories: ["programming"]
+  url: 'https://scikit-learn.org/stable/'
+
+- name: matplotlib
+  logo: /images/sections/skills/matplotlib.png
+  summary: "Skilled in creating data visualizations using Matplotlib for effective data communication and reporting."
+  categories: ["programming"]
+  url: 'https://matplotlib.org/'
+
+- name: HuggingFace
+  logo: /images/sections/skills/hface.png
+  summary: "Experience with HuggingFace Transformers for retrieving SOTA models, image classification, embeddings extractions and GenAI models."
+  categories: ["programming"]
+  url: 'https://huggingface.co/'
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
+  summary: "Daily use of Git for version control, collaboration, and codebase management environments (gists of CI/CD Development)."
+  categories: ["programming"]
+  url: 'https://git-scm.com/'
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Daily use of Linux Ubuntu OS. shell scripting, Linux services for deployment and real-time monitoring."
+  categories: ["programming"]
+  url: 'https://www.linux.org/'
+
+- name: AWS
+  logo: /images/sections/skills/aws.png
+  summary: "Deployed machine learning models and monitoring systems using AWS services such as EC2, ECR, EC2, Sagemaker, RedShift, Lambda, AWS IoT, S3, SQS."
+  categories: ["cloud"]
+  url: 'https://aws.amazon.com/'
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "Containerized applications and ML environments using Docker for experiments reproducibility, portability, and final deployment on multiple devices."
+  categories: ["cloud"]
+  url: 'https://www.docker.com/'
+
+- name: Italian
+  logo: /images/sections/skills/ita.png
+  summary: "Mother Tongue"
+  categories: ["languages"]
+  url: ''
+
+- name: English
+  logo: /images/sections/skills/uk.png
+  summary: "C1 Level Cambridge English certificate obtained in March 2023"
+  categories: ["languages"]
+  url: ''
+
+- name: French
+  logo: /images/sections/skills/fr.png
+  summary: "B1 Level DELF French certificate obtained in March 2025, and 1 year of working experience in Paris"
+  categories: ["languages"]
+  url: ''

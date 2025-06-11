@@ -1,7 +1,7 @@
 baseURL: https://mattiasospetti.github.io
 
-languageCode: bn
-title: "John's Blog"
+languageCode: en
+title: "Mattia Sospetti"
 
 # Use Hugo modules to add theme
 module:
@@ -23,13 +23,8 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Mattia Sospetti"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
 # default language for the content
 defaultContentLanguage: en
 
@@ -88,7 +83,7 @@ params:
 
     # Configure theme color settings
     theme:
-      enable: true
+      enable: false
       services:
         light: true # enable light theme. default "true"
         dark: true # enable dark theme. default "true"
@@ -100,14 +95,14 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: true
+      enable: false
       showAuthor: true # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
         facebook: true
-        twitter: true
+        #twitter: false
         linkedin: true
-        reddit: true
+        #reddit: false
         whatsapp: true
         email: true
         # tumblr: true
@@ -117,7 +112,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
@@ -197,11 +192,11 @@ params:
 
     # Specify whether to show flag in the language selector. Default is true.
     flags:
-      enable: true
+      enable: false
       # # If you want to use different country flag for a language, specify them here.
       # flagOverwrites:
       #   - languageCode: en
-      #     countryCode: us
+      #     countryCode: us 
 
     # Enable this to use `embed-pdf` shortcode.
     embedpdf:

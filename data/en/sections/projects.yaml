@@ -12,8 +12,6 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Professional
-  filter: "professional"
 - name: Academic
   filter: "academic"
 - name: Hobby
@@ -21,45 +19,62 @@ buttons:
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+- name: LeetCode top 50 SQL Questions
+  logo: /images/sections/projects/50.png
+  role: Individual
+  timeline: "April 2025 - June 2025"
+  repo: "https://github.com/mattiasospetti/sqlStanford"
+  url: "https://leetcode.com/studyplan/top-sql-50/"
+  summary: Answers for LeetCode top 50 SQL Questions (both in SQL and Pandas!)
+  tags: ["all","hobby"]
+
+- name: Data-Analysis
+  logo: /images/sections/projects/data.png
+  role: Individual
+  timeline: "February 2025"
+  repo: https://github.com/mattiasospetti/Data-Analysis
+  #url: ""
+  summary: extensive data analysis (visualization, clustering, classification, tsa) on several dataset examples - Pandas, Statsmodels, prophet, keras, tensorflow, pytorch, scikit-learn, matlplotlib
+  tags: ["all", "hobby"]
+
+- name: GAN Backdoor Injection
+  logo: /images/sections/projects/gan.jpeg
+  role: Main Author
+  timeline: "November 2024"
+  repo: https://github.com/mattiasospetti/GAN-Backdoor-Injection # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+  summary: GAN Backdoor Injection.
+  tags: ["all", "academic"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+- name: SHIELD - assessing security-by-design in federated data spaces using attack graphs
+  logo: /images/sections/projects/hal.png
+  role: Contributor
+  timeline: "April 2024 - June 2024"
+  repo: https://github.com/Ale96Pa/ag-iot
+  url: "https://inria.hal.science/hal-04832442/"
+  summary: (Paper publication) SHIELD - assessing security-by-design in federated data spaces using attack graphs
+  tags: ["all", "academic"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+- name: GAN-MNIST-PyTorch
+  logo: /images/sections/projects/mni.png
+  role: Individual
+  timeline: "October 2023 - November 2023"
+  repo: https://github.com/mattiasospetti/GAN-MNIST-PyTorch
+  summary: Testing training a GAN to generate new digits from MNIST dataset, using PyTorch library.
+  tags: ["all", "hobby"]
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
-
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: FashionMNIST-VAE
+  logo: /images/sections/projects/fash.png
+  role: Individual
+  timeline: "October 2023 - November 2023"
+  repo: https://github.com/mattiasospetti/FashionMNIST-VAE
+  summary: Implementing a Generative AI with VAE, starting from FashionMnist dataset
+  tags: ["all", "hobby"]
+  
+- name: Univpm_Projects 
+  logo: /images/sections/projects/univpm.png
+  role: Individual
+  timeline: "October 2017 - February 2023"
+  repo: https://github.com/mattiasospetti/Univpm_Projects
+  summary: projects made during college years
+  tags: ["all", "academic"]
