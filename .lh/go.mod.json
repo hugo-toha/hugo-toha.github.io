@@ -1,0 +1,18 @@
+{
+    "sourceFile": "go.mod",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1751988606025,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1751988606025,
+            "name": "Commit-0",
+            "content": "module github.com/idubi/hugo-portfolio.github.io\n\ngo 1.21\n\nrequire github.com/hugo-toha/toha/v4 v4.8.1-0.20250414164834-722336146405 // indirect\n\n// replace(\n//     github.com/hugo-toha/toha/v4 => ../toha\n// )\n"
+        }
+    ]
+}

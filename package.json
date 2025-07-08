@@ -30,6 +30,7 @@
       "postcss-cli": "github.com/hugo-toha/toha/v4"
     }
   },
+  "dependencies": {},
   "devDependencies": {
     "@fontsource/mulish": "4.5.13",
     "@fortawesome/fontawesome-free": "^6.6.0",
@@ -52,12 +53,13 @@
     "ityped": "^1.0.3",
     "katex": "^0.16.11",
     "mark.js": "^8.11.1",
-    "mermaid": "^11.6.0",
+    "mermaid": "^9.2.1",
     "plyr": "^3.7.2",
     "popper.js": "^1.16.1",
     "postcss": "^8.4.41",
     "postcss-cli": "^11.0.0"
   },
   "name": "hugo-toha.github.io",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
