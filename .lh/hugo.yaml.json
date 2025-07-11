@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 7,
             "patches": [
                 {
                     "date": 1751988653556,
@@ -16,6 +16,26 @@
                 {
                     "date": 1751988829599,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -153,9 +153,9 @@\n         #   hideDeleted: false\n \n     # Enable Analytics\n     analytics:\n-      enabled: true\n+      enabled: false\n       services:\n         # Google Analytics\n         google:\n           id: G-H4LBG7NDFZ\n"
+                },
+                {
+                    "date": 1752189214412,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n baseURL: https://idubi/hugo-portfolio.github.io\n \n-languageCode: bn\n+languageCode: en\n title: \"John's Blog\"\n \n # Use Hugo modules to add theme\n module:\n@@ -24,13 +24,9 @@\n     languageCode: en\n     languageName: English\n     title: \"John's Blog\"\n     weight: 1\n-  bn:\n-    languageCode: bn\n-    languageName: বাংলা\n-    title: জনের ব্লগ\n-    weight: 2\n+\n # default language for the content\n defaultContentLanguage: en\n \n # Allow raw html in markdown file\n"
+                },
+                {
+                    "date": 1752189311153,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n baseURL: https://idubi/hugo-portfolio.github.io\n \n languageCode: en\n-title: \"John's Blog\"\n+title: \"ido's Blog\"\n \n # Use Hugo modules to add theme\n module:\n   imports:\n@@ -22,9 +22,9 @@\n languages:\n   en:\n     languageCode: en\n     languageName: English\n-    title: \"John's Blog\"\n+    title: \"ido's Blog\"\n     weight: 1\n \n # default language for the content\n defaultContentLanguage: en\n"
+                },
+                {
+                    "date": 1752193438359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n \n # Site parameters\n params:\n   # Background image of the landing page\n-  background: /images/site/background.jpg\n+  background: /images/site/background data eng.jpg\n   # Background image of the landing page for dark theme\n   #darkBackground: /images/site/background.jpg\n \n   # Provide logos for your site. The inverted logo will be used in the initial\n"
+                },
+                {
+                    "date": 1752193484493,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n \n # Site parameters\n params:\n   # Background image of the landing page\n-  background: /images/site/background data eng.jpg\n+  background: /images/site/background data eng.png\n   # Background image of the landing page for dark theme\n   #darkBackground: /images/site/background.jpg\n \n   # Provide logos for your site. The inverted logo will be used in the initial\n"
+                },
+                {
+                    "date": 1752193555696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n \n # Site parameters\n params:\n   # Background image of the landing page\n-  background: /images/site/background data eng.png\n+  background: /images/site/background.png\n   # Background image of the landing page for dark theme\n   #darkBackground: /images/site/background.jpg\n \n   # Provide logos for your site. The inverted logo will be used in the initial\n"
                 }
             ],
             "date": 1751988653556,

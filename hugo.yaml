@@ -1,7 +1,7 @@
 baseURL: https://idubi/hugo-portfolio.github.io
 
-languageCode: bn
-title: "John's Blog"
+languageCode: en
+title: "ido's Blog"
 
 # Use Hugo modules to add theme
 module:
@@ -23,13 +23,9 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "ido's Blog"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
+
 # default language for the content
 defaultContentLanguage: en
 
@@ -57,7 +53,7 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  background: /images/site/background.png
   # Background image of the landing page for dark theme
   #darkBackground: /images/site/background.jpg
 

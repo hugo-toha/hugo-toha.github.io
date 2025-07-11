@@ -1,0 +1,50 @@
+{
+    "sourceFile": "data/en/author.yaml",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1752190598410,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1752190806777,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,13 @@\n   dev.to: https://dev.to/t/idobistry\n \n # some summary about what you do\n summary:\n-  - I am a Developer\n-  - I am a Devops\n-  - I love servers\n-  - I work on open-source projects\n-  - I love to work with some fun projects\n+  - I am a Software Engineer\n+  - I am a Data Engineer\n+  - I love to work with data\n+  - I am Artificial Intelligent advocate\n+  - I am a Deep learning Developer\n+  - I am a Machine Learning Engineer\n+  - I am a technology enthusiast\n+  - I am a social enterpreneur\n+  - I teach Machine Learning an python\n"
+                },
+                {
+                    "date": 1752191358630,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n name: \"Ido Bistry\"\n nickname: \"idubi\"\n # greeting message before your name. it will default to \"Hi! I am\" if not provided\n greeting: \"Hi, I am\"\n-image: \"images/author/ido.png\"\n+image: \"images/author/ido-full.png\"\n # give your some contact information. they will be used in the footer\n contactInfo:\n   email: \"ido.bistry@gmail.com\"\n   phone: \"+972-523578697\"\n@@ -21,5 +21,5 @@\n   - I am a Deep learning Developer\n   - I am a Machine Learning Engineer\n   - I am a technology enthusiast\n   - I am a social enterpreneur\n-  - I teach Machine Learning an python\n+  - I teach Machine Learning and Python\n"
+                },
+                {
+                    "date": 1752191383551,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n name: \"Ido Bistry\"\n nickname: \"idubi\"\n # greeting message before your name. it will default to \"Hi! I am\" if not provided\n greeting: \"Hi, I am\"\n-image: \"images/author/ido-full.png\"\n+image: \"images/author/ido-full-body.png\"\n # give your some contact information. they will be used in the footer\n contactInfo:\n   email: \"ido.bistry@gmail.com\"\n   phone: \"+972-523578697\"\n"
+                },
+                {
+                    "date": 1752191402439,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n name: \"Ido Bistry\"\n nickname: \"idubi\"\n # greeting message before your name. it will default to \"Hi! I am\" if not provided\n greeting: \"Hi, I am\"\n-image: \"images/author/ido-full-body.png\"\n+image: \"images/author/ido-top.png\"\n # give your some contact information. they will be used in the footer\n contactInfo:\n   email: \"ido.bistry@gmail.com\"\n   phone: \"+972-523578697\"\n"
+                },
+                {
+                    "date": 1752192512529,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n name: \"Ido Bistry\"\n nickname: \"idubi\"\n # greeting message before your name. it will default to \"Hi! I am\" if not provided\n greeting: \"Hi, I am\"\n-image: \"images/author/ido-top.png\"\n+image: \"images/author/ido-top2.png\"\n # give your some contact information. they will be used in the footer\n contactInfo:\n   email: \"ido.bistry@gmail.com\"\n   phone: \"+972-523578697\"\n"
+                },
+                {
+                    "date": 1752192523055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n name: \"Ido Bistry\"\n nickname: \"idubi\"\n # greeting message before your name. it will default to \"Hi! I am\" if not provided\n greeting: \"Hi, I am\"\n-image: \"images/author/ido-top2.png\"\n+image: \"images/author/ido-top.png\"\n # give your some contact information. they will be used in the footer\n contactInfo:\n   email: \"ido.bistry@gmail.com\"\n   phone: \"+972-523578697\"\n"
+                },
+                {
+                    "date": 1752192659861,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n name: \"Ido Bistry\"\n nickname: \"idubi\"\n # greeting message before your name. it will default to \"Hi! I am\" if not provided\n greeting: \"Hi, I am\"\n-image: \"images/author/ido-top.png\"\n+image: \"images/author/ido-top2.png\"\n # give your some contact information. they will be used in the footer\n contactInfo:\n   email: \"ido.bistry@gmail.com\"\n   phone: \"+972-523578697\"\n"
+                },
+                {
+                    "date": 1752192667949,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n name: \"Ido Bistry\"\n nickname: \"idubi\"\n # greeting message before your name. it will default to \"Hi! I am\" if not provided\n greeting: \"Hi, I am\"\n-image: \"images/author/ido-top2.png\"\n+image: \"images/author/ido-top3.png\"\n # give your some contact information. they will be used in the footer\n contactInfo:\n   email: \"ido.bistry@gmail.com\"\n   phone: \"+972-523578697\"\n"
+                }
+            ],
+            "date": 1752190598410,
+            "name": "Commit-0",
+            "content": "# some information about you\nname: \"Ido Bistry\"\nnickname: \"idubi\"\n# greeting message before your name. it will default to \"Hi! I am\" if not provided\ngreeting: \"Hi, I am\"\nimage: \"images/author/ido.png\"\n# give your some contact information. they will be used in the footer\ncontactInfo:\n  email: \"ido.bistry@gmail.com\"\n  phone: \"+972-523578697\"\n  github: https://github.com/idubi\n  linkedin: https://www.linkedin.com/in/idubi\n  dev.to: https://dev.to/t/idobistry\n\n# some summary about what you do\nsummary:\n  - I am a Developer\n  - I am a Devops\n  - I love servers\n  - I work on open-source projects\n  - I love to work with some fun projects\n"
+        }
+    ]
+}

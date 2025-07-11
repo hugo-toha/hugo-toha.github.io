@@ -1,0 +1,18 @@
+{
+    "sourceFile": "gemini.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1752194047230,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1752194047230,
+            "name": "Commit-0",
+            "content": "\n\n1. First think through the problem, read the codebase for relevant files, and write a plan to todo.md.\n2. The plan should have a list of todo items that you can check off as you complete them\n3. Before you begin working, check in with me and I will verify the plan.\n4. Then, begin working on the todo items, marking them as complete as you go.\n5. Please every step of the way just give me a high level explanation of what changes you made\n6. Make every task and code change you do as simple as possible. We want to avoid making any massive or complex changes. Every change should impact as little code as possible. Everything is about simplicity.\n7. Finally, add a review section to the todo.md file with a summary of the changes you made and any other relevant information.\n\nplease use this guidelines for the project:\n- Planning Phase:\n\nCarefully analyze the project requirements and thoroughly read relevant parts of the existing codebase.\n\nCreate a structured plan outlining clear, actionable steps in a file named todo.md. Each task should be concise, specific, and independently verifiable.\n\n- Plan Verification:\n\nBefore implementing any code changes, clearly communicate your plan to me for review and approval. Await explicit confirmation before proceeding.\n\n- Execution Phase:\n\nBegin implementing the tasks listed in todo.md sequentially, marking each task complete as you progress.\n\nProvide high-level explanations of each step, clearly stating the purpose and scope of each code modification.\n\nPrioritize simplicity, ensuring each change is minimalistic and isolated. Avoid large-scale refactors or complex interdependencies.\n\n- Review Phase:\n\nAfter completing the tasks, write a concise summary in a dedicated \"Review\" section at the bottom of todo.md. Include:\n\n- A brief overview of the changes made.\n- Any challenges encountered and how they were resolved.\n- Any additional notes or considerations for future work.   "
+        }
+    ]
+}
