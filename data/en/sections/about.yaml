@@ -8,97 +8,159 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Data Engineer/ Devop Engineer
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: TRUE IL
+  url: https://www.true.org.il
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary:
+  "Software Engineer, Data Engineer, Devops Engineer and a lifelong learner.<br/>
+  I have a passion for technology and enjoy solving complex problems.<br/>
+  always looking for new challenges.<HR/>
+
+  - astonished by data and best practices involved in data engineering.<br/>
+
+  - Experienced in building data pipelines, automating environments,
+  and delivering actionable insights.<br/>
+
+  - Skilled in Javascript(Node, React), Python, SQL, BI Tools <br/>
+  and various data engineering tools.<br/>
+
+  - Passionate about AI and involve this technology in my daily work.<br/>
+
+  - Strong foundation in software development and data engineering.<br/>
+
+  - Adaptable and self-driven technologist with a strong foundation in both
+  software development and data engineering.<br/>
+
+  - Proven ability to build robust ETL processes, automate cloud environments, and deliver actionable insights."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-- name: Email
-  icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "ido.bistry@gmail.com"
 
-- name: Github
-  icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://www.github.com/idubi"
 
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+  - name: GitLab
+    icon: "fab fa-gitlab"
+    url: "https://gitlab.com/ido.bistry"
 
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "#"
+  - name: Dev.To
+    icon: "fab fa-dev"
+    url: "https://dev.to/search?utf8=%E2%9C%93&q=idobistry"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "#"
+  - name: Dev.To
+    icon: "fab fa-medium"
+    url: "https://medium.com/@ido.bistry"
 
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
+  # - name: Stackoverflow
+  #   icon: "fab fa-stack-overflow"
+  #   url: "#"
 
-- name: Mastadon
-  icon: "fab fa-mastodon"
-  url: "#"
-  rel: "me noopener"
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/idobistry/"
 
-- name: ResearchGate
-  icon: "fab fa-researchgate"
-  url: "https://www.researchgate.net/profile/john-doe"
+  # - name: Twitter
+  #   icon: "fab fa-twitter"
+  #   url: "#"
+
+  # - name: Facebook
+  #   icon: "fab fa-facebook"
+  #   url: "#"
+
+  # - name: Mastadon
+  #   icon: "fab fa-mastodon"
+  #   url: "#"
+  #   rel: "me noopener"
+
+  # - name: ResearchGate
+  #   icon: "fab fa-researchgate"
+  #   url: "https://www.researchgate.net/profile/john-doe"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-- title: "My Resume"
-  url: "files/resume.pdf"
+  - title: "My Resume"
+    url: "files/resume.pdf"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
-- type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+  - type: certification
+    name: DevOps Engineer - AWS
+    url: "https://www.analiza.org.il/"
+    badge: "files/certificates/analiza.jpg"
 
-- type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
+  - type: certification
+    name: Devops Engineer - global
+    url: "https://www.devopsexperts.co.il/"
+    badge: "files/certificates/devops experts.jpg"
 
-- type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+  - type: certification
+    name: Artificial Intelligence and Machine Learning
+    url: "https://grtech.co.il/en/%D7%A7%D7%95%D7%A8%D7%A1/ai-and-deep-learning-development/"
+    badge: "files/certificates/reichman google - AIML Developer.jpg"
 
-- type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
-  color: blue
+  - type: certification
+    name: Data Analyst - NAYA
+    url: "https://www.naya-college.co.il/data-analysis/"
+    badge: "files/certificates/NAYA-DATA ANALYST.jpg"
 
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
-  color: yellow
+  # - type: certification
+  #   name: Practical engineer
+  #   url: "https://www.cts.org.il/%d7%94%d7%a0%d7%93%d7%a1%d7%90%d7%99-%d7%aa%d7%95%d7%9b%d7%a0%d7%94/"
+  #   badge: "https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=_zOuJu755g2eEUioiOUdz_mHKJQJn-tDgIAhQzyeKUQ="
 
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
-  color: orange
+  - type: certification
+    name: Technion - Software/Business Designer
+    url: "https://cont-edu.technion.ac.il/programs/%d7%9e%d7%97%d7%a9%d7%91%d7%99%d7%9d-%d7%95%d7%94%d7%99%d7%99%d7%98%d7%a7/"
+    badge: "files/certificates/technion diploma.jpg"
 
-# you can also provide color code instead of the color name
-# - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
-#   color: "#00adb5"
+  - type: certification
+    name: John Bryce - DBA
+    url: "https://camp.johnbryceedu.co.il/jb-high-tech-courses"
+    badge: "files/certificates/oracle dba.jpg"
+
+  - type: soft-skill-indicator
+    name: Project Scope Needs
+    percentage: 90
+    color: "#007f4e"
+
+  - type: soft-skill-indicator
+    name: Team Collaboration
+    percentage: 85
+    color: blue
+
+  - type: soft-skill-indicator
+    name: Data Story Telling
+    percentage: 85
+    color: "#fb4d3d"
+
+  - type: soft-skill-indicator
+    name: Mentoring / Data Sharing
+    percentage: 90
+    color: "#f7b538"
+
+  - type: soft-skill-indicator
+    name: Advocat learner.
+    percentage: 90
+    color: "#7a28cb"
+
+  # you can also provide color code instead of the color name
+  - type: soft-skill-indicator
+    name: AI Literacy,Hands On and Integration
+    percentage: 90
+    color: "#ff0091"
