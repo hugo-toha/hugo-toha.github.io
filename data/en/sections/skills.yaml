@@ -11,61 +11,278 @@ section:
 
 # filter buttons
 buttons:
-- name: All
-  filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
-  filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+  - name: All
+    filter: "all"
+  - name: SW Development
+    filter: "sw-development"
+  - name: AI/Data Science
+    filter: "ai-data-science"
+  - name: Data
+    filter: "data"
+  - name: DevOps
+    filter: "devops"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+  # ai-data-science
+  - name: Deep Reinforcement Learning
+    logo: /images/sections/skills/reinforcement-learning.png
+    summary:
+      I am the founder of a new enterpreneur, focusing in bringing AI knowledge
+      to the youth of the OTEF (עוטף עזה והנגב המערבי). <br/>
+      - this projecxt is endorsed by the <H5>תקומה, החברה למתנסי"ם  הקרן לעידוד יוזמות בחינוך  וארגון הביתה</H5>,
+      - I aim to teach them the basics of AI and how to use it in their daily lives.
+      using python programming to train model with symulators
+      the model then will be deployed on robots to perform tasks.
+    categories: ["all", "ai-data-science", "sw-development"]
+    url: "https://www.hinuch-mehaber.org/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+  - name: AI LLM - Agents and bots
+    logo: /images/sections/skills/ai-agent.png
+    summary:
+      I have experience with several AI agents, that I released to GPT Store
+      - I used these technologies to refacotr and understand code (@AIdo - CODE RESOLVER)
+      - I used my bots to elaborate and explain dificalt network concepts (@AIdo - CCNA EXAM Resolver)
+      - I am using this technology to refine my CV and generate cover letters, according to(@AIdo - JOB STRATEGIC PREPERATION)
+      the described position
+    categories: ["all", "ai-data-science", "sw-development"]
+    url: "https://chatgpt.com/g/g-6866062c88608191a54147ecb6ae7045-aido-job-strategic-preperation?model=gpt-4o"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+  - name: Deep Learning LLM - RAG
+    logo: /images/sections/skills/rag.jpg
+    summary: wrote a RAG to an enterpreneural
+      true.org.il - implementing the data our researchers already verified
+      with political context to reveral fake news and misinformation.
+      experience with RAG (Retrieval-Augmented Generation) and LLMs (Large Language Models).
+    categories: ["all", "ai-data-science", "sw-development"]
+    url: "https://true.org.il"
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
+  - name: Deep Learning - CNN
+    logo: /images/sections/skills/deep-learning.png
+    summary: Trained a YOLO 10 detection model on unstructured data,
+      that I tagged using roboflow and tagging utility.<br/>
+      - I manipulated data adding augmented images of coins in several angles and ditorted colors.
+      then used TensorFlow to build and train the model. <br/>
+      - I moitored the model performance and accuracy using tesorbord and comet.<br/>
+      - I presented this project in GOOGLE offices and was awarded with a certificate.
+    categories: ["all", "ai-data-science", "sw-development"]
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7238616398879461376/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+  - name: vibe coding & context engineering
+    logo: /images/sections/skills/vibe-code.png
+    summary:
+      I am a vibe coder, I use my intuition and experience to write code that works.
+      - I use tools like BASE44 <br/>
+      - to write mopkup frontends<br/>
+      - I use gemini-cli , copilot and windsurf to write code that is relevant and useful.<br/>
+      - I embed context engineering techniques to ensure that the code I write is relevant and useful.<br/>
+      - I use specific models in specific stages of development
+      saving expensive complex pro models on specific development tasks
+      and using simpter models to prepare the tasks stages  <br/)
+      - for straightforward tasks that involve simple configurations I use copilot and windsurf sometimes
+      - I use my knowledge of the context to write code that is relevant and useful.
+    categories: ["all", "sw-development", "ai-data-science"]
+    url: "https://app--4-connect-ai-8d7e48ac.base44.app"
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+  - name: AI Forums - advocating AI and Data Science
+    logo: /images/sections/skills/ai-forums.png
+    summary:
+      I am an active member of several AI forums either professional, linkdin or whatsups
+      where I share my knowledge and experience with others.
+      - I have contributed to discussions on various topics, including data analysis, natural language processing, and machine learning.
+      - I am also a member of several AI communities, where I share my knowledge and experience with others.
+    categories: ["all", "ai-data-science"]
+    url: "https://www.skool.com/@ido-bistry-8164?g=ai-life-club-9083"
+  # ------------------------------------------------------------------------------
+  # devops
+  - name: Kubernetes
+    logo: /images/sections/skills/kubernetes.png
+    summary: "Capable of deploying, managing application on Kubernetes. on going challange 40 days of CKA"
+    categories: ["all", "devops"]
+    url: "https://dev.to/idubi/"
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
+  - name: Python
+    logo: /images/sections/skills/python.jpg
+    summary: Master Python with a focus on data engineering, AI applications
+      and Devops tasks.
+      - Developing data pipelines and automated environments.
+      - Using Pandas, NumPy, and Scikit-learn for data manipulation,
+      - training and deploying machine learning models and for Neural network inference,
+      - using Python for scripting and automation I/O for Devops tasks.
+      - flask application development
+      - django development for TRUE administrative tier
+      Passionate about leveraging Python for AI and machine learning projects.
+    categories: ["all", "sw-development", "ai-data-science"]
+    url: "https://gitlab.com/ido.bistry/WorldOfGame"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+  - name: AWS
+    logo: /images/sections/skills/aws.jpg
+    summary:
+      AWS DevOps Engineer and a BackEnd developer - I used and still using
+      many AWS services and architectures
+      <table><TR><td>Lambda</td><td>EC2</td><td>S3 storage</td></tr>
+      <TR><td>RDS</td><td>DynamoDB</td><td>Event bridge</td></tr>
+      <TR><td>API Gateway</td><td>AmazonMQ</td><td>SQS</td></tr>
+      <TR><td>Fargate</td><td>Beanstalk</td><td>ECS</td></tr>
+      <TR><td>CloudWatch</td><td>AWS Pipeline</td><td>AWS CodeBuild</td></tr>
+      <TR><td>ECR</td><td>ASM - Secret manager</td><td>Bedrock (genAI)</td></tr>
+      </table> ....
+    categories: ["all", "sw-development", "devops"]
+    url: "https://dev.to/idubi/40-days-of-k8s-cka-challenge-0340-a8k"
+
+  - name: Docker
+    logo: /images/sections/skills/docker.svg
+    summary: Write most of the programs as dockerized container.
+      Experienced with multi-stage, multi-arch build process.
+      Capable of optimizing Docker images for size and performance.
+      my woring environments - either databases or services all are
+      dockerized and when programming are orchestrated with K8 or docker compose
+    categories: ["all", "sw-development", "devops"]
+    url: "https://dev.to/idubi/40-days-of-k8s-cka-challenge-0340-a8k"
+
+  - name: CI/CD (Jenkins and GitHub Actions)
+    logo: /images/sections/skills/jenkins.png
+    summary: several projects involving jenkins and github actions
+      automated testing and deployment pipelines in true.org.il
+    categories: ["all", "devops"]
+
+    url: "https://gitlab.com/ido.bistry/Curl-deployment-with-Jenkins-elastic-S3"
+
+  - name: Linux
+    logo: /images/sections/skills/linux.png
+    summary: My linux ROCS.
+      linux commands, scipting bash, zsh (kali linux,mac) and more.
+      I understand mostly the linux kernal and how to use it.
+      I know how to install and configure linux distributions (mainly for myself at home).
+      I have experience in using various Linux distributions, including Ubuntu, kali , mint and more.
+    categories: ["all", "devops"]
+
+  - name: Git
+    logo: /images/sections/skills/git.png
+    summary: Experienced with git-based development. <br/>
+      - CI/CD with github actions - using git hooks and experience in
+      setting up automated workflows to AWS pipeline <br/>
+      - use github application to automate the deployment process. <br/>
+      - git submodule to deploy one project as a compopnent in seccond project <br/>
+      - git VLF - git large file storage - objects to store large files in git repositories
+      - cherry picking commits to different branches  <br/>
+      - rebasing and merging branches  <br/>
+      - resolving merge conflicts  <br/>
+      - used mainly Github and GitLab, but also bitbucket and Git.
+    categories: ["all", "devops"]
+    url: "https://gitlab.com/ido.bistry/"
+
+  - name: SQL (oracle, MS-SQLServer, PostgreSQL, MySQL, BigQuery)
+    logo: /images/sections/skills/sql.png
+    summary: I MASTER sql. both scripting techniques and programming with
+      either plsql (oracle) or transactsql(MS-SQLServer) .<br/>
+      - complex joins and subqueries <br/>
+      - analitc (window) function<br/>
+      - CTEs queries<br/>
+      - pivoting sql functions <br/>
+      I master the types of objects in the database and how to use them.
+      I have a MASTER DBA certificate and worked as a DBA for 4 years at AMDOCS
+      before this was SQL/Delphi consultantr at Bank-Leumi
+
+    categories: ["all", "data", "sw-development"]
+    url: "files/certificates/oracle dba.jpg"
+
+  - name: NoSQL (MongoDB, Redis, Cassandra, DynamoDB,Neo4j)
+    logo: /images/sections/skills/nosql.png
+    summary:
+      I have experience with NoSQL databases, including MongoDB, Redis, and Cassandra
+      on several positions and projects.
+      - I have used these databases for various projects, including data storage and retrieval,
+      caching, and real-time analytics.
+      - I am familiar with the differences between NoSQL and SQL databases and can choose the
+      appropriate database for a given use case.
+      - I am also familiar with the use of NoSQL databases in cloud environments, such as AWS DynamoDB.
+      - I am aware of <b><u>vector databases</u></b> and their indexes in RAG and AI use cases
+    categories: ["all", "data", "sw-development"]
+    url: "https://gitlab.com/ido.bistry/WorldOfGame"
+
+  - name: HELM
+    logo: /images/sections/skills/helm.png
+    summary: usin helm charts to deploy k8s pred efined applications
+    categories: ["all", "devopst"]
+    url: "https://gitlab.com/ido.bistry/Curl-deployment-with-Jenkins-elastic-S3/-/blob/main/starter-kit/1.jenkins.sh?ref_type=heads"
+
+  - name: Terraform (IAC)
+    logo: /images/sections/skills/terraform.jpg
+    summary: terrafor mroject to deliver iac to customers - d-expert.com
+    categories: ["all", "sw-development", "devops"]
+    url: "https://gitlab.com/ido.bistry/SEMPERIS-TERRAFORM"
+
+  - name: Vagrant/Ansible (IAC)
+    logo: /images/sections/skills/vagrant.png
+    summary: iac - configuratiopn as code to deliver several hosts with same configuration
+    categories: ["all", "devops"]
+    url: "https://dev.to/idubi/create-your-own-k8s-multi-nodes-kubeadm-dind-platform-1116"
+
+  #------------------------------------------------------------------
+
+  - name: Node.js
+    logo: /images/sections/skills/nodejs.png
+    summary: "BackEnd senior developer , at
+      CODE-LOVERS - developed a wellness application for mobile and web using Node.js Express.js, React
+      relying on MongoDB, Redis and AWS services.
+      AWS and GCP components (like Lambda,EC2,S3 storage,GCP PUB-SUB,GCP
+      and apple IAP and more ) and 3rd party CRM management system as single source
+      of true fomr custmers management"
+    categories: ["all", "sw-development"]
+    url: "https://codelovers.com/#projects"
+
+  - name: React
+    logo: /images/sections/skills/react.png
+    summary: "FrontEnd developer at CODE-LOVERS
+      developed a <b><u>web dashboard</u></b> using React,
+      Redux flexbox desig and StyledComponents approach
+      to  manage the progress of police officers training with the application "
+    categories: ["all", "sw-development"]
+    url: "http://gitlab.com/ido.bistry/auth-app"
+
+  - name: Power BI
+    logo: /images/sections/skills/powerbi.jpg
+    summary: I had completed the Data Analytics course and gained hands-on
+      experience with Power BI for data visualization and reporting.
+      I practiced on real data, and experianced in creating interactive dashboards, modeling RAW
+      data, and generating insights while using Power BI and AI LLMs to enhance data analysis.
+      I used my comprehensive SQL skills to query and manipulate data effectively.
+    categories: ["all", "data"]
+    url: "https://gitlab.com/ido.bistry/NYC-TRAFFIC-REPORTS"
+
+  - name: JAVA
+    logo: /images/sections/skills/java.png
+    summary: 6 years of java experiance at amdocs (jms,spring boot, spring MVC, junit, jpa and more)
+    categories: ["all", "sw-development"]
+    url: "https://gitlab.com/ido.bistry/PetFinderAPI"
+
+  - name: C#
+    logo: /images/sections/skills/C_sharp.svg
+    summary: retalix - production with c# @ ikea
+    categories: ["all", "sw-development"]
+    url: "https://gitlab.com/ido.bistry/custom-dynamic-search-drop-down"
+
+  - name: kafka
+    logo: /images/sections/skills/kafka-icon.svg
+    summary: developed event driven projects for big volumes
+    categories: ["all", "sw-development"]
+    url: ""
+
+  - name: redis
+    logo: /images/sections/skills/redis.png
+    summary: configured and developed several projects with redis for applicatiove cache manipulation
+    categories: ["all", "sw-development"]
+    url: "https://gitlab.com/ido.bistry/custom-dynamic-search-drop-down"
+
+  - name: Delphi
+    logo: /images/sections/skills/delphi.jpg
+    summary: I WILL ALLWAYS HAVE DELPHI IN MY HEART. <br/>
+      <b><u>she</b></u> is my legacy. whenever I want to remember what it was like ... I turn to Delphi
+      she was created a bit after oracle database sprang out and it fitted
+      it like a glove to a hand
+      hance the mithological "oracle of delphi" came to life in my imagination
+      we will allways have delphi in our hearts
+    categories: ["all", "sw-developmentI"]
+    url: ""

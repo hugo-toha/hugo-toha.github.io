@@ -1,7 +1,7 @@
 baseURL: https://idubi/hugo-portfolio.github.io
 
-languageCode: bn
-title: "John's Blog"
+languageCode: en
+title: "ido's Blog"
 
 # Use Hugo modules to add theme
 module:
@@ -23,13 +23,9 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "ido's Blog"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
+
 # default language for the content
 defaultContentLanguage: en
 
@@ -57,16 +53,18 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  # background: /images/site/background-concepts.jpg
+  # background: /images/site/NeuralNetwork1920X1080.jpg
+  background: /images/site/NN1920X1080.jpg
   # Background image of the landing page for dark theme
   #darkBackground: /images/site/background.jpg
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/AIDO/logo - round.jpg
+    inverted: /images/AIDO/LOGO-AIdo.jpg
+    favicon: /images/AIDO/LOGO-AIdo.jpg
 
   # GitHub repo of your site
   gitRepo: https://github.com/idubi/hugo-portfolio
