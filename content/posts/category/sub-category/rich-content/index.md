@@ -29,9 +29,9 @@ This sample post tests the followings:
 
 {{< vs >}}
 
-### Tweet Sample
+### Tweet Sample replaced with x 
 
-{{< tweet user="SanDiegoZoo" id="1453110110599868418" >}}
+{{< x user="SanDiegoZoo" id="1453110110599868418" >}}
 
 {{< vs >}}
 
