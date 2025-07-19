@@ -37,6 +37,9 @@ skills:
       the model then will be deployed on robots to perform tasks.
     categories: ["all", "ai-data-science", "sw-development"]
     url: "https://www.hinuch-mehaber.org/"
+    grade:
+      color: black
+      value: 90
 
   - name: AI LLM - Agents and bots
     logo: /images/sections/skills/ai-agent.png
@@ -48,6 +51,9 @@ skills:
       the described position
     categories: ["all", "ai-data-science", "sw-development"]
     url: "https://chatgpt.com/g/g-6866062c88608191a54147ecb6ae7045-aido-job-strategic-preperation?model=gpt-4o"
+    grade:
+      color: black
+      value: 90
 
   - name: Deep Learning LLM - RAG
     logo: /images/sections/skills/rag.jpg
@@ -57,6 +63,9 @@ skills:
       experience with RAG (Retrieval-Augmented Generation) and LLMs (Large Language Models).
     categories: ["all", "ai-data-science", "sw-development"]
     url: "https://true.org.il"
+    grade:
+      color: black
+      value: 85
 
   - name: Deep Learning - CNN
     logo: /images/sections/skills/deep-learning.png
@@ -68,6 +77,9 @@ skills:
       - I presented this project in GOOGLE offices and was awarded with a certificate.
     categories: ["all", "ai-data-science", "sw-development"]
     url: "https://www.linkedin.com/feed/update/urn:li:activity:7238616398879461376/"
+    grade:
+      color: black
+      value: 85
 
   - name: vibe coding & context engineering
     logo: /images/sections/skills/vibe-code.png
@@ -84,6 +96,9 @@ skills:
       - I use my knowledge of the context to write code that is relevant and useful.
     categories: ["all", "sw-development", "ai-data-science"]
     url: "https://app--4-connect-ai-8d7e48ac.base44.app"
+    grade:
+      color: black
+      value: 95
 
   - name: AI Forums - advocating AI and Data Science
     logo: /images/sections/skills/ai-forums.png
@@ -94,6 +109,10 @@ skills:
       - I am also a member of several AI communities, where I share my knowledge and experience with others.
     categories: ["all", "ai-data-science"]
     url: "https://www.skool.com/@ido-bistry-8164?g=ai-life-club-9083"
+    grade:
+      color: black
+      value: 95
+
   # ------------------------------------------------------------------------------
   # devops
   - name: Kubernetes
@@ -101,6 +120,9 @@ skills:
     summary: "Capable of deploying, managing application on Kubernetes. on going challange 40 days of CKA"
     categories: ["all", "devops"]
     url: "https://dev.to/idubi/"
+    grade:
+      color: black
+      value: 85
 
   - name: Python
     logo: /images/sections/skills/python.jpg
@@ -115,6 +137,9 @@ skills:
       Passionate about leveraging Python for AI and machine learning projects.
     categories: ["all", "sw-development", "ai-data-science"]
     url: "https://gitlab.com/ido.bistry/WorldOfGame"
+    grade:
+      color: black
+      value: 90
 
   - name: AWS
     logo: /images/sections/skills/aws.jpg
@@ -130,6 +155,9 @@ skills:
       </table> ....
     categories: ["all", "sw-development", "devops"]
     url: "https://dev.to/idubi/40-days-of-k8s-cka-challenge-0340-a8k"
+    grade:
+      color: black
+      value: 85
 
   - name: Docker
     logo: /images/sections/skills/docker.svg
@@ -140,13 +168,18 @@ skills:
       dockerized and when programming are orchestrated with K8 or docker compose
     categories: ["all", "sw-development", "devops"]
     url: "https://dev.to/idubi/40-days-of-k8s-cka-challenge-0340-a8k"
+    grade:
+      color: black
+      value: 95
 
   - name: CI/CD (Jenkins and GitHub Actions)
     logo: /images/sections/skills/jenkins.png
     summary: several projects involving jenkins and github actions
       automated testing and deployment pipelines in true.org.il
     categories: ["all", "devops"]
-
+    grade:
+      color: black
+      value: 95
     url: "https://gitlab.com/ido.bistry/Curl-deployment-with-Jenkins-elastic-S3"
 
   - name: Linux
@@ -157,6 +190,9 @@ skills:
       I know how to install and configure linux distributions (mainly for myself at home).
       I have experience in using various Linux distributions, including Ubuntu, kali , mint and more.
     categories: ["all", "devops"]
+    grade:
+      color: black
+      value: 90
 
   - name: Git
     logo: /images/sections/skills/git.png
@@ -172,6 +208,9 @@ skills:
       - used mainly Github and GitLab, but also bitbucket and Git.
     categories: ["all", "devops"]
     url: "https://gitlab.com/ido.bistry/"
+    grade:
+      color: black
+      value: 95
 
   - name: SQL (oracle, MS-SQLServer, PostgreSQL, MySQL, BigQuery)
     logo: /images/sections/skills/sql.png
@@ -184,9 +223,11 @@ skills:
       I master the types of objects in the database and how to use them.
       I have a MASTER DBA certificate and worked as a DBA for 4 years at AMDOCS
       before this was SQL/Delphi consultantr at Bank-Leumi
-
     categories: ["all", "data", "sw-development"]
     url: "files/certificates/oracle dba.jpg"
+    grade:
+      color: black
+      value: 95
 
   - name: NoSQL (MongoDB, Redis, Cassandra, DynamoDB,Neo4j)
     logo: /images/sections/skills/nosql.png
@@ -201,18 +242,27 @@ skills:
       - I am aware of <b><u>vector databases</u></b> and their indexes in RAG and AI use cases
     categories: ["all", "data", "sw-development"]
     url: "https://gitlab.com/ido.bistry/WorldOfGame"
+    grade:
+      color: black
+      value: 80
 
   - name: HELM
     logo: /images/sections/skills/helm.png
     summary: usin helm charts to deploy k8s pred efined applications
     categories: ["all", "devopst"]
     url: "https://gitlab.com/ido.bistry/Curl-deployment-with-Jenkins-elastic-S3/-/blob/main/starter-kit/1.jenkins.sh?ref_type=heads"
+    grade:
+      color: black
+      value: 80
 
   - name: Terraform (IAC)
     logo: /images/sections/skills/terraform.jpg
     summary: terrafor mroject to deliver iac to customers - d-expert.com
     categories: ["all", "sw-development", "devops"]
     url: "https://gitlab.com/ido.bistry/SEMPERIS-TERRAFORM"
+    grade:
+      color: black
+      value: 90
 
   - name: Vagrant/Ansible (IAC)
     logo: /images/sections/skills/vagrant.png
@@ -232,6 +282,9 @@ skills:
       of true fomr custmers management"
     categories: ["all", "sw-development"]
     url: "https://codelovers.com/#projects"
+    grade:
+      color: black
+      value: 90
 
   - name: React
     logo: /images/sections/skills/react.png
@@ -241,6 +294,9 @@ skills:
       to  manage the progress of police officers training with the application "
     categories: ["all", "sw-development"]
     url: "http://gitlab.com/ido.bistry/auth-app"
+    grade:
+      color: black
+      value: 75
 
   - name: Power BI
     logo: /images/sections/skills/powerbi.jpg
@@ -251,38 +307,56 @@ skills:
       I used my comprehensive SQL skills to query and manipulate data effectively.
     categories: ["all", "data"]
     url: "https://gitlab.com/ido.bistry/NYC-TRAFFIC-REPORTS"
+    grade:
+      color: black
+      value: 90
 
   - name: JAVA
     logo: /images/sections/skills/java.png
     summary: 6 years of java experiance at amdocs (jms,spring boot, spring MVC, junit, jpa and more)
     categories: ["all", "sw-development"]
     url: "https://gitlab.com/ido.bistry/PetFinderAPI"
+    grade:
+      color: black
+      value: 75
 
   - name: C#
     logo: /images/sections/skills/C_sharp.svg
     summary: retalix - production with c# @ ikea
     categories: ["all", "sw-development"]
     url: "https://gitlab.com/ido.bistry/custom-dynamic-search-drop-down"
+    grade:
+      color: black
+      value: 70
 
   - name: kafka
     logo: /images/sections/skills/kafka-icon.svg
     summary: developed event driven projects for big volumes
     categories: ["all", "sw-development"]
     url: ""
+    grade:
+      color: black
+      value: 80
 
   - name: redis
     logo: /images/sections/skills/redis.png
     summary: configured and developed several projects with redis for applicatiove cache manipulation
     categories: ["all", "sw-development"]
     url: "https://gitlab.com/ido.bistry/custom-dynamic-search-drop-down"
+    grade:
+      color: black
+      value: 90
 
   - name: Delphi
     logo: /images/sections/skills/delphi.jpg
     summary: I WILL ALLWAYS HAVE DELPHI IN MY HEART. <br/>
-      <b><u>she</b></u> is my legacy. whenever I want to remember what it was like ... I turn to Delphi
-      she was created a bit after oracle database sprang out and it fitted
-      it like a glove to a hand
-      hance the mithological "oracle of delphi" came to life in my imagination
-      we will allways have delphi in our hearts
-    categories: ["all", "sw-developmentI"]
-    url: ""
+      Delphi is my legacy. <br/>
+      whenever I want to remember what it was like, I turn to Delphi.<br/>
+      it was created, a bit after oracle database sprang out,
+      and it fitted it like a glove to a hand. <br/>
+      hence the mythological phrase, oracle of delphi, came to life in my imagination <br/>
+    categories: ["all", "sw-development"]
+    url: "https://www.embarcadero.com/products/delphi"
+    grade:
+      color: black
+      value: 95

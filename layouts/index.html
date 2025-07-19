@@ -41,7 +41,7 @@
       {{ $background:= "bg-primary"}}
       {{ range sort $sections "section.weight" }}
         {{ if .section.enable }}
-          <div class="container-fluid section-holder d-flex {{ $background }}">
+          <div class="container-fluid section-holder {{ $background }}">
             {{ if .section.template }}
               {{- partial .section.template . -}}
             {{ else }}

@@ -1,5 +1,7 @@
+{{ if .grade }}
 <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
   data-category='all, {{ with .categories }}{{ delimit . ","}}{{ end }}'
+  data-range="{{ .grade.value }}"
 >
   <a class="text-decoration-none" {{ if .url }}href="{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener"{{ end }}>
     <div class="card">
@@ -21,8 +23,11 @@
         {{ end }}
       </div>
       <div class="card-body text-justify pt-1 pb-1">
-        <p class="card-text">{{ .summary | markdownify }}</p>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: {{ .grade.value }}%; background-color: {{ .grade.color }};" aria-valuenow="{{ .grade.value }}" aria-valuemin="0" aria-valuemax="100">{{ .grade.value }}%</div>
+        </div>
       </div>
     </div>
   </a>
 </div>
+{{ end }}
