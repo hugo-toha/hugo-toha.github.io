@@ -37,6 +37,9 @@ skills:
       the model then will be deployed on robots to perform tasks.
     categories: ["all", "ai-data-science", "sw-development"]
     url: "https://www.hinuch-mehaber.org/"
+    grade:
+      color: blue
+      value: 90
 
   - name: AI LLM - Agents and bots
     logo: /images/sections/skills/ai-agent.png
@@ -48,6 +51,9 @@ skills:
       the described position
     categories: ["all", "ai-data-science", "sw-development"]
     url: "https://chatgpt.com/g/g-6866062c88608191a54147ecb6ae7045-aido-job-strategic-preperation?model=gpt-4o"
+    grade:
+      color: blue
+      value: 90
 
   - name: Deep Learning LLM - RAG
     logo: /images/sections/skills/rag.jpg
@@ -55,8 +61,11 @@ skills:
       true.org.il - implementing the data our researchers already verified
       with political context to reveral fake news and misinformation.
       experience with RAG (Retrieval-Augmented Generation) and LLMs (Large Language Models).
-    categories: ["all", "ai-data-science", "sw-development"]
+    categories: ["all", "ai-data-science", "sw-development", "data"]
     url: "https://true.org.il"
+    grade:
+      color: red
+      value: 45
 
   - name: Deep Learning - CNN
     logo: /images/sections/skills/deep-learning.png
@@ -279,10 +288,10 @@ skills:
   - name: Delphi
     logo: /images/sections/skills/delphi.jpg
     summary: I WILL ALLWAYS HAVE DELPHI IN MY HEART. <br/>
-      <b><u>she</b></u> is my legacy. whenever I want to remember what it was like ... I turn to Delphi
-      she was created a bit after oracle database sprang out and it fitted
-      it like a glove to a hand
-      hance the mithological "oracle of delphi" came to life in my imagination
-      we will allways have delphi in our hearts
+      Delphi is my legacy. <br/>
+      whenever I want to remember what it was like, I turn to Delphi.<br/>
+      it was created, a bit after oracle database sprang out,
+      and it fitted it like a glove to a hand. <br/>
+      hance the mythological phrase, oracle of delphi, came to life in my imagination <br/>
     categories: ["all", "sw-developmentI"]
-    url: ""
+    url: "https://www.embarcadero.com/products/delphi"

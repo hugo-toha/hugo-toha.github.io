@@ -34,3 +34,5 @@ After completing the tasks, write a concise summary in a dedicated "Review" sect
 - A brief overview of the changes made.
 - Any challenges encountered and how they were resolved.
 - Any additional notes or considerations for future work.   
+
+after finish move the todofile to a foder called gemini-todos and name it with the gemini session name and id and date
