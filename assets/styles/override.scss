@@ -1,20 +1,3 @@
-// Soft skills grid: 6 per row, wrap as needed
-.soft-skills-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  justify-content: flex-start;
-}
-
-.soft-skill-item {
-  flex: 0 0 calc(16.66% - 1.5rem); // 6 per row
-  min-width: 120px;
-  max-width: 180px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1rem;
-}
 .badge-row-custom {
   overflow-x: auto;
   gap: 1.5rem;

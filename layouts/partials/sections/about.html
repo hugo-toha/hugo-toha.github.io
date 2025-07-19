@@ -12,7 +12,7 @@
   <div class="row pt-sm-2 pt-md-4 align-self-center">
     <!-- summary -->
     <!-- takes up full section width if no badges/soft skills are specified -->
-    <div class="col-sm-12">
+    {{ if or (.softSkills) (.badges) }} <div class="col-sm-6"> {{ else }} <div class="col-sm-12"> {{ end }}
       <h3 class="p-1">{{ $author.name }}</h3>
       {{ if .designation }}
       <h5 class="p-1">
@@ -52,21 +52,19 @@
       {{ end }}
     </div>
     <!-- soft skills circular-progressbar -->
-    <div class="col-sm-12 pt-5 ps-md-4 ps-sm-3 pt-sm-0">
-      <div class="d-flex flex-row flex-nowrap justify-content-start align-items-center badge-row-custom">
+    <div class="col-sm-6 pt-5 ps-md-4 ps-sm-3 pt-sm-0">
+      <div class="row">
         {{ range .badges }}
-          <div class="badge-item-custom">{{ partial "misc/badge.html" . }}</div>
+          {{ partial "misc/badge.html" . }}
         {{ end }}
-      </div>
-    </div>
-    <div class="col-sm-12 pt-3 ps-md-4 ps-sm-3 pt-sm-0">
-      <div class="soft-skills-grid">
         <!-- TODO: Remove this part in version v4+ -->
         <!-- Keep backward compatibility with old configuration -->
-        {{ range .softSkills }}
-          <div class="soft-skill-item">{{ partial "misc/soft-skills.html" . }}</div>
-        {{ end }}
       </div>
+    </div>
+    <div class="row pt-sm-2 pt-md-4 align-self-center">
+        {{ range .softSkills }}
+          {{ partial "misc/soft-skills.html" . }}
+        {{ end }}
     </div>
   </div>
 </div>

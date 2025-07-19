@@ -133,7 +133,7 @@ badges:
     name: John Bryce - DBA
     url: "https://camp.johnbryceedu.co.il/jb-high-tech-courses"
     badge: "files/certificates/oracle dba.jpg"
-
+softSkills:
   - type: soft-skill-indicator
     name: Project Scope Needs
     percentage: 90
