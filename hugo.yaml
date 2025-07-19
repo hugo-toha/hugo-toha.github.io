@@ -1,21 +1,21 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://idubi/hugo-portfolio.github.io
 
-languageCode: bn
-title: "John's Blog"
+languageCode: en
+title: "ido's Blog"
 
 # Use Hugo modules to add theme
 module:
   imports:
-  - path: github.com/hugo-toha/toha/v4
+    - path: github.com/hugo-toha/toha/v4
   mounts:
-  - source: static/files
-    target: static/files
-  - source: ./node_modules/flag-icons/flags
-    target: static/flags
-  - source: ./node_modules/@fontsource/mulish/files
-    target: static/files
-  - source: ./node_modules/katex/dist/fonts
-    target: static/fonts
+    - source: static/files
+      target: static/files
+    - source: ./node_modules/flag-icons/flags
+      target: static/flags
+    - source: ./node_modules/@fontsource/mulish/files
+      target: static/files
+    - source: ./node_modules/katex/dist/fonts
+      target: static/fonts
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
@@ -23,16 +23,11 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "ido's Blog"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
+
 # default language for the content
 defaultContentLanguage: en
-
 
 # Allow raw html in markdown file
 markup:
@@ -58,25 +53,27 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  # background: /images/site/background-concepts.jpg
+  # background: /images/site/NeuralNetwork1920X1080.jpg
+  background: /images/site/NN1920X1080.jpg
   # Background image of the landing page for dark theme
   #darkBackground: /images/site/background.jpg
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/AIDO/logo - round.jpg
+    inverted: /images/AIDO/LOGO-AIdo.jpg
+    favicon: /images/AIDO/LOGO-AIdo.jpg
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/idubi/hugo-portfolio
   # Default branch of your Git repo
   gitBranch: main
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
-    maxVisibleSections: 5
+    maxVisibleSections: 6
 
   # Configure various features of this theme
   features:
@@ -105,7 +102,7 @@ params:
       # Share post on different social media
       shareButtons:
         facebook: true
-        twitter: true
+        x: false
         linkedin: true
         reddit: true
         whatsapp: true
@@ -142,12 +139,12 @@ params:
         #   repoID: your-repo-id
         #   category: your-category
         #   categoryID: your-category-id
-          # theme: light
-          # map: url
-          # reaction: 1
-          # metadata: 0
-          # inputPosition: bottom
-          # crossOrigin: anonymous
+        # theme: light
+        # map: url
+        # reaction: 1
+        # metadata: 0
+        # inputPosition: bottom
+        # crossOrigin: anonymous
         # commento:
         #   serverURL: cdn.commento.io
         #   autoInit: true
@@ -155,7 +152,7 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
+      enabled: false
       services:
         # Google Analytics
         google:
@@ -178,8 +175,8 @@ params:
         kofi:
           user: hossainemruz
           text: Tip Me
-          textColor: '#f9fafc'
-          backgroundColor: '#248aaa'
+          textColor: "#f9fafc"
+          backgroundColor: "#248aaa"
         # buymeacoffee:
         #   user: <your buymeacoffee.com user>
         #   text: Support me on Buy me a coffee!
@@ -265,7 +262,7 @@ params:
         plyr:
           # options doc: https://github.com/sampotts/plyr#options
           # fullscreen: true
-    
+
     # Enables copy code button
     copyCodeButton:
       enable: true
@@ -273,11 +270,10 @@ params:
     # Enable reading time support in post cards and in post pages
     readingTime:
       enable: false
-    
+
     # Number of posts to show to each page. Default is "12"
     pagination:
-       maxPostsPerPage: 12
-
+      maxPostsPerPage: 12
 
   # Provide footer configuration.
   footer:
@@ -306,4 +302,4 @@ params:
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
-      enable: true
+      enable: false

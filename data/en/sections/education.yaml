@@ -10,95 +10,187 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
-  icon: fa-microscope
-  timeframe: 2016-2020
-  institution:
-    name: ABC University of Technology
-    url: "#"
-    logo: /images/sections/education/tech_college.png
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/tech_college.png
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
-  icon: fa-graduation-cap
-  timeframe: 2012-2016
-  institution:
-    name: University of XYZ
-    url: "#"
-    logo: /images/sections/education/university.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/university.jpg
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
-    collapseAfter: 3
-    courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-  customSections: #(optional)
-    - name: Thesis
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - name: Supervisor
-      content: Fusce eu augue ut odio porttitor pulvinar.
-- name: Higher Secondary School Certificate
-  icon: fa-university
-  timeframe: 2010-2012
-  institution:
-    name: MST College of Science
-    url: "#"
-    logo: /images/sections/education/science_college.png
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/science_college.png
-  grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
-  icon: fa-school
-  timeframe: 2005-2010
-  institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+  - name: CCNA - Cisco Certified Network Associate
+    icon: fa-solid fa-network-wired
+    timeframe: may-oct 2025
+    institution:
+      name: CISCO - COB Academy
+      url: "https://connectedbusinesses.co.il/"
+      logo: /images/sections/education/cisco-cob-logo.png
+      # Can optionally show a different logo for dark theme
+      # darkLogo: /images/sections/education/tech_college.png
+    takenCourses: #(optional)
+      # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+      showGrades: false
+      collapseAfter: 4
+      courses:
+        - name: CCNA1 - introduction to netwirks
+        - name: CCNA2 - routing and switching  Essentials
+        - name: CCNA3 - scaling networks
+        - name: CCNA4 - Connecting Networks
+
+  - name: Data Research Analyst
+    icon: fa-chart-line
+    timeframe: jan-april 2025
+    institution:
+      name: NAYA College & CISCO - COB Academy
+      url: https://www.naya-college.co.il/data-analysis/
+      logo: /images/sections/education/naya-college-big.png
+      # Can optionally show a different logo for dark theme
+      # darkLogo: /images/sections/education/university.jpg
+    grade:
+    takenCourses: #(optional)
+      # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+      showGrades: false
+      collapseAfter: 4
+      courses:
+        - name: SQL & Advanced SQL
+        - name: Advanced Excel
+        - name: Data Modeling, KPIs and Domains
+        - name: Power BI - Dashboeards
+    customSections: #(optional)
+      - name: summery project
+        content: "* <p> traffic violance analisys in new-york city<hr/>
+
+          grade : 100 <br/>
+          project review:
+
+          <image src='https://gitlab.com/ido.bistry/NYC-TRAFFIC-REPORTS/-/raw/main/images/grade.png' height=400 >
+          </p>
+          "
+
+  - name: AI and Deep Learning Developper
+    icon: fa-robot
+    timeframe: june-sept 2014
+    institution:
+      name: Google - Reichman Academy
+      url: https://grtech.co.il/en/%D7%A7%D7%95%D7%A8%D7%A1/ai-and-deep-learning-development/
+      logo: /images/sections/education/googleandreichmantechschool_logo.png
+      # Can optionally show a different logo for dark theme
+      # darkLogo: /images/sections/education/science_college.png
+    takenCourses: #(optional)
+      # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+      showGrades: false
+      collapseAfter: 7
+      courses:
+        - name: Introduction to AI
+        - name: Deep Learning - concepts  (classic models, neuron neworks,
+            basic Statistics,K-means, desision trees)
+        - name: Deep Learning - main moidels, training, validation
+            python notebooks and colab , Main AI training tools, GPU, CUDA,Python Libraries - numpy, matplotlib,pytorch,
+            Resnet, Yolo, Clip, SAM.
+        - name: computer vision CNN and RNN
+        - name: Natural Language Processing (NLP) using Transformers
+        - name: Deep Reinforcement Learning (RL)
+        - name: Other applications and trends in AI and Deep Learning
+            time series, Generative AI (GEN AI), GANS, Multimodal, GenAI
+
+  - name: DevOps engineer - AWS
+    icon: fa-brands fa-aws
+    timeframe: jan-march 2024
+    institution:
+      name: Analiza College
+      url: https://www.analiza.org.il/
+      logo: /images/sections/education/analiza college.png
+    takenCourses: #(optional)
+      # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+      showGrades: false
+      collapseAfter: 7
+      courses:
+        - name: linux
+        - name: python
+        - name: networks
+        - name: CI/CD - jenikins and github actions
+        - name: terraform
+        - name: AWS services
+    customSections: #(optional)
+      - name: aws services details
+        content: "<p>
+          <table><TR><td>Lambda</td><td>EC2</td><td>S3 storage</td></tr>
+          <TR><td>IAM</td><td>Load Balancer</td><td>Auto scaling</td></tr>
+          <TR><td>Security Groups</td><td>VPC</td><td>cloud networking</td></tr>
+          <TR><td>Lambda</td><td>EC2</td><td>S3 storage</td></tr>
+          <TR><td>RDS</td><td>DynamoDB</td><td>Event bridge</td></tr>
+          <TR><td>API Gateway</td><td>AmazonMQ</td><td>SQS</td></tr>
+          <TR><td>Fargate</td><td>Beanstalk</td><td>ECS</td></tr>
+          <TR><td>CloudWatch</td><td>AWS Pipeline</td><td>AWS CodeBuild</td></tr>
+          <TR><td>ECR</td><td>ASM - Secret manager</td><td>Bedrock (genAI)</td></tr>
+          <TR><td>Route 53</td><td>Cloud Watch</td><td>.... </td></tr>
+          </table>
+          </p>
+          "
+  - name: DevOps engineer
+    icon: fa-brands fa-docker
+    timeframe: may-sept 2023
+    institution:
+      name: Devops Experts
+      url: https://www.devopsexperts.co.il/
+      logo: /images/sections/education/devops experts.png
+    takenCourses: #(optional)
+      # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+      showGrades: false
+      collapseAfter: 4
+      courses:
+        - name: ansible
+        - name: vagrant
+        - name: docker
+        - name: kubernetes
+        - name: terraform
+        - name: linux
+        - name: python
+        - name: git
+        - name: CI/CD - jenikins and github actions
+
+  - name: SW / Business System Analyst
+    icon: fa-chart-simple
+    timeframe: jun 2009-nov 2010
+    institution:
+      name: technion
+      url: https://cont-edu.technion.ac.il/
+      logo: /images/sections/education/technion.png
+    takenCourses: #(optional)
+      # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+      showGrades: false
+      collapseAfter: 4
+      courses:
+        - name: system lifecycle management
+        - name: RFP, OOP Design, Data-Bases, Prototype, Data Modeling, User experience
+        - name: ERP Systems concepts. CRM Models, Retail Systems Model, DBR concepts.
+        - name: DFD, ERD, UML-Class Diagrams, Lane Diagrams
+        - name: testing - Unit Testing, System testing, integration testing
+        - name: Agile
+
+  - name: MASTER DBA
+    icon: "fa-solid fa-graduation-cap"
+    timeframe: nov 2002- oct 2003
+    institution:
+      name: John Bryce
+      url: https://camp.johnbryceedu.co.il/
+      logo: /images/sections/education/johnbryce.jpeg
+    takenCourses: #(optional)
+      # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+      showGrades: false
+      collapseAfter: 4
+      courses:
+        - name: DBA1 - database management
+        - name: DBA2 - backup and recovery
+        - name: DBA3 - performance tuning
+        - name: DBA4 - RMAN and Oracle ASM
+
+  - name: practical software engineer
+    icon: "fa-solid fa-graduation-cap"
+    timeframe: 1995-1997
+    institution:
+      name: בית הספר להנדסאים של אוניברסיטת תל אביב
+      url: https://www.cts.org.il/
+      logo: /images/sections/education/uni-ta.png
+    takenCourses: #(optional)
+      # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+      showGrades: true
+      collapseAfter: 1
+      courses:
+        - name: 2 years practical engineering
+          grade: #(optional)
+          scale: GPA
+          achieved: 96 (honors)
+          outOf: 100
