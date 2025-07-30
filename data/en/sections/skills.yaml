@@ -17,19 +17,21 @@ buttons:
   filter: "basic"
 - name: Language
   filter: "language"
-- name: Container
-  filter: "container"
+#- name: Container
+#  filter: "container"
+- name: Database
+  filter: "database"
+- name: Security
+  filter: "security"
+- name: DevOps
+  filter: "devops"
 - name: Others
   filter: "others"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+
 
 - name: Go Development
   logo: /images/sections/skills/go.png
@@ -37,27 +39,16 @@ skills:
   categories: ["basic", "language"]
   url: "https://golang.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+- name: AWS
+  logo: /images/sections/skills/aws.svg
+  summary: "Designed, developed and operated multiple scalable, secure and highly available systems in multiple cloud providers including AWS."
+  categories: ["others", "devops"]
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
   summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
+  categories: ["container", "devops"]
   url: "https://www.docker.com/"
-
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
-
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
 
 - name: Git
   logo: /images/sections/skills/git.png
@@ -65,7 +56,85 @@ skills:
   categories: ["basic"]
   url: "https://git-scm.com/"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+- name: MongoDB
+  logo: /images/sections/skills/mongodb.svg
+  summary: "Experienced in deploying and managing MongoDB databases, ensuring robust and scalable data persistence for production applications."
+  categories: ["database","basic"]
+  url: "https://www.mongodb.com/"
+
+- name: MySQL
+  logo: /images/sections/skills/mysql.svg
+  summary: " Experienced in designing and implementing MySQL databases, supporting reliable data storage and retrieval for various application needs."
+  categories: ["database","basic"]
+  url: "https://www.mysql.com/"
+
+- name: PostgreSQL
+  logo: /images/sections/skills/postgres.svg
+  summary: "Experienced in designing and implementing PostgreSQL databases, ensuring robust and feature-rich data management for diverse applications, with practical experience using pgAdmin."
+  categories: ["database","basic"]
+  url: "https://www.postgresql.org/"
+
+- name: Helm
+  logo: /images/sections/skills/helm.svg
+  summary: "Experienced in leveraging Helm for simplified packaging, deployment, and lifecycle management of complex applications on Kubernetes clusters."
+  categories: ["container","devops"]
+  url: "https://helm.sh/"
+
+- name: Traefik
+  logo: /images/sections/skills/traefik.svg
+  summary: "Experienced in deploying and managing Traefik to enable efficient traffic routing, load balancing, and API gateway functionalities for microservices architectures."
+  categories: ["container","devops"]
+  url: "https://traefik.io/"
+
+- name: Nginx
+  logo: /images/sections/skills/nginx.svg
+  summary: "Experienced in deploying and optimizing Nginx to serve high-performance web applications, act as a powerful reverse proxy, and manage load distribution for enhanced user experience."
+  categories: ["container","devops"]
+  url: "https://www.nginx.com/"
+
+- name: Redis
+  logo: /images/sections/skills/redis.svg
+  summary: "Experienced in deploying and managing Redis instances to implement high-performance caching, real-time data solutions, and efficient message brokering for distributed systems."
+  categories: ["devops","basic"]
+  url: "https://redis.io/"
+
+- name: Kubernetes
+  logo: /images/sections/skills/kubernetes.png
+  summary: " Experienced in orchestrating containerized applications and managing deployments within Kubernetes environments. Skilled in extending Kubernetes functionality through the development of custom controllers for CRDs."
+  categories: ["container", "devops"]
+  url: "https://kubernetes.io/"
+
+- name: Message Queue (Kafka)
+  logo: /images/sections/skills/kafka.svg
+  summary: "Experienced in deploying and managing Apache Kafka clusters for real-time data pipelines. Possesses practical experience with AWS SQS and RabbitMQ in distributed system architectures."
+  categories: ["devops","basic"]
+  url: "https://kafka.apache.org/"
+
+- name: Gitlab CI/CD
+  logo: /images/sections/skills/gitlab.svg
+  summary: "Experienced in designing and implementing robust GitLab CI/CD pipelines to streamline development, testing, and deployment processes within DevOps environments."
+  categories: ["devops"]
+  url: "https://gitlab.com/"
+
+- name: Trivy
+  logo: /images/sections/skills/trivy.svg
+  summary: "Experienced in deploying and managing Trivy to identify security vulnerabilities in container images and filesystems, enhancing DevOps security practices."
+  categories: ["container", "devops"]
+  url: "https://aquasecurity.github.io/trivy/"
+
+#- name: Prometheus
+#  logo: /images/sections/skills/prometheus.png
+#  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
+#  categories: ["basic"]
+#  url: "https://prometheus.io/"
+
+#- name: Linux
+#  logo: /images/sections/skills/linux.png
+#  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+#  categories: ["others"]
+
+
+#- name: C++
+#  logo: /images/sections/skills/c++.png
+#  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+#  categories: ["basic", "language"]

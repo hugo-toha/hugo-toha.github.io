@@ -14,52 +14,76 @@ buttons:
   filter: "all"
 - name: Professional
   filter: "professional"
-- name: Academic
-  filter: "academic"
-- name: Hobby
-  filter: "hobby"
+- name: Personal
+  filter: "personal"
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
-
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
+- name: Dynamic Form Telegram Bot
+  logo: /images/sections/skills/go.png
   role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+  repo: https://github.com/MeowSaiGithub/tg-form-builder # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  summary: A powerful Telegram bot that dynamically generates forms based on a provided JSON configuration. It supports storing responses in MySQL, PostgreSQL, or MongoDB and can send data via a webhook.
+  tags: ["personal", "golang", "telegram", "database", "webhook"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+- name: go-es
+  logo: /images/sections/skills/go.png
+  role: Developer
+  repo: https://github.com/MeowSaiGithub/go-es # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  summary: A Full-Text Search Golang Microservice integrated with Elastic Search
+  tags: ["personal", "golang", "elastic","docker", "full-text-search"]
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
+- name: CSGuard
+  logo: /images/sections/skills/go.png
+  role: Developer
+  repo: https://github.com/MeowSaiGithub/csguard # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  summary: csguard is a cli tool for calculating & validating checksum.
+  tags: ["personal", "golang", "cli", "checksum"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: GDHost
+  logo: /images/sections/skills/go.png
+  role: Developer
+  repo: https://github.com/MeowSaiGithub/csguard # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  summary: The GDHost is a middleware service that will allow user to upload and host application using docker.
+  tags: ["personal", "golang", "docker","mongo"]
+
+- name: School Management System
+  logo: /images/sections/skills/go.png
+  role: BackendDeveloper
+#  repo: https://github.com/MeowSaiGithub/csguard # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  summary:  This project is a collection of micro-services with event-driven architecture. Some of Microservices worked on this project are Chat, Email, File, Domain, Posts, Notification, Authentication and Authorization services.
+  tags: ["professional", "golang", "microservice","AWS", "kubernetes", "ci/cd", "security","devops"]
+
+#- name: Tensorflow
+#  logo: /images/sections/projects/tensorflow.png
+#  role: Developer
+#  timeline: "Jun 2018 - Present"
+#  repo: https://github.com/tensorflow/tensorflow
+#  #url: ""
+#  summary: An Open Source Machine Learning Framework for Everyone.
+#  tags: ["professional", "machine-learning"]
+#
+#- name: A sample academic paper
+#  role: Team Lead
+#  timeline: "Jan 2017 - Nov 2017"
+#  url: "https://www.example.com"
+#  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
+#  tags: ["academic","iot"]
+#
+#- name: Nocode
+#  logo: /images/sections/projects/no-code.png
+#  role: Nothing
+#  timeline: "Oct 2019 - Dec 2019"
+#  repo: https://github.com/kelseyhightower/nocode
+#  #url: ""
+#  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
+#  tags: ["hobby", "fun"]
+#
+#- name: Toha
+#  logo: /images/sections/projects/toha.png
+#  image: /images/sections/projects/toha_website.png
+#  role: Owner
+#  timeline: "Jun 2019 - Present"
+#  repo: https://github.com/hossainemruz/toha
+#  summary: A Hugo theme for personal portfolio.
+#  tags: ["hobby","hugo","theme","professional"]

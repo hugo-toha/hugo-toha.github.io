@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://MeowSaiGithub/toha-portfolio.github.io
 
-languageCode: bn
-title: "John's Blog"
+languageCode: en
+title: "Sai's Portfolio"
 
 # Use Hugo modules to add theme
 module:
@@ -23,13 +23,8 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Sai's Portfolio"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
 # default language for the content
 defaultContentLanguage: en
 
@@ -65,12 +60,12 @@ params:
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/site/main-logo-m.png
+    inverted: /images/site/inverted-logo-m.png
+    favicon: /images/site/m-favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/MeowSaiGithub/toha-portfolio.github.io
   # Default branch of your Git repo
   gitBranch: main
 
@@ -100,7 +95,7 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: true
+      enable: false
       showAuthor: true # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
@@ -117,7 +112,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
@@ -155,7 +150,7 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
+      enabled: false
       services:
         # Google Analytics
         google:
