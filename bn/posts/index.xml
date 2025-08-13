@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>পোস্ট সমূহ on অন্তির ব্লগ</title>
+    <link>http://localhost:1313/bn/posts/</link>
+    <description>Recent content in পোস্ট সমূহ on অন্তির ব্লগ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>bn</language>
+    <lastBuildDate>Mon, 08 Jun 2020 08:06:25 +0600</lastBuildDate><atom:link href="http://localhost:1313/bn/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Markdown এর নমুনা</title>
+      <link>http://localhost:1313/bn/posts/markdown-sample/</link>
+      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
+      
+      <guid>http://localhost:1313/bn/posts/markdown-sample/</guid>
+      <description>&lt;p&gt;এই নমুনা পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;একজন ভিন্ন পোস্ট লেখক।&lt;/li&gt;
+&lt;li&gt;সূচীপত্র।&lt;/li&gt;
+&lt;li&gt;Markdown কন্টেন্ট রেন্ডারিং।&lt;/li&gt;
+&lt;li&gt;গণিত রেন্ডারিং।&lt;/li&gt;
+&lt;li&gt;ইমোজি রেন্ডারিং।&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;markdown-syntax-rendering&#34;&gt;Markdown Syntax Rendering&lt;/h1&gt;
+&lt;h2 id=&#34;headings&#34;&gt;Headings&lt;/h2&gt;
+&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
+&lt;h1 id=&#34;h1&#34;&gt;H1&lt;/h1&gt;
+&lt;h2 id=&#34;h2&#34;&gt;H2&lt;/h2&gt;
+&lt;h3 id=&#34;h3&#34;&gt;H3&lt;/h3&gt;
+&lt;h4 id=&#34;h4&#34;&gt;H4&lt;/h4&gt;
+&lt;h5 id=&#34;h5&#34;&gt;H5&lt;/h5&gt;
+&lt;h6 id=&#34;h6&#34;&gt;H6&lt;/h6&gt;
+&lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
+&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ভূমিকা</title>
+      <link>http://localhost:1313/bn/posts/introduction/</link>
+      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
+      
+      <guid>http://localhost:1313/bn/posts/introduction/</guid>
+      <description>&lt;p&gt;স্বাগতম! এটি একটি ভূমিকা সূচক পোস্ট। এই পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;হেরো ছবিটি পোস্ট এর সাথে একই পথে আছে।&lt;/li&gt;
+&lt;li&gt;এই পোস্টটি সাইডবারের সবার প্রথমে থাকা উচিত।&lt;/li&gt;
+&lt;li&gt;পোস্টের লেখক &lt;code&gt;author.yaml&lt;/code&gt; ফাইল এ যাকে উল্লেখ করা হয়েছে তিনিই থাকবেন।&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>শর্টকোডের  নমুনা</title>
+      <link>http://localhost:1313/bn/posts/shortcodes/</link>
+      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
+      
+      <guid>http://localhost:1313/bn/posts/shortcodes/</guid>
+      <description>&lt;p&gt;এই নমুনা পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ডিফল্ট হিরো ইমেজ।&lt;/li&gt;
+&lt;li&gt;বিভিন্ন শর্টকোড।&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;এলরট&#34;&gt;এলার্ট&lt;/h2&gt;
+&lt;p&gt;এই থিমের মধ্যে এই সকল এলার্ট রয়েছেঃ&lt;/p&gt;
+
+
+
+    
+
+
+&lt;div class=&#34;alert success&#34;&gt;
+    &lt;span&gt;&lt;i data-feather=&#34;check-circle&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;span&gt;&lt;strong&gt;এটা &lt;code&gt;type=&amp;quot;success&amp;quot;&lt;/code&gt; দিয়ে নমুনা এলার্ট।&lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+
+
+
+    
+
+
+&lt;div class=&#34;alert danger&#34;&gt;
+    &lt;span&gt;&lt;i data-feather=&#34;alert-octagon&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;span&gt;&lt;strong&gt;এটা &lt;code&gt;type=&amp;quot;danger&amp;quot;&lt;/code&gt; দিয়ে নমুনা এলার্ট।&lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+
+
+
+    
+
+
+&lt;div class=&#34;alert warning&#34;&gt;
+    &lt;span&gt;&lt;i data-feather=&#34;alert-triangle&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;span&gt;&lt;strong&gt;এটা &lt;code&gt;type=&amp;quot;warning&amp;quot;&lt;/code&gt; দিয়ে নমুনা এলার্ট।&lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+
+
+
+    
+
+
+&lt;div class=&#34;alert info&#34;&gt;
+    &lt;span&gt;&lt;i data-feather=&#34;info&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;span&gt;&lt;strong&gt;এটা &lt;code&gt;type=&amp;quot;info&amp;quot;&lt;/code&gt; দিয়ে নমুনা এলার্ট।&lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+
+
+
+
+&lt;div class=&#34;alert dark&#34;&gt;
+    &lt;span&gt;&lt;i data-feather=&#34;alert-circle&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;span&gt;&lt;strong&gt;এটা &lt;code&gt;type=&amp;quot;dark&amp;quot;&lt;/code&gt; দিয়ে নমুনা এলার্ট।&lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+
+
+
+
+&lt;div class=&#34;alert primary&#34;&gt;
+    &lt;span&gt;&lt;i data-feather=&#34;alert-circle&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;span&gt;&lt;strong&gt;এটা &lt;code&gt;type=&amp;quot;primary&amp;quot;&lt;/code&gt; দিয়ে নমুনা এলার্ট।&lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+
+
+
+
+&lt;div class=&#34;alert secondary&#34;&gt;
+    &lt;span&gt;&lt;i data-feather=&#34;alert-circle&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;span&gt;&lt;strong&gt;এটা &lt;code&gt;type=&amp;quot;secondary&amp;quot;&lt;/code&gt; দিয়ে নমুনা এলার্ট।&lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;ছব&#34;&gt;ছবি&lt;/h2&gt;
+&lt;h4 id=&#34;কন-ধরনর-attribute-ছড়-ছবর-একট-নমন&#34;&gt;কোন ধরনের attribute ছাড়া ছবির একটি নমুনা।&lt;/h4&gt;
+&lt;img src=&#34;http://localhost:1313/posts/shortcodes/boat.jpg&#34;
+    
+        alt=&#34;A boat at the sea&#34;
+    
+    
+    
+    
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;h4 id=&#34;height-এব-width-attribute-সহ-ছবর-একট-নমন&#34;&gt;&lt;code&gt;height&lt;/code&gt; এবং &lt;code&gt;width&lt;/code&gt; attribute সহ ছবির একটি নমুনা।&lt;/h4&gt;
+&lt;img src=&#34;http://localhost:1313/posts/shortcodes/boat.jpg&#34;
+    
+        alt=&#34;A boat at the sea&#34;
+    
+    
+        width=&#34;600&#34;
+    
+    
+        height=&#34;400&#34;
+    
+    
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;h4 id=&#34;height-এব-width-attribute-সহ-মঝখন-সতপত-ছবর-একট-নমন&#34;&gt;&lt;code&gt;height&lt;/code&gt; এবং &lt;code&gt;width&lt;/code&gt; attribute সহ মাঝখানে স্তাপিত ছবির একটি নমুনা।&lt;/h4&gt;
+&lt;img src=&#34;http://localhost:1313/posts/shortcodes/boat.jpg&#34;
+    
+        alt=&#34;A boat at the sea&#34;
+    
+    
+        width=&#34;600&#34;
+    
+    
+        height=&#34;400&#34;
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
+&lt;h4 id=&#34;float-attribute-সহ-ছবর-একট-নমন&#34;&gt;&lt;code&gt;float&lt;/code&gt; attribute সহ ছবির একটি নমুনা।&lt;/h4&gt;
+&lt;img src=&#34;http://localhost:1313/posts/shortcodes/boat.jpg&#34;
+    
+        alt=&#34;A boat at the sea&#34;
+    
+    
+        width=&#34;500&#34;
+    
+    
+        height=&#34;200&#34;
+    
+    
+        style=&#34;float: right;&#34;
+    
+    
+&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas lectus sed leo ultricies ultricies. Praesent tellus risus, eleifend vel efficitur ac, venenatis sit amet sem. Ut ut egestas erat. Fusce ut leo turpis. Morbi consectetur sed lacus vitae vehicula. Cras gravida turpis id eleifend volutpat. Suspendisse nec ipsum eu erat finibus dictum. Morbi volutpat nulla purus, vel maximus ex molestie id. Nullam posuere est urna, at fringilla eros venenatis quis.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>সমৃদ্ধ কন্টেন্ট</title>
+      <link>http://localhost:1313/bn/posts/category/sub-category/rich-content/</link>
+      <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
+      
+      <guid>http://localhost:1313/bn/posts/category/sub-category/rich-content/</guid>
+      <description>&lt;p&gt;এই নমুনা পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;বিভাগ, উপ-বিভাগে সাইডবারে একটির ভেতর আরেকটি কিভাবে আছে সেটা দেখা।&lt;/li&gt;
+&lt;li&gt;হেরো ছবিটি পোস্ট যে পথে আছে সে পথে &lt;code&gt;images&lt;/code&gt; ফোল্ডার এ থাকবে।&lt;/li&gt;
+&lt;li&gt;বিভিন্ন মিডিয়া যেমন ছবি, টুইট, ইউটিউব ভিডিও, ভীমেও ভিডিও ইত্যাদি রেন্ডারিং।&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ছবর-নমন&#34;&gt;ছবির নমুনা&lt;/h3&gt;
+&lt;img src=&#34;http://localhost:1313/posts/category/sub-category/rich-content/images/forest.jpg&#34;
+    
+        alt=&#34;Forest&#34;
+    
+    
+    
+    
+    
+        class=&#34;center&#34;
+    
+&gt;
+
+&lt;div style=&#34;margin-top: rem;&#34;&gt;&lt;/div&gt;
+&lt;h3 id=&#34;টইটর-নমন&#34;&gt;টুইটের নুমুনা&lt;/h3&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Owl bet you&amp;#39;ll lose this staring contest 🦉 &lt;a href=&#34;https://t.co/eJh4f2zncC&#34;&gt;pic.twitter.com/eJh4f2zncC&lt;/a&gt;&lt;/p&gt;&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) &lt;a href=&#34;https://twitter.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw&#34;&gt;October 26, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+&lt;div style=&#34;margin-top: rem;&#34;&gt;&lt;/div&gt;
+&lt;h3 id=&#34;ইউটওবর-ভডও-নমন&#34;&gt;ইউটিওবের ভিডিও নমুনা&lt;/h3&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/ZJthWmvUzzc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;div style=&#34;margin-top: rem;&#34;&gt;&lt;/div&gt;
+&lt;h3 id=&#34;ভমও-ভডও-নমন&#34;&gt;ভীমেও ভিডিও নমুনা&lt;/h3&gt;
+
+      &lt;div
+          style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+        &lt;iframe
+          src=&#34;https://player.vimeo.com/video/48912912?dnt=0&#34;
+            style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allow=&#34;fullscreen&#34;&gt;
+        &lt;/iframe&gt;
+      &lt;/div&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>
