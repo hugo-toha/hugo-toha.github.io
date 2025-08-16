@@ -1,0 +1,27 @@
+[tools]
+hugo-extended = '0.148.2'
+node = '24.6.0'
+go = '1.25.0'
+
+[tasks.install]
+description = "Install dependencies"
+run = ["hugo mod tidy","hugo mod npm pack","npm install"]
+
+[tasks.server]
+description = "Run hugo server"
+depends = "install"
+run = "hugo server -w"
+
+[tasks.update]
+description = "Update the theme to latest release"
+run = "hugo mod get -u"
+depends_post = "install"
+
+[tasks.update-to-main]
+description = "Update the theme to main branch"
+run = "hugo mod get github.com/hugo-toha/toha/v4@main"
+depends_post = "install"
+
+[tasks.fix-security]
+description = "Run npm audit fix"
+run = "npm audit fix --force"
