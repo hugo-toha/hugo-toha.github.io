@@ -155,7 +155,7 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
+      enable: true
       services:
         # Google Analytics
         google:
