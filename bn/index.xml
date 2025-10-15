@@ -1,278 +1,278 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>জনের ব্লগ</title><link>https://hugo-toha.github.io/bn/</link><description>Recent content on জনের ব্লগ</description><generator>Hugo -- gohugo.io</generator><language>bn</language><lastBuildDate>Mon, 08 Jun 2020 08:06:25 +0600</lastBuildDate><atom:link href="https://hugo-toha.github.io/bn/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown এর নমুনা</title><link>https://hugo-toha.github.io/bn/posts/markdown-sample/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://hugo-toha.github.io/bn/posts/markdown-sample/</guid><description>&lt;p>এই নমুনা পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ&lt;/p>
-&lt;ul>
-&lt;li>একজন ভিন্ন পোস্ট লেখক।&lt;/li>
-&lt;li>সূচীপত্র।&lt;/li>
-&lt;li>Markdown কন্টেন্ট রেন্ডারিং।&lt;/li>
-&lt;li>গণিত রেন্ডারিং।&lt;/li>
-&lt;li>ইমোজি রেন্ডারিং।&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h1 id="markdown-syntax-rendering">Markdown Syntax Rendering&lt;/h1>
-&lt;h2 id="headings">Headings&lt;/h2>
-&lt;p>The following HTML &lt;code>&amp;lt;h1&amp;gt;&lt;/code>—&lt;code>&amp;lt;h6&amp;gt;&lt;/code> elements represent six levels of section headings. &lt;code>&amp;lt;h1&amp;gt;&lt;/code> is the highest section level while &lt;code>&amp;lt;h6&amp;gt;&lt;/code> is the lowest.&lt;/p>
-&lt;h1 id="h1">H1&lt;/h1>
-&lt;h2 id="h2">H2&lt;/h2>
-&lt;h3 id="h3">H3&lt;/h3>
-&lt;h4 id="h4">H4&lt;/h4>
-&lt;h5 id="h5">H5&lt;/h5>
-&lt;h6 id="h6">H6&lt;/h6>
-&lt;h2 id="paragraph">Paragraph&lt;/h2>
-&lt;p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p></description></item><item><title>ভূমিকা</title><link>https://hugo-toha.github.io/bn/posts/introduction/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://hugo-toha.github.io/bn/posts/introduction/</guid><description>&lt;p>স্বাগতম! এটি একটি ভূমিকা সূচক পোস্ট। এই পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ&lt;/p>
-&lt;ul>
-&lt;li>হেরো ছবিটি পোস্ট এর সাথে একই পথে আছে।&lt;/li>
-&lt;li>এই পোস্টটি সাইডবারের সবার প্রথমে থাকা উচিত।&lt;/li>
-&lt;li>পোস্টের লেখক &lt;code>author.yaml&lt;/code> ফাইল এ যাকে উল্লেখ করা হয়েছে তিনিই থাকবেন।&lt;/li>
-&lt;/ul></description></item><item><title>শর্টকোডের নমুনা</title><link>https://hugo-toha.github.io/bn/posts/shortcodes/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://hugo-toha.github.io/bn/posts/shortcodes/</guid><description>&lt;p>এই নমুনা পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ&lt;/p>
-&lt;ul>
-&lt;li>ডিফল্ট হিরো ইমেজ।&lt;/li>
-&lt;li>বিভিন্ন শর্টকোড।&lt;/li>
-&lt;/ul>
-&lt;h2 id="এলরট">এলার্ট&lt;/h2>
-&lt;p>এই থিমের মধ্যে এই সকল এলার্ট রয়েছেঃ&lt;/p>
-&lt;div class="alert success">
-&lt;span>&lt;i data-feather="check-circle">&lt;/i>&lt;/span>
-&lt;span>&lt;strong>এটা &lt;code>type=&amp;quot;success&amp;quot;&lt;/code> দিয়ে নমুনা এলার্ট।&lt;/strong>&lt;/span>
-&lt;/div>
-&lt;div class="alert danger">
-&lt;span>&lt;i data-feather="alert-octagon">&lt;/i>&lt;/span>
-&lt;span>&lt;strong>এটা &lt;code>type=&amp;quot;danger&amp;quot;&lt;/code> দিয়ে নমুনা এলার্ট।&lt;/strong>&lt;/span>
-&lt;/div>
-&lt;div class="alert warning">
-&lt;span>&lt;i data-feather="alert-triangle">&lt;/i>&lt;/span>
-&lt;span>&lt;strong>এটা &lt;code>type=&amp;quot;warning&amp;quot;&lt;/code> দিয়ে নমুনা এলার্ট।&lt;/strong>&lt;/span>
-&lt;/div>
-&lt;div class="alert info">
-&lt;span>&lt;i data-feather="info">&lt;/i>&lt;/span>
-&lt;span>&lt;strong>এটা &lt;code>type=&amp;quot;info&amp;quot;&lt;/code> দিয়ে নমুনা এলার্ট।&lt;/strong>&lt;/span>
-&lt;/div>
-&lt;div class="alert dark">
-&lt;span>&lt;i data-feather="alert-circle">&lt;/i>&lt;/span>
-&lt;span>&lt;strong>এটা &lt;code>type=&amp;quot;dark&amp;quot;&lt;/code> দিয়ে নমুনা এলার্ট।&lt;/strong>&lt;/span>
-&lt;/div>
-&lt;div class="alert primary">
-&lt;span>&lt;i data-feather="alert-circle">&lt;/i>&lt;/span>
-&lt;span>&lt;strong>এটা &lt;code>type=&amp;quot;primary&amp;quot;&lt;/code> দিয়ে নমুনা এলার্ট।&lt;/strong>&lt;/span>
-&lt;/div>
-&lt;div class="alert secondary">
-&lt;span>&lt;i data-feather="alert-circle">&lt;/i>&lt;/span>
-&lt;span>&lt;strong>এটা &lt;code>type=&amp;quot;secondary&amp;quot;&lt;/code> দিয়ে নমুনা এলার্ট।&lt;/strong>&lt;/span>
-&lt;/div>
-&lt;h2 id="ছব">ছবি&lt;/h2>
-&lt;h4 id="কন-ধরনর-attribute-ছড়-ছবর-একট-নমন">কোন ধরনের attribute ছাড়া ছবির একটি নমুনা।&lt;/h4>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>জনের ব্লগ</title><link>https://hugo-toha.github.io/bn/</link><description>Recent content on জনের ব্লগ</description><generator>Hugo -- gohugo.io</generator><language>bn</language><lastBuildDate>Mon, 08 Jun 2020 08:06:25 +0600</lastBuildDate><atom:link href="https://hugo-toha.github.io/bn/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown এর নমুনা</title><link>https://hugo-toha.github.io/bn/posts/markdown-sample/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://hugo-toha.github.io/bn/posts/markdown-sample/</guid><description>&lt;p&gt;এই নমুনা পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;একজন ভিন্ন পোস্ট লেখক।&lt;/li&gt;
+&lt;li&gt;সূচীপত্র।&lt;/li&gt;
+&lt;li&gt;Markdown কন্টেন্ট রেন্ডারিং।&lt;/li&gt;
+&lt;li&gt;গণিত রেন্ডারিং।&lt;/li&gt;
+&lt;li&gt;ইমোজি রেন্ডারিং।&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id="markdown-syntax-rendering"&gt;Markdown Syntax Rendering&lt;/h1&gt;
+&lt;h2 id="headings"&gt;Headings&lt;/h2&gt;
+&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
+&lt;h1 id="h1"&gt;H1&lt;/h1&gt;
+&lt;h2 id="h2"&gt;H2&lt;/h2&gt;
+&lt;h3 id="h3"&gt;H3&lt;/h3&gt;
+&lt;h4 id="h4"&gt;H4&lt;/h4&gt;
+&lt;h5 id="h5"&gt;H5&lt;/h5&gt;
+&lt;h6 id="h6"&gt;H6&lt;/h6&gt;
+&lt;h2 id="paragraph"&gt;Paragraph&lt;/h2&gt;
+&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;</description></item><item><title>ভূমিকা</title><link>https://hugo-toha.github.io/bn/posts/introduction/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://hugo-toha.github.io/bn/posts/introduction/</guid><description>&lt;p&gt;স্বাগতম! এটি একটি ভূমিকা সূচক পোস্ট। এই পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;হেরো ছবিটি পোস্ট এর সাথে একই পথে আছে।&lt;/li&gt;
+&lt;li&gt;এই পোস্টটি সাইডবারের সবার প্রথমে থাকা উচিত।&lt;/li&gt;
+&lt;li&gt;পোস্টের লেখক &lt;code&gt;author.yaml&lt;/code&gt; ফাইল এ যাকে উল্লেখ করা হয়েছে তিনিই থাকবেন।&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>শর্টকোডের নমুনা</title><link>https://hugo-toha.github.io/bn/posts/shortcodes/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://hugo-toha.github.io/bn/posts/shortcodes/</guid><description>&lt;p&gt;এই নমুনা পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ডিফল্ট হিরো ইমেজ।&lt;/li&gt;
+&lt;li&gt;বিভিন্ন শর্টকোড।&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="এলরট"&gt;এলার্ট&lt;/h2&gt;
+&lt;p&gt;এই থিমের মধ্যে এই সকল এলার্ট রয়েছেঃ&lt;/p&gt;
+&lt;div class="alert success"&gt;
+&lt;span&gt;&lt;i data-feather="check-circle"&gt;&lt;/i&gt;&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;এটা &lt;code&gt;type=&amp;quot;success&amp;quot;&lt;/code&gt; দিয়ে নমুনা এলার্ট।&lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="alert danger"&gt;
+&lt;span&gt;&lt;i data-feather="alert-octagon"&gt;&lt;/i&gt;&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;এটা &lt;code&gt;type=&amp;quot;danger&amp;quot;&lt;/code&gt; দিয়ে নমুনা এলার্ট।&lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="alert warning"&gt;
+&lt;span&gt;&lt;i data-feather="alert-triangle"&gt;&lt;/i&gt;&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;এটা &lt;code&gt;type=&amp;quot;warning&amp;quot;&lt;/code&gt; দিয়ে নমুনা এলার্ট।&lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="alert info"&gt;
+&lt;span&gt;&lt;i data-feather="info"&gt;&lt;/i&gt;&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;এটা &lt;code&gt;type=&amp;quot;info&amp;quot;&lt;/code&gt; দিয়ে নমুনা এলার্ট।&lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="alert dark"&gt;
+&lt;span&gt;&lt;i data-feather="alert-circle"&gt;&lt;/i&gt;&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;এটা &lt;code&gt;type=&amp;quot;dark&amp;quot;&lt;/code&gt; দিয়ে নমুনা এলার্ট।&lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="alert primary"&gt;
+&lt;span&gt;&lt;i data-feather="alert-circle"&gt;&lt;/i&gt;&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;এটা &lt;code&gt;type=&amp;quot;primary&amp;quot;&lt;/code&gt; দিয়ে নমুনা এলার্ট।&lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="alert secondary"&gt;
+&lt;span&gt;&lt;i data-feather="alert-circle"&gt;&lt;/i&gt;&lt;/span&gt;
+&lt;span&gt;&lt;strong&gt;এটা &lt;code&gt;type=&amp;quot;secondary&amp;quot;&lt;/code&gt; দিয়ে নমুনা এলার্ট।&lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;h2 id="ছব"&gt;ছবি&lt;/h2&gt;
+&lt;h4 id="কন-ধরনর-attribute-ছড়-ছবর-একট-নমন"&gt;কোন ধরনের attribute ছাড়া ছবির একটি নমুনা।&lt;/h4&gt;
 &lt;img src="https://hugo-toha.github.io/posts/shortcodes/boat.jpg"
 alt="A boat at the sea"
->
-&lt;div style="margin-top: 3rem;">&lt;/div>
-&lt;h4 id="height-এব-width-attribute-সহ-ছবর-একট-নমন">&lt;code>height&lt;/code> এবং &lt;code>width&lt;/code> attribute সহ ছবির একটি নমুনা।&lt;/h4>
+&gt;
+&lt;div style="margin-top: 3rem;"&gt;&lt;/div&gt;
+&lt;h4 id="height-এব-width-attribute-সহ-ছবর-একট-নমন"&gt;&lt;code&gt;height&lt;/code&gt; এবং &lt;code&gt;width&lt;/code&gt; attribute সহ ছবির একটি নমুনা।&lt;/h4&gt;
 &lt;img src="https://hugo-toha.github.io/posts/shortcodes/boat.jpg"
 alt="A boat at the sea"
 width="600"
 height="400"
->
-&lt;div style="margin-top: 3rem;">&lt;/div>
-&lt;h4 id="height-এব-width-attribute-সহ-মঝখন-সতপত-ছবর-একট-নমন">&lt;code>height&lt;/code> এবং &lt;code>width&lt;/code> attribute সহ মাঝখানে স্তাপিত ছবির একটি নমুনা।&lt;/h4>
+&gt;
+&lt;div style="margin-top: 3rem;"&gt;&lt;/div&gt;
+&lt;h4 id="height-এব-width-attribute-সহ-মঝখন-সতপত-ছবর-একট-নমন"&gt;&lt;code&gt;height&lt;/code&gt; এবং &lt;code&gt;width&lt;/code&gt; attribute সহ মাঝখানে স্তাপিত ছবির একটি নমুনা।&lt;/h4&gt;
 &lt;img src="https://hugo-toha.github.io/posts/shortcodes/boat.jpg"
 alt="A boat at the sea"
 width="600"
 height="400"
 class="center"
->
-&lt;div style="margin-top: 3rem;">&lt;/div>
-&lt;h4 id="float-attribute-সহ-ছবর-একট-নমন">&lt;code>float&lt;/code> attribute সহ ছবির একটি নমুনা।&lt;/h4>
+&gt;
+&lt;div style="margin-top: 3rem;"&gt;&lt;/div&gt;
+&lt;h4 id="float-attribute-সহ-ছবর-একট-নমন"&gt;&lt;code&gt;float&lt;/code&gt; attribute সহ ছবির একটি নমুনা।&lt;/h4&gt;
 &lt;img src="https://hugo-toha.github.io/posts/shortcodes/boat.jpg"
 alt="A boat at the sea"
 width="500"
 height="200"
 style="float: right;"
->
-&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas lectus sed leo ultricies ultricies. Praesent tellus risus, eleifend vel efficitur ac, venenatis sit amet sem. Ut ut egestas erat. Fusce ut leo turpis. Morbi consectetur sed lacus vitae vehicula. Cras gravida turpis id eleifend volutpat. Suspendisse nec ipsum eu erat finibus dictum. Morbi volutpat nulla purus, vel maximus ex molestie id. Nullam posuere est urna, at fringilla eros venenatis quis.&lt;/p></description></item><item><title>সমৃদ্ধ কন্টেন্ট</title><link>https://hugo-toha.github.io/bn/posts/category/sub-category/rich-content/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://hugo-toha.github.io/bn/posts/category/sub-category/rich-content/</guid><description>&lt;p>এই নমুনা পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ&lt;/p>
-&lt;ul>
-&lt;li>বিভাগ, উপ-বিভাগে সাইডবারে একটির ভেতর আরেকটি কিভাবে আছে সেটা দেখা।&lt;/li>
-&lt;li>হেরো ছবিটি পোস্ট যে পথে আছে সে পথে &lt;code>images&lt;/code> ফোল্ডার এ থাকবে।&lt;/li>
-&lt;li>বিভিন্ন মিডিয়া যেমন ছবি, টুইট, ইউটিউব ভিডিও, ভীমেও ভিডিও ইত্যাদি রেন্ডারিং।&lt;/li>
-&lt;/ul>
-&lt;h3 id="ছবর-নমন">ছবির নমুনা&lt;/h3>
+&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas lectus sed leo ultricies ultricies. Praesent tellus risus, eleifend vel efficitur ac, venenatis sit amet sem. Ut ut egestas erat. Fusce ut leo turpis. Morbi consectetur sed lacus vitae vehicula. Cras gravida turpis id eleifend volutpat. Suspendisse nec ipsum eu erat finibus dictum. Morbi volutpat nulla purus, vel maximus ex molestie id. Nullam posuere est urna, at fringilla eros venenatis quis.&lt;/p&gt;</description></item><item><title>সমৃদ্ধ কন্টেন্ট</title><link>https://hugo-toha.github.io/bn/posts/category/sub-category/rich-content/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://hugo-toha.github.io/bn/posts/category/sub-category/rich-content/</guid><description>&lt;p&gt;এই নমুনা পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;বিভাগ, উপ-বিভাগে সাইডবারে একটির ভেতর আরেকটি কিভাবে আছে সেটা দেখা।&lt;/li&gt;
+&lt;li&gt;হেরো ছবিটি পোস্ট যে পথে আছে সে পথে &lt;code&gt;images&lt;/code&gt; ফোল্ডার এ থাকবে।&lt;/li&gt;
+&lt;li&gt;বিভিন্ন মিডিয়া যেমন ছবি, টুইট, ইউটিউব ভিডিও, ভীমেও ভিডিও ইত্যাদি রেন্ডারিং।&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="ছবর-নমন"&gt;ছবির নমুনা&lt;/h3&gt;
 &lt;img src="https://hugo-toha.github.io/posts/category/sub-category/rich-content/images/forest.jpg"
 alt="Forest"
 class="center"
->
-&lt;div style="margin-top: rem;">&lt;/div>
-&lt;h3 id="টইটর-নমন">টুইটের নুমুনা&lt;/h3>
-&lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">Owl bet you&amp;#39;ll lose this staring contest 🦉 &lt;a href="https://t.co/eJh4f2zncC">pic.twitter.com/eJh4f2zncC&lt;/a>&lt;/p>&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) &lt;a href="https://twitter.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw">October 26, 2021&lt;/a>&lt;/blockquote>
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
-&lt;div style="margin-top: rem;">&lt;/div>
-&lt;h3 id="ইউটওবর-ভডও-নমন">ইউটিওবের ভিডিও নমুনা&lt;/h3>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ZJthWmvUzzc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
-&lt;/div>
-&lt;div style="margin-top: rem;">&lt;/div>
-&lt;h3 id="ভমও-ভডও-নমন">ভীমেও ভিডিও নমুনা&lt;/h3>
+&gt;
+&lt;div style="margin-top: rem;"&gt;&lt;/div&gt;
+&lt;h3 id="টইটর-নমন"&gt;টুইটের নুমুনা&lt;/h3&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Owl bet you&amp;#39;ll lose this staring contest 🦉 &lt;a href="https://t.co/eJh4f2zncC"&gt;pic.twitter.com/eJh4f2zncC&lt;/a&gt;&lt;/p&gt;&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) &lt;a href="https://twitter.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw"&gt;October 26, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;div style="margin-top: rem;"&gt;&lt;/div&gt;
+&lt;h3 id="ইউটওবর-ভডও-নমন"&gt;ইউটিওবের ভিডিও নমুনা&lt;/h3&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ZJthWmvUzzc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div style="margin-top: rem;"&gt;&lt;/div&gt;
+&lt;h3 id="ভমও-ভডও-নমন"&gt;ভীমেও ভিডিও নমুনা&lt;/h3&gt;
 &lt;div
-style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
 &lt;iframe
 src="https://player.vimeo.com/video/48912912?dnt=0"
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allow="fullscreen">
-&lt;/iframe>
-&lt;/div></description></item><item><title>অনুসন্ধানের ফলাফল</title><link>https://hugo-toha.github.io/bn/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://hugo-toha.github.io/bn/search/</guid><description>&lt;p>This file exists solely to respond to /search URL with the related &lt;code>search&lt;/code> layout template.&lt;/p>
-&lt;p>No content shown here is rendered, all content is based in the template layouts/page/search.html&lt;/p>
-&lt;p>Setting a very low sitemap priority will tell search engines this is not important content.&lt;/p>
-&lt;p>This implementation uses Fusejs and mark.js&lt;/p>
-&lt;h2 id="initial-setup">Initial setup&lt;/h2>
-&lt;p>Search depends on additional output content type of JSON in config.toml
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allow="fullscreen"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;</description></item><item><title>অনুসন্ধানের ফলাফল</title><link>https://hugo-toha.github.io/bn/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://hugo-toha.github.io/bn/search/</guid><description>&lt;p&gt;This file exists solely to respond to /search URL with the related &lt;code&gt;search&lt;/code&gt; layout template.&lt;/p&gt;
+&lt;p&gt;No content shown here is rendered, all content is based in the template layouts/page/search.html&lt;/p&gt;
+&lt;p&gt;Setting a very low sitemap priority will tell search engines this is not important content.&lt;/p&gt;
+&lt;p&gt;This implementation uses Fusejs and mark.js&lt;/p&gt;
+&lt;h2 id="initial-setup"&gt;Initial setup&lt;/h2&gt;
+&lt;p&gt;Search depends on additional output content type of JSON in config.toml
 ```
 [outputs]
 home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;]
-```&lt;/p></description></item><item><title>অনুসন্ধানের ফলাফল</title><link>https://hugo-toha.github.io/bn/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://hugo-toha.github.io/bn/search/</guid><description>&lt;p>This file exists solely to respond to /search URL with the related &lt;code>search&lt;/code> layout template.&lt;/p>
-&lt;p>No content shown here is rendered, all content is based in the template layouts/page/search.html&lt;/p>
-&lt;p>Setting a very low sitemap priority will tell search engines this is not important content.&lt;/p>
-&lt;p>This implementation uses Fusejs and mark.js&lt;/p>
-&lt;h2 id="initial-setup">Initial setup&lt;/h2>
-&lt;p>Search depends on additional output content type of JSON in config.toml
+```&lt;/p&gt;</description></item><item><title>অনুসন্ধানের ফলাফল</title><link>https://hugo-toha.github.io/bn/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://hugo-toha.github.io/bn/search/</guid><description>&lt;p&gt;This file exists solely to respond to /search URL with the related &lt;code&gt;search&lt;/code&gt; layout template.&lt;/p&gt;
+&lt;p&gt;No content shown here is rendered, all content is based in the template layouts/page/search.html&lt;/p&gt;
+&lt;p&gt;Setting a very low sitemap priority will tell search engines this is not important content.&lt;/p&gt;
+&lt;p&gt;This implementation uses Fusejs and mark.js&lt;/p&gt;
+&lt;h2 id="initial-setup"&gt;Initial setup&lt;/h2&gt;
+&lt;p&gt;Search depends on additional output content type of JSON in config.toml
 ```
 [outputs]
 home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;]
-```&lt;/p></description></item><item><title>Go পরিচিতি</title><link>https://hugo-toha.github.io/bn/notes/go/basic/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/bn/notes/go/basic/introduction/</guid><description>&lt;!-- A Sample Program -->
-&lt;div class="note-card ">
-&lt;div class="item">
-&lt;h5 class="note-title">&lt;span>Hello World&lt;/span>&lt;/h5>
-&lt;div class="card">
-&lt;div class="card-body">&lt;p>A sample go program is show here.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">package&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> &lt;span style="color:#e6db74">&amp;#34;fmt&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">func&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">message&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">greetMe&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;world&amp;#34;&lt;/span>)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fmt&lt;/span>.&lt;span style="color:#a6e22e">Println&lt;/span>(&lt;span style="color:#a6e22e">message&lt;/span>)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">func&lt;/span> &lt;span style="color:#a6e22e">greetMe&lt;/span>(&lt;span style="color:#a6e22e">name&lt;/span> &lt;span style="color:#66d9ef">string&lt;/span>) &lt;span style="color:#66d9ef">string&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Hello, &amp;#34;&lt;/span> &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span> &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#e6db74">&amp;#34;!&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Run the program as below:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>$ go run hello.go
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;!-- Declaring Variables -->
-&lt;div class="note-card ">
-&lt;div class="item">
-&lt;h5 class="note-title">&lt;span>Variables&lt;/span>&lt;/h5>
-&lt;div class="card">
-&lt;div class="card-body">&lt;p>&lt;strong>Normal Declaration:&lt;/strong>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">msg&lt;/span> &lt;span style="color:#66d9ef">string&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">msg&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;Hello&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Shortcut:&lt;/strong>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">msg&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Hello&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;!-- Declaring Constants -->
-&lt;div class="note-card ">
-&lt;div class="item">
-&lt;h5 class="note-title">&lt;span>Constants&lt;/span>&lt;/h5>
-&lt;div class="card">
-&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">Phi&lt;/span> = &lt;span style="color:#ae81ff">1.618&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/div></description></item><item><title>বেসিক টাইপ সমূহ</title><link>https://hugo-toha.github.io/bn/notes/go/basic/types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/bn/notes/go/basic/types/</guid><description>&lt;!-- String Type -->
-&lt;div class="note-card ">
-&lt;div class="item">
-&lt;h5 class="note-title">&lt;span>Strings&lt;/span>&lt;/h5>
-&lt;div class="card">
-&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">str&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Hello&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Multiline string&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">str&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#e6db74">`Multiline
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">string`&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;!-- Number Types -->
-&lt;div class="note-card ">
-&lt;div class="item">
-&lt;h5 class="note-title">&lt;span>Numbers&lt;/span>&lt;/h5>
-&lt;div class="card">
-&lt;div class="card-body">&lt;p>Typical types&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">num&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#ae81ff">3&lt;/span> &lt;span style="color:#75715e">// int&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">num&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#ae81ff">3.&lt;/span> &lt;span style="color:#75715e">// float64&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">num&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#ae81ff">3&lt;/span> &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#ae81ff">4i&lt;/span> &lt;span style="color:#75715e">// complex128&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">num&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> byte(&lt;span style="color:#e6db74">&amp;#39;a&amp;#39;&lt;/span>) &lt;span style="color:#75715e">// byte (alias for uint8)&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Other Types&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">u&lt;/span> &lt;span style="color:#66d9ef">uint&lt;/span> = &lt;span style="color:#ae81ff">7&lt;/span> &lt;span style="color:#75715e">// uint (unsigned)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">p&lt;/span> &lt;span style="color:#66d9ef">float32&lt;/span> = &lt;span style="color:#ae81ff">22.7&lt;/span> &lt;span style="color:#75715e">// 32-bit float&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;!----------- Arrays ------>
-&lt;div class="note-card ">
-&lt;div class="item">
-&lt;h5 class="note-title">&lt;span>Arrays&lt;/span>&lt;/h5>
-&lt;div class="card">
-&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// var numbers [5]int&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">numbers&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> [&lt;span style="color:#f92672">...&lt;/span>]&lt;span style="color:#66d9ef">int&lt;/span>{&lt;span style="color:#ae81ff">0&lt;/span>, &lt;span style="color:#ae81ff">0&lt;/span>, &lt;span style="color:#ae81ff">0&lt;/span>, &lt;span style="color:#ae81ff">0&lt;/span>, &lt;span style="color:#ae81ff">0&lt;/span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;!-- Pointers -->
-&lt;div class="note-card medium-note">
-&lt;div class="item">
-&lt;h5 class="note-title">&lt;span>Pointers&lt;/span>&lt;/h5>
-&lt;div class="card">
-&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">func&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span> () {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">b&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#f92672">*&lt;/span>&lt;span style="color:#a6e22e">getPointer&lt;/span>()
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fmt&lt;/span>.&lt;span style="color:#a6e22e">Println&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Value is&amp;#34;&lt;/span>, &lt;span style="color:#a6e22e">b&lt;/span>)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">func&lt;/span> &lt;span style="color:#a6e22e">getPointer&lt;/span> () (&lt;span style="color:#a6e22e">myPointer&lt;/span> &lt;span style="color:#f92672">*&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span>) {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">a&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#ae81ff">234&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#f92672">&amp;amp;&lt;/span>&lt;span style="color:#a6e22e">a&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">a&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> new(&lt;span style="color:#66d9ef">int&lt;/span>)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">*&lt;/span>&lt;span style="color:#a6e22e">a&lt;/span> = &lt;span style="color:#ae81ff">234&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Pointers point to a memory location of a variable. Go is fully garbage-collected.&lt;/p></description></item><item><title>ফাইল ম্যানিপুলেশন</title><link>https://hugo-toha.github.io/bn/notes/go/advanced/files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/bn/notes/go/advanced/files/</guid><description>&lt;!-- Condition -->
-&lt;div class="note-card ">
-&lt;div class="item">
-&lt;h5 class="note-title">&lt;span>Condition&lt;/span>&lt;/h5>
-&lt;div class="card">
-&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span> &lt;span style="color:#a6e22e">day&lt;/span> &lt;span style="color:#f92672">==&lt;/span> &lt;span style="color:#e6db74">&amp;#34;sunday&amp;#34;&lt;/span> &lt;span style="color:#f92672">||&lt;/span> &lt;span style="color:#a6e22e">day&lt;/span> &lt;span style="color:#f92672">==&lt;/span> &lt;span style="color:#e6db74">&amp;#34;saturday&amp;#34;&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">rest&lt;/span>()
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>} &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span> &lt;span style="color:#a6e22e">day&lt;/span> &lt;span style="color:#f92672">==&lt;/span> &lt;span style="color:#e6db74">&amp;#34;monday&amp;#34;&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#a6e22e">isTired&lt;/span>() {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">groan&lt;/span>()
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>} &lt;span style="color:#66d9ef">else&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">work&lt;/span>()
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span> &lt;span style="color:#a6e22e">_&lt;/span>, &lt;span style="color:#a6e22e">err&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">doThing&lt;/span>(); &lt;span style="color:#a6e22e">err&lt;/span> &lt;span style="color:#f92672">!=&lt;/span> &lt;span style="color:#66d9ef">nil&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fmt&lt;/span>.&lt;span style="color:#a6e22e">Println&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Uh oh&amp;#34;&lt;/span>)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/div></description></item><item><title>ব্যাশ ভেরিয়েবল</title><link>https://hugo-toha.github.io/bn/notes/bash/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/bn/notes/bash/basic/</guid><description>&lt;!-- Variable -->
-&lt;div class="note-card ">
-&lt;div class="item">
-&lt;h5 class="note-title">&lt;span>Variable&lt;/span>&lt;/h5>
-&lt;div class="card">
-&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>NAME&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;John&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>echo $NAME
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>echo &lt;span style="color:#e6db74">&amp;#34;&lt;/span>$NAME&lt;span style="color:#e6db74">&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>echo &lt;span style="color:#e6db74">&amp;#34;&lt;/span>&lt;span style="color:#e6db74">${&lt;/span>NAME&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;!-- Condition -->
-&lt;div class="note-card ">
-&lt;div class="item">
-&lt;h5 class="note-title">&lt;span>Condition&lt;/span>&lt;/h5>
-&lt;div class="card">
-&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span> &lt;span style="color:#f92672">[[&lt;/span> -z &lt;span style="color:#e6db74">&amp;#34;&lt;/span>$string&lt;span style="color:#e6db74">&amp;#34;&lt;/span> &lt;span style="color:#f92672">]]&lt;/span>; &lt;span style="color:#66d9ef">then&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> echo &lt;span style="color:#e6db74">&amp;#34;String is empty&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">elif&lt;/span> &lt;span style="color:#f92672">[[&lt;/span> -n &lt;span style="color:#e6db74">&amp;#34;&lt;/span>$string&lt;span style="color:#e6db74">&amp;#34;&lt;/span> &lt;span style="color:#f92672">]]&lt;/span>; &lt;span style="color:#66d9ef">then&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> echo &lt;span style="color:#e6db74">&amp;#34;String is not empty&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">fi&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/div></description></item></channel></rss>
+```&lt;/p&gt;</description></item><item><title>Go পরিচিতি</title><link>https://hugo-toha.github.io/bn/notes/go/basic/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/bn/notes/go/basic/introduction/</guid><description>&lt;!-- A Sample Program --&gt;
+&lt;div class="note-card "&gt;
+&lt;div class="item"&gt;
+&lt;h5 class="note-title"&gt;&lt;span&gt;Hello World&lt;/span&gt;&lt;/h5&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;A sample go program is show here.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;package&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;fmt&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;func&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;main&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;message&lt;/span&gt; &lt;span style="color:#f92672"&gt;:=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;greetMe&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;world&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;fmt&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;Println&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;message&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;func&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;greetMe&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;name&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt;) &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;Hello, &amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;+&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;name&lt;/span&gt; &lt;span style="color:#f92672"&gt;+&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;!&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Run the program as below:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ go run hello.go
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Declaring Variables --&gt;
+&lt;div class="note-card "&gt;
+&lt;div class="item"&gt;
+&lt;h5 class="note-title"&gt;&lt;span&gt;Variables&lt;/span&gt;&lt;/h5&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Normal Declaration:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;var&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;msg&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;msg&lt;/span&gt; = &lt;span style="color:#e6db74"&gt;&amp;#34;Hello&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Shortcut:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;msg&lt;/span&gt; &lt;span style="color:#f92672"&gt;:=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;Hello&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Declaring Constants --&gt;
+&lt;div class="note-card "&gt;
+&lt;div class="item"&gt;
+&lt;h5 class="note-title"&gt;&lt;span&gt;Constants&lt;/span&gt;&lt;/h5&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Phi&lt;/span&gt; = &lt;span style="color:#ae81ff"&gt;1.618&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>বেসিক টাইপ সমূহ</title><link>https://hugo-toha.github.io/bn/notes/go/basic/types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/bn/notes/go/basic/types/</guid><description>&lt;!-- String Type --&gt;
+&lt;div class="note-card "&gt;
+&lt;div class="item"&gt;
+&lt;h5 class="note-title"&gt;&lt;span&gt;Strings&lt;/span&gt;&lt;/h5&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;str&lt;/span&gt; &lt;span style="color:#f92672"&gt;:=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;Hello&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Multiline string&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;str&lt;/span&gt; &lt;span style="color:#f92672"&gt;:=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;`Multiline
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;string`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Number Types --&gt;
+&lt;div class="note-card "&gt;
+&lt;div class="item"&gt;
+&lt;h5 class="note-title"&gt;&lt;span&gt;Numbers&lt;/span&gt;&lt;/h5&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;Typical types&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;num&lt;/span&gt; &lt;span style="color:#f92672"&gt;:=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt; &lt;span style="color:#75715e"&gt;// int&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;num&lt;/span&gt; &lt;span style="color:#f92672"&gt;:=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;3.&lt;/span&gt; &lt;span style="color:#75715e"&gt;// float64&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;num&lt;/span&gt; &lt;span style="color:#f92672"&gt;:=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt; &lt;span style="color:#f92672"&gt;+&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;4i&lt;/span&gt; &lt;span style="color:#75715e"&gt;// complex128&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;num&lt;/span&gt; &lt;span style="color:#f92672"&gt;:=&lt;/span&gt; byte(&lt;span style="color:#e6db74"&gt;&amp;#39;a&amp;#39;&lt;/span&gt;) &lt;span style="color:#75715e"&gt;// byte (alias for uint8)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Other Types&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;var&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;uint&lt;/span&gt; = &lt;span style="color:#ae81ff"&gt;7&lt;/span&gt; &lt;span style="color:#75715e"&gt;// uint (unsigned)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;var&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;p&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;float32&lt;/span&gt; = &lt;span style="color:#ae81ff"&gt;22.7&lt;/span&gt; &lt;span style="color:#75715e"&gt;// 32-bit float&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!----------- Arrays ------&gt;
+&lt;div class="note-card "&gt;
+&lt;div class="item"&gt;
+&lt;h5 class="note-title"&gt;&lt;span&gt;Arrays&lt;/span&gt;&lt;/h5&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// var numbers [5]int&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;numbers&lt;/span&gt; &lt;span style="color:#f92672"&gt;:=&lt;/span&gt; [&lt;span style="color:#f92672"&gt;...&lt;/span&gt;]&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt;{&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Pointers --&gt;
+&lt;div class="note-card medium-note"&gt;
+&lt;div class="item"&gt;
+&lt;h5 class="note-title"&gt;&lt;span&gt;Pointers&lt;/span&gt;&lt;/h5&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;func&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;main&lt;/span&gt; () {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;b&lt;/span&gt; &lt;span style="color:#f92672"&gt;:=&lt;/span&gt; &lt;span style="color:#f92672"&gt;*&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;getPointer&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;fmt&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;Println&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;Value is&amp;#34;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;b&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;func&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;getPointer&lt;/span&gt; () (&lt;span style="color:#a6e22e"&gt;myPointer&lt;/span&gt; &lt;span style="color:#f92672"&gt;*&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;a&lt;/span&gt; &lt;span style="color:#f92672"&gt;:=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;234&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; &lt;span style="color:#f92672"&gt;&amp;amp;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;a&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;a&lt;/span&gt; &lt;span style="color:#f92672"&gt;:=&lt;/span&gt; new(&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;*&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;a&lt;/span&gt; = &lt;span style="color:#ae81ff"&gt;234&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Pointers point to a memory location of a variable. Go is fully garbage-collected.&lt;/p&gt;</description></item><item><title>ফাইল ম্যানিপুলেশন</title><link>https://hugo-toha.github.io/bn/notes/go/advanced/files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/bn/notes/go/advanced/files/</guid><description>&lt;!-- Condition --&gt;
+&lt;div class="note-card "&gt;
+&lt;div class="item"&gt;
+&lt;h5 class="note-title"&gt;&lt;span&gt;Condition&lt;/span&gt;&lt;/h5&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;day&lt;/span&gt; &lt;span style="color:#f92672"&gt;==&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;sunday&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;||&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;day&lt;/span&gt; &lt;span style="color:#f92672"&gt;==&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;saturday&amp;#34;&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;rest&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;} &lt;span style="color:#66d9ef"&gt;else&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;day&lt;/span&gt; &lt;span style="color:#f92672"&gt;==&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;monday&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;isTired&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;groan&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;} &lt;span style="color:#66d9ef"&gt;else&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;work&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;_&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;err&lt;/span&gt; &lt;span style="color:#f92672"&gt;:=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;doThing&lt;/span&gt;(); &lt;span style="color:#a6e22e"&gt;err&lt;/span&gt; &lt;span style="color:#f92672"&gt;!=&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;nil&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;fmt&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;Println&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;Uh oh&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>ব্যাশ ভেরিয়েবল</title><link>https://hugo-toha.github.io/bn/notes/bash/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/bn/notes/bash/basic/</guid><description>&lt;!-- Variable --&gt;
+&lt;div class="note-card "&gt;
+&lt;div class="item"&gt;
+&lt;h5 class="note-title"&gt;&lt;span&gt;Variable&lt;/span&gt;&lt;/h5&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;NAME&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;John&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;echo $NAME
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;echo &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;$NAME&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;echo &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;&lt;span style="color:#e6db74"&gt;${&lt;/span&gt;NAME&lt;span style="color:#e6db74"&gt;}&lt;/span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Condition --&gt;
+&lt;div class="note-card "&gt;
+&lt;div class="item"&gt;
+&lt;h5 class="note-title"&gt;&lt;span&gt;Condition&lt;/span&gt;&lt;/h5&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; &lt;span style="color:#f92672"&gt;[[&lt;/span&gt; -z &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;$string&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;]]&lt;/span&gt;; &lt;span style="color:#66d9ef"&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; echo &lt;span style="color:#e6db74"&gt;&amp;#34;String is empty&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;elif&lt;/span&gt; &lt;span style="color:#f92672"&gt;[[&lt;/span&gt; -n &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;$string&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;]]&lt;/span&gt;; &lt;span style="color:#66d9ef"&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; echo &lt;span style="color:#e6db74"&gt;&amp;#34;String is not empty&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>
