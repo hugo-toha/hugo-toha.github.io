@@ -18,7 +18,7 @@ degrees:
     url: "https://www.syr.edu"
     logo: /images/sections/education/Syracuse.png
     # Can optionally show a different logo for dark theme
-    # darklogo: /images/sections/education/tech_college.png
+    # darkLogo: /images/sections/education/tech_college.png
   grade: #(optional)
     scale: GPA
     achieved: 3.6
@@ -36,6 +36,9 @@ degrees:
 #   institution:
 #     name: University of XYZ
 #     url: "#"
+#     logo: /images/sections/education/university.jpg
+#     # Can optionally show a different logo for dark theme
+#     # darkLogo: /images/sections/education/university.jpg
 #   grade: #(optional)
 #     scale: CGPA
 #     achieved: 3.5
@@ -67,12 +70,20 @@ degrees:
 #   - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
 #   - Duis sed massa feugiat, ornare justo et, aliquam est.
 #   - Pellentesque ut fringilla magna.
+#   customSections: #(optional)
+#     - name: Thesis
+#       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#     - name: Supervisor
+#       content: Fusce eu augue ut odio porttitor pulvinar.
 # - name: Higher Secondary School Certificate
 #   icon: fa-university
 #   timeframe: 2010-2012
 #   institution:
 #     name: MST College of Science
 #     url: "#"
+#     logo: /images/sections/education/science_college.png
+#     # Can optionally show a different logo for dark theme
+#     # darkLogo: /images/sections/education/science_college.png
 #   grade: #(optional)
 #     scale: GPA
 #     achieved: 5
