@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>জনের ব্লগ</title><link>https://hugo-toha.github.io/bn/</link><description>Recent content on জনের ব্লগ</description><generator>Hugo -- gohugo.io</generator><language>bn</language><lastBuildDate>Mon, 08 Jun 2020 08:06:25 +0600</lastBuildDate><atom:link href="https://hugo-toha.github.io/bn/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown এর নমুনা</title><link>https://hugo-toha.github.io/bn/posts/markdown-sample/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://hugo-toha.github.io/bn/posts/markdown-sample/</guid><description>&lt;p&gt;এই নমুনা পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>জনের ব্লগ</title><link>https://hugo-themes.github.io/toha-example-site/bn/</link><description>Recent content on জনের ব্লগ</description><generator>Hugo -- gohugo.io</generator><language>bn</language><lastBuildDate>Mon, 08 Jun 2020 08:06:25 +0600</lastBuildDate><atom:link href="https://hugo-themes.github.io/toha-example-site/bn/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown এর নমুনা</title><link>https://hugo-themes.github.io/toha-example-site/bn/posts/markdown-sample/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://hugo-themes.github.io/toha-example-site/bn/posts/markdown-sample/</guid><description>&lt;p&gt;এই নমুনা পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;একজন ভিন্ন পোস্ট লেখক।&lt;/li&gt;
 &lt;li&gt;সূচীপত্র।&lt;/li&gt;
@@ -17,12 +17,12 @@
 &lt;h5 id="h5"&gt;H5&lt;/h5&gt;
 &lt;h6 id="h6"&gt;H6&lt;/h6&gt;
 &lt;h2 id="paragraph"&gt;Paragraph&lt;/h2&gt;
-&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;</description></item><item><title>ভূমিকা</title><link>https://hugo-toha.github.io/bn/posts/introduction/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://hugo-toha.github.io/bn/posts/introduction/</guid><description>&lt;p&gt;স্বাগতম! এটি একটি ভূমিকা সূচক পোস্ট। এই পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ&lt;/p&gt;
+&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;</description></item><item><title>ভূমিকা</title><link>https://hugo-themes.github.io/toha-example-site/bn/posts/introduction/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://hugo-themes.github.io/toha-example-site/bn/posts/introduction/</guid><description>&lt;p&gt;স্বাগতম! এটি একটি ভূমিকা সূচক পোস্ট। এই পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;হেরো ছবিটি পোস্ট এর সাথে একই পথে আছে।&lt;/li&gt;
 &lt;li&gt;এই পোস্টটি সাইডবারের সবার প্রথমে থাকা উচিত।&lt;/li&gt;
 &lt;li&gt;পোস্টের লেখক &lt;code&gt;author.yaml&lt;/code&gt; ফাইল এ যাকে উল্লেখ করা হয়েছে তিনিই থাকবেন।&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>শর্টকোডের নমুনা</title><link>https://hugo-toha.github.io/bn/posts/shortcodes/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://hugo-toha.github.io/bn/posts/shortcodes/</guid><description>&lt;p&gt;এই নমুনা পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ&lt;/p&gt;
+&lt;/ul&gt;</description></item><item><title>শর্টকোডের নমুনা</title><link>https://hugo-themes.github.io/toha-example-site/bn/posts/shortcodes/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://hugo-themes.github.io/toha-example-site/bn/posts/shortcodes/</guid><description>&lt;p&gt;এই নমুনা পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;ডিফল্ট হিরো ইমেজ।&lt;/li&gt;
 &lt;li&gt;বিভিন্ন শর্টকোড।&lt;/li&gt;
@@ -59,19 +59,19 @@
 &lt;/div&gt;
 &lt;h2 id="ছব"&gt;ছবি&lt;/h2&gt;
 &lt;h4 id="কন-ধরনর-attribute-ছড়-ছবর-একট-নমন"&gt;কোন ধরনের attribute ছাড়া ছবির একটি নমুনা।&lt;/h4&gt;
-&lt;img src="https://hugo-toha.github.io/posts/shortcodes/boat.jpg"
+&lt;img src="https://hugo-themes.github.io/toha-example-site/posts/shortcodes/boat.jpg"
 alt="A boat at the sea"
 &gt;
 &lt;div style="margin-top: 3rem;"&gt;&lt;/div&gt;
 &lt;h4 id="height-এব-width-attribute-সহ-ছবর-একট-নমন"&gt;&lt;code&gt;height&lt;/code&gt; এবং &lt;code&gt;width&lt;/code&gt; attribute সহ ছবির একটি নমুনা।&lt;/h4&gt;
-&lt;img src="https://hugo-toha.github.io/posts/shortcodes/boat.jpg"
+&lt;img src="https://hugo-themes.github.io/toha-example-site/posts/shortcodes/boat.jpg"
 alt="A boat at the sea"
 width="600"
 height="400"
 &gt;
 &lt;div style="margin-top: 3rem;"&gt;&lt;/div&gt;
 &lt;h4 id="height-এব-width-attribute-সহ-মঝখন-সতপত-ছবর-একট-নমন"&gt;&lt;code&gt;height&lt;/code&gt; এবং &lt;code&gt;width&lt;/code&gt; attribute সহ মাঝখানে স্তাপিত ছবির একটি নমুনা।&lt;/h4&gt;
-&lt;img src="https://hugo-toha.github.io/posts/shortcodes/boat.jpg"
+&lt;img src="https://hugo-themes.github.io/toha-example-site/posts/shortcodes/boat.jpg"
 alt="A boat at the sea"
 width="600"
 height="400"
@@ -79,20 +79,20 @@ class="center"
 &gt;
 &lt;div style="margin-top: 3rem;"&gt;&lt;/div&gt;
 &lt;h4 id="float-attribute-সহ-ছবর-একট-নমন"&gt;&lt;code&gt;float&lt;/code&gt; attribute সহ ছবির একটি নমুনা।&lt;/h4&gt;
-&lt;img src="https://hugo-toha.github.io/posts/shortcodes/boat.jpg"
+&lt;img src="https://hugo-themes.github.io/toha-example-site/posts/shortcodes/boat.jpg"
 alt="A boat at the sea"
 width="500"
 height="200"
 style="float: right;"
 &gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas lectus sed leo ultricies ultricies. Praesent tellus risus, eleifend vel efficitur ac, venenatis sit amet sem. Ut ut egestas erat. Fusce ut leo turpis. Morbi consectetur sed lacus vitae vehicula. Cras gravida turpis id eleifend volutpat. Suspendisse nec ipsum eu erat finibus dictum. Morbi volutpat nulla purus, vel maximus ex molestie id. Nullam posuere est urna, at fringilla eros venenatis quis.&lt;/p&gt;</description></item><item><title>সমৃদ্ধ কন্টেন্ট</title><link>https://hugo-toha.github.io/bn/posts/category/sub-category/rich-content/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://hugo-toha.github.io/bn/posts/category/sub-category/rich-content/</guid><description>&lt;p&gt;এই নমুনা পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas lectus sed leo ultricies ultricies. Praesent tellus risus, eleifend vel efficitur ac, venenatis sit amet sem. Ut ut egestas erat. Fusce ut leo turpis. Morbi consectetur sed lacus vitae vehicula. Cras gravida turpis id eleifend volutpat. Suspendisse nec ipsum eu erat finibus dictum. Morbi volutpat nulla purus, vel maximus ex molestie id. Nullam posuere est urna, at fringilla eros venenatis quis.&lt;/p&gt;</description></item><item><title>সমৃদ্ধ কন্টেন্ট</title><link>https://hugo-themes.github.io/toha-example-site/bn/posts/category/sub-category/rich-content/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://hugo-themes.github.io/toha-example-site/bn/posts/category/sub-category/rich-content/</guid><description>&lt;p&gt;এই নমুনা পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;বিভাগ, উপ-বিভাগে সাইডবারে একটির ভেতর আরেকটি কিভাবে আছে সেটা দেখা।&lt;/li&gt;
 &lt;li&gt;হেরো ছবিটি পোস্ট যে পথে আছে সে পথে &lt;code&gt;images&lt;/code&gt; ফোল্ডার এ থাকবে।&lt;/li&gt;
 &lt;li&gt;বিভিন্ন মিডিয়া যেমন ছবি, টুইট, ইউটিউব ভিডিও, ভীমেও ভিডিও ইত্যাদি রেন্ডারিং।&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="ছবর-নমন"&gt;ছবির নমুনা&lt;/h3&gt;
-&lt;img src="https://hugo-toha.github.io/posts/category/sub-category/rich-content/images/forest.jpg"
+&lt;img src="https://hugo-themes.github.io/toha-example-site/posts/category/sub-category/rich-content/images/forest.jpg"
 alt="Forest"
 class="center"
 &gt;
@@ -113,7 +113,7 @@ style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"
 src="https://player.vimeo.com/video/48912912?dnt=0"
 style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allow="fullscreen"&gt;
 &lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>অনুসন্ধানের ফলাফল</title><link>https://hugo-toha.github.io/bn/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://hugo-toha.github.io/bn/search/</guid><description>&lt;p&gt;This file exists solely to respond to /search URL with the related &lt;code&gt;search&lt;/code&gt; layout template.&lt;/p&gt;
+&lt;/div&gt;</description></item><item><title>অনুসন্ধানের ফলাফল</title><link>https://hugo-themes.github.io/toha-example-site/bn/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://hugo-themes.github.io/toha-example-site/bn/search/</guid><description>&lt;p&gt;This file exists solely to respond to /search URL with the related &lt;code&gt;search&lt;/code&gt; layout template.&lt;/p&gt;
 &lt;p&gt;No content shown here is rendered, all content is based in the template layouts/page/search.html&lt;/p&gt;
 &lt;p&gt;Setting a very low sitemap priority will tell search engines this is not important content.&lt;/p&gt;
 &lt;p&gt;This implementation uses Fusejs and mark.js&lt;/p&gt;
@@ -122,7 +122,7 @@ style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;
 ```
 [outputs]
 home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;]
-```&lt;/p&gt;</description></item><item><title>অনুসন্ধানের ফলাফল</title><link>https://hugo-toha.github.io/bn/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://hugo-toha.github.io/bn/search/</guid><description>&lt;p&gt;This file exists solely to respond to /search URL with the related &lt;code&gt;search&lt;/code&gt; layout template.&lt;/p&gt;
+```&lt;/p&gt;</description></item><item><title>অনুসন্ধানের ফলাফল</title><link>https://hugo-themes.github.io/toha-example-site/bn/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://hugo-themes.github.io/toha-example-site/bn/search/</guid><description>&lt;p&gt;This file exists solely to respond to /search URL with the related &lt;code&gt;search&lt;/code&gt; layout template.&lt;/p&gt;
 &lt;p&gt;No content shown here is rendered, all content is based in the template layouts/page/search.html&lt;/p&gt;
 &lt;p&gt;Setting a very low sitemap priority will tell search engines this is not important content.&lt;/p&gt;
 &lt;p&gt;This implementation uses Fusejs and mark.js&lt;/p&gt;
@@ -131,7 +131,7 @@ home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;]
 ```
 [outputs]
 home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;]
-```&lt;/p&gt;</description></item><item><title>Go পরিচিতি</title><link>https://hugo-toha.github.io/bn/notes/go/basic/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/bn/notes/go/basic/introduction/</guid><description>&lt;!-- A Sample Program --&gt;
+```&lt;/p&gt;</description></item><item><title>Go পরিচিতি</title><link>https://hugo-themes.github.io/toha-example-site/bn/notes/go/basic/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-themes.github.io/toha-example-site/bn/notes/go/basic/introduction/</guid><description>&lt;!-- A Sample Program --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Hello World&lt;/span&gt;&lt;/h5&gt;
@@ -178,7 +178,7 @@ home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;]
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>বেসিক টাইপ সমূহ</title><link>https://hugo-toha.github.io/bn/notes/go/basic/types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/bn/notes/go/basic/types/</guid><description>&lt;!-- String Type --&gt;
+&lt;/div&gt;</description></item><item><title>বেসিক টাইপ সমূহ</title><link>https://hugo-themes.github.io/toha-example-site/bn/notes/go/basic/types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-themes.github.io/toha-example-site/bn/notes/go/basic/types/</guid><description>&lt;!-- String Type --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Strings&lt;/span&gt;&lt;/h5&gt;
@@ -232,7 +232,7 @@ home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;]
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; &lt;span style="color:#f92672"&gt;&amp;amp;&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;a&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;a&lt;/span&gt; &lt;span style="color:#f92672"&gt;:=&lt;/span&gt; new(&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;*&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;a&lt;/span&gt; = &lt;span style="color:#ae81ff"&gt;234&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Pointers point to a memory location of a variable. Go is fully garbage-collected.&lt;/p&gt;</description></item><item><title>ফাইল ম্যানিপুলেশন</title><link>https://hugo-toha.github.io/bn/notes/go/advanced/files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/bn/notes/go/advanced/files/</guid><description>&lt;!-- Condition --&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Pointers point to a memory location of a variable. Go is fully garbage-collected.&lt;/p&gt;</description></item><item><title>ফাইল ম্যানিপুলেশন</title><link>https://hugo-themes.github.io/toha-example-site/bn/notes/go/advanced/files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-themes.github.io/toha-example-site/bn/notes/go/advanced/files/</guid><description>&lt;!-- Condition --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Condition&lt;/span&gt;&lt;/h5&gt;
@@ -249,7 +249,7 @@ home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;]
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>ব্যাশ ভেরিয়েবল</title><link>https://hugo-toha.github.io/bn/notes/bash/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/bn/notes/bash/basic/</guid><description>&lt;!-- Variable --&gt;
+&lt;/div&gt;</description></item><item><title>ব্যাশ ভেরিয়েবল</title><link>https://hugo-themes.github.io/toha-example-site/bn/notes/bash/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-themes.github.io/toha-example-site/bn/notes/bash/basic/</guid><description>&lt;!-- Variable --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Variable&lt;/span&gt;&lt;/h5&gt;
