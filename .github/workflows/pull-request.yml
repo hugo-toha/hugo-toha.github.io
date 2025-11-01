@@ -16,7 +16,6 @@ jobs:
 
       - name: Install dependencies
         run: |
-          mise install # install tools
           mise run install # install theme dependency
 
       - name: Build
