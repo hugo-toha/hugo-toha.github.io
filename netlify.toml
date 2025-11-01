@@ -1,42 +1,42 @@
 [build]
-command = "hugo --gc --minify -b $DEPLOY_URL"
+command = "which go && hugo --gc --minify -b $DEPLOY_URL"
 publish = "public"
 
 [context.production.environment]
-GO_VERSION = "1.25"
+# GO_VERSION = "1.25"
 HUGO_ENABLEGITINFO = "true"
 HUGO_ENV = "production"
-HUGO_VERSION = "0.152.2"
-NODE_VERSION = "v25.1.0"
-NPM_VERSION = "11.6.2"
+#HUGO_VERSION = "0.152.2"
+#NODE_VERSION = "v25.1.0"
+#NPM_VERSION = "11.6.2"
 
 [context.split1]
 command = "hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --minify --enableGitInfo -b $DEPLOY_URL"
 
 [context.split1.environment]
 HUGO_ENV = "production"
-HUGO_VERSION = "0.152.2"
-NODE_VERSION = "v25.1.0"
-NPM_VERSION = "11.6.2"
-GO_VERSION = "1.25"
+# HUGO_VERSION = "0.152.2"
+# NODE_VERSION = "v25.1.0"
+# NPM_VERSION = "11.6.2"
+# GO_VERSION = "1.25"
 
 [context.deploy-preview]
 command = "hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "0.152.2"
-NODE_VERSION = "v25.1.0"
-NPM_VERSION = "11.6.2"
-GO_VERSION = "1.25"
+# HUGO_VERSION = "0.152.2"
+#NODE_VERSION = "v25.1.0"
+#NPM_VERSION = "11.6.2"
+# GO_VERSION = "1.25"
 
 [context.branch-deploy]
 command = "hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.152.2"
-NODE_VERSION = "v25.1.0"
-NPM_VERSION = "11.6.2"
-GO_VERSION = "1.25"
+# HUGO_VERSION = "0.152.2"
+# NODE_VERSION = "v25.1.0"
+# NPM_VERSION = "11.6.2"
+# GO_VERSION = "1.25"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"

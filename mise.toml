@@ -1,11 +1,11 @@
 [tools]
-hugo-extended = '0.148.2'
-node = '24.6.0'
-go = '1.25.0'
+hugo-extended = 'latest'
+node = 'latest'
+go = 'latest'
 
 [tasks.install]
 description = "Install dependencies"
-run = ["hugo mod tidy","hugo mod npm pack","npm install"]
+run = ["hugo mod tidy", "hugo mod npm pack", "npm install"]
 
 [tasks.server]
 description = "Run hugo server"
