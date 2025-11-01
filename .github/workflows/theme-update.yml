@@ -12,30 +12,14 @@ jobs:
         with:
           ref: main
 
-      - name: Setup Node
-        uses: actions/setup-node@v6
-        with:
-          node-version: 18
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3.0.0
-        with:
-          hugo-version: "latest"
-          extended: true
-
-      - name: Update hugo modules
+      - name: Install dependencies
         run: |
-          # update to latest version of all modules
-          hugo mod get -u
+          mise install # install tools
+          mise run install # install theme dependency
 
-          # update the npm dependencies
-          hugo mod npm pack
-
-          # cleanup go.sum file
-          hugo mod tidy
-
-      - name: Install node modules
-        run: npm install
+      - name: Update theme to latest commit
+        run: |
+          mise run update-to-main
 
       - name: Build
         run: |
