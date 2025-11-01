@@ -11,6 +11,9 @@ jobs:
       # checkout to the commit that has been pushed
       - uses: actions/checkout@v5
 
+      # Setup mise
+      - uses: jdx/mise-action@v3
+
       - name: Install dependencies
         run: |
           mise install # install tools

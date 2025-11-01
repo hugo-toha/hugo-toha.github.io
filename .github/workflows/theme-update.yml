@@ -12,6 +12,9 @@ jobs:
         with:
           ref: main
 
+      # Setup mise
+      - uses: jdx/mise-action@v3
+
       - name: Install dependencies
         run: |
           mise install # install tools
