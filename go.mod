@@ -1,9 +1,9 @@
-module github.com/hugo-toha/hugo-toha.github.io
+module github.com/hugo-themes/toha-example-site
 
-go 1.21
-
-require github.com/hugo-toha/toha/v4 v4.10.0 // indirect
+go 1.25
 
 // replace(
 //     github.com/hugo-toha/toha/v4 => ../toha
 // )
+
+require github.com/hugo-toha/toha/v4 v4.10.0 // indirect
