@@ -1,5 +1,5 @@
 [build]
-command = "which go && hugo --gc --minify -b $DEPLOY_URL"
+command = "mise install && hugo --gc --minify -b $DEPLOY_URL"
 publish = "public"
 
 [context.production.environment]
@@ -11,7 +11,7 @@ HUGO_ENV = "production"
 #NPM_VERSION = "11.6.2"
 
 [context.split1]
-command = "hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --minify --enableGitInfo -b $DEPLOY_URL"
+command = "mise install && hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --minify --enableGitInfo -b $DEPLOY_URL"
 
 [context.split1.environment]
 HUGO_ENV = "production"
@@ -21,7 +21,7 @@ HUGO_ENV = "production"
 # GO_VERSION = "1.25"
 
 [context.deploy-preview]
-command = "hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+command = "mise install && hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
 # HUGO_VERSION = "0.152.2"
@@ -30,7 +30,7 @@ command = "hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --mini
 # GO_VERSION = "1.25"
 
 [context.branch-deploy]
-command = "hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --minify -b $DEPLOY_PRIME_URL"
+command = "mise install && hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
 # HUGO_VERSION = "0.152.2"
